@@ -4,7 +4,8 @@
 
 ## Getting started
 
-Diese Projekt ist dafür gedacht, dass wir (TA6) hier unsere Materialien des FDM-Basiskurses für LIA-Script deponieren und süäter zugänglich machen.
+Diese Projekt ist dafür gedacht, dass wir (TA6) hier unsere Materialien des FDM-Basiskurses für LIA-Script deponieren und später zugänglich machen.
+Mitarbeitende sind Katharina, Andrea, Alex und Vincent.
 
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.

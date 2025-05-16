@@ -1,7 +1,7 @@
 # TA6 Basiskurs FDM
 
 Diese Projekt ist dafür gedacht, dass wir (TA6) hier unsere Materialien des FDM-Basiskurses für LIA-Script deponieren und später zugänglich machen.
-Mitarbeitende sind Katharina, Andrea, Alex und Vincent.
+Mitarbeitende sind Katharina, Andrea, Alex, Vincent, Martin.
 
 ------
 

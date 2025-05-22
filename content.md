@@ -1,5 +1,3 @@
-Hier kommen unsere Inhalte hin :-) 
-
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
 
 Ein Kurs der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA)

@@ -317,7 +317,7 @@ Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie si
 1. Was erhählt man bei der Kombination von CC-BY und CC-BY-SA?
 
 - \[\[ \]\] CC-BY
-- \[\[x\]\] CC-BY-SA
+- [[x]] CC-BY-SA
 - \[\[ \]\] unzulässig
 - \[\[ \]\] anderes
 

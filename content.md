@@ -68,7 +68,7 @@ FDM begleitet den gesamten Forschungsprozess
 
 ## Der Datenlebenszyklus
 
-![](df7d530580aacd8fe5da53b17c4de3592bb4353f.png)
+// Hier Bild vom DLZ
 
 ## Der Datenlebenszyklus
 
@@ -88,31 +88,31 @@ FDM begleitet den gesamten Forschungsprozess
 Wofür stehen die Buchstaben in FAIR?
 F wie ...
 
-- \[\[x\]\] findable
-- \[\[ \]\] free
-- \[\[ \]\] f
-- \[\[ \]\] f
+- [[x]] findable
+- [[ ]] free
+- [[ ]] f
+- [[ ]] f
 
 A wie ...
 
-- \[\[ \]\] archivable
-- \[\[ \]\] addressable
-- \[\[x\]\] accessable
-- \[\[ \]\] a
+- [[ ]] archivable
+- [[ ]] addressable
+- [[x]] accessable
+- [[ ]] a
 
 I wie ...
 
-- \[\[ \]\] integrate
-- \[\[x\]\] interoparable
-- \[\[ \]\] i
-- \[\[ \]\] intellectual
+- [[ ]] integrate
+- [[x]] interoparable
+- [[ ]] i
+- [[ ]] intellectual
 
 R wie ...
 
-- \[\[ \]\] reproduce
-- \[\[ \]\] repurpuse
-- \[\[ \]\] redirectable
-- \[\[x\]\] reusable
+- [[ ]] reproduce
+- [[ ]] repurpuse
+- [[ ]] redirectable
+- [[x]] reusable
 
 ## Die FAIR Principles II
 
@@ -316,14 +316,18 @@ Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie si
 
 1. Was erhählt man bei der Kombination von CC-BY und CC-BY-SA?
 
-- \[\[ \]\] CC-BY
+- [[ ]] CC-BY
 - [[x]] CC-BY-SA
-- \[\[ \]\] unzulässig
-- \[\[ \]\] anderes
+- [[ ]] unzulässig
+- [[ ]] anderes
 
 ---
 
-1. Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC? \[\[ \]\] CC-BY-SA \[\[ \]\] CC-BY-NC \[\[ \]\] CC-BY-NC-SA \[\[x\]\] unzulässig
+1. Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC?
+- [[ ]] CC-BY-SA
+- [[ ]] CC-BY-NC
+- [[ ]] CC-BY-NC-SA
+- [[ ]] unzulässig
 
 ---
 
@@ -333,7 +337,11 @@ Hinweis: Die Lösung ist unzulässig, da
 
 ---
 
-1. Was erhählt man bei der Kombination von CC-BY und CC-BY-ND? \[\[ \]\] CC-BY \[\[ \]\] CC BY-NA \[\[x\]\] unzulässig \[\[ \]\] andere
+1. Was erhählt man bei der Kombination von CC-BY und CC-BY-ND?
+- [[ ]] CC-BY
+- [[ ]] CC BY-NA
+- [[ ]] unzulässig
+- [[ ]] andere
 
 ---
 

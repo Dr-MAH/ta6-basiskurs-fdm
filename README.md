@@ -3,6 +3,18 @@
 Diese Projekt ist dafür gedacht, dass wir (TA6) hier unsere Materialien des FDM-Basiskurses für LIA-Script deponieren und später zugänglich machen.
 Mitarbeitende sind Katharina, Andrea, Alex, Vincent, Martin.
 
+"Zuletzt möchten wir noch klären, wie ihr Kurse teilen könnt, wenn sie dezentral gespeichert und entwickelt werden. 
+Dafür wird lediglich die URL der reinen Textdatei benötigt, 
+die entweder auf eine Version auf GitHub/GitLab verweist (kostenlos) oder von den OER-Ersteller*innen selbst gehostet wird."
+"Um auf die reine Markdown-Datei zuzugreifen, klickt man entweder auf die entsprechende Datei und dann auf den kleinen Button „Raw“ 
+und erhält die folgende 
+URL: https://raw.githubusercontent.com/LiaPlayground/Warum-offene-Bildung-eine-Sprache-braucht/main/README.md 
+Der main-Branch (Hauptzweig) des Projekts wird nun genutzt und die Datei README.md wird heruntergeladen. 
+Wie bereits erwähnt, könnte man auf GitHub so auch auf andere Versions-Zweige oder frühere Versionen zugreifen. 
+Was jetzt noch fehlt ist, dass diese URL als Parameter an die LiaScript-Webseite übergeben wird. 
+Dies sieht dann so aus: 
+https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/Warum-offene-Bildung-eine-Sprache-braucht/main/README.md "
+
 ------
 
 

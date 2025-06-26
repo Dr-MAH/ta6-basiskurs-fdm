@@ -1,120 +1,385 @@
-# TA6 Basiskurs FDM
+# Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
 
-Diese Projekt ist dafür gedacht, dass wir (TA6) hier unsere Materialien des FDM-Basiskurses für LIA-Script deponieren und später zugänglich machen.
-Mitarbeitende sind Katharina, Andrea, Alex, Vincent, Martin.
+Ein Kurs der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA)
 
-https://open-educational-resources.de/warum-braucht-offene-bildung-eine-eigene-sprache-warum-liascript/ :
-"Zuletzt möchten wir noch klären, wie ihr Kurse teilen könnt, wenn sie dezentral gespeichert und entwickelt werden. 
-Dafür wird lediglich die URL der reinen Textdatei benötigt, 
-die entweder auf eine Version auf GitHub/GitLab verweist (kostenlos) oder von den OER-Ersteller*innen selbst gehostet wird."
-"Um auf die reine Markdown-Datei zuzugreifen, klickt man entweder auf die entsprechende Datei und dann auf den kleinen Button „Raw“ 
-und erhält die folgende 
-URL: https://raw.githubusercontent.com/LiaPlayground/Warum-offene-Bildung-eine-Sprache-braucht/main/README.md 
-Der main-Branch (Hauptzweig) des Projekts wird nun genutzt und die Datei README.md wird heruntergeladen. 
-Wie bereits erwähnt, könnte man auf GitHub so auch auf andere Versions-Zweige oder frühere Versionen zugreifen. 
-Was jetzt noch fehlt ist, dass diese URL als Parameter an die LiaScript-Webseite übergeben wird. 
-Dies sieht dann so aus: 
-https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/Warum-offene-Bildung-eine-Sprache-braucht/main/README.md "
+// Hier 4C-Logo
 
-"Die LiaScript-Webseite ist eine sogenannte PWA (Progressive Web App), eine reine JavaScript-Applikation, die auch auf dem Endgerät installiert werden kann. 
-Durch den URL-Parameter wird die App angewiesen, die Markdown-Datei, die sich hinter der URL befindet, 
-lokal im Browser des Benutzers herunterzuladen, zu analysieren und live anzuzeigen (zu rendern). 
-Das erste Laden kann etwas länger dauern, da zunächst die gesamte Struktur analysiert wird. 
-Das Ergebnis wird im Browser selbst in IndexedDB gespeichert, sodass auch offline darauf zugegriffen werden kann. 
-Klickt man im Inhaltsverzeichnis auf Home-Screen, so wechselt man auf die Index-Darstellung.
+DFG-Fördernummer: 441958017
 
-Hier kann jeder besuchte Kurs wieder aufgerufen und im Stoff fortgefahren werden. 
-Die LiaScript-Seite ist also vielmehr ein Reader/Interpreter für LiaScript-Markdown als eine klassische Webseite. 
-Die Kursinhalte können weiter aktualisiert werden, und der Reader prüft nur bei erneutem Laden, ob sich die Version geändert hat. 
-Wir aktualisieren die Website/Interpreter, und ihr aktualisiert den Inhalt."
+//KOMMENTAR: Das ist ein Bild mit einer externen URL. Das geht auch mit mit relaativen Links, aber ich verstehe noch nicht, wie das geht und wo das Bild dann liegen muss. 
 
-------
+![testbild](https://upload.wikimedia.org/wikipedia/commons/9/9f/Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg "testbild ...")
 
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Welche Inhalte bietet dieser Kurs?
 
-## Add your files
+ 1. Der Forschungsdatenbegriff
+ 2. Forschungsdatenmanagement
+ 3. Der Datenlebenszyklus
+ 4. FAIR Principles
+ 5. CARE Principles
+ 6. Metadaten 
+ 7. Normdaten und kontrollierte Vokabulare
+ 8. Sichern und Speichern
+ 9. Lizenzen
+10. Datenmanagement-Pläne
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+## Abkürzungen in diesem Kurs
 
-```
-cd existing_repo
-git remote add origin https://gitlab.rlp.net/adwmainz/nfdi4culture/guidelines-reports/ta6-basiskurs-fdm.git
-git branch -M main
-git push -uf origin main
-```
+- DMP = Datenmanagementplan
+- FDM = Forschungsdatenamangement
+- FD = Forschungsdaten
+- LZA = Langzeitarchivierung
+- 
 
-## Integrate with your tools
+## Der Forschungsdatenbegriff
 
-- [ ] [Set up project integrations](https://gitlab.rlp.net/adwmainz/nfdi4culture/guidelines-reports/ta6-basiskurs-fdm/-/settings/integrations)
+Wenn wir uns mit dem Thema Forschungsdatenmanagement auseinandersetzen, dann sollten wir klären, was eigentlich unter dem Begriff "Forschungsdaten" zu verstehen ist.
 
-## Collaborate with your team
+---
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+Die DFG beschreibt es so:
 
-## Test and Deploy
+„Ein fachspezifisch adäquater Umgang mit Forschungsdaten, die wissenschaftlichen Projekten zugrunde liegen oder bei deren Durchführung entstehen, ist ein wesentlicher Bestandteil qualitätsorientierter und anschlussfähiger Forschung. Zu Forschungsdaten zählen u. a. Messdaten, Laborwerte, audiovisuelle Informationen, Texte, Surveydaten oder Beobachtungsdaten, methodische Testverfahren sowie Fragebögen.“
+<sub>(aus den Leitlinien zum Umgang mit Forschungsdaten  der Deutsche Forschungsgemeinschaft, 2023)</sub>
 
-Use the built-in continuous integration in GitLab.
+---
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
-***
+> "Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
 
-# Editing this README
+## Forschungsdatenmanagement
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+Forschungsdatenamangement umfasst alle Aktivitäten im Zusammenhang mit ...
 
-## Suggestions for a good README
+- der Aufbereitung,
+- Speicherung,
+- Archivierung,
+- und Nutzung
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+... von Forschungsdaten.
 
-## Name
-Choose a self-explaining name for your project.
+FDM begleitet den gesamten Forschungsprozess.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## Forschungsdatenmanagement – Aber wieso?
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+- Der Umgang mit Forschungsdaten ist Teil guter wissenschaftlicher Arbeit
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+> Kodex „Leitlinien zur Sicherung guter wissenschaftlicher Praxis“ der DFG
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+- Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten 
+  – häufig gefordert oder gewünscht ist hier ein Datenmanagementplan (DMP).
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+## Der Datenlebenszyklus
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+![](df7d530580aacd8fe5da53b17c4de3592bb4353f.png)
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## Der Datenlebenszyklus
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+- Der Datenlebenszyklus beschreibt den "Lebenskreislauf" von Forschungsdaten
+- Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen
+- Stationen 
+  1. Forschungsvorhaben planen 
+     - Hier sollte ein erster Datenmanagementplan entstehen
+  2. Daten erheben
+  3. Daten aufbereiten und analysieren
+  4. Daten teilen und publizieren
+  5. Daten archivieren
+  6. Daten nachnutzen
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+## Die FAIR Principles I
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Wofür stehen die Buchstaben in FAIR?
+F wie ...
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+- \[\[x\]\] findable
+- \[\[ \]\] free
+- \[\[ \]\] f
+- \[\[ \]\] f
 
-## License
-For open source projects, say how it is licensed.
+A wie ...
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+- \[\[ \]\] archivable
+- \[\[ \]\] addressable
+- \[\[x\]\] accessable
+- \[\[ \]\] a
+
+I wie ...
+
+- \[\[ \]\] integrate
+- \[\[x\]\] interoparable
+- \[\[ \]\] i
+- \[\[ \]\] intellectual
+
+R wie ...
+
+- \[\[ \]\] reproduce
+- \[\[ \]\] repurpuse
+- \[\[ \]\] redirectable
+- \[\[x\]\] reusable
+
+## Die FAIR Principles II
+
+- FAIR steht für findable, accesssible, interoparable und reusable; übersetzt also für: auffindbar, zugreifbar, interoperabel und nachnutzbar.
+- Wurden entwickelt um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen
+- Betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows
+- Helfen dabei die FD für eine möglichst optimale Nachnutzung aufzubereiten
+- Es gibt verschiedene Leitfäden die bei der Anwendung der Prinzipien Helfen 
+  - NFDI4Culture FAIR-Check
+
+## CARE Principles
+
+Die CARE-Prinzipien wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht um koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse.
+
+Die Prinzipien sind für jene Forschenden relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch Forschen oder mit Daten aus kolonialen Kontexten beschäftigen.
+
+CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Übersetzt also: Kollektiver Nutzen, Kontrollbefugnisse, Verantwortung und Ethik
+
+- Kooperationen mit Ursprungscommunities u.a. 
+  - gemeinsame Bearbeitung von Objekten
+  - gleichberechtigten Zugang zu den Daten ermöglichen
+  - indigene Ethik einbeziehen
+- eigenes Handeln und Darstellung von Objekten/Forschungsgegenständen regelmäßig hinterfragen
+- wenn nötig, öffentlichen Zugang zu Daten einschränken
+- kulturelle Metadaten, z. B. Bezeichnungen aus Herkunftskontexten; Provenienzangaben in den Metadaten; Auswahl der Metadaten transparent machen
+- Nutzung von Disclaimern
+- Nutzung von Notices, dass indigene Daten verwaltet werden
+- Nutzung von Traditional Knowledge Labels (z. B. Kennzeichnung als weibliches Wissen, sakralen Kontext etc.)
+
+## Metadaten I
+
+> Merksatz: "Metadaten sind Daten, die andere Daten beschreiben"
+
+Metadaten können in verschiedene Kategorien unterteilt werden.
+Eine übliche Aufteilung ist:
+
+- deskriptive Metadaten enthalten beschreibende Informationen über den Inhalt des Objekts, sie dienen der Identifizierung von Objekten oder Daten
+- administrative Metadaten enthalten Informationen zum Objekt, die über seinen Inhalt hinausgehen wie z. B. Rechteinformationen und Details des analogen Objekts
+- strukturelle Metadaten beschreiben den Metadatensatz an sich und seine Beziehung zur digitalen Datei
+- technische Metadaten beschreiben die technischen Eigenschaften einer digitalen Datei Ergänzt werden kann diese Liste durch
+- Archivmetadaten, die noch einmal spezieller zusammengestellte Informationen enthalten, die für die Archivierung relevant sind
+
+## Metadaten II
+
+- Alle Arten von Forschungsdaten sollten stets mit Metadaten versehen werden
+- Metadaten halten Daten verständlich und machen sie leichter auffindbar, da sie 
+  - weiterführende, maschinenlesbare Informationen zu den Daten bereitstellen
+  - und Datensätze untereinander in Beziehung setzen.
+- Metadaten sollten gesondert als Metadatenpublikation veröffentlicht werden, um auch unabhängig von dem betreffenden Datum abrufbar zu sein.
+
+Dies sind einige fachübergreifende Standards:
+
+- Dublin Core
+- EXIF (Bildmetadaten)
+- PREMIS
+- METS MODS
+
+Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechen
+
+- hier gibt es mehr fachspezifische denn medienspezifische Standards. Warum? 
+  - Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen
+
+## Normdaten I
+
+Was sind Normdaten?
+
+- Eine Normdatei oder kontrolliertes Vokabular ist ein Verzeichnis strukturierter Datensätze.
+- Jedem Normdatum wird eine feste Nummer als Identifikator zugeordnet.
+
+Wozu brauche ich Normdaten?
+
+- zum vereinfachen die Darstellung komplexer Zusammenhänge
+- zur Vermeidung von Mehrdeutigkeiten und falschen Zuordnungen vor allem für Maschinen, die anders als Menschen nicht aus dem Kontext schließen können
+- Die Verwendung von Normdaten ermöglicht besseren Austausch und bessere Nachnutzbarkeit der Daten.
+
+Ein kontrolliertes Vokabular ist eine Sammlung von Normdaten, es verknüpft auch Synonyme, die zum selben Suchergebnis führen und Übersetzungen in andere Sprachen.
+
+> Video-Tipp: NFDI4Culture Video-Tutorial zu Normdaten! https://av.tib.eu/media/60986
+
+## Normdaten II
+
+Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaften:
+
+- Deutsche Nationalbibliothek – Gemeinsame Normdatei (GND)
+- Virtual International Authority File (VIAF)
+- International Standard Name Identifier (ISNI)
+- Getty Vokabulare 
+  - Thesaurus of Geographic Names (TGN)
+  - Art & Architecture Thesaurus (AAT)
+  - Union List of Artists Names (ULAN)
+- Wikidata
+
+## Sichern und Speichern I
+
+- Vermeiden proprietärer Datenformate
+- 3-2-1-Regel: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
+- Passwortverschlüsselung der Daten
+- sinnvolles und konsistentes Dateiablagesystem in einer READ.me-Datei kann das System auf oberster Ebene erläutert werden
+
+Sichern und Archivieren – Wo liegt der Unterschied?
+
+- Sichern:  Sicherung aller Daten (Backup) um Datenverlust vorzubeugen
+- Archivieren:   Sicherung ausgewählter Daten, Langzeitspeicherung „endgültiger“ Daten
+
+## Daten publizieren
+
+Vorteile bei der Veröffentlichung von Forschungsdaten
+
+- Es können neue Kooperationen weltweit entstehen.
+- Forschungsergebnisse werden durch die Veröffentlichung von Daten und deren Zitierung sichtbarer.
+- Öffentlich zugängliche Daten können zu neuen oder ergänzenden Hypothesen anregen.
+- Wissenschaftliche Integrität wird gestärkt.
+- Durch das Teilen von Daten wird eine offene Wissenschaftskultur befördert.
+- Einmalige Daten gehe nicht verloren, sondern stehen für weitere Forschungen zur Verfügung.
+- Kosten werden gespart.
+
+## Daten zitieren
+
+Öfter noch als das Veröffentlichen, begegnet einem im Forschungsalltag die Frage nach dem Zitieren von Daten!
+
+Aber warum sollte man Daten zitieren?
+
+- Richtiges Zitieren ist Teil guten wissenschaftlichen Arbeitens. 
+  - Auch Daten sollten gut zitiert werden.
+
+Wie zitiere ich richtig?
+
+- Grundsätzlich so zitieren, wie andere Publikationen zitiert werden.
+- Genannt werden sollten also Autoren/Herausgeber, der Titel und das Veröffentlichungsdatum.
+- Ergänzt wird dies bestenfalls um eine DOI, die direkt zum Datensatz führt!
+- Ein Beispiel von forschungsdaten.info: 
+  - Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
+
+## Sichern und Speichern II – Repositorien
+
+- Repositorien sind Speicherorte für digitale Forschungsergebnisse und -daten
+- Sie machen Daten für die Öffentlichkeit oder einen beschränkten Kreis an Nutzer:innen verfügbar.
+- Es werden dauerhafter „Identifikatoren“ zur besseren Zitation und Auffindbarkeit der Daten vergeben
+- Es wird zumeist zwischen generischen, fachspezifischen und institutionellen Repositorien unterschieden.
+- Es gibt Siegel/Zertifikate für gute Langzeitarchive: CoreTrustSeal (CTS); nestor Siegel/DIN 31644; ISO 16363
+
+---
+
+Wo finde ich ein geeignetes Repositorium?
+
+- Re3data
+- DFG RIsources
+- NFDI4Culture Repositorien-Überblick
+- ... auch der NFDI4Culture Helpdesk hilft gerne weiter!
+
+Kulturwissenschaftliche Repositorien – eine Auswahl
+
+- DARIAH-DE – Digital Research Infrastructure for the Arts and Humanities
+- CLARIN-D – Digitale Forschungsinfrastruktur für Sprachressourcen in den Geisteswissenschaften
+- IANUS – Forschungsdatenzentrum Archäologie und Altertumswissenschaften
+- TextGrid Repository – Langzeitarchiv für geisteswissenschaftliche Forschungsdaten
+- RADAR4Culture
+
+## EXKURS: Persistent Identifier (PI)
+
+- Persistent Identifiers sind Codes, die eine digitale Ressource eindeutig benennen.
+- Sie dienen der besseren und nachhaltigeren Auffindbarkeit und helfen  „tote“ Links zu vermeiden
+
+Beispiele
+
+- Digital Object Identifier (DOI) 
+  - für digitale Objekte (Artikel, Datensätze, …)
+  - Verweist permanent auf den Datensatz, „haltbarer“ als URL und erhöht und verbessert dadurch Zitationen.
+- Open Researcher and Contributer ID (ORCID) 
+  - Personen ID
+  - Erleichtert die Identifikation von Personen, präsentiert die wiss. Laufbahn, kann eigenhändig angelegt werden (Vor- und Nachteil).
+
+## Sichern und Speichern III – Langzeitarchivierung
+
+- Archivieren meint meist ± 10 Jahre Speicherzeit
+- Metadaten halten die archivierten Daten verständlich.
+- Verwendete Software sollte mit archiviert oder zumindest sollte in den Metadaten verzeichnet werden, welche Software genutzt wurde.
+- Möglichst keine proprietäre Software/Datenformate nutzen.
+
+Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
+
+- Einmal archivierte Daten werden nicht mehr verändert!
+- Sollten Veränderungen vorgenommen werden, dann sollte eine neue Version der Daten gespeichert werden, die deutlich als solche gekennzeichnet ist.
+
+## Sichern und Speichern IV – CC-Lizenzen
+
+- CC-Lizenzen decken die meisten Nutzungsszenarien ab und liegen in zahlreichen Sprachen vor.
+- CC-Lizenzen sind modular aufgebaut und bestehen aus folgenden Bestandteilen: 
+  - BY: Namensnennung des Urhebers
+  - NC: nicht kommerzieller Gebrauch
+  - ND: nicht bearbeiten oder verändern
+  - SA: Weitergabe unter selben Bedingungen
+- Sie sind beliebig kombinierbar, solange sie sich nicht widersprechen.
+- Mit CC0 / Public Domain werden alle Rechte am Werk abgegeben.
+- CC-Lizenzen sind nur mit Link zur Lizenz-Ressource gültig.
+- Einmal vergebene Lizenzen können nicht zurückgezogen oder verschärft werden!
+
+## Quiz
+
+Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie sich selbst und erkennen Sie auch unzulässige Lizenz-Kombinationen?
+
+1. Was erhählt man bei der Kombination von CC-BY und CC-BY-SA?
+
+- [[ ]] CC-BY
+- [[x]] CC-BY-SA
+- \[\[ \]\] unzulässig
+- \[\[ \]\] anderes
+
+---
+
+1. Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC? \[\[ \]\] CC-BY-SA \[\[ \]\] CC-BY-NC \[\[ \]\] CC-BY-NC-SA \[\[x\]\] unzulässig
+
+---
+
+Hinweis: Die Lösung ist unzulässig, da
+
+---
+
+---
+
+1. Was erhählt man bei der Kombination von CC-BY und CC-BY-ND? \[\[ \]\] CC-BY \[\[ \]\] CC BY-NA \[\[x\]\] unzulässig \[\[ \]\] andere
+
+---
+
+Hinweis: Die Lösung ist unzulässig, da
+
+---
+
+## Der Datenmanagementplan (DMP)
+
+> Ein DMP beschreibt den strukturierten Umgang mit Daten. Er bestimmt, wie mit Daten verfahren wird – während und nach dem Projekt – und sollte deshalb ein lebendes Dokument sein, dass sich Projekt anpassen und verändern darf
+
+- Fördergeber können Vorgaben machen, aber ein DMP muss nicht grundsätzlich einem bestimmten Aufbau folgen.
+- Der Forschungsdaten-Lebenszyklus kann als Orientierung dienen.
+- Ein DMP verbessert die Nachnutzbarkeit von Daten und das Management von Daten und Wissen, etwa bei Personalwechseln.
+
+Hilfe und Unterstützung:
+
+- Die meisten Fördergeber bieten Checklisten zur Orientierung an.
+- zur Orientierung DMPs anderer Projekte ansehen 
+  - z. B. auf Zenodo
+- NFDI4Culture Helpdesk
+
+Was macht einen guten DMP aus?
+
+- DMPs sollten gut strukturiert sein ⇒ hier helfen Tools und Checklisten.
+- „So kurz wie möglich, so lang wie nötig.“
+- Alle Projektbeteiligte sollten den DMP kennen und Zugriff darauf haben.
+- Idealerweise wird der DMP zu Projektende mit veröffentlicht.
+
+## Der Datenmanagementplan – Das RDMO-Tools
+
+RDMO, steht für Research Data Management Organiser und ist ein freies Open Source Tool für die Erstellung von Datenmanagementplänen
+
+- Wie ist das Vorgehen und wie wird RDMO genutzt? 
+  - Auswahl eines Fragenkatalogs
+  - Schritt-für-Schritt-Abarbeiten der Fragen
+  - Auswurf des „fertigen“ Plans in verschiedenen Dateiformaten
+- Institutionen können RDMO-Instanzen einrichten, Funktionen und Design sind dabei individualisierbar.
+
+Es gibt ein RDMO-Demo-Programm auf der RDMO-Website, dass jede:r Interessierte nutzen kann.
+
+- Accounts können kostenlos erstellt werden
+- Das "Demo" im Namen mag fehlleiten, es ist hat aber volle Funktionalität, nur keine individualisierten Funktionen, welche die Instanzen von Institutionen haben können

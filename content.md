@@ -6,6 +6,12 @@ Ein Kurs der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA)
 
 DFG-Fördernummer: 441958017
 
+//KOMMENTAR: Das ist ein Bild mit einer externen URL. Das geht auch mit mit relaativen Links, aber ich verstehe noch nicht, wie das geht und wo das Bild dann liegen muss. 
+
+![testbild](https://upload.wikimedia.org/wikipedia/commons/9/9f/Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg "testbild ...")
+
+
+
 ## Welche Inhalte bietet dieser Kurs?
 
  1. Der Forschungsdatenbegriff
@@ -13,7 +19,7 @@ DFG-Fördernummer: 441958017
  3. Der Datenlebenszyklus
  4. FAIR Principles
  5. CARE Principles
- 6. Metadaten
+ 6. Metadaten 
  7. Normdaten und kontrollierte Vokabulare
  8. Sichern und Speichern
  9. Lizenzen
@@ -46,16 +52,16 @@ Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
 ## Forschungsdatenmanagement
 
-Forschungsdatenamangement umfasst alle Aktivitäten im Zusammenhang mit...
+Forschungsdatenamangement umfasst alle Aktivitäten im Zusammenhang mit ...
 
-- der Aufbereitung
-- Speicherung
-- Archivierung
+- der Aufbereitung,
+- Speicherung,
+- Archivierung,
 - und Nutzung
 
-... von Forschungsdaten
+... von Forschungsdaten.
 
-FDM begleitet den gesamten Forschungsprozess
+FDM begleitet den gesamten Forschungsprozess.
 
 ## Forschungsdatenmanagement – Aber wieso?
 
@@ -64,11 +70,11 @@ FDM begleitet den gesamten Forschungsprozess
 > Kodex „Leitlinien zur Sicherung guter wissenschaftlicher Praxis“ der DFG
 
 - Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten 
-  - Häufig gefordert oder gewünscht ist hier ein Datenmanagementplan (DMP)
+  – häufig gefordert oder gewünscht ist hier ein Datenmanagementplan (DMP).
 
 ## Der Datenlebenszyklus
 
-// Hier Bild vom DLZ
+![](df7d530580aacd8fe5da53b17c4de3592bb4353f.png)
 
 ## Der Datenlebenszyklus
 
@@ -88,31 +94,31 @@ FDM begleitet den gesamten Forschungsprozess
 Wofür stehen die Buchstaben in FAIR?
 F wie ...
 
-- [[x]] findable
-- [[ ]] free
-- [[ ]] f
-- [[ ]] f
+- \[\[x\]\] findable
+- \[\[ \]\] free
+- \[\[ \]\] f
+- \[\[ \]\] f
 
 A wie ...
 
-- [[ ]] archivable
-- [[ ]] addressable
-- [[x]] accessable
-- [[ ]] a
+- \[\[ \]\] archivable
+- \[\[ \]\] addressable
+- \[\[x\]\] accessable
+- \[\[ \]\] a
 
 I wie ...
 
-- [[ ]] integrate
-- [[x]] interoparable
-- [[ ]] i
-- [[ ]] intellectual
+- \[\[ \]\] integrate
+- \[\[x\]\] interoparable
+- \[\[ \]\] i
+- \[\[ \]\] intellectual
 
 R wie ...
 
-- [[ ]] reproduce
-- [[ ]] repurpuse
-- [[ ]] redirectable
-- [[x]] reusable
+- \[\[ \]\] reproduce
+- \[\[ \]\] repurpuse
+- \[\[ \]\] redirectable
+- \[\[x\]\] reusable
 
 ## Die FAIR Principles II
 
@@ -318,16 +324,12 @@ Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie si
 
 - [[ ]] CC-BY
 - [[x]] CC-BY-SA
-- [[ ]] unzulässig
-- [[ ]] anderes
+- \[\[ \]\] unzulässig
+- \[\[ \]\] anderes
 
 ---
 
-1. Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC?
-- [[ ]] CC-BY-SA
-- [[ ]] CC-BY-NC
-- [[ ]] CC-BY-NC-SA
-- [[ ]] unzulässig
+1. Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC? \[\[ \]\] CC-BY-SA \[\[ \]\] CC-BY-NC \[\[ \]\] CC-BY-NC-SA \[\[x\]\] unzulässig
 
 ---
 
@@ -337,11 +339,7 @@ Hinweis: Die Lösung ist unzulässig, da
 
 ---
 
-1. Was erhählt man bei der Kombination von CC-BY und CC-BY-ND?
-- [[ ]] CC-BY
-- [[ ]] CC BY-NA
-- [[ ]] unzulässig
-- [[ ]] andere
+1. Was erhählt man bei der Kombination von CC-BY und CC-BY-ND? \[\[ \]\] CC-BY \[\[ \]\] CC BY-NA \[\[x\]\] unzulässig \[\[ \]\] andere
 
 ---
 

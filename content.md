@@ -1,12 +1,12 @@
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
 
-Ein Kurs der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA)
+Ein Kurs der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html)
 
 // Hier 4C-Logo
 
 DFG-Fördernummer: 441958017
 
-//KOMMENTAR: Das ist ein Bild mit einer externen URL. Das geht auch mit mit relaativen Links, aber ich verstehe noch nicht, wie das geht und wo das Bild dann liegen muss. 
+// Das ist ein Bild mit einer externen URL. Das geht auch mit mit relaativen Links, aber ich verstehe noch nicht, wie das geht und wo das Bild dann liegen muss. 
 
 ![testbild](https://upload.wikimedia.org/wikipedia/commons/9/9f/Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg "testbild ...")
 

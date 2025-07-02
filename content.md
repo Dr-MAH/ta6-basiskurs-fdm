@@ -2,7 +2,7 @@
 
 Ein Kurs der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html)
 
-<img src= "https://nfdi4culture.de/typo3temp/assets/build/images/n4c-logo-black.4b9cb10d.svg" width=50% height=70%>
+<img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
 Gefödert durch die DFG; Fördernummer: 441958017
 

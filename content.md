@@ -2,15 +2,9 @@
 
 Ein Kurs der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html)
 
-// Hier 4C-Logo
+<img src= "https://nfdi4culture.de/typo3temp/assets/build/images/n4c-logo-black.4b9cb10d.svg" width=50% height=70%>
 
-DFG-Fördernummer: 441958017
-
-// Das ist ein Bild mit einer externen URL. Das geht auch mit mit relaativen Links, aber ich verstehe noch nicht, wie das geht und wo das Bild dann liegen muss. 
-
-![testbild](https://upload.wikimedia.org/wikipedia/commons/9/9f/Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg "testbild ...")
-
-
+Gefödert durch die DFG; Fördernummer: 441958017
 
 ## Welche Inhalte bietet dieser Kurs?
 
@@ -94,31 +88,31 @@ FDM begleitet den gesamten Forschungsprozess.
 Wofür stehen die Buchstaben in FAIR?
 F wie ...
 
-- \[\[x\]\] findable
-- \[\[ \]\] free
-- \[\[ \]\] f
-- \[\[ \]\] f
+- [[x]] findable
+- [[ ]] free
+- [[ ]] f
+- [[ ]] f
 
 A wie ...
 
-- \[\[ \]\] archivable
-- \[\[ \]\] addressable
-- \[\[x\]\] accessable
-- \[\[ \]\] a
+- [[ ]] archivable
+- [[ ]] addressable
+- [[x]] accessable
+- [[ ]] a
 
 I wie ...
 
-- \[\[ \]\] integrate
-- \[\[x\]\] interoparable
-- \[\[ \]\] i
-- \[\[ \]\] intellectual
+- [[ ]] integrate
+- [[ ]] interoparable
+- [[ ]] i
+- [[ ]] intellectual
 
 R wie ...
 
-- \[\[ \]\] reproduce
-- \[\[ \]\] repurpuse
-- \[\[ \]\] redirectable
-- \[\[x\]\] reusable
+- [[ ]] reproduce
+- [[ ]] repurpuse
+- [[ ]] redirectable
+- [[x]] reusable
 
 ## Die FAIR Principles II
 
@@ -320,16 +314,20 @@ Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
 
 Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie sich selbst und erkennen Sie auch unzulässige Lizenz-Kombinationen?
 
-1. Was erhählt man bei der Kombination von CC-BY und CC-BY-SA?
+Was erhählt man bei der Kombination von CC-BY und CC-BY-SA?
 
 - [[ ]] CC-BY
 - [[x]] CC-BY-SA
-- \[\[ \]\] unzulässig
-- \[\[ \]\] anderes
+- [[ ]] unzulässig
+- [[ ]] anderes
 
 ---
 
-1. Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC? \[\[ \]\] CC-BY-SA \[\[ \]\] CC-BY-NC \[\[ \]\] CC-BY-NC-SA \[\[x\]\] unzulässig
+Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC?
+- [[ ]] CC-BY-SA
+- [[ ]] CC-BY-NC 
+- [[ ]] CC-BY-NC-SA
+- [[x]] unzulässig
 
 ---
 
@@ -339,7 +337,11 @@ Hinweis: Die Lösung ist unzulässig, da
 
 ---
 
-1. Was erhählt man bei der Kombination von CC-BY und CC-BY-ND? \[\[ \]\] CC-BY \[\[ \]\] CC BY-NA \[\[x\]\] unzulässig \[\[ \]\] andere
+Was erhählt man bei der Kombination von CC-BY und CC-BY-ND?
+- [[ ]] CC-BY
+- [[ ]] CC BY-NA
+- [[ ]] unzulässig
+- [[ ]] andere
 
 ---
 

@@ -25,7 +25,7 @@ Gefödert durch die DFG; Fördernummer: 441958017
 - FDM = Forschungsdatenamangement
 - FD = Forschungsdaten
 - LZA = Langzeitarchivierung
--  
+- DLZ = Forschungsdatenlebenszyklus
 
 ## Der Forschungsdatenbegriff
 

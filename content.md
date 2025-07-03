@@ -17,7 +17,7 @@ Gefödert durch die DFG; Fördernummer: 441958017
  7. Normdaten und kontrollierte Vokabulare
  8. Sichern und Speichern
  9. Lizenzen
-10. Datenmanagement-Pläne x
+10. Datenmanagement-Pläne
 
 ## Abkürzungen in diesem Kurs
 

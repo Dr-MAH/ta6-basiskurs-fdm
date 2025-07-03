@@ -4,7 +4,7 @@ Ein Kurs der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](
 
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
-Gefödert durch die DFG; Fördernummer: 441958017
+Gefördert durch die DFG; Fördernummer: 441958017
 
 ## Welche Inhalte bietet dieser Kurs?
 

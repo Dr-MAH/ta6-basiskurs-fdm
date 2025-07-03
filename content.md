@@ -68,7 +68,7 @@ FDM begleitet den gesamten Forschungsprozess.
 
 ## Der Datenlebenszyklus
 
-![](df7d530580aacd8fe5da53b17c4de3592bb4353f.png)
+<img src="../resources/FD_LZ.jpg" width=50% height=auto>
 
 ## Der Datenlebenszyklus
 

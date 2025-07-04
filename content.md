@@ -98,28 +98,28 @@ FDM begleitet den gesamten Forschungsprozess.
 
 Wofür stehen die Buchstaben in FAIR?
 
-<b>F wie ...</b>
+**F wie ...**
 
 - [[x]] findable
 - [[ ]] free
 - [[ ]] fantastic
 - [[ ]] freely usable
 
-<b>A wie ...</b>
+**A wie ...**
 
 - [[ ]] archivable
 - [[ ]] addressable
 - [[x]] accessable
 - [[ ]] alternative
 
-<b>I wie ...</b>
+**I wie ...**
 
 - [[ ]] integrate
 - [[x]] interoparable
 - [[ ]] interesting
 - [[ ]] intellectual
 
-<b>R wie ...</b>
+**R wie ...**
 
 - [[ ]] reproduce
 - [[ ]] repurpuse
@@ -193,14 +193,14 @@ Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Sta
 
 ## Normdaten I
 
-<b>Was sind Normdaten?</b>
+**Was sind Normdaten?**
 
 - Eine Normdatei oder kontrolliertes Vokabular ist ein Verzeichnis strukturierter Datensätze.
 - Jedem Normdatum wird eine feste Nummer als Identifikator zugeordnet.
 
 ---
 
-<b>Wozu brauche ich Normdaten?</b>
+**Wozu brauche ich Normdaten?**
 
 - zum vereinfachen die Darstellung komplexer Zusammenhänge
 - zur Vermeidung von Mehrdeutigkeiten und falschen Zuordnungen vor allem für Maschinen, die anders als Menschen nicht aus dem Kontext schließen können
@@ -220,10 +220,11 @@ Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaft
 - Deutsche Nationalbibliothek – Gemeinsame Normdatei (GND)
 - Virtual International Authority File (VIAF)
 - International Standard Name Identifier (ISNI)
-- Getty Vokabulare 
-  - Thesaurus of Geographic Names (TGN)
-  - Art & Architecture Thesaurus (AAT)
-  - Union List of Artists Names (ULAN)
+- Getty Vokabulare
+  
+  * Thesaurus of Geographic Names (TGN)
+  * Art & Architecture Thesaurus (AAT)
+  * Union List of Artists Names (ULAN)
 - Wikidata
 
 ## Sichern und Speichern I
@@ -233,10 +234,16 @@ Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaft
 - Passwortverschlüsselung der Daten
 - sinnvolles und konsistentes Dateiablagesystem in einer READ.me-Datei kann das System auf oberster Ebene erläutert werden
 
-Sichern und Archivieren – Wo liegt der Unterschied?
+---
 
-- Sichern:  Sicherung aller Daten (Backup) um Datenverlust vorzubeugen
-- Archivieren:   Sicherung ausgewählter Daten, Langzeitspeicherung „endgültiger“ Daten
+**Sichern und Archivieren – Wo liegt der Unterschied?**
+
+Sichern:
+
+- Sicherung aller Daten (Backup) um Datenverlust vorzubeugen
+Archivieren:
+
+- Sicherung ausgewählter Daten, Langzeitspeicherung „endgültiger“ Daten
 
 ## Daten publizieren
 
@@ -256,16 +263,18 @@ Vorteile bei der Veröffentlichung von Forschungsdaten
 
 Aber warum sollte man Daten zitieren?
 
-- Richtiges Zitieren ist Teil guten wissenschaftlichen Arbeitens. 
-  - Auch Daten sollten gut zitiert werden.
+- Richtiges Zitieren ist Teil guten wissenschaftlichen Arbeitens.
+
+  * Auch Daten sollten gut und richtig zitiert werden.
 
 Wie zitiere ich richtig?
 
 - Grundsätzlich so zitieren, wie andere Publikationen zitiert werden.
 - Genannt werden sollten also Autoren/Herausgeber, der Titel und das Veröffentlichungsdatum.
 - Ergänzt wird dies bestenfalls um eine DOI, die direkt zum Datensatz führt!
-- Ein Beispiel von forschungsdaten.info: 
-  - Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
+- Ein Beispiel von forschungsdaten.info:
+
+  * Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
 
 ## Sichern und Speichern II – Repositorien
 
@@ -300,11 +309,13 @@ Kulturwissenschaftliche Repositorien – eine Auswahl
 Beispiele
 
 - Digital Object Identifier (DOI) 
-  - für digitale Objekte (Artikel, Datensätze, …)
-  - Verweist permanent auf den Datensatz, „haltbarer“ als URL und erhöht und verbessert dadurch Zitationen.
+  
+  * für digitale Objekte (Artikel, Datensätze, …)
+  * Verweist permanent auf den Datensatz, „haltbarer“ als URL und erhöht und verbessert dadurch Zitationen.
 - Open Researcher and Contributer ID (ORCID) 
-  - Personen ID
-  - Erleichtert die Identifikation von Personen, präsentiert die wiss. Laufbahn, kann eigenhändig angelegt werden (Vor- und Nachteil).
+  
+  * Personen ID
+  * Erleichtert die Identifikation von Personen, präsentiert die wiss. Laufbahn, kann eigenhändig angelegt werden (Vor- und Nachteil).
 
 ## Sichern und Speichern III – Langzeitarchivierung
 
@@ -322,10 +333,11 @@ Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
 
 - CC-Lizenzen decken die meisten Nutzungsszenarien ab und liegen in zahlreichen Sprachen vor.
 - CC-Lizenzen sind modular aufgebaut und bestehen aus folgenden Bestandteilen: 
-  - BY: Namensnennung des Urhebers
-  - NC: nicht kommerzieller Gebrauch
-  - ND: nicht bearbeiten oder verändern
-  - SA: Weitergabe unter selben Bedingungen
+  
+  * BY: Namensnennung des Urhebers
+  * NC: nicht kommerzieller Gebrauch
+  * ND: nicht bearbeiten oder verändern
+  * SA: Weitergabe unter selben Bedingungen
 - Sie sind beliebig kombinierbar, solange sie sich nicht widersprechen.
 - Mit CC0 / Public Domain werden alle Rechte am Werk abgegeben.
 - CC-Lizenzen sind nur mit Link zur Lizenz-Ressource gültig.
@@ -335,7 +347,7 @@ Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
 
 Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie sich selbst und erkennen Sie auch unzulässige Lizenz-Kombinationen?
 
-Was erhählt man bei der Kombination von CC-BY und CC-BY-SA?
+**Was erhählt man bei der Kombination von CC-BY und CC-BY-SA?**
 
 - [[ ]] CC-BY
 - [[x]] CC-BY-SA
@@ -344,7 +356,7 @@ Was erhählt man bei der Kombination von CC-BY und CC-BY-SA?
 
 ---
 
-Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC?
+**Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC?**
 - [[ ]] CC-BY-SA
 - [[ ]] CC-BY-NC 
 - [[ ]] CC-BY-NC-SA
@@ -358,7 +370,7 @@ Hinweis: Die Lösung ist unzulässig, da
 
 ---
 
-Was erhählt man bei der Kombination von CC-BY und CC-BY-ND?
+**Was erhählt man bei der Kombination von CC-BY und CC-BY-ND?**
 - [[ ]] CC-BY
 - [[ ]] CC BY-NA
 - [[ ]] unzulässig
@@ -382,7 +394,8 @@ Hilfe und Unterstützung:
 
 - Die meisten Fördergeber bieten Checklisten zur Orientierung an.
 - zur Orientierung DMPs anderer Projekte ansehen 
-  - z. B. auf Zenodo
+  
+  * z. B. auf Zenodo
 - NFDI4Culture Helpdesk
 
 Was macht einen guten DMP aus?
@@ -397,9 +410,10 @@ Was macht einen guten DMP aus?
 RDMO, steht für Research Data Management Organiser und ist ein freies Open Source Tool für die Erstellung von Datenmanagementplänen
 
 - Wie ist das Vorgehen und wie wird RDMO genutzt? 
-  - Auswahl eines Fragenkatalogs
-  - Schritt-für-Schritt-Abarbeiten der Fragen
-  - Auswurf des „fertigen“ Plans in verschiedenen Dateiformaten
+  
+  * Auswahl eines Fragenkatalogs
+  * Schritt-für-Schritt-Abarbeiten der Fragen
+  * Auswurf des „fertigen“ Plans in verschiedenen Dateiformaten
 - Institutionen können RDMO-Instanzen einrichten, Funktionen und Design sind dabei individualisierbar.
 
 Es gibt ein RDMO-Demo-Programm auf der RDMO-Website, dass jede:r Interessierte nutzen kann.

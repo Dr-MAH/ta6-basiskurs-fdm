@@ -19,7 +19,7 @@ Gefördert durch die DFG; Fördernummer: 441958017
  9. Lizenzen
 10. Datenmanagement-Pläne
 
-## Abkürzungen in diesem Kurs
+### Abkürzungen in diesem Kurs
 
 - DMP = Datenmanagementplan
 - FDM = Forschungsdatenamangement
@@ -57,7 +57,7 @@ Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ..
 
 FDM begleitet den gesamten Forschungsprozess.
 
-## Forschungsdatenmanagement – Aber wieso?
+### Forschungsdatenmanagement – Aber wieso?
 
 - Der Umgang mit Forschungsdaten ist Teil guter wissenschaftlicher Arbeit
 
@@ -67,14 +67,14 @@ FDM begleitet den gesamten Forschungsprozess.
 
   * häufig gefordert oder gewünscht ist hier ein Datenmanagementplan (DMP).
 
-## Der Datenlebenszyklus (DLZ)
+### Der Datenlebenszyklus (DLZ)
 
 <img src="../resources/FD_LZ.jpg" width=50% height=auto>
 <p>
 <sub> Graphische Darstellung eines DLZ, Creator: CRDA, CC0 </sub>
 </p>
 
-## Der Datenlebenszyklus
+### Der Datenlebenszyklus
 
 - Der Datenlebenszyklus beschreibt den "Lebenskreislauf" von Forschungsdaten
 - Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen
@@ -94,7 +94,14 @@ FDM begleitet den gesamten Forschungsprozess.
   6. Daten nachnutzen
   * Eigene oder fremde Nachnutzung der veröffentlichten Datens
 
-## Die FAIR Principles I
+## FAIR und CARE
+Die Akronyme FAIR und CARE werden gerne in einem Atemzug genutzt, es ist aber wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu betrachten!
+
+<!---
+hier Erklärung/Erläuterung einfügen
+--->
+
+### Die FAIR Principles I
 
 Wofür stehen die Buchstaben in FAIR?
 
@@ -126,7 +133,7 @@ Wofür stehen die Buchstaben in FAIR?
 - [[ ]] redirectable
 - [[x]] reusable
 
-## Die FAIR Principles II
+### Die FAIR Principles II
 
 - FAIR steht für findable, accesssible, interoparable und reusable; übersetzt also für: auffindbar, zugreifbar, interoperabel und nachnutzbar.
 - Wurden entwickelt um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen
@@ -136,7 +143,7 @@ Wofür stehen die Buchstaben in FAIR?
   
   * NFDI4Culture FAIR-Check
 
-## CARE Principles
+### CARE Principles
 
 Die CARE-Prinzipien wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht um koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse.
 
@@ -144,7 +151,7 @@ Die Prinzipien sind für jene Forschenden relevant und sollten von ihnen in jede
 
 CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Übersetzt also: Kollektiver Nutzen, Kontrollbefugnisse, Verantwortung und Ethik
 
-- Kooperationen mit Ursprungscommunities u.a. 
+- Kooperationen mit Ursprungscommunities u. a. 
 
   * gemeinsame Bearbeitung von Objekten
   * gleichberechtigten Zugang zu den Daten ermöglichen
@@ -156,7 +163,7 @@ CARE steht für Collective Benefit, Authority of Control, Responsibility und Eth
 - Nutzung von Notices, dass indigene Daten verwaltet werden
 - Nutzung von Traditional Knowledge Labels (z. B. Kennzeichnung als weibliches Wissen, sakralen Kontext etc.)
 
-## Metadaten I
+## Metadaten
 
 > Merksatz: "Metadaten sind Daten, die andere Daten beschreiben"
 
@@ -169,7 +176,7 @@ Eine übliche Aufteilung ist:
 - technische Metadaten beschreiben die technischen Eigenschaften einer digitalen Datei Ergänzt werden kann diese Liste durch
 - Archivmetadaten, die noch einmal spezieller zusammengestellte Informationen enthalten, die für die Archivierung relevant sind
 
-## Metadaten II
+### Metadaten – warum?
 
 - Alle Arten von Forschungsdaten sollten stets mit Metadaten versehen werden
 - Metadaten halten Daten verständlich und machen sie leichter auffindbar, da sie 
@@ -178,6 +185,7 @@ Eine übliche Aufteilung ist:
   * und Datensätze untereinander in Beziehung setzen.
 - Metadaten sollten gesondert als Metadatenpublikation veröffentlicht werden, um auch unabhängig von dem betreffenden Datum abrufbar zu sein.
 
+### Metadaten Standards
 Dies sind einige fachübergreifende Standards:
 
 - Dublin Core
@@ -191,7 +199,7 @@ Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Sta
   
   * Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen
 
-## Normdaten I
+## Normdaten
 
 **Was sind Normdaten?**
 
@@ -213,7 +221,7 @@ Ein kontrolliertes Vokabular ist eine Sammlung von Normdaten, es verknüpft auch
   <iframe src="https://av.tib.eu/player/60986" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 
-## Normdaten II
+### Kontrollierte Vokabulare
 
 Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaften:
 
@@ -227,16 +235,14 @@ Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaft
   * Union List of Artists Names (ULAN)
 - Wikidata
 
-## Sichern und Speichern I
+## Sichern und Speichern
 
 - Vermeiden proprietärer Datenformate
 - 3-2-1-Regel: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
 - Passwortverschlüsselung der Daten
 - sinnvolles und konsistentes Dateiablagesystem in einer READ.me-Datei kann das System auf oberster Ebene erläutert werden
 
----
-
-**Sichern und Archivieren – Wo liegt der Unterschied?**
+### Sichern oder Archivieren – Wo liegt der Unterschied?
 
 Sichern:
 
@@ -245,7 +251,7 @@ Archivieren:
 
 - Sicherung ausgewählter Daten, Langzeitspeicherung „endgültiger“ Daten
 
-## Daten publizieren
+### Daten publizieren
 
 Vorteile bei der Veröffentlichung von Forschungsdaten
 
@@ -257,7 +263,7 @@ Vorteile bei der Veröffentlichung von Forschungsdaten
 - Einmalige Daten gehe nicht verloren, sondern stehen für weitere Forschungen zur Verfügung.
 - Kosten werden gespart.
 
-## Daten zitieren
+### Daten zitieren
 
 Öfter noch als das Veröffentlichen, begegnet einem im Forschungsalltag die Frage nach dem Zitieren von Daten!
 
@@ -276,7 +282,7 @@ Wie zitiere ich richtig?
 
   * Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
 
-## Sichern und Speichern II – Repositorien
+### Repositorien – Die Daten-Speicher
 
 - Repositorien sind Speicherorte für digitale Forschungsergebnisse und -daten
 - Sie machen Daten für die Öffentlichkeit oder einen beschränkten Kreis an Nutzer:innen verfügbar.
@@ -301,7 +307,7 @@ Kulturwissenschaftliche Repositorien – eine Auswahl
 - TextGrid Repository – Langzeitarchiv für geisteswissenschaftliche Forschungsdaten
 - RADAR4Culture
 
-## EXKURS: Persistent Identifier (PI)
+### EXKURS: Persistent Identifier (PI)
 
 - Persistent Identifiers sind Codes, die eine digitale Ressource eindeutig benennen.
 - Sie dienen der besseren und nachhaltigeren Auffindbarkeit und helfen  „tote“ Links zu vermeiden
@@ -317,7 +323,7 @@ Beispiele
   * Personen ID
   * Erleichtert die Identifikation von Personen, präsentiert die wiss. Laufbahn, kann eigenhändig angelegt werden (Vor- und Nachteil).
 
-## Sichern und Speichern III – Langzeitarchivierung
+### Langzeitarchivierung
 
 - Archivieren meint meist ± 10 Jahre Speicherzeit
 - Metadaten halten die archivierten Daten verständlich.
@@ -329,7 +335,7 @@ Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
 - Einmal archivierte Daten werden nicht mehr verändert!
 - Sollten Veränderungen vorgenommen werden, dann sollte eine neue Version der Daten gespeichert werden, die deutlich als solche gekennzeichnet ist.
 
-## Sichern und Speichern IV – CC-Lizenzen
+### CC-Lizenzen
 
 - CC-Lizenzen decken die meisten Nutzungsszenarien ab und liegen in zahlreichen Sprachen vor.
 - CC-Lizenzen sind modular aufgebaut und bestehen aus folgenden Bestandteilen: 
@@ -343,7 +349,7 @@ Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
 - CC-Lizenzen sind nur mit Link zur Lizenz-Ressource gültig.
 - Einmal vergebene Lizenzen können nicht zurückgezogen oder verschärft werden!
 
-## Quiz
+#### Das CC-Lizenzen Quiz
 
 Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie sich selbst und erkennen Sie auch unzulässige Lizenz-Kombinationen?
 
@@ -405,7 +411,7 @@ Was macht einen guten DMP aus?
 - Alle Projektbeteiligte sollten den DMP kennen und Zugriff darauf haben.
 - Idealerweise wird der DMP zu Projektende mit veröffentlicht.
 
-## Der Datenmanagementplan – Das RDMO-Tools
+### Das RDMO-Tool
 
 RDMO, steht für Research Data Management Organiser und ist ein freies Open Source Tool für die Erstellung von Datenmanagementplänen
 

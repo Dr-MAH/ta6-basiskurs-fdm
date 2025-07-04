@@ -46,7 +46,7 @@ Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
 ## Forschungsdatenmanagement
 
-Forschungsdatenamangement umfasst alle Aktivitäten im Zusammenhang mit ...
+Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
 
 - der Aufbereitung,
 - Speicherung,
@@ -61,53 +61,65 @@ FDM begleitet den gesamten Forschungsprozess.
 
 - Der Umgang mit Forschungsdaten ist Teil guter wissenschaftlicher Arbeit
 
-> Kodex „Leitlinien zur Sicherung guter wissenschaftlicher Praxis“ der DFG
+> Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp) der DFG
 
-- Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten 
-  – häufig gefordert oder gewünscht ist hier ein Datenmanagementplan (DMP).
+- Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten
 
-## Der Datenlebenszyklus
+  * häufig gefordert oder gewünscht ist hier ein Datenmanagementplan (DMP).
+
+## Der Datenlebenszyklus (DLZ)
 
 <img src="../resources/FD_LZ.jpg" width=50% height=auto>
+<p>
+<sub> Graphische Darstellung eines DLZ, Creator: CRDA, CC0 </sub>
+</p>
 
 ## Der Datenlebenszyklus
 
 - Der Datenlebenszyklus beschreibt den "Lebenskreislauf" von Forschungsdaten
 - Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen
-- Stationen 
+- Stationen:
+
   1. Forschungsvorhaben planen 
-     - Hier sollte ein erster Datenmanagementplan entstehen
+  * Ein erster Datenmanagementplan wird erstellt
   2. Daten erheben
+  * Unbereinigten Daten, die während der Forschungsarbeit entstehen
   3. Daten aufbereiten und analysieren
+  * Bereinigte Daten
+  * Analysen und Datenaufbereitungen
   4. Daten teilen und publizieren
+  * Datenpublikation während oder nach dem Forschungsvorhaben
   5. Daten archivieren
+  * Archivierung ausgewählter Daten
   6. Daten nachnutzen
+  * Eigene oder fremde Nachnutzung der veröffentlichten Datens
 
 ## Die FAIR Principles I
 
 Wofür stehen die Buchstaben in FAIR?
-F wie ...
+
+<b>F wie ...</b>
 
 - [[x]] findable
 - [[ ]] free
-- [[ ]] f
-- [[ ]] f
+- [[ ]] fantastic
+- [[ ]] freely usable
 
-A wie ...
+<b>A wie ...</b>
 
 - [[ ]] archivable
 - [[ ]] addressable
 - [[x]] accessable
-- [[ ]] a
+- [[ ]] alternative
 
-I wie ...
+<b>I wie ...</b>
 
 - [[ ]] integrate
-- [[ ]] interoparable
-- [[ ]] i
+- [[x]] interoparable
+- [[ ]] interesting
 - [[ ]] intellectual
 
-R wie ...
+<b>R wie ...</b>
 
 - [[ ]] reproduce
 - [[ ]] repurpuse
@@ -121,7 +133,8 @@ R wie ...
 - Betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows
 - Helfen dabei die FD für eine möglichst optimale Nachnutzung aufzubereiten
 - Es gibt verschiedene Leitfäden die bei der Anwendung der Prinzipien Helfen 
-  - NFDI4Culture FAIR-Check
+  
+  * NFDI4Culture FAIR-Check
 
 ## CARE Principles
 
@@ -132,9 +145,10 @@ Die Prinzipien sind für jene Forschenden relevant und sollten von ihnen in jede
 CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Übersetzt also: Kollektiver Nutzen, Kontrollbefugnisse, Verantwortung und Ethik
 
 - Kooperationen mit Ursprungscommunities u.a. 
-  - gemeinsame Bearbeitung von Objekten
-  - gleichberechtigten Zugang zu den Daten ermöglichen
-  - indigene Ethik einbeziehen
+
+  * gemeinsame Bearbeitung von Objekten
+  * gleichberechtigten Zugang zu den Daten ermöglichen
+  * indigene Ethik einbeziehen
 - eigenes Handeln und Darstellung von Objekten/Forschungsgegenständen regelmäßig hinterfragen
 - wenn nötig, öffentlichen Zugang zu Daten einschränken
 - kulturelle Metadaten, z. B. Bezeichnungen aus Herkunftskontexten; Provenienzangaben in den Metadaten; Auswahl der Metadaten transparent machen
@@ -159,8 +173,9 @@ Eine übliche Aufteilung ist:
 
 - Alle Arten von Forschungsdaten sollten stets mit Metadaten versehen werden
 - Metadaten halten Daten verständlich und machen sie leichter auffindbar, da sie 
-  - weiterführende, maschinenlesbare Informationen zu den Daten bereitstellen
-  - und Datensätze untereinander in Beziehung setzen.
+  
+  * weiterführende, maschinenlesbare Informationen zu den Daten bereitstellen
+  * und Datensätze untereinander in Beziehung setzen.
 - Metadaten sollten gesondert als Metadatenpublikation veröffentlicht werden, um auch unabhängig von dem betreffenden Datum abrufbar zu sein.
 
 Dies sind einige fachübergreifende Standards:
@@ -173,16 +188,19 @@ Dies sind einige fachübergreifende Standards:
 Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechen
 
 - hier gibt es mehr fachspezifische denn medienspezifische Standards. Warum? 
-  - Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen
+  
+  * Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen
 
 ## Normdaten I
 
-Was sind Normdaten?
+<b>Was sind Normdaten?</b>
 
 - Eine Normdatei oder kontrolliertes Vokabular ist ein Verzeichnis strukturierter Datensätze.
 - Jedem Normdatum wird eine feste Nummer als Identifikator zugeordnet.
 
-Wozu brauche ich Normdaten?
+---
+
+<b>Wozu brauche ich Normdaten?</b>
 
 - zum vereinfachen die Darstellung komplexer Zusammenhänge
 - zur Vermeidung von Mehrdeutigkeiten und falschen Zuordnungen vor allem für Maschinen, die anders als Menschen nicht aus dem Kontext schließen können
@@ -191,6 +209,9 @@ Wozu brauche ich Normdaten?
 Ein kontrolliertes Vokabular ist eine Sammlung von Normdaten, es verknüpft auch Synonyme, die zum selben Suchergebnis führen und Übersetzungen in andere Sprachen.
 
 > Video-Tipp: NFDI4Culture Video-Tutorial zu Normdaten! https://av.tib.eu/media/60986
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
+  <iframe src="https://av.tib.eu/player/60986" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
 
 ## Normdaten II
 

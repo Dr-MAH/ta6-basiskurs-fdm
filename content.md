@@ -6,6 +6,10 @@ Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research
 
 Gefördert durch die DFG; Fördernummer: 441958017
 
+---
+
+Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, die die Nachnutzung ermöglicht: <!--- Hier Lizenz einfügen --->
+
 ## Welche Inhalte bietet dieser Kurs?
 
  1. Der Forschungsdatenbegriff

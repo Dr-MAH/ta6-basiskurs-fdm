@@ -8,3 +8,5 @@ Mitarbeitende an diesem Projekt: [Martin Albrecht-Hohmaier](https://orcid.org/00
 
 <!--- Hier Link einfügen, wenn Repo öfftl. --->
 Hier finden sie den [Link zur OER:](), der ihre Inhalte direkt im LiaScript-Format präsentiert.
+
+Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, die die Nachnutzung ermöglicht: <!--- Hier Lizenz einfügen --->

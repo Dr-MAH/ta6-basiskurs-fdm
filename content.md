@@ -1,6 +1,6 @@
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
 
-Ein Kurs der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html)
+Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html)
 
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
@@ -42,9 +42,13 @@ Die DFG beschreibt es so:
 
 Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
-> "Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
+> Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
 
 ## Forschungsdatenmanagement
+
+<!---
+Hier muss noch mehr hin. Etwas wenig Inhalt bisher.
+--->
 
 Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
 
@@ -67,16 +71,20 @@ FDM begleitet den gesamten Forschungsprozess.
 
   * häufig gefordert oder gewünscht ist hier ein Datenmanagementplan (DMP).
 
-### Der Datenlebenszyklus (DLZ)
+### Der Datenlebenszyklus I
 
 <img src="../resources/FD_LZ.jpg" width=50% height=auto>
 <p>
 <sub> Graphische Darstellung eines DLZ, Creator: CRDA, CC0 </sub>
 </p>
 
-### Der Datenlebenszyklus
+### Der Datenlebenszyklus II
 
-- Der Datenlebenszyklus beschreibt den "Lebenskreislauf" von Forschungsdaten
+<!---
+Bei den Stationen kann gerne weiter ergänzt werden!
+--->
+
+- Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten
 - Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen
 - Stationen:
 
@@ -363,6 +371,7 @@ Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie si
 ---
 
 **Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC?**
+
 - [[ ]] CC-BY-SA
 - [[ ]] CC-BY-NC 
 - [[ ]] CC-BY-NC-SA
@@ -371,12 +380,13 @@ Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie si
 ---
 
 Hinweis: Die Lösung ist unzulässig, da
-
+<!--- Ja, warum eigentlich? --->
 ---
 
 ---
 
 **Was erhählt man bei der Kombination von CC-BY und CC-BY-ND?**
+
 - [[ ]] CC-BY
 - [[ ]] CC BY-NA
 - [[ ]] unzulässig
@@ -385,7 +395,7 @@ Hinweis: Die Lösung ist unzulässig, da
 ---
 
 Hinweis: Die Lösung ist unzulässig, da
-
+<!--- Ja, warum eigentlich? --->
 ---
 
 ## Der Datenmanagementplan (DMP)

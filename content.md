@@ -409,10 +409,10 @@ Hinweis: Die Lösung ist unzulässig, da
 Hilfe und Unterstützung:
 
 - Die meisten Fördergeber bieten Checklisten zur Orientierung an.
-- zur Orientierung DMPs anderer Projekte ansehen 
+- Zur Orientierung hilft es auch, sich DMPs anderer Projekte anzusehen.
   
-  * z. B. auf Zenodo
-- NFDI4Culture Helpdesk
+  * z. B. auf Zenodo finden sich zahlreiche Beispiele
+- Auch der NFDI4Culture Helpdesk hilft weiter.
 
 Was macht einen guten DMP aus?
 
@@ -420,6 +420,8 @@ Was macht einen guten DMP aus?
 - „So kurz wie möglich, so lang wie nötig.“
 - Alle Projektbeteiligte sollten den DMP kennen und Zugriff darauf haben.
 - Idealerweise wird der DMP zu Projektende mit veröffentlicht.
+
+> Wichtig: DMPs wachsen mit dem Projekt! Der DMP aus dem Projektantrag darf verändert werden, wenn sich Situationen während der Projektlaufzeit ändern oder auffällt, dass ursprünglich Geplantes so nicht umgesetzt werden kann.
 
 ### Das RDMO-Tool
 

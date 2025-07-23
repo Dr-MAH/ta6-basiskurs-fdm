@@ -1,6 +1,6 @@
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
 
-Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html)
+Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/id/E1826)
 
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
@@ -25,11 +25,11 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
 
 ### Abkürzungen in diesem Kurs
 
+- DLZ = Datenlebenszyklus
 - DMP = Datenmanagementplan
-- FDM = Forschungsdatenamangement
 - FD = Forschungsdaten
+- FDM = Forschungsdatenamangement
 - LZA = Langzeitarchivierung
-- DLZ = Forschungsdatenlebenszyklus
 
 ## Der Forschungsdatenbegriff
 
@@ -47,6 +47,34 @@ Die DFG beschreibt es so:
 Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
 > Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
+
+## Datenformate
+Daten sollten möglichst nie in proprietären Datenformaten vorliegen. <br>
+
+
+<!---
+Evtl. Quiz zu Datenformaten
+--->
+
+#### <font color=PURPLE> Exkurs: Forschungsdaten in der Kunstgeschichte</font>
+Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. <br>
+Sie umfassen unter anderem:
+
+- Bilder: Fotografien, Scans
+
+  - jpeg, png, tiff, gif
+- Audiovisuelle Daten: Videos
+
+  - ?
+- Textdaten: Texte, Notizen
+
+  - txt, ?
+Bild- oder Video-Annotationen
+  
+  - TEI
+- Tabellen
+
+  - csv
 
 ## Forschungsdatenmanagement
 
@@ -67,7 +95,7 @@ FDM begleitet den gesamten Forschungsprozess.
 
 ### Forschungsdatenmanagement – Aber wieso?
 
-- Der Umgang mit Forschungsdaten ist Teil guter wissenschaftlicher Arbeit
+- Der Umgang mit Forschungsdaten ist Teil guter wissenschaftlicher Arbeit.
 
 > Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp) der DFG
 
@@ -319,7 +347,7 @@ Kulturwissenschaftliche Repositorien – eine Auswahl
 - TextGrid Repository – Langzeitarchiv für geisteswissenschaftliche Forschungsdaten
 - RADAR4Culture
 
-### EXKURS: Persistent Identifier (PI)
+### Persistent Identifier (PI)
 
 - Persistent Identifiers sind Codes, die eine digitale Ressource eindeutig benennen.
 - Sie dienen der besseren und nachhaltigeren Auffindbarkeit und helfen  „tote“ Links zu vermeiden

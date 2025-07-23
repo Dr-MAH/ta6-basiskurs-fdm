@@ -1,4 +1,8 @@
-- logo: "../resources/NFDI4C_Logo_DyptichText.png"
+<!---
+logo: ../resources/NFDI4C_Logo_DyptichText.png
+--->
+
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://gitlab.rlp.net/adwmainz/nfdi4culture/guidelines-reports/ta6-basiskurs-fdm/-/tree/Design-Anpassungen?ref_type=heads) 
 
 Dieses Projekt ist die Übersetzung der Foliensätze, die von der [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html), einer Arbeitsgruppe von [NFDI4Culture](https://nfdi4culture.de/), für ihre Reihe "Basiskurse FDM" erstellt wurden.
 

@@ -1,3 +1,7 @@
+<!--
+icon: ../resources/NFDI4C_Logo_DyptichText.png
+-->
+
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
 
 Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html)

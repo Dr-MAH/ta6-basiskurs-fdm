@@ -3,12 +3,21 @@ Style-Sheet for OERs written in LiaScript by the NFDI4Culture Consortium.
 Following the design of the 4Culture Guidelines.
 */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: #111111 !important;
 }
 
 .lia-paragraph {
     color: #111111 !important;
+}
+
+/*
+Lists bullet points
+*/
+.lia-list--unordered>li::before {
+    color: #64bea0;
 }
 
 /*
@@ -21,7 +30,24 @@ Actice TOC element
 /*
 Button Design
 */
-.lia-btn {}
+button {
+    /* Color of the button-text */
+    color: #64bea0 !important;
+}
+
+/*
+Button Design
+*/
+.lia-btn {
+    border-color: #64bea0 !important;
+}
+
+/*
+Icon Button Design
+*/
+.lia-btn__icon {
+    color: #111111 !important;
+}
 
 /*
 Pagination
@@ -37,9 +63,11 @@ Current page number in footer
     color: #64bea0 !important;
 }
 
-button {
-    /* Color of the button-text */
-    color: #64bea0 !important;
+/*
+Progress bar, between header and slide
+*/
+.lia-progress {
+    background-color: #64bea0 !important;
 }
 
 /*
@@ -76,6 +104,29 @@ Table of Content, Searchbar-input
 Quizzes
 */
 .lia-quiz {}
+
+/*
+Quiz "Check answer" button
+*/
+.lia-quiz__check {
+    color: #111111 !important;
+    border-color: #111111 !important;
+}
+
+/*
+Quiz-Checkbox Design
+*/
+.lia-checkbox {
+    border-color: #64bea0 !important;
+    background-color: #82d8bc !important;
+}
+
+/*
+Quiz-Checkbox Design
+*/
+.lia-checkbox:after {
+    background-color: #82d8bc !important;
+}
 
 /*
 Quotes

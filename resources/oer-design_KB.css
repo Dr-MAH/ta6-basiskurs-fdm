@@ -3,8 +3,37 @@ Style-Sheet for OERs written in LiaScript by the NFDI4Culture Consortium.
 Alternate Design to oer-design_GL.css, written by KB.
 */
 
+h1, h2, h3 {
+    color: #111111 !important;
+}
+
+.lia-paragraph {
+    color: #111111 !important;
+}
+
 /*
-Actice TOC element
+Lists (unordered) bullet points
+*/
+.lia-list--unordered>li::before {
+    color: #64bea0;
+}
+
+/*
+Lists (ordered) bullet points
+*/
+.lia-list--ordered>li::marker {
+    color: #64bea0;
+}
+
+/*
+Progress bar, between header and slide
+*/
+.lia-progress{
+    background-color: #64bea0 !important;
+}
+
+/*
+Active TOC element
 */
 .lia-active {
     color: #64bea0 !important;
@@ -13,7 +42,17 @@ Actice TOC element
 /*
 Button Design
 */
-.lia-btn {}
+button {
+    /* Color of the button-text */
+    color: #64bea0 !important;
+}
+
+/*
+Icon Button Design
+*/
+.lia-btn__icon {
+    color: #111111 !important;
+}
 
 /*
 Pagination
@@ -29,11 +68,6 @@ Current page number in footer
     color: #64bea0 !important;
 }
 
-button {
-    /* Color of the button-text */
-    color: #64bea0 !important;
-}
-
 /*
 Links
 */
@@ -44,22 +78,24 @@ Links
 /*
 Slides
 */
-.lia-slide {}
+.lia-slide {
+    background-color: #fcfcfc !important;
+}
 
 /*
 Table of Content
 */
 .lia-toc {
-    background-color: #111111 !important;
-    color: white !important;
-    border-color: purple !important;
+    background-color: #fcfcfc !important;
 }
 
 /*
 Table of Content, Searchbar
 */
 .lia-toc__search {
-    background-color: #82d8bc;
+    background-color: #fcfcfc;
+    border-color: #64bea0 !important;
+    border-width: 2px !important;
     border-radius: 12px;
 }
 
@@ -67,6 +103,21 @@ Table of Content, Searchbar
 Quizzes
 */
 .lia-quiz {}
+
+/*
+Quiz-Checkbox Design
+*/
+.lia-checkbox {
+    border-color: #64bea0 !important;
+    background-color: #82d8bc !important;
+}
+
+/*
+Quiz-Checkbox Design
+*/
+.lia-checkbox:after {
+    background-color: #82d8bc !important;
+}
 
 /*
 Quotes

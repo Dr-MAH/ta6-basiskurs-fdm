@@ -1,6 +1,6 @@
 Dieses Projekt ist die Übersetzung der Foliensätze, die von der [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html), einer Arbeitsgruppe von [NFDI4Culture](https://nfdi4culture.de/), für ihre Reihe "Basiskurse FDM" erstellt wurden.
 
-Allgemeine Inhalte zum Forschungsdatenmanangement werden hier ergänzt um fachspezifische Sonderinhalte.
+Allgemeine Inhalte zum Forschungsdatenmanangement werden in Exkursen ergänzt um fachspezifische Sonderinhalte.
 
 Die OER wurde unter Zuhilfenahme von [LiaScript](https://liascript.github.io/) geschrieben.
 
@@ -9,4 +9,4 @@ Mitarbeitende an diesem Projekt: [Martin Albrecht-Hohmaier](https://orcid.org/00
 <!--- Hier Link einfügen, wenn Repo öfftl. --->
 Hier finden sie den Link zur OER: <!--- Hier Link einfügen--->, der ihre Inhalte direkt im LiaScript-Format präsentiert.
 
-Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, die die Nachnutzung ermöglicht: <!--- Hier Lizenz einfügen --->
+Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, welche die Nachnutzung ermöglicht: <!--- Hier Lizenz einfügen --->

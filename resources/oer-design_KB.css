@@ -1,0 +1,76 @@
+/*
+Style-Sheet for OERs written in LiaScript by the NFDI4Culture Consortium.
+Alternate Design to oer-design_GL.css, written by KB.
+*/
+
+/*
+Actice TOC element
+*/
+.lia-active {
+    color: #64bea0 !important;
+}
+
+/*
+Button Design
+*/
+.lia-btn {}
+
+/*
+Pagination
+*/
+.lia-pagination__content {
+    background-color: white !important;
+}
+
+/*
+Current page number in footer
+*/
+.lia-pagination__current {
+    color: #64bea0 !important;
+}
+
+button {
+    /* Color of the button-text */
+    color: #64bea0 !important;
+}
+
+/*
+Links
+*/
+.lia-link {
+    color: #64bea0 !important;
+}
+
+/*
+Slides
+*/
+.lia-slide {}
+
+/*
+Table of Content
+*/
+.lia-toc {
+    background-color: #111111 !important;
+    color: white !important;
+    border-color: purple !important;
+}
+
+/*
+Table of Content, Searchbar
+*/
+.lia-toc__search {
+    background-color: #82d8bc;
+    border-radius: 12px;
+}
+
+/*
+Quizzes
+*/
+.lia-quiz {}
+
+/*
+Quotes
+*/
+.lia-quote {
+    background-color: #82d8bb56;
+}

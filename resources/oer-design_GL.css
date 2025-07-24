@@ -1,0 +1,85 @@
+/*
+Style-Sheet for OERs written in LiaScript by the NFDI4Culture Consortium.
+Following the design of the 4Culture Guidelines.
+*/
+
+h1, h2, h3 {
+    color: #111111 !important;
+}
+
+.lia-paragraph {
+    color: #111111 !important;
+}
+
+/*
+Actice TOC element
+*/
+.lia-active {
+    color: white !important;
+}
+
+/*
+Button Design
+*/
+.lia-btn {}
+
+/*
+Pagination
+*/
+.lia-pagination__content {
+    background-color: white !important;
+}
+
+/*
+Current page number in footer
+*/
+.lia-pagination__current {
+    color: #64bea0 !important;
+}
+
+button {
+    /* Color of the button-text */
+    color: #64bea0 !important;
+}
+
+/*
+Links
+*/
+.lia-link {
+    color: #64bea0 !important;
+}
+
+/*
+Slides
+*/
+.lia-slide {}
+
+/*
+Table of Content
+*/
+.lia-toc {
+    background-color: #111111 !important;
+    color: white !important;
+}
+
+/*
+Table of Content, Searchbar
+*/
+.lia-toc__search {}
+
+/*
+Table of Content, Searchbar-input
+*/
+.lia-input {}
+
+/*
+Quizzes
+*/
+.lia-quiz {}
+
+/*
+Quotes
+*/
+.lia-quote {
+    background-color: #82d8bb56;
+}

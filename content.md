@@ -1,6 +1,6 @@
 <!--
-link : ./resources/oer-design.css
-icon : ./resources/NFDI4C_Logo_DyptichText.png
+link : ./resources/oer-design_GL.css
+icon : ./resources/icon_4Culture.png
 -->
 
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften

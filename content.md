@@ -188,6 +188,9 @@ Eine übliche Aufteilung ist:
 - technische Metadaten beschreiben die technischen Eigenschaften einer digitalen Datei Ergänzt werden kann diese Liste durch
 - Archivmetadaten, die noch einmal spezieller zusammengestellte Informationen enthalten, die für die Archivierung relevant sind
 
+<img src= "../resources/Metadaten.png" width=50% height=70%> <br>
+<sub>Andrea Polywka, Alexander Stark: Metadaten Schaubild</sub>
+
 ### Metadaten – warum?
 
 - Alle Arten von Forschungsdaten sollten stets mit Metadaten versehen werden

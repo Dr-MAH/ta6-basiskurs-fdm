@@ -56,25 +56,49 @@ Daten sollten möglichst nie in proprietären Datenformaten vorliegen. <br>
 Evtl. Quiz zu Datenformaten
 --->
 
-#### <font color=PURPLE> Exkurs: Forschungsdaten in der Kunstgeschichte</font>
+#### <font color=PURPLE> Exkurs: Forschungsdaten in der Kunstgeschichte </font>
 Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. <br>
 Sie umfassen unter anderem:
 
 - Bilder: Fotografien, Scans
-
-  - jpeg, png, tiff, gif
 - Audiovisuelle Daten: Videos
-
-  - ?
 - Textdaten: Texte, Notizen
-
-  - txt, ?
-Bild- oder Video-Annotationen
-  
-  - TEI
+- Bild- oder Video-Annotationen
 - Tabellen
 
-  - csv
+---
+
+dfweaf
+
+#### <font color=GREEN> Exkurs: Forschungsdaten in der Medienwissenschaft </font>
+
+### Exkurs: Video- und Bildannotation
+Video- und Bildannotationstools sind lokale oder webbasierte Anwendungen für die Annotationen, d.h. Markierung und Kommentierung (audio-)visueller Inhalte. <br>
+Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu. <br>
+
+---
+
+Nutzungsszenarien von Videoannotationstools:
+
+- Identifikation von Objekten, Personen oder Ereignissen
+- Zeitbezogene Analyse von Bild und Ton
+- Qualitative oder quantitative Datenanalyse
+- Visualisierung von Annotationen
+
+Annotationstools für AV-Material (Auswahl):
+
+- ELAN (Eudico Linguistik Annotator)
+- EXMARaLDA: annotation and transcription for oral corpora
+- VIAN (Visual Video Annotation and Analysis)
+- Advene (Annotate Digital Video, Exchange on the Net)
+
+---
+
+Nutzungsszenarien von Bildannotationstools:
+
+Annotationstools Bild (Auswahl):
+
+- mirador
 
 ## Forschungsdatenmanagement
 
@@ -202,6 +226,21 @@ CARE steht für Collective Benefit, Authority of Control, Responsibility und Eth
 - Nutzung von Disclaimern
 - Nutzung von Notices, dass indigene Daten verwaltet werden
 - Nutzung von Traditional Knowledge Labels (z. B. Kennzeichnung als weibliches Wissen, sakralen Kontext etc.)
+
+### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE Principles
+In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE Prinzipien eine wichtige Leitlinie beim Umgang mit ihren Forschungsdaten. <br>
+Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
+
+<!--- Hier noch ergänzen: Bisher das Material von Andrea und Alex aus dem FFK-Kurs --->
+- (Forschungs-)Daten zu Filmmaterial aus kolonialen Kontexten
+
+  - bspw. Amateurfilme, wissenschaftliche Filme, Travelogues, „Kulturfilme“
+- (Forschungs-)Daten zu Tonmaterial aus kolonialen Kontexten
+  
+  - bspw. Phonographenwalzen aus Wachs aus ethnologischen Forschungskontexten, u. a. auch aus Kriegsgefangenenlagern des Ersten Weltkriegs
+- (Forschungs-)Daten zu geraubten Kulturgütern aus kolonialen Kontexten
+
+  - bspw. 3D-Digitalisate von geraubten Objekten
 
 ## Metadaten
 

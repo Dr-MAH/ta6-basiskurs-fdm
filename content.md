@@ -17,7 +17,7 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
  3. Der Datenlebenszyklus
  4. FAIR Principles
  5. CARE Principles
- 6. Metadaten 
+ 6. Metadaten
  7. Normdaten und kontrollierte Vokabulare
  8. Sichern und Speichern
  9. Lizenzen
@@ -278,6 +278,20 @@ Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Sta
   
   * Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen
 
+#### <font color=GREEN> Exkurs: Metadatenstandards der Medienwissenschaft </font>
+In Deutschland gibt es (noch) keinen allgemein genutzten/akzeptierten Metadaten-Standard für audiovisuelle Metadaten. <br>
+Damit Metadaten FAIR sind und bleiben, sollten sie sich an bestehenden Schemata orientieren.
+
+Eine Auswahl  von in der  Archivierung gebräuchlichen Normen und Standards für die Erschliessung:
+
+- ISAD (G)
+- PREMIS
+- METS
+- Dublin Core (DC)
+- PBCore
+- EBUCore
+- MPEG-7 Multimedia Content Description Interface
+
 ## Normdaten
 
 **Was sind Normdaten?**
@@ -385,6 +399,10 @@ Kulturwissenschaftliche Repositorien – eine Auswahl
 - IANUS – Forschungsdatenzentrum Archäologie und Altertumswissenschaften
 - TextGrid Repository – Langzeitarchiv für geisteswissenschaftliche Forschungsdaten
 - RADAR4Culture
+
+Medienwissenschaft:
+
+- media/rep/
 
 ### Persistent Identifier (PI)
 

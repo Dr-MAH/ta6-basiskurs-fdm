@@ -1,10 +1,17 @@
+<!--
+link : ./resources/oer-design_GL.css
+icon : ./resources/icon_4Culture.png
+version: 0.5
+-->
+
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
 
 Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/id/E1826)
 
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
-Gefördert durch die DFG; Fördernummer: 441958017
+Gefördert durch die Deutsche Forschungsgemeinschaft (DFG).<br>
+Projektnummer: 441958017
 
 ---
 
@@ -255,6 +262,9 @@ Eine übliche Aufteilung ist:
 - strukturelle Metadaten beschreiben den Metadatensatz an sich und seine Beziehung zur digitalen Datei
 - technische Metadaten beschreiben die technischen Eigenschaften einer digitalen Datei Ergänzt werden kann diese Liste durch
 - Archivmetadaten, die noch einmal spezieller zusammengestellte Informationen enthalten, die für die Archivierung relevant sind
+
+<img src= "../resources/Metadaten.png" width=50% height=70%> <br>
+<sub>Andrea Polywka, Alexander Stark: Metadaten Schaubild</sub>
 
 ### Metadaten – warum?
 

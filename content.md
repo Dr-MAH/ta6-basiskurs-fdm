@@ -2,6 +2,9 @@
 link : ./resources/oer-design_GL.css
 icon : ./resources/icon_4Culture.png
 version: 0.5
+author: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Alexander Stark, Andrea Polywka
+narrator: Deutsch female
+comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG),Projektnummer: 441958017.
 -->
 
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften

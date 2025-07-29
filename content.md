@@ -56,7 +56,7 @@ Daten sollten möglichst nie in proprietären Datenformaten vorliegen. <br>
 Evtl. Quiz zu Datenformaten
 --->
 
-#### <font color=PURPLE> Exkurs: Forschungsdaten in der Kunstgeschichte </font>
+#### <font color=#8B0000> 🎨 Forschungsdaten in der Kunstgeschichte </font>
 Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. <br>
 Sie umfassen unter anderem:
 
@@ -70,12 +70,13 @@ Sie umfassen unter anderem:
 
 dfweaf
 
-#### <font color=GREEN> Exkurs: Forschungsdaten in der Medienwissenschaft </font>
+#### <font color=PURPLE> 🎬 Forschungsdaten in der Medienwissenschaft </font>
+
+#### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
 
 ### Exkurs: Video- und Bildannotation
-Video- und Bildannotationstools sind lokale oder webbasierte Anwendungen für die Annotationen, d.h. Markierung und Kommentierung (audio-)visueller Inhalte. <br>
+Video- und Bildannotationstools sind lokale oder webbasierte Anwendungen für die Annotationen, d. h. Markierung und Kommentierung (audio-)visueller Inhalte. <br>
 Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu. <br>
-
 ---
 
 Nutzungsszenarien von Videoannotationstools:
@@ -278,7 +279,7 @@ Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Sta
   
   * Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen
 
-#### <font color=GREEN> Exkurs: Metadatenstandards der Medienwissenschaft </font>
+#### <font color=PURPLE> 🎬 Metadatenstandards der Medienwissenschaft </font>
 In Deutschland gibt es (noch) keinen allgemein genutzten/akzeptierten Metadaten-Standard für audiovisuelle Metadaten. <br>
 Damit Metadaten FAIR sind und bleiben, sollten sie sich an bestehenden Schemata orientieren.
 

@@ -6,7 +6,7 @@ version: 0.5
 
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
 
-Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html)
+Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/id/E1826)
 
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
@@ -24,7 +24,7 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
  3. Der Datenlebenszyklus
  4. FAIR Principles
  5. CARE Principles
- 6. Metadaten 
+ 6. Metadaten
  7. Normdaten und kontrollierte Vokabulare
  8. Sichern und Speichern
  9. Lizenzen
@@ -32,11 +32,11 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
 
 ### Abkürzungen in diesem Kurs
 
+- DLZ = Datenlebenszyklus
 - DMP = Datenmanagementplan
-- FDM = Forschungsdatenamangement
 - FD = Forschungsdaten
+- FDM = Forschungsdatenamangement
 - LZA = Langzeitarchivierung
-- DLZ = Forschungsdatenlebenszyklus
 
 ## Der Forschungsdatenbegriff
 
@@ -54,6 +54,59 @@ Die DFG beschreibt es so:
 Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
 > Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
+
+## Datenformate
+Daten sollten möglichst nie in proprietären Datenformaten vorliegen. <br>
+
+
+<!---
+Evtl. Quiz zu Datenformaten
+--->
+
+#### <font color=#8B0000> 🎨 Forschungsdaten in der Kunstgeschichte </font>
+Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. <br>
+Sie umfassen unter anderem:
+
+- Bilder: Fotografien, Scans
+- Audiovisuelle Daten: Videos
+- Textdaten: Texte, Notizen
+- Bild- oder Video-Annotationen
+- Tabellen
+
+---
+
+dfweaf
+
+#### <font color=PURPLE> 🎬 Forschungsdaten in der Medienwissenschaft </font>
+
+#### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
+
+### Exkurs: Video- und Bildannotation
+Video- und Bildannotationstools sind lokale oder webbasierte Anwendungen für die Annotationen, d. h. Markierung und Kommentierung (audio-)visueller Inhalte. <br>
+Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu. <br>
+---
+
+Nutzungsszenarien von Videoannotationstools:
+
+- Identifikation von Objekten, Personen oder Ereignissen
+- Zeitbezogene Analyse von Bild und Ton
+- Qualitative oder quantitative Datenanalyse
+- Visualisierung von Annotationen
+
+Annotationstools für AV-Material (Auswahl):
+
+- ELAN (Eudico Linguistik Annotator)
+- EXMARaLDA: annotation and transcription for oral corpora
+- VIAN (Visual Video Annotation and Analysis)
+- Advene (Annotate Digital Video, Exchange on the Net)
+
+---
+
+Nutzungsszenarien von Bildannotationstools:
+
+Annotationstools Bild (Auswahl):
+
+- mirador
 
 ## Forschungsdatenmanagement
 
@@ -74,7 +127,7 @@ FDM begleitet den gesamten Forschungsprozess.
 
 ### Forschungsdatenmanagement – Aber wieso?
 
-- Der Umgang mit Forschungsdaten ist Teil guter wissenschaftlicher Arbeit
+- Der Umgang mit Forschungsdaten ist Teil guter wissenschaftlicher Arbeit.
 
 > Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp) der DFG
 
@@ -182,6 +235,21 @@ CARE steht für Collective Benefit, Authority of Control, Responsibility und Eth
 - Nutzung von Notices, dass indigene Daten verwaltet werden
 - Nutzung von Traditional Knowledge Labels (z. B. Kennzeichnung als weibliches Wissen, sakralen Kontext etc.)
 
+### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE Principles
+In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE Prinzipien eine wichtige Leitlinie beim Umgang mit ihren Forschungsdaten. <br>
+Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
+
+<!--- Hier noch ergänzen: Bisher das Material von Andrea und Alex aus dem FFK-Kurs --->
+- (Forschungs-)Daten zu Filmmaterial aus kolonialen Kontexten
+
+  - bspw. Amateurfilme, wissenschaftliche Filme, Travelogues, „Kulturfilme“
+- (Forschungs-)Daten zu Tonmaterial aus kolonialen Kontexten
+  
+  - bspw. Phonographenwalzen aus Wachs aus ethnologischen Forschungskontexten, u. a. auch aus Kriegsgefangenenlagern des Ersten Weltkriegs
+- (Forschungs-)Daten zu geraubten Kulturgütern aus kolonialen Kontexten
+
+  - bspw. 3D-Digitalisate von geraubten Objekten
+
 ## Metadaten
 
 > Merksatz: "Metadaten sind Daten, die andere Daten beschreiben"
@@ -220,6 +288,20 @@ Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Sta
 - hier gibt es mehr fachspezifische denn medienspezifische Standards. Warum? 
   
   * Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen
+
+#### <font color=PURPLE> 🎬 Metadatenstandards der Medienwissenschaft </font>
+In Deutschland gibt es (noch) keinen allgemein genutzten/akzeptierten Metadaten-Standard für audiovisuelle Metadaten. <br>
+Damit Metadaten FAIR sind und bleiben, sollten sie sich an bestehenden Schemata orientieren.
+
+Eine Auswahl  von in der  Archivierung gebräuchlichen Normen und Standards für die Erschliessung:
+
+- ISAD (G)
+- PREMIS
+- METS
+- Dublin Core (DC)
+- PBCore
+- EBUCore
+- MPEG-7 Multimedia Content Description Interface
 
 ## Normdaten
 
@@ -329,7 +411,11 @@ Kulturwissenschaftliche Repositorien – eine Auswahl
 - TextGrid Repository – Langzeitarchiv für geisteswissenschaftliche Forschungsdaten
 - RADAR4Culture
 
-### EXKURS: Persistent Identifier (PI)
+Medienwissenschaft:
+
+- media/rep/
+
+### Persistent Identifier (PI)
 
 - Persistent Identifiers sind Codes, die eine digitale Ressource eindeutig benennen.
 - Sie dienen der besseren und nachhaltigeren Auffindbarkeit und helfen  „tote“ Links zu vermeiden

@@ -1,10 +1,17 @@
+<!--
+link : ./resources/oer-design_GL.css
+icon : ./resources/icon_4Culture.png
+version: 0.5
+-->
+
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
 
 Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/about-us/task-areas/task-area-6.html)
 
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
-Gefördert durch die DFG; Fördernummer: 441958017
+Gefördert durch die Deutsche Forschungsgemeinschaft (DFG).<br>
+Projektnummer: 441958017
 
 ---
 

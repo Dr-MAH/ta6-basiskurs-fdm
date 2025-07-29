@@ -1,0 +1,160 @@
+/*
+Style-Sheet for OERs written in LiaScript by the NFDI4Culture Consortium.
+Following the design of the 4Culture Guidelines.
+*/
+
+h1,
+h2,
+h3 {
+    color: #111111 !important;
+}
+
+.lia-paragraph {
+    color: #111111 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: lighter !important;
+}
+
+/*
+Lists bullet points
+*/
+.lia-list--unordered>li::before {
+    color: #64bea0;
+}
+
+/*
+Button Design
+*/
+button {
+    /* Color of the button-text */
+    color: #64bea0 !important;
+}
+
+/*
+Button Design
+*/
+.lia-btn {
+    border-color: #64bea0 !important;
+}
+
+/*
+Icon Button Design
+*/
+/*.lia-btn__icon {
+    color: #111111 !important;
+}*/
+
+/*
+Pagination
+*/
+.lia-pagination__content {
+    background-color: white !important;
+}
+
+/*
+Current page number in footer
+*/
+.lia-pagination__current {
+    color: #111111 !important;
+}
+
+/*
+Progress bar, between header and slide
+*/
+.lia-progress {
+    background-color: #64bea0 !important;
+}
+
+/*
+Links
+*/
+.lia-link {
+    color: #64bea0 !important;
+}
+
+/*
+Slides
+*/
+.lia-slide {
+    background-color: #fcfcfc !important;
+}
+
+/*
+Links in der TOC
+*/
+.lia-toc__link {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: lighter !important;
+    color: #fcfcfc !important;
+}
+
+/*
+Links in der TOC auf lvl 1
+*/
+.lia-toc__link--is-lvl-1 {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 20px !important;
+    font-weight: lighter !important;
+}
+
+/*
+Table of Content
+*/
+.lia-toc {
+    background-color: #111111 !important;
+    color: #fcfcfc !important;   
+}
+
+/*
+Actice TOC element
+*/
+.lia-active {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+/*
+Table of Content, Searchbar
+*/
+.lia-toc__search {}
+
+/*
+Table of Content, Searchbar-input
+*/
+.lia-input {}
+
+/*
+Quizzes
+*/
+.lia-quiz {}
+
+/*
+Quiz "Check answer" button
+*/
+.lia-quiz__check {
+    color: #111111 !important;
+    border-color: #111111 !important;
+}
+
+/*
+Quiz-Checkbox Design
+*/
+.lia-checkbox {
+    border-color: #64bea0 !important;
+    background-color: #82d8bc !important;
+}
+
+/*
+Quiz-Checkbox Design
+*/
+.lia-checkbox:after {
+    background-color: #82d8bc !important;
+}
+
+/*
+Quotes
+*/
+.lia-quote {
+    background-color: #82d8bb56;
+}

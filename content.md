@@ -1,6 +1,7 @@
 <!--
 link : ./resources/oer-design_GL.css
 icon : ./resources/icon_4Culture.png
+version: 0.5
 -->
 
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
@@ -9,7 +10,7 @@ Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research
 
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
-Gefördert durch die Deutsche Forschungsgemeinschaft (DFG). <br>
+Gefördert durch die Deutsche Forschungsgemeinschaft (DFG).<br>
 Projektnummer: 441958017
 
 ---

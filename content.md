@@ -78,7 +78,6 @@ Sie umfassen unter anderem:
 
 ---
 
-dfweaf
 
 #### <font color=PURPLE> 🎬 Forschungsdaten in der Medienwissenschaft </font>
 

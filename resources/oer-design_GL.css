@@ -5,8 +5,10 @@ Following the design of the 4Culture Guidelines.
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     color: #111111 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .lia-paragraph {

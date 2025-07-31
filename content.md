@@ -136,15 +136,18 @@ Sie umfassen unter anderem:
 #### <font color=PURPLE> 🎬 Forschungsdaten in der Medienwissenschaft </font>
 <!---
 Ich habe das irgendwie nicht hinbekommen mit dem Fußnoten -.-'
+Kein Ding, KB regelt!
 ---> 
-Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen „alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen", mitunter auch Koppelungen von "fremden und eigenen Daten, d.h. von Originalquellen und eigenen Annotationen, Zeichnungen o.ä." ^1
+Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen „alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen", mitunter auch Koppelungen von "fremden und eigenen Daten, d.h. von Originalquellen und eigenen Annotationen, Zeichnungen o.ä."<sup>1</sup>
 
-Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen)."^2
+Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen)."<sup>2</sup>
 
-^1: Goller, Marion; Heftberger, Adelheid (2018) Die Öffnung von Forschungsdaten in den Film- und Medienwissenschaften: praktische und urheberrechtliche Herausforderungen. In: Fachinformationsdienst für internationale und interdisziplinäre Rechtsforschung, 16. Mai 2018 https://doi.org/10.17176/20180515-233758, hier S. 1. <br>
+---
+<p style="text-color:LightGray">
+1: Goller, Marion; Heftberger, Adelheid (2018) Die Öffnung von Forschungsdaten in den Film- und Medienwissenschaften: praktische und urheberrechtliche Herausforderungen. In: Fachinformationsdienst für internationale und interdisziplinäre Rechtsforschung, 16. Mai 2018 https://doi.org/10.17176/20180515-233758, hier S. 1. <br>
 
-^2: Dang, Sarah-Mai: Forschungsdatenmanagement in der Filmwissenschaft. Daten, Praktiken und Erkenntnisprozesse. In: montage AV. Zeitschrift für Theorie und Geschichte audiovisueller Kommunikation, Jg. 29 (2020), Nr. 1, S. 119-140. DOI: http://dx.doi.org/10.25969/mediarep/21687, hier S. 121.
-
+2: Dang, Sarah-Mai: Forschungsdatenmanagement in der Filmwissenschaft. Daten, Praktiken und Erkenntnisprozesse. In: montage AV. Zeitschrift für Theorie und Geschichte audiovisueller Kommunikation, Jg. 29 (2020), Nr. 1, S. 119-140. DOI: http://dx.doi.org/10.25969/mediarep/21687, hier S. 121.
+</p>
 
 #### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
 

@@ -624,6 +624,7 @@ Es gibt ein RDMO-Demo-Programm auf der RDMO-Website, dass jede:r Interessierte n
 
 ---
 ## Interaktive Module
+Dieses Kapitel stellt einige Übungen und Aktivierungsmethoden vor, die in der Lehre genutzt werden können und diesen Kurs ergänzen.
 
 ### Übung zum Thema "Datenlebenszyklus"
 <!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->

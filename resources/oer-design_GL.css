@@ -47,6 +47,13 @@ Icon Button Design
 }*/
 
 /*
+Dividing line
+*/
+.lia-divider {
+    background-color: #5c6e6892 !important;
+}
+
+/*
 Pagination
 */
 .lia-pagination__content {
@@ -105,7 +112,7 @@ Table of Content
 */
 .lia-toc {
     background-color: #111111 !important;
-    color: #fcfcfc !important;   
+    color: #fcfcfc !important;
 }
 
 /*

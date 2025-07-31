@@ -66,7 +66,8 @@ Daten sollten möglichst nie in proprietären Datenformaten vorliegen. <br>
 Evtl. Quiz zu Datenformaten, [AP] Vielleicht können wir die Angaben aus der FAIR-Bibel nehmen? Habe einfach mal den Textabschnitt reinkopiert:
 --->
 
-**Empfehlungen für Dateiformate (aus Kailus, Angela: Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten, 2023)**
+**Empfehlungen für Dateiformate** <br>
+<sub>(aus [Kailus 2023](https://nfdi4culture.de/go/E3625))</sub>
 
 Verwenden Sie möglichst weit verbreitete und mit einem ISO-Standard verbundene Dateiformate. Sie sollten nicht proprietär, also nicht an eine Software oder einen Hersteller gebunden, mit unterschiedlichen Programmen verwendbar und mit einer offenen Lizenz versehen sein und über eine frei zugängliche Dokumentation einschließlich der technischen Spezifikationen verfügen. Sie erlauben eine verlustfreie Speicherung ohne Kompression und sie sind einfach dekodierbar oder unmittelbar lesbar.
 Konsultieren Sie Ihre Datenplattform, welche Dateiformate dort entgegengenommen bzw. empfohlen werden.
@@ -134,20 +135,10 @@ Sie umfassen unter anderem:
 
 
 #### <font color=PURPLE> 🎬 Forschungsdaten in der Medienwissenschaft </font>
-<!---
-Ich habe das irgendwie nicht hinbekommen mit dem Fußnoten -.-'
-Kein Ding, KB regelt!
----> 
-Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen „alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen", mitunter auch Koppelungen von "fremden und eigenen Daten, d.h. von Originalquellen und eigenen Annotationen, Zeichnungen o.ä."<sup>1</sup>
 
-Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen)."<sup>2</sup>
+Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen „alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen", mitunter auch Koppelungen von "fremden und eigenen Daten, d.h. von Originalquellen und eigenen Annotationen, Zeichnungen o.ä." ([Goller, Heftberger 2018, S.1](https://doi.org/10.17176/20180515-233758))
 
----
-<p style="text-color:LightGray">
-1: Goller, Marion; Heftberger, Adelheid (2018) Die Öffnung von Forschungsdaten in den Film- und Medienwissenschaften: praktische und urheberrechtliche Herausforderungen. In: Fachinformationsdienst für internationale und interdisziplinäre Rechtsforschung, 16. Mai 2018 https://doi.org/10.17176/20180515-233758, hier S. 1. <br>
-
-2: Dang, Sarah-Mai: Forschungsdatenmanagement in der Filmwissenschaft. Daten, Praktiken und Erkenntnisprozesse. In: montage AV. Zeitschrift für Theorie und Geschichte audiovisueller Kommunikation, Jg. 29 (2020), Nr. 1, S. 119-140. DOI: http://dx.doi.org/10.25969/mediarep/21687, hier S. 121.
-</p>
+Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen)." ([Dang 2020, S. 119-140](http://dx.doi.org/10.25969/mediarep/21687))
 
 #### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
 
@@ -622,8 +613,17 @@ Es gibt ein RDMO-Demo-Programm auf der RDMO-Website, dass jede:r Interessierte n
 - Accounts können kostenlos erstellt werden
 - Das "Demo" im Namen mag fehlleiten, es ist hat aber volle Funktionalität, nur keine individualisierten Funktionen, welche die Instanzen von Institutionen haben können
 
----
-## Interaktive Module
+## Weiterführende Literatur
+**Dang 2020**<br>
+Dang, Sarah-Mai: Forschungsdatenmanagement in der Filmwissenschaft. Daten, Praktiken und Erkenntnisprozesse. In: montage AV. Zeitschrift für Theorie und Geschichte audiovisueller Kommunikation, Jg. 29 (2020), Nr. 1, http://dx.doi.org/10.25969/mediarep/21687
+
+**Goller, Heftberger 2018**<br>
+Goller, Marion / Heftberger, Adelheid (2018) Die Öffnung von Forschungsdaten in den Film- und Medienwissenschaften: praktische und urheberrechtliche Herausforderungen. In: Fachinformationsdienst für internationale und interdisziplinäre Rechtsforschung, 2018, https://doi.org/10.17176/20180515-233758
+
+**Kailus 2023**<br>
+Kailus, Angela: Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten, 2023, https://nfdi4culture.de/go/E3625
+
+## Zusatzmaterial: Interaktive Module
 Dieses Kapitel stellt einige Übungen und Aktivierungsmethoden vor, die in der Lehre genutzt werden können und die vorliegende OER ergänzen.
 
 ### Übung zum Thema "Datenlebenszyklus"

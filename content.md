@@ -63,8 +63,62 @@ Daten sollten möglichst nie in proprietären Datenformaten vorliegen. <br>
 
 
 <!---
-Evtl. Quiz zu Datenformaten
+Evtl. Quiz zu Datenformaten, [AP] Vielleicht können wir die Angaben aus der FAIR-Bibel nehmen? Habe einfach mal den Textabschnitt reinkopiert:
 --->
+
+**Empfehlungen für Dateiformate (aus Kailus, Angela: Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten, 2023)**
+
+Verwenden Sie möglichst weit verbreitete und mit einem ISO-Standard verbundene Dateiformate. Sie sollten nicht proprietär, also nicht an eine Software oder einen Hersteller gebunden, mit unterschiedlichen Programmen verwendbar und mit einer offenen Lizenz versehen sein und über eine frei zugängliche Dokumentation einschließlich der technischen Spezifikationen verfügen. Sie erlauben eine verlustfreie Speicherung ohne Kompression und sie sind einfach dekodierbar oder unmittelbar lesbar.
+Konsultieren Sie Ihre Datenplattform, welche Dateiformate dort entgegengenommen bzw. empfohlen werden.
+
+Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die Verwendung folgender Standard-Dateiformate:<br>
+
+Text
+
+    Extensible Markup Language (XML) 1.1, mit XML Schema Definition (XSD)
+    Resource Description Framework in Attributes (RFDa) für das Einbetten von RDF-Statements in XML
+    JavaScript Object Notation (JSON)
+    JavaScript Object Notation for Linked Data (JSON LD)
+    Comma-Separated Values (CSV)
+    Textdatei (TXT) (Codierung UTF-8)
+    Präsentationsformat: Portable Document Format A (PDF-A)
+
+Musik
+
+    Music Encoding Initiative (MEI)
+    MusicXML
+    Parsons Code
+    Präsentationsformat: Portable Document Format A (PDF-A)
+
+Bild (Rastergrafiken)
+
+    Rohdaten: Digital Negative (DNG)
+    Master: baseline Tagged Image File Format (TIFF), unkomprimiert; TIFF mit Lempel-Ziv-Welch-Komprimierung (TIFF-LZW)
+    Joint Photographic Experts Group (JPEG 1 und JPEG 2000), verlustfrei komprimiert, lizenzfreie Bereiche
+    Präsentationsformate (Derivate): JPEG, JPEG 2000, Portable Network Graphics (PNG)
+
+Bild (Vektorgrafiken) und CAD
+
+    Scalable Vector Graphics (SVG)
+
+Audio
+
+    Archivformat: Waveform Audio File-Format (WAV) in Verbindung mit Pulse Code Modulation (PCM); Free Lossless Audio Codec (FLAC)
+    Präsentationsformat: MPEG-2 Audiolayer III (MP3)
+
+Video/Film
+
+    Archivformate:
+        Moving Picture Experts Group Motion JPEG 2000 (MJPEG2000)
+        Moving Picture Experts Group, Standard MPEG-4
+        Digital Picture Exchange (DPX), SMPTE 268M-2003, v 2.0
+        Material Exchange Format (MXF), SMPTE 377M
+        Codec FFV1 / Container MKV
+        TIFF mit FFV1 in Matroshka codiert
+    Präsentationsformat: MP4 (MPEG-4, part 14)
+    weitere Empfehlungen der nestor AG Media
+
+etc.
 
 #### <font color=#8B0000> 🎨 Forschungsdaten in der Kunstgeschichte </font>
 Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. <br>
@@ -78,15 +132,27 @@ Sie umfassen unter anderem:
 
 ---
 
-dfweaf
 
 #### <font color=PURPLE> 🎬 Forschungsdaten in der Medienwissenschaft </font>
+<!---
+Ich habe das irgendwie nicht hinbekommen mit dem Fußnoten -.-'
+---> 
+Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen „alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen", mitunter auch Koppelungen von "fremden und eigenen Daten, d.h. von Originalquellen und eigenen Annotationen, Zeichnungen o.ä." ^1
+
+Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen)."^2
+
+^1: Goller, Marion; Heftberger, Adelheid (2018) Die Öffnung von Forschungsdaten in den Film- und Medienwissenschaften: praktische und urheberrechtliche Herausforderungen. In: Fachinformationsdienst für internationale und interdisziplinäre Rechtsforschung, 16. Mai 2018 https://doi.org/10.17176/20180515-233758, hier S. 1. <br>
+
+^2: Dang, Sarah-Mai: Forschungsdatenmanagement in der Filmwissenschaft. Daten, Praktiken und Erkenntnisprozesse. In: montage AV. Zeitschrift für Theorie und Geschichte audiovisueller Kommunikation, Jg. 29 (2020), Nr. 1, S. 119-140. DOI: http://dx.doi.org/10.25969/mediarep/21687, hier S. 121.
+
 
 #### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
 
 ### Exkurs: Video- und Bildannotation
+
 Video- und Bildannotationstools sind lokale oder webbasierte Anwendungen für die Annotationen, d. h. Markierung und Kommentierung (audio-)visueller Inhalte. <br>
 Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu. <br>
+
 ---
 
 Nutzungsszenarien von Videoannotationstools:
@@ -114,9 +180,8 @@ Annotationstools Bild (Auswahl):
 ## Forschungsdatenmanagement
 
 <!---
-Hier muss noch mehr hin. Etwas wenig Inhalt bisher.
---->
-
+Hier muss noch mehr hin. Etwas wenig Inhalt bisher. [AP] Ich füge mal ein paar Stichpunkte aus unserem Skript vom letzten FFK-Kurs bei
+---> 
 Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
 
 - der Aufbereitung,
@@ -126,7 +191,15 @@ Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ..
 
 ... von Forschungsdaten.
 
-FDM begleitet den gesamten Forschungsprozess.
+FDM begleitet den gesamten Forschungsprozess und professionell standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten.
+
+Das Risiko eines Datenverlusts wird durch FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) gering gehalten. Daten können so noch nach Jahrzehnten genutzt werden.
+
+Gerade die vielseitigen technischen Möglichkeiten erfordern allerdings eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht
+
+Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren, wie Alex soeben genauer erläutert hat.
+
+
 
 ### Forschungsdatenmanagement – Aber wieso?
 
@@ -148,7 +221,7 @@ FDM begleitet den gesamten Forschungsprozess.
 ### Der Datenlebenszyklus II
 
 <!---
-Bei den Stationen kann gerne weiter ergänzt werden!
+Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiele ergänzt
 --->
 
 - Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten
@@ -161,13 +234,13 @@ Bei den Stationen kann gerne weiter ergänzt werden!
   * Unbereinigten Daten, die während der Forschungsarbeit entstehen
   3. Daten aufbereiten und analysieren
   * Bereinigte Daten
-  * Analysen und Datenaufbereitungen
+  * Analysen und Datenaufbereitungen (z.B. Digitalisierungs-, Transkriptions-, und Annotationsprozesse; Datenanalyse: Metadaten))
   4. Daten teilen und publizieren
-  * Datenpublikation während oder nach dem Forschungsvorhaben
+  * Datenpublikation während oder nach dem Forschungsvorhaben (z.B. über Open Access-Plattformen)
   5. Daten archivieren
   * Archivierung ausgewählter Daten
   6. Daten nachnutzen
-  * Eigene oder fremde Nachnutzung der veröffentlichten Datens
+  * Eigene oder fremde Nachnutzung der veröffentlichten Datens (z.B. Datenablage anhand von Repositorien)
 
 ## FAIR und CARE
 Die Akronyme FAIR und CARE werden gerne in einem Atemzug genutzt, es ist aber wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu betrachten!
@@ -414,9 +487,13 @@ Kulturwissenschaftliche Repositorien – eine Auswahl
 - TextGrid Repository – Langzeitarchiv für geisteswissenschaftliche Forschungsdaten
 - RADAR4Culture
 
-Medienwissenschaft:
+<font color=PURPLE> 🎬 Medienwissenschaft </font>
 
-- media/rep/
+- media/rep/ <br>
+🢡 Data Sets können beispielsweise über das Fachrepositorium media/rep/ publiziert werden, Data Papers im NECSUS Journal
+
+<font color=GREEN> 🎵 Musikwissenschaft </font>
+- musiconn.publish
 
 ### Persistent Identifier (PI)
 
@@ -541,3 +618,43 @@ Es gibt ein RDMO-Demo-Programm auf der RDMO-Website, dass jede:r Interessierte n
 
 - Accounts können kostenlos erstellt werden
 - Das "Demo" im Namen mag fehlleiten, es ist hat aber volle Funktionalität, nur keine individualisierten Funktionen, welche die Instanzen von Institutionen haben können
+
+---
+## Interaktive Module
+
+### Übung zum Thema "Datenlebenszyklus"
+<!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->
+- *Anregegung aus dem Train-the-Trainer von fdm.nrw*: Kurze Übung, max. 15. Min.: Auf einem Conceptboard "Überschriften" des DLZ verschieden farbig angeben und dazu ungeordnet auf weißen Post-Its Schlüsselbegriffe/Schlagwörter und Inhalte aus DMPs angeben. Die TN müssen dann die Begriffen mit den zugehörigen Überschriften verknüpfen. Wenn die TN mit der Auswahl sicher sind, dann können die Post-Its der Farbe der Überschrift angeglichen werden. Anschließend Ergebnisse im Plenum diskutieren. (nur bis zu einer best. Gruppengröße sinnvoll, ansonsten Kleingruppen, denn wenn alle TN einer Gruppe 20+ auf dem Conceptboard gleichzeitig Post-Its verschieben ist es mehr Chaos als Lerneffekt)
+
+### Übung zum Thema "Kontrollierte Vokabulare" (GLAM-Fokus)
+<!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->
+- Zu Beginn des Kurses als Aktivierung mit Mentimeter den Kenntnisstand der TN abfragen, bzgl. der in diesem WS besprochenen Themen. Z.B.: WordCloud mit der Frage: Welche kontrollierten Vokabulare werden an ihrer Einrichtung genutzt; oder (anonyme! das auch betonen bei Stellen der Frage) Abfrage mit der Ausgabe eines Balkendiagramms, z.B. zu der Frage: Wie gut ist die Qualität meiner Sammlungsdaten
+
+### Rechercheaufgabe FDM-Policies (10 Min.)
+<!--- [AP] Hier müsste man Alex fragen, ob es okay ist, dass wir unsere interaktiven Aufgaben aus dem FFK-Kurs veröffentlichen! --->
+
+- Wenn man sich als frische/r Doktorand:in die Frage stellt, wie man mit seinen Forschungsdaten umgehen soll bzw. welche Regeln man befolgen muss, wird man bei der Suche schnell erschlagen von den vielen (häufig generischen) Antworten, die man dazu findet - bspw. die FAIR- und CARE-Prinzipien. Deshalb lohnt es sich, erstmal zu recherchieren, ob die Institution, bei der man angestellt ist, 1. eine eigene Beratungsstelle zum Umgang mit Forschungsdaten hat und 2. ob eure Institution vielleicht sogar schon eine eigene Forschungsdaten-Policy verabschiedet hat, an die ihr euch grundsätzlich halten müsstet. Und genau das wollen wir jetzt mal machen: 
+- Hat Eure Universität eine eigene FD-Policy?
+- Welche FD-Beratungsstellen gibt es an Euren Universitäten?
+
+### Teilnehmer-Aktivierung
+<!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->
+Zu Beginn des Kurses
+
+* Erfahrung: Direkt zu Beginn möglichst die Teilnehmer aktiv mit einbeziehen, das hilft erfahrungsgemäß dabei, dass bei späteren aktiven Parts, Gruppenarbeit, etc. weniger Leute abspringen. (Also jenes Phänomen von Online-Veranstaltungen, dass wenn man aktive Mitarbeit der Teilnehmer:innen ankündigt, ein großer Block der TN das Meeting verlässt.)
+* Erfahrung: Möglichst wenige Fragen auf einmal stellen, eher schrittweise die Fragen anführen, die man bei einem Aktiv-Teil den Teilnehmern stellen möchte
+* Aus dem TtT: Zum Einstieg grafische Elemente verwenden, beispielsweise kann ein Ablaufplan des Kurses präsentiert werden und jede:r Teilnehmer:in darf ihre/seine Ideen zu und Erwartungen an den genannten Bereichen notieren und was ihnen noch fehlt (z.B. über die Live-Kommentar-Funktion von Zoom)
+
+
+- Aus dem Train-the-Trainer: Wenn man Begriffe oder Ergebnisse von vorherigen Workshops abfragen oder rekapitulieren lassen möchte -> Wheel of Names (! Manchmal merkwürdige Werbung, Alternative ist uns, wenn vorhanden, gerade leider unbekannt)
+- Aus dem Train-the-Trainer: (nur bei kleinen Gruppen zeit-technisch sinnvoll) Vorstellungsrunde mit Name, Einrichtung, Profession/Fach und einem "random fact"; wer eine Verbindung zu sich sieht hebt die Hand und ist dann als nächstes dran 
+  * Notiz: Vorstellungsrunden lohnen bei großen Gruppen und bei kurzen Veranstaltungen von wenigen Stunden wenig. Ab 2-tägigen Veranstaltungen und bei moderater Gruppengröße können sie aber helfen, die Gruppe zu stärken und Hemmschwellen zu senken
+
+### Tools für interaktive Online-Sessions
+<!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->
+
+* Mentimeter (für Umfragen & WordCloud)
+* Conceptboard/Miro (für Kleingruppenarbeit, Conceptboard datenschutzrechtlich besser)
+* Wheel of Names (als Aktivierungsmethode: Unverfängliche Fragen eingeben, hier können die Teilnehmer:innenn das Rad drehen und Fragen beantworten (ist eine kommerziell betriebene Seite, die mit Werbebannern versehen ist)
+  * kann auch fachspezifisch umgewidmet werden
+* Tools können auch direkt in Zoom genutzt werden, wie etwa für Umfragen, als Kommentarfunktion, um ein häufiges Wechseln der Oberfläche geringzuhalten

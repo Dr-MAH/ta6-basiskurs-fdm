@@ -207,7 +207,7 @@ Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wiss
 
 ### Der Datenlebenszyklus I
 
-<img src="../resources/FD_LZ.jpg" width=50% height=auto>
+<img src="../resources/FD_LZ.png" width=50% height=auto>
 <p>
 <sub> Graphische Darstellung eines DLZ, Creator: CRDA, CC0 </sub>
 </p>

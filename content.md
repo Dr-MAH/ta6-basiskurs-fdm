@@ -50,7 +50,9 @@ Wenn wir uns mit dem Thema Forschungsdatenmanagement auseinandersetzen, dann sol
 Die DFG beschreibt es so:
 
 „Ein fachspezifisch adäquater Umgang mit Forschungsdaten, die wissenschaftlichen Projekten zugrunde liegen oder bei deren Durchführung entstehen, ist ein wesentlicher Bestandteil qualitätsorientierter und anschlussfähiger Forschung. Zu Forschungsdaten zählen u. a. Messdaten, Laborwerte, audiovisuelle Informationen, Texte, Surveydaten oder Beobachtungsdaten, methodische Testverfahren sowie Fragebögen.“
-<sub>(aus den Leitlinien zum Umgang mit Forschungsdaten  der Deutsche Forschungsgemeinschaft, 2023)</sub>
+<sub>([aus den Leitlinien zum Umgang mit Forschungsdaten  der Deutsche Forschungsgemeinschaft, 2023](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/forschungsdaten))</sub>
+
+
 
 ---
 
@@ -67,47 +69,52 @@ Evtl. Quiz zu Datenformaten, [AP] Vielleicht können wir die Angaben aus der FAI
 --->
 
 **Empfehlungen für Dateiformate** <br>
-<sub>(aus [Kailus 2023](https://nfdi4culture.de/go/E3625))</sub>
+<sub>(aus [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/empfehlungen-dateiformate#10-empfehlungen-f%C3%BCr-dateiformate))</sub>
 
 Verwenden Sie möglichst weit verbreitete und mit einem ISO-Standard verbundene Dateiformate. Sie sollten nicht proprietär, also nicht an eine Software oder einen Hersteller gebunden, mit unterschiedlichen Programmen verwendbar und mit einer offenen Lizenz versehen sein und über eine frei zugängliche Dokumentation einschließlich der technischen Spezifikationen verfügen. Sie erlauben eine verlustfreie Speicherung ohne Kompression und sie sind einfach dekodierbar oder unmittelbar lesbar.
 Konsultieren Sie Ihre Datenplattform, welche Dateiformate dort entgegengenommen bzw. empfohlen werden.
 
 Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die Verwendung folgender Standard-Dateiformate:<br>
+<br><br>
+**Text**
 
-Text
+- Extensible Markup Language (XML) 1.1, mit XML Schema Definition (XSD)
+- Resource Description Framework in Attributes (RFDa) für das Einbetten von RDF-Statements in XML
+- JavaScript Object Notation (JSON)
+- JavaScript Object Notation for Linked Data (JSON LD)
+- Comma-Separated Values (CSV)
+- Textdatei (TXT) (Codierung UTF-8)
+- Präsentationsformat: Portable Document Format A (PDF-A)
+<br><br>
 
-    Extensible Markup Language (XML) 1.1, mit XML Schema Definition (XSD)
-    Resource Description Framework in Attributes (RFDa) für das Einbetten von RDF-Statements in XML
-    JavaScript Object Notation (JSON)
-    JavaScript Object Notation for Linked Data (JSON LD)
-    Comma-Separated Values (CSV)
-    Textdatei (TXT) (Codierung UTF-8)
-    Präsentationsformat: Portable Document Format A (PDF-A)
+**Musik**
 
-Musik
+- Music Encoding Initiative (MEI)
+- MusicXML
+- Parsons Code
+- Präsentationsformat: Portable Document Format A (PDF-A)
+<br><br>
 
-    Music Encoding Initiative (MEI)
-    MusicXML
-    Parsons Code
-    Präsentationsformat: Portable Document Format A (PDF-A)
-
-Bild (Rastergrafiken)
+**Bild (Rastergrafiken)**
 
     Rohdaten: Digital Negative (DNG)
     Master: baseline Tagged Image File Format (TIFF), unkomprimiert; TIFF mit Lempel-Ziv-Welch-Komprimierung (TIFF-LZW)
     Joint Photographic Experts Group (JPEG 1 und JPEG 2000), verlustfrei komprimiert, lizenzfreie Bereiche
     Präsentationsformate (Derivate): JPEG, JPEG 2000, Portable Network Graphics (PNG)
+<br><br>
 
-Bild (Vektorgrafiken) und CAD
+**Bild (Vektorgrafiken) und CAD**
 
     Scalable Vector Graphics (SVG)
+<br><br>
 
-Audio
+**Audio**
 
     Archivformat: Waveform Audio File-Format (WAV) in Verbindung mit Pulse Code Modulation (PCM); Free Lossless Audio Codec (FLAC)
     Präsentationsformat: MPEG-2 Audiolayer III (MP3)
+<br><br>
 
-Video/Film
+**Video/Film**
 
     Archivformate:
         Moving Picture Experts Group Motion JPEG 2000 (MJPEG2000)
@@ -119,9 +126,9 @@ Video/Film
     Präsentationsformat: MP4 (MPEG-4, part 14)
     weitere Empfehlungen der nestor AG Media
 
-etc.
 
-#### <font color=#8B0000> 🎨 Forschungsdaten in der Kunstgeschichte </font>
+
+#### <font color=#f55249> 🎨 Forschungsdaten in der Kunstgeschichte </font>
 Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. <br>
 Sie umfassen unter anderem:
 
@@ -130,17 +137,27 @@ Sie umfassen unter anderem:
 - Textdaten: Texte, Notizen
 - Bild- oder Video-Annotationen
 - Tabellen
+- ... tbc
 
 ---
 
 
-#### <font color=PURPLE> 🎬 Forschungsdaten in der Medienwissenschaft </font>
+#### <font color=#d618c0> 🎬 Forschungsdaten in der Medienwissenschaft </font>
 
-Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen „alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen", mitunter auch Koppelungen von "fremden und eigenen Daten, d.h. von Originalquellen und eigenen Annotationen, Zeichnungen o.ä." ([Goller, Heftberger 2018, S.1](https://doi.org/10.17176/20180515-233758))
+Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen „alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen", mitunter auch Koppelungen von "fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä." ([Goller, Heftberger 2018, S.1](https://doi.org/10.17176/20180515-233758))
 
-Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen)." ([Dang 2020, S. 119-140](http://dx.doi.org/10.25969/mediarep/21687))
+Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen)." ([Dang 2020, S. 119–140](http://dx.doi.org/10.25969/mediarep/21687))
 
 #### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
+
+Auch musikwissenschaftliche Forschungsdaten sind sehr divers, beginnend bei schriftlichen Aufzeichungen. <br> 
+Sie umfassen darüber hinaus:
+
+- graphische und herkömmliche Notentexte, sowohl in bildlicher (bspw. PDFs) als auch codierter Form (bspw. MEI)
+- Annotation und Metadaten zu Notentexten
+- ...  tbc
+
+---
 
 ### Exkurs: Video- und Bildannotation
 

@@ -147,7 +147,9 @@ Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Seque
 
 #### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
 
-Auch musikwissenschaftliche Forschungsdaten sind sehr divers, beginnend bei schriftlichen Aufzeichungen. <br> 
+Auch musikwissenschaftliche Forschungsdaten sind sehr divers, umfassen sie schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie digital oder analog oder wiederum deren digitale Reproduktionen.  
+
+ <br> 
 Sie umfassen darüber hinaus:
 
 - graphische und herkömmliche Notentexte, sowohl in bildlicher (bspw. PDFs) als auch codierter Form (bspw. MEI)

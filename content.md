@@ -4,7 +4,7 @@ icon : ./resources/icon_4Culture.png
 version: 0.5
 author: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Alexander Stark, Andrea Polywka
 narrator: Deutsch female
-comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer 441958017. Wir nutzen hierfür den Markdown-Dialekt LiaScript.
+comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer 441958017. <br> Wir nutzen hierfür den Markdown-Dialekt LiaScript. <br> Der Kurs steht unter der CC-BY-Lizenz
 -->
 
 <!--- Link zum How To-Dokument: https://cloud.nfdi4culture.de/f/3313403  --->
@@ -20,20 +20,24 @@ Projektnummer: 441958017
 
 ---
 
-Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, die die Nachnutzung ermöglicht: <!--- Hier Lizenz einfügen --->
+Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, die die Nachnutzung ermöglicht: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Welche Inhalte bietet dieser Kurs?
 
  1. Der Forschungsdatenbegriff
- 2. Forschungsdatenmanagement
- 3. Der Datenlebenszyklus
- 4. FAIR Principles
- 5. CARE Principles
- 6. Metadaten
- 7. Normdaten und kontrollierte Vokabulare
- 8. Sichern und Speichern
- 9. Lizenzen
-10. Datenmanagement-Pläne
+ 2. Datenformate
+ 3. Forschungsdatenmanagement
+ 4. Der Datenlebenszyklus
+ 5. FAIR Principles
+ 6. CARE Principles
+ 7. Metadaten
+ 8. Normdaten und kontrollierte Vokabulare
+ 9. Sichern und Speichern
+ 10. Lizenzen
+ 11. Datenmanagement-Pläne
+<br>
+- Weiterführende Literatur
+- Zusatzmaterial
 
 ### Abkürzungen in diesem Kurs
 
@@ -63,12 +67,10 @@ Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 > Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
 
 ## Datenformate
-Daten sollten möglichst nie in proprietären Datenformaten vorliegen. <br>
+Jede Software hat ein vorgegebenes Dateiformat, in dem es seine Daten speichert. Doch ist das in den allermeisten Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>
+Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. Zudem kann darauf geachtet werden, dass die Dateiformate resourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen, als alternative Formate. <br>
 
-
-<!---
-Evtl. Quiz zu Datenformaten, [AP] Vielleicht können wir die Angaben aus der FAIR-Bibel nehmen? Habe einfach mal den Textabschnitt reinkopiert:
---->
+---
 
 **Empfehlungen für Dateiformate** <br>
 <sub>(aus [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/empfehlungen-dateiformate#10-empfehlungen-f%C3%BCr-dateiformate))</sub>
@@ -127,23 +129,15 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die V
   - Codec FFV1 / Container MKV
   - TIFF mit FFV1 in Matroshka codiert
 - Präsentationsformat: MP4 (MPEG-4, part 14)
-- Weitere Empfehlungen gibt die [nestor AG Media.](https://wiki.dnb.de/display/NESTOR/Digitalisierungsempfehlungen)
+- Weitere Empfehlungen bietet die [nestor AG Media.](https://wiki.dnb.de/display/NESTOR/Digitalisierungsempfehlungen)
 
 
 
 #### <font color=#f55249> 🎨 Forschungsdaten in der Kunstgeschichte </font>
-Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. <br>
-Sie umfassen unter anderem:
+Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie umfassen u. a. Notizen, Exzerpte, Fotografien, Tabellen, Skizzen, Transkriptionen, Textversionen, Rekon­struk­tionen. <br>
+Je nach fachlicher Ausrichtung braucht es andere Dateiformate und Analysetools, um mit ihnen umzugehen. Beispielsweise werden an 3D-Rekonstruktionen von Plastiken und Statuen andere Fragestellungen gestellt, als an Architektur-Rekonstruktionen; an Buchmalerei andere Fragen als an Ölgemälde. <br>
 
-- Bilder: Fotografien, Scans
-- Audiovisuelle Daten: Videos
-- Textdaten: Texte, Notizen
-- Bild- oder Video-Annotationen
-- Tabellen
-- ... tbc
-
----
-
+Die deutschsprachige Kunstgeschichte hat sich bisher nicht auf einen einheitlichen Umgang mit Forschungsdaten und feste Standards geeinigt. Doch steigt auch unter Kunsthistorikern das Bewusstsein um die Relevanz guten Forschungsdatenmanagements. Mit dem [Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“](https://doi.org/10.11588/artdok.00009194) liegt jedoch seit 2024 ein Paper vor, das auf Initiative des Deutschen Verbandes für Kunstgeschichte e. V., der Universitätsbibliothek Heidelberg / arthistoricum.net und des Zentralinstituts für Kunstgeschichte erarbeitet wurde, und aus Sicht des Faches in Deutschland aktuelle Anforderungen, Positionen und Impulse zur weiteren Entwicklung digitaler kunsthistorischer Forschungsdaten und ihrer Infrastruktur formuliert.
 
 #### <font color=#d618c0> 🎬 Forschungsdaten in der Medienwissenschaft </font>
 
@@ -165,7 +159,6 @@ Sie umfassen darüber hinaus:
 ### Exkurs: Video- und Bildannotation
 
 Video- und Bildannotationstools sind lokale oder webbasierte Anwendungen für die Annotationen, d. h. Markierung und Kommentierung (audio-)visueller Inhalte. <br>
-Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu. <br>
 
 ---
 
@@ -176,6 +169,9 @@ Nutzungsszenarien von Videoannotationstools:
 - Qualitative oder quantitative Datenanalyse
 - Visualisierung von Annotationen
 
+---
+Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu. <br>
+<br><br>
 Annotationstools für AV-Material (Auswahl):
 
 - ELAN (Eudico Linguistik Annotator)
@@ -185,16 +181,17 @@ Annotationstools für AV-Material (Auswahl):
 
 ---
 
-Nutzungsszenarien von Bildannotationstools:
-
 Annotationstools Bild (Auswahl):
 
+- heiANNO – Heidelberger Annotationsmodul
 - mirador
+- CVAT (Computer Vision Annotation Tool)
+- labelme
 
 ## Forschungsdatenmanagement
 
 <!---
-Hier muss noch mehr hin. Etwas wenig Inhalt bisher. [AP] Ich füge mal ein paar Stichpunkte aus unserem Skript vom letzten FFK-Kurs bei
+[KB] Hier muss noch mehr hin. Etwas wenig Inhalt bisher. [AP] Ich füge mal ein paar Stichpunkte aus unserem Skript vom letzten FFK-Kurs bei
 ---> 
 Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
 
@@ -205,34 +202,32 @@ Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ..
 
 ... von Forschungsdaten.
 
-FDM begleitet den gesamten Forschungsprozess und professionell standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten.
+FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten. <br>
 
-Das Risiko eines Datenverlusts wird durch FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) gering gehalten. Daten können so noch nach Jahrzehnten genutzt werden.
+FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern auch das Risiko von Datenverlusten. Daten können durch geeignete FDM-Maßnahmen bestenfalls noch nach Jahrzehnten genutzt werden.<br>
 
-Gerade die vielseitigen technischen Möglichkeiten erfordern allerdings eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht
-
-Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren, wie Alex soeben genauer erläutert hat.
-
-
+Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren. [s. a. CARE-Principles](#17)
 
 ### Forschungsdatenmanagement – Aber wieso?
 
-- Der Umgang mit Forschungsdaten ist Teil guter wissenschaftlicher Arbeit.
+<!--- [KB] Hier fehlt es noch an Inhalten, oder man löscht es ganz raus, bzw. fusioniert es mit dem vorigen Abschnitt --->
+
+Der fachgerechte Umgang mit Forschungsdaten ist Teil guter wissenschaftlicher Arbeit.
 
 > Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp) der DFG
 
-- Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten
+Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten
 
-  * häufig gefordert oder gewünscht ist hier ein Datenmanagementplan (DMP).
+  - häufig gefordert oder gewünscht ist hier ein Datenmanagementplan (DMP).
 
-### Der Datenlebenszyklus I
+### Der Datenlebenszyklus
 
 <img src="../resources/FD_LZ.png" width=50% height=auto>
 <p>
 <sub> Graphische Darstellung eines DLZ, Creator: CRDA, CC0 </sub>
 </p>
 
-### Der Datenlebenszyklus II
+### Der Datenlebenszyklus
 
 <!---
 Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiele ergänzt
@@ -256,14 +251,32 @@ Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiel
   6. Daten nachnutzen
   * Eigene oder fremde Nachnutzung der veröffentlichten Datens (z.B. Datenablage anhand von Repositorien)
 
+<!--- [KB] Wir könnten hier auch noch ein Quiz einbauen, á la: Was macht man an welcher Station des DLZ --->
+
 ## FAIR und CARE
-Die Akronyme FAIR und CARE werden gerne in einem Atemzug genutzt, es ist aber wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu betrachten!
+Die Akronyme FAIR und CARE stehen für zwei wichtige Regelwerke im Kontext guten Forschungsdatenmanagement. Und werden in den folgenden Folien genauer betrachtet.
+
+Die beiden Akronyme werden gerne in einem Atemzug genutzt, es ist aber wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu betrachten! <br>
+Die FAIR-Prinzpien fokussieren sich überwiegend auf technische Aspekte und sind auf quasi jeden Datensatz anwendbar. Die CARE-Prinzipien hingegen stehen für einen angemessenen Umgang mit Daten, die indigene Gemeinschaften betreffen. Im Gegensatz zu FAIR liegt der Fokus also explizit nicht auf die Erleichterung des Datenaustauschs, sondern auf die Wahrung der Interessen indigener Gemeinschaften, was in einigen Fällen die FAIR-heit der Daten reduzieren kann.
+
+Lest in den nächsten Kapiteln genauer nach, wofür FAIR und CARE stehen!
 
 <!---
 hier Erklärung/Erläuterung einfügen
 --->
 
-### Die FAIR Principles I
+### Die FAIR Principles
+
+FAIR steht für findable, accesssible, interoparable und reusable; übersetzt also für: auffindbar, zugreifbar, interoperabel und nachnutzbar.
+
+Die Prinzipien wurden entwickelt um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows.
+
+Es gibt verschiedene Tools, die Wissenschaftler:innen dabei unterstützen, den FAIR-Gehalt ihrer Daten zu ermitteln:
+
+- [NFDI4Culture FAIR-Check](https://nfdi4culture.de/id/E5080)
+- [FAIR Assessment Tool von TKDM](https://tkfdm.github.io/FAIR-Data-Assessment-Tool/)
+
+### Die FAIR Principles
 
 Wofür stehen die Buchstaben in FAIR?
 
@@ -295,29 +308,21 @@ Wofür stehen die Buchstaben in FAIR?
 - [[ ]] redirectable
 - [[x]] reusable
 
-### Die FAIR Principles II
-
-- FAIR steht für findable, accesssible, interoparable und reusable; übersetzt also für: auffindbar, zugreifbar, interoperabel und nachnutzbar.
-- Wurden entwickelt um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen
-- Betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows
-- Helfen dabei die FD für eine möglichst optimale Nachnutzung aufzubereiten
-- Es gibt verschiedene Leitfäden die bei der Anwendung der Prinzipien Helfen 
-  
-  * NFDI4Culture FAIR-Check
-
 ### CARE Principles
 
-Die CARE-Prinzipien wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht um koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse.
+Die [CARE-Prinzipien](https://doi.org/10.5334/dsj-2020-042) wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht darum, koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse zu identifizieren und zu berücksichtigen.
 
-Die Prinzipien sind für jene Forschenden relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch Forschen oder mit Daten aus kolonialen Kontexten beschäftigen.
+Die Prinzipien sind für jene Forschende relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch Forschen oder sich mit Daten aus kolonialen Kontexten beschäftigen.
 
-CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Übersetzt also: Kollektiver Nutzen, Kontrollbefugnisse, Verantwortung und Ethik
+CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Übersetzt also: Kollektiver Nutzen, Kontrollbefugnisse, Verantwortung und Ethik.
 
-- Kooperationen mit Ursprungscommunities u. a. 
+---
 
-  * gemeinsame Bearbeitung von Objekten
-  * gleichberechtigten Zugang zu den Daten ermöglichen
-  * indigene Ethik einbeziehen
+Kooperationen mit Ursprungscommunities können den CARE-Prinzipien folgend u. a. wie folgt aussehen: 
+
+- gemeinsame Bearbeitung von Objekten
+- gleichberechtigten Zugang zu den Daten ermöglichen
+- indigene Ethik einbeziehen
 - eigenes Handeln und Darstellung von Objekten/Forschungsgegenständen regelmäßig hinterfragen
 - wenn nötig, öffentlichen Zugang zu Daten einschränken
 - kulturelle Metadaten, z. B. Bezeichnungen aus Herkunftskontexten; Provenienzangaben in den Metadaten; Auswahl der Metadaten transparent machen
@@ -326,7 +331,7 @@ CARE steht für Collective Benefit, Authority of Control, Responsibility und Eth
 - Nutzung von Traditional Knowledge Labels (z. B. Kennzeichnung als weibliches Wissen, sakralen Kontext etc.)
 
 ### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE Principles
-In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE Prinzipien eine wichtige Leitlinie beim Umgang mit ihren Forschungsdaten. <br>
+In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten <br>
 Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
 
 <!--- Hier noch ergänzen: Bisher das Material von Andrea und Alex aus dem FFK-Kurs --->
@@ -342,16 +347,22 @@ Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzi
 
 ## Metadaten
 
+Metadaten sind Daten, die andere Daten beschreiben. Sie sind in vielerlei Hinsicht relevant, etwa um die Auffindbarkeit von Daten zu erhöhen oder Daten zu beschreiben, die ihrerseits nur unter eingeschränkten Zugang oder gar nicht verfügbar sind.
+
+<br>
+
 > Merksatz: "Metadaten sind Daten, die andere Daten beschreiben"
+
+<br>
 
 Metadaten können in verschiedene Kategorien unterteilt werden.
 Eine übliche Aufteilung ist:
 
-- deskriptive Metadaten enthalten beschreibende Informationen über den Inhalt des Objekts, sie dienen der Identifizierung von Objekten oder Daten
-- administrative Metadaten enthalten Informationen zum Objekt, die über seinen Inhalt hinausgehen wie z. B. Rechteinformationen und Details des analogen Objekts
-- strukturelle Metadaten beschreiben den Metadatensatz an sich und seine Beziehung zur digitalen Datei
-- technische Metadaten beschreiben die technischen Eigenschaften einer digitalen Datei Ergänzt werden kann diese Liste durch
-- Archivmetadaten, die noch einmal spezieller zusammengestellte Informationen enthalten, die für die Archivierung relevant sind
+- **Deskriptive Metadaten**: Sie enthalten beschreibende Informationen über den Inhalt des Objekts, sie dienen der Identifizierung von Objekten oder Daten
+- **Administrative Metadaten**: Sie enthalten Informationen zum Objekt, die über seinen Inhalt hinausgehen wie z. B. Rechteinformationen und Details des analogen Objekts
+- **Strukturelle Metadaten**: Sie beschreiben den Metadatensatz an sich und seine Beziehung zur digitalen Datei
+- **Technische Metadaten**: Sie beschreiben die technischen Eigenschaften einer digitalen Datei Ergänzt werden kann diese Liste durch
+- **Archivmetadaten**: Sie beinhalten spezieller zusammengestellte Informationen, die für die Archivierung relevant sind
 
 <img src= "../resources/Metadaten.png" width=50% height=70%> <br>
 <sub>Andrea Polywka, Alexander Stark: Metadaten Schaubild</sub>
@@ -366,6 +377,8 @@ Eine übliche Aufteilung ist:
 - Metadaten sollten gesondert als Metadatenpublikation veröffentlicht werden, um auch unabhängig von dem betreffenden Datum abrufbar zu sein.
 
 ### Metadaten Standards
+Auch für Metadaten gibt es Standards, die ihre Vergleichbarkeit sicherstellen und vor allem ihre Nutzbarkeit für Suchmaschinen erhöhen.
+
 Dies sind einige fachübergreifende Standards:
 
 - Dublin Core
@@ -375,9 +388,11 @@ Dies sind einige fachübergreifende Standards:
 
 Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechen
 
-- hier gibt es mehr fachspezifische denn medienspezifische Standards. Warum? 
-  
-  * Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen
+---
+
+Warum gibt es mehr fachspezifische denn medienspezifische Standards? 
+
+- Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen, das hat teilweise den Effekt, dass sie teils unterschiedliche Metadaten erfassen und sich dadurch historisch verschiedene Standards entwickelt haben!
 
 #### <font color=PURPLE> 🎬 Metadatenstandards der Medienwissenschaft </font>
 In Deutschland gibt es (noch) keinen allgemein genutzten/akzeptierten Metadaten-Standard für audiovisuelle Metadaten. <br>
@@ -404,18 +419,18 @@ Eine Auswahl  von in der  Archivierung gebräuchlichen Normen und Standards für
 
 **Wozu brauche ich Normdaten?**
 
-- zum vereinfachen die Darstellung komplexer Zusammenhänge
-- zur Vermeidung von Mehrdeutigkeiten und falschen Zuordnungen vor allem für Maschinen, die anders als Menschen nicht aus dem Kontext schließen können
+- Zum vereinfachen die Darstellung komplexer Zusammenhänge
+- Zur Vermeidung von Mehrdeutigkeiten und falschen Zuordnungen vor allem für Maschinen, die anders als Menschen nicht aus dem Kontext schließen können
 - Die Verwendung von Normdaten ermöglicht besseren Austausch und bessere Nachnutzbarkeit der Daten.
 
-Ein kontrolliertes Vokabular ist eine Sammlung von Normdaten, es verknüpft auch Synonyme, die zum selben Suchergebnis führen und Übersetzungen in andere Sprachen.
+Ein **kontrolliertes Vokabular** ist eine Sammlung von Normdaten, es verknüpft auch Synonyme, die zum selben Suchergebnis führen und liefern dazu oft Übersetzungen in andere Sprachen.
 
 > Video-Tipp: NFDI4Culture Video-Tutorial zu Normdaten! https://av.tib.eu/media/60986
 <div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
   <iframe src="https://av.tib.eu/player/60986" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 
-### Kontrollierte Vokabulare
+### Kontrollierte Vokabulare in Geistes- und Kulturwissenschaften
 
 Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaften:
 
@@ -431,19 +446,22 @@ Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaft
 
 ## Sichern und Speichern
 
-- Vermeiden proprietärer Datenformate
+Die vorigen Kapitel haben schon eingies vorwegennommen, was beim Speichern von Daten sinnvoll und wichtig ist, folgend seien weitere Aspekte aufgeführt, die für die Speicherung von Daten relevant sind:
+
+- Vermeiden proprietärer Datenformate [s. a. Datenformate](#5)
 - 3-2-1-Regel: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
 - Passwortverschlüsselung der Daten
-- sinnvolles und konsistentes Dateiablagesystem in einer READ.me-Datei kann das System auf oberster Ebene erläutert werden
+- Sinnvolles und konsistentes Dateiablagesystem
 
-### Sichern oder Archivieren – Wo liegt der Unterschied?
+  - In einer READ.me-Datei kann das System auf oberster Ebene erläutert werden; das ist gerade bei der Arbeit in geteilten Dateiablagesystem empfehlenswert
 
-Sichern:
+### Sichern vs. Archivieren
 
-- Sicherung aller Daten (Backup) um Datenverlust vorzubeugen
-Archivieren:
+Speichern und Archivieren, dass kann im ersten Moment sehr ähnlich klingen, also wo liegt der Unterschied?
 
-- Sicherung ausgewählter Daten, Langzeitspeicherung „endgültiger“ Daten
+Sichern meint die Sicherung aller Daten (Backup) um Datenverlust vorzubeugen
+
+Archivieren hingegen ist die Sicherung und **Langzeitarchivierung** ausgewählter, "endgültiger" Daten. Archivieren geschieht also zumeist erst nach dem Abschluss eines Forschungsprojektes, oder dem Abschluss eines eigenständigen Moduls in einem Projekt.
 
 ### Daten publizieren
 
@@ -632,6 +650,10 @@ Es gibt ein RDMO-Demo-Programm auf der RDMO-Website, dass jede:r Interessierte n
 
 - Accounts können kostenlos erstellt werden
 - Das "Demo" im Namen mag fehlleiten, es ist hat aber volle Funktionalität, nur keine individualisierten Funktionen, welche die Instanzen von Institutionen haben können
+
+## Exkurs: Ökologisch nachhaltiges Datenmanagement
+<!--- [KB] Ich schreib hier noch weiter --->
+Dieser Exkurs wäre es wert, eine ganz eigene Lernressource zu werden, dennoch wollen wir in diesem kleinen Exkurs gerne auf Maßnahmen aufmerksam machen, die dabei helfen können, die Forschungsdaten nicht nur nachhaltig im Sinne von FAIR, sondern auch ökologisch nachhaltig zu managen.
 
 ## Weiterführende Literatur
 **Dang 2020**<br>

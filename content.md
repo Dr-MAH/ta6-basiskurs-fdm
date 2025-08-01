@@ -147,14 +147,15 @@ Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Seque
 
 #### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
 
-Auch musikwissenschaftliche Forschungsdaten sind sehr divers, umfassen sie schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie digital oder analog oder wiederum deren digitale Reproduktionen.  
-
+Auch musikwissenschaftliche Forschungsdaten sind sehr divers, umfassen sie schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie in unterschiedlichster Form digital (PDFs, Codierungen, Aufnahmen etc.) oder analog, wie auch deren digitale Reproduktionen.  
  <br> 
-Sie umfassen darüber hinaus:
+Sie umfassen 
 
-- graphische und herkömmliche Notentexte, sowohl in bildlicher (bspw. PDFs) als auch codierter Form (bspw. MEI)
-- Annotation und Metadaten zu Notentexten
-- ...  tbc
+- Notentexte (handschriftlich oder gedruckt) sowie weitere Textzeugen wie Skizzen, Briefe etc.
+- visuelle und audiovisuelle Quellen (Fotos, Videos, Interviews etc.)
+- rein digitale Textzeugen (Emails, Webseiten, etc.)
+- Datenbanken
+- Annotation und Metadaten 
 
 ---
 
@@ -200,85 +201,83 @@ Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ..
 - der Aufbereitung,
 - Speicherung,
 - Archivierung,
-- und Nutzung
-
-... von Forschungsdaten.
+- und Nutzung von Forschungsdaten.
 
 FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten. <br>
 
 FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern auch das Risiko von Datenverlusten. Daten können durch geeignete FDM-Maßnahmen bestenfalls noch nach Jahrzehnten genutzt werden.<br>
 
-Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren. [s. a. CARE-Principles](#17)
+Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren [s. a. CARE-Principles](#17).
 
-### Forschungsdatenmanagement – Aber wieso?
-
-<!--- [KB] Hier fehlt es noch an Inhalten, oder man löscht es ganz raus, bzw. fusioniert es mit dem vorigen Abschnitt --->
-
-Der fachgerechte Umgang mit Forschungsdaten ist Teil guter wissenschaftlicher Arbeit.
+Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlicher Arbeit und Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten, bspw. in Form eines Datenmanagementplan (DMP).
 
 > Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp) der DFG
 
-Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten
 
-  - häufig gefordert oder gewünscht ist hier ein Datenmanagementplan (DMP).
 
-### Der Datenlebenszyklus
+## Der Datenlebenszyklus 
+<!---
+MAH: Ich würde die Graphik und die folgenden Stationen nicht voneinader trennen, sondewrn auf einewr Seite bringen.
+--->
 
 <img src="../resources/FD_LZ.png" width=50% height=auto>
-<p>
+<p><br>
 <sub> Graphische Darstellung eines DLZ, Creator: CRDA, CC0 </sub>
 </p>
+<br>
 
-### Der Datenlebenszyklus
+
 
 <!---
 Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiele ergänzt
 --->
 
-- Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten
-- Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen
-- Stationen:
+- Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten.
+- Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen.
+- Die grundsätzlichen Stationen sind:
 
-  1. Forschungsvorhaben planen 
-  * Ein erster Datenmanagementplan wird erstellt
-  2. Daten erheben
-  * Unbereinigten Daten, die während der Forschungsarbeit entstehen
-  3. Daten aufbereiten und analysieren
-  * Bereinigte Daten
-  * Analysen und Datenaufbereitungen (z.B. Digitalisierungs-, Transkriptions-, und Annotationsprozesse; Datenanalyse: Metadaten))
-  4. Daten teilen und publizieren
-  * Datenpublikation während oder nach dem Forschungsvorhaben (z.B. über Open Access-Plattformen)
-  5. Daten archivieren
-  * Archivierung ausgewählter Daten
-  6. Daten nachnutzen
-  * Eigene oder fremde Nachnutzung der veröffentlichten Datens (z.B. Datenablage anhand von Repositorien)
+  1. Forschungsvorhaben planen: Ein erster Datenmanagementplan wird erstellt.
+  2. Daten erheben: Während der Forschungsarbeit entstehen Unbereinigten Daten. 
+  3. Daten aufbereiten und analysieren: Die Daten werden bereinigt; Analysen und Datenaufbereitungen <br>
+     (z. B. Digitalisierungs-, Transkriptions-, und Annotationsprozesse; Datenanalyse: Metadaten)
+  4. Daten teilen und publizieren: Datenpublikation während oder nach dem Forschungsvorhaben <br>
+     (z. B. über Open Access-Plattformen)
+  5. Daten archivieren: Archivierung ausgewählter Daten für längere Zeiträume.
+  6. Daten nachnutzen: Die veröffentlichten Daten können selbst oder durch andere nachgenutzt werden.
 
-<!--- [KB] Wir könnten hier auch noch ein Quiz einbauen, á la: Was macht man an welcher Station des DLZ --->
+<!--- [KB] Wir könnten hier auch noch ein Quiz einbauen, á la: Was macht man an welcher Station des DLZ / MAH: sehr gute Idee :-)--->
+
+
 
 ## FAIR und CARE
-Die Akronyme FAIR und CARE stehen für zwei wichtige Regelwerke im Kontext guten Forschungsdatenmanagement. Und werden in den folgenden Folien genauer betrachtet.
+Die Akronyme FAIR und CARE stehen für zwei wichtige Regelwerke im Kontext guten Forschungsdatenmanagement, sie werden in den folgenden Abschnitten genauer betrachtet.
 
-Die beiden Akronyme werden gerne in einem Atemzug genutzt, es ist aber wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu betrachten! <br>
-Die FAIR-Prinzpien fokussieren sich überwiegend auf technische Aspekte und sind auf quasi jeden Datensatz anwendbar. Die CARE-Prinzipien hingegen stehen für einen angemessenen Umgang mit Daten, die indigene Gemeinschaften betreffen. Im Gegensatz zu FAIR liegt der Fokus also explizit nicht auf die Erleichterung des Datenaustauschs, sondern auf die Wahrung der Interessen indigener Gemeinschaften, was in einigen Fällen die FAIR-heit der Daten reduzieren kann.
+Die beiden Akronyme werden gerne in einem Atemzug genutzt, es ist aber wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu betrachten! <br><br>
+Die FAIR-Prinzpien fokussieren überwiegend auf technische Aspekte und sind auf quasi jeden Datensatz anwendbar.<br><br>
+Die CARE-Prinzipien hingegen stehen für einen angemessenen Umgang mit Daten, die indigene Gemeinschaften betreffen. Im Gegensatz zu FAIR liegt der Fokus also explizit nicht auf die Erleichterung des Datenaustauschs, sondern auf die Wahrung der Interessen indigener Gemeinschaften, was in einigen Fällen die FAIR-heit der Daten reduzieren kann.
 
 Lest in den nächsten Kapiteln genauer nach, wofür FAIR und CARE stehen!
 
 <!---
-hier Erklärung/Erläuterung einfügen
+hier Erklärung/Erläuterung einfügen // MAH: welche?
 --->
 
-### Die FAIR Principles
+### Die FAIR-Prinzipien
 
-FAIR steht für findable, accesssible, interoparable und reusable; übersetzt also für: auffindbar, zugreifbar, interoperabel und nachnutzbar.
+FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusable; übersetzt also für: auffindbar, zugreifbar, interoperabel und nachnutzbar.
 
-Die Prinzipien wurden entwickelt um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows.
+Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows.
 
 Es gibt verschiedene Tools, die Wissenschaftler:innen dabei unterstützen, den FAIR-Gehalt ihrer Daten zu ermitteln:
 
 - [NFDI4Culture FAIR-Check](https://nfdi4culture.de/id/E5080)
 - [FAIR Assessment Tool von TKDM](https://tkfdm.github.io/FAIR-Data-Assessment-Tool/)
 
-### Die FAIR Principles
+### QUIZ
+
+<!---
+MAH: Sollten die Quiz-Seiten eine eigene Überschrift bekommen? Und sie sollten in der Einleitung erwähnt werden!
+--->
 
 Wofür stehen die Buchstaben in FAIR?
 
@@ -310,13 +309,14 @@ Wofür stehen die Buchstaben in FAIR?
 - [[ ]] redirectable
 - [[x]] reusable
 
-### CARE Principles
+### Die CARE-Prinzipien
 
 Die [CARE-Prinzipien](https://doi.org/10.5334/dsj-2020-042) wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht darum, koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse zu identifizieren und zu berücksichtigen.
 
 Die Prinzipien sind für jene Forschende relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch Forschen oder sich mit Daten aus kolonialen Kontexten beschäftigen.
 
 CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Übersetzt also: Kollektiver Nutzen, Kontrollbefugnisse, Verantwortung und Ethik.
+Vergleiche hierzu auch die [NFDI4Culture-Kommunikationsleitlinie zu den CARE-Prinzipien für indigene Datensouveränität](https://nfdi4culture.de/id/E6467)
 
 ---
 
@@ -332,18 +332,19 @@ Kooperationen mit Ursprungscommunities können den CARE-Prinzipien folgend u. a.
 - Nutzung von Notices, dass indigene Daten verwaltet werden
 - Nutzung von Traditional Knowledge Labels (z. B. Kennzeichnung als weibliches Wissen, sakralen Kontext etc.)
 
-### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE Principles
-In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten <br>
+### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE-Prinzipien
+In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten. <br><br>
 Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
 
-<!--- Hier noch ergänzen: Bisher das Material von Andrea und Alex aus dem FFK-Kurs --->
-- (Forschungs-)Daten zu Filmmaterial aus kolonialen Kontexten
+<!--- Hier noch ergänzen: Bisher das Material von Andrea und Alex aus dem FFK-Kurs / Material von Barbara Alge?--->
+- Forschungsdaten zu Filmmaterial aus kolonialen Kontexten
 
   - bspw. Amateurfilme, wissenschaftliche Filme, Travelogues, „Kulturfilme“
-- (Forschungs-)Daten zu Tonmaterial aus kolonialen Kontexten
+- Forschungsdaten zu Tonmaterial aus kolonialen Kontexten
   
   - bspw. Phonographenwalzen aus Wachs aus ethnologischen Forschungskontexten, u. a. auch aus Kriegsgefangenenlagern des Ersten Weltkriegs
-- (Forschungs-)Daten zu geraubten Kulturgütern aus kolonialen Kontexten
+
+- Forschungsdaten zu geraubten Kulturgütern aus kolonialen Kontexten
 
   - bspw. 3D-Digitalisate von geraubten Objekten
 
@@ -388,15 +389,15 @@ Dies sind einige fachübergreifende Standards:
 - PREMIS
 - METS MODS
 
-Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechen
+Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechen.
 
 ---
 
 Warum gibt es mehr fachspezifische denn medienspezifische Standards? 
 
-- Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen, das hat teilweise den Effekt, dass sie teils unterschiedliche Metadaten erfassen und sich dadurch historisch verschiedene Standards entwickelt haben!
+- Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen; das hat teilweise den Effekt, dass sie teils unterschiedliche Metadaten erfassen und sich dadurch historisch verschiedene Standards entwickelt haben!
 
-#### <font color=PURPLE> 🎬 Metadatenstandards der Medienwissenschaft </font>
+#### <font color=#d618c0> 🎬 Metadatenstandards der Medienwissenschaft </font>
 In Deutschland gibt es (noch) keinen allgemein genutzten/akzeptierten Metadaten-Standard für audiovisuelle Metadaten. <br>
 Damit Metadaten FAIR sind und bleiben, sollten sie sich an bestehenden Schemata orientieren.
 

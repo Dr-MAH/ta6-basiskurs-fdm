@@ -4,8 +4,10 @@ icon : ./resources/icon_4Culture.png
 version: 0.5
 author: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Alexander Stark, Andrea Polywka
 narrator: Deutsch female
-comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG),Projektnummer: 441958017.
+comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer 441958017. Wir nutzen hierfür den Markdown-Dialekt LiaScript.
 -->
+
+<!--- Link zum How To-Dokument: https://cloud.nfdi4culture.de/f/3313403  --->
 
 # Basiskurs Forschungsdatenmanangement für Geistes- und Kulturwissenschaften
 
@@ -97,34 +99,35 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die V
 
 **Bild (Rastergrafiken)**
 
-    Rohdaten: Digital Negative (DNG)
-    Master: baseline Tagged Image File Format (TIFF), unkomprimiert; TIFF mit Lempel-Ziv-Welch-Komprimierung (TIFF-LZW)
-    Joint Photographic Experts Group (JPEG 1 und JPEG 2000), verlustfrei komprimiert, lizenzfreie Bereiche
-    Präsentationsformate (Derivate): JPEG, JPEG 2000, Portable Network Graphics (PNG)
+- Rohdaten: Digital Negative (DNG)
+- Master: baseline Tagged Image File Format (TIFF), unkomprimiert; TIFF mit Lempel-Ziv-Welch-Komprimierung (TIFF-LZW)
+- Joint Photographic Experts Group (JPEG 1 und JPEG 2000), verlustfrei komprimiert, lizenzfreie Bereiche
+- Präsentationsformate (Derivate): JPEG, JPEG 2000, Portable Network Graphics (PNG)
 <br><br>
 
 **Bild (Vektorgrafiken) und CAD**
 
-    Scalable Vector Graphics (SVG)
+- Scalable Vector Graphics (SVG)
 <br><br>
 
 **Audio**
 
-    Archivformat: Waveform Audio File-Format (WAV) in Verbindung mit Pulse Code Modulation (PCM); Free Lossless Audio Codec (FLAC)
-    Präsentationsformat: MPEG-2 Audiolayer III (MP3)
+- Archivformat: Waveform Audio File-Format (WAV) in Verbindung mit Pulse Code Modulation (PCM); Free Lossless Audio Codec (FLAC)
+- Präsentationsformat: MPEG-2 Audiolayer III (MP3)
 <br><br>
 
 **Video/Film**
 
-    Archivformate:
-        Moving Picture Experts Group Motion JPEG 2000 (MJPEG2000)
-        Moving Picture Experts Group, Standard MPEG-4
-        Digital Picture Exchange (DPX), SMPTE 268M-2003, v 2.0
-        Material Exchange Format (MXF), SMPTE 377M
-        Codec FFV1 / Container MKV
-        TIFF mit FFV1 in Matroshka codiert
-    Präsentationsformat: MP4 (MPEG-4, part 14)
-    weitere Empfehlungen der nestor AG Media
+- Archivformate:
+
+  - Moving Picture Experts Group Motion JPEG 2000 (MJPEG2000)
+  - Moving Picture Experts Group, Standard MPEG-4
+  - Digital Picture Exchange (DPX), SMPTE 268M-2003, v 2.0
+  - Material Exchange Format (MXF), SMPTE 377M
+  - Codec FFV1 / Container MKV
+  - TIFF mit FFV1 in Matroshka codiert
+- Präsentationsformat: MP4 (MPEG-4, part 14)
+- Weitere Empfehlungen gibt die [nestor AG Media.](https://wiki.dnb.de/display/NESTOR/Digitalisierungsempfehlungen)
 
 
 

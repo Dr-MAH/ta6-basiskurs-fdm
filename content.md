@@ -21,6 +21,8 @@ Projektnummer: 441958017
 ---
 
 Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, die die Nachnutzung ermöglicht: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+<br>
+<br> Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Andrea Polywka, Alexander Stark
 
 ## Welche Inhalte bietet dieser Kurs?
 

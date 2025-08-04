@@ -57,7 +57,7 @@ Dividing line
 Pagination
 */
 .lia-pagination__content {
-    background-color: white !important;
+   background-color: transparent !important;
 }
 
 /*
@@ -84,9 +84,19 @@ Links
 /*
 Slides
 */
-.lia-slide {
+/*.lia-slide {
     background-color: #fcfcfc !important;
-}
+}*/
+
+/*
+.lia-header {
+    background-color: #fcfcfc !important;
+}*/
+
+/*
+.lia-support-menu {
+    background-color: #fcfcfc !important;
+}*/
 
 /*
 Links in der TOC

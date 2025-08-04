@@ -37,6 +37,7 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
  9. Sichern und Speichern
  10. Lizenzen
  11. Datenmanagement-Pläne
+ 12. Dokumentation
 <br>
 - Weiterführende Literatur
 - Zusatzmaterial
@@ -649,6 +650,52 @@ Es gibt ein RDMO-Demo-Programm auf der RDMO-Website, dass jede:r Interessierte n
 
 - Accounts können kostenlos erstellt werden
 - Das "Demo" im Namen mag fehlleiten, es ist hat aber volle Funktionalität, nur keine individualisierten Funktionen, welche die Instanzen von Institutionen haben können
+
+## Dokumentation
+Der Datenmanagement-Plan beschreibt wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>
+Eine Dokumentation hingegen beschreibt und dokumentiert Prozesse und Daten im Projekt. Da sich dieser Kurs um das Datenmanagement handelt, sei hier ein Fokus auf die **Datendokumentation** gelegt.
+
+Eine gute Datendokumentation erhöht die Nachnutzbarkeit der Daten erheblich. Die Daten werden FAIRer. (s.a. [FAIR-Prinzipien](#die-fair-prinzipien)) <br>
+Das gilt nicht nur für die Nachnutzung Dritter, sondern auch die Nutzung der Daten durch den Datenerzeugenden selbst.
+
+Es bietet sich an, Daten direkt nach ihrer Erhebung zu dokumentieren. <br>
+In jedem Projekt ist individuell zu entscheiden, welche Arten der Dokumentation am geeignetsten sind. Es gibt jedoch einige Leitlinien, an denen sich orientiert werden kann.
+
+---
+
+Bestandteile einer Datendokumentation:
+
+- Informationen zur Erhebung der Daten
+
+  - verwendete Methoden
+  - Einheiten
+  - Zeiträume und Orte der Erhebung
+  - verwendete Technik (Hardware, Software)
+- Maßnahmen zur Datenbereinigung
+- Struktur der Daten und deren Beziehungen zueinander
+- Erläuterung von Variablen, Labels und Codes
+- Unterschiede zwischen verschiedenen Versionen
+- Informationen über Zugang und Nutzungsbedingungen
+
+---
+
+Formen von Dokumentationen:
+
+- Dokumentation durch Metadaten (s. a. Kapitel [Metadaten](#metadaten))
+- READ.me-Dateien
+- Data Dictionaries
+- Codebooks
+
+  - Erklärungen für Codes und Label
+
+---
+
+Was passiert, wenn ich Daten nicht richtig dokumentiere?
+
+- Daten werden schlecht oder gar nicht gefunden
+- Entstehung ist nicht nachvollziehbar, was die Interpretation erschwert oder verhindert
+- Fehlende Informationen zur Erhebung und Kontext verhindern die Nachnutzung
+- Verwechslung von Daten (ältere Versionen, gleichnamige Dateien)
 
 ## Exkurs: Ökologisch nachhaltiges Datenmanagement
 <!--- [KB] Ich schreib hier noch weiter --->

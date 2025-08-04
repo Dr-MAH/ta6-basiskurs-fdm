@@ -37,6 +37,7 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
  9. Sichern und Speichern
  10. Lizenzen
  11. Datenmanagement-Pläne
+ 12. Dokumentation
 <br>
 - Weiterführende Literatur
 - Zusatzmaterial
@@ -633,6 +634,24 @@ Was macht einen guten DMP aus?
 - Idealerweise wird der DMP zu Projektende mit veröffentlicht.
 
 > Wichtig: DMPs wachsen mit dem Projekt! Der DMP aus dem Projektantrag darf verändert werden, wenn sich Situationen während der Projektlaufzeit ändern oder auffällt, dass ursprünglich Geplantes so nicht umgesetzt werden kann.
+
+## Dokumentation
+Der Datenmanagement-Plan beschreibt wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>
+Eine Dokumentation hingegen beschreibt und dokumentiert Prozesse und Daten im Projekt. Da sich dieser Kurs um das Datenmanagement handelt, sei hier ein Fokus auf die **Datendokumentation** gelegt.
+
+Bestandteile einer Datendokumentation:
+
+- Informationen zur Erhebung der Daten
+
+  - verwendete Methoden
+  - Einheiten
+  - Zeiträume und Orte der Erhebung
+  - verwendete Technik (Hardware, Software)
+- Maßnahmen zur Datenbereinigung
+- Struktur der Daten und deren Beziehungen zueinander
+- Erläuterung von Variablen, Labels und Codes
+- Unterschiede zwischen verschiedenen Versionen
+- Informationen über Zugang und Nutzungsbedingungen
 
 ### Das RDMO-Tool
 

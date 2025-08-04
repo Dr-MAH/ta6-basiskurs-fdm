@@ -26,21 +26,20 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
 
 ## Welche Inhalte bietet dieser Kurs?
 
- 1. Der Forschungsdatenbegriff
- 2. Datenformate
- 3. Forschungsdatenmanagement
- 4. Der Datenlebenszyklus
- 5. FAIR Principles
- 6. CARE Principles
- 7. Metadaten
- 8. Normdaten und kontrollierte Vokabulare
- 9. Sichern und Speichern
- 10. Lizenzen
- 11. Datenmanagement-Pläne
- 12. Dokumentation
+ 1. Der Forschungsdatenbegriff [>](#der-forschungsdatenbegriff)
+ 2. Datenformate [>](#datenformate)
+ 3. Forschungsdatenmanagement [>](#forschungsdatenmanagement)
+ 4. Der Datenlebenszyklus [>](#der-datenlebenszyklus)
+ 5. Die FAIR Prinzipien [>](#die-fair-prinzipien)
+ 6. Die CARE Prinzipien [>](#die-care-prinzipien)
+ 7. Metadaten [>](#metadaten)
+ 8. Normdaten und kontrollierte Vokabulare [>](#normdaten)
+ 9. Sichern und Speichern [>](#sichern-und-speichern)
+ 10. Der Datenmanagement-Plan [>](#der-datenmanagementplan-dmp)
+ 12. Dokumentation [>](#dokumentation)
 <br>
-- Weiterführende Literatur
-- Zusatzmaterial
+- Weiterführende Literatur [>](#weiterführende-literatur)
+- Zusatzmaterial [>](#zusatzmaterial-interaktive-module)
 
 ### Abkürzungen in diesem Kurs
 
@@ -210,7 +209,7 @@ FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse ve
 
 FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern auch das Risiko von Datenverlusten. Daten können durch geeignete FDM-Maßnahmen bestenfalls noch nach Jahrzehnten genutzt werden.<br>
 
-Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren [s. a. CARE-Principles](#17).
+Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren [s. a. CARE-Principles](#die-care-prinzipien).
 
 Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlicher Arbeit und Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten, bspw. in Form eines Datenmanagementplan (DMP).
 
@@ -336,7 +335,8 @@ Kooperationen mit Ursprungscommunities können den CARE-Prinzipien folgend u. a.
 - Nutzung von Traditional Knowledge Labels (z. B. Kennzeichnung als weibliches Wissen, sakralen Kontext etc.)
 
 ### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE-Prinzipien
-In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten. <br><br>
+In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten.
+
 Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
 
 <!--- Hier noch ergänzen: Bisher das Material von Andrea und Alex aus dem FFK-Kurs / Material von Barbara Alge?--->
@@ -454,7 +454,7 @@ Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaft
 
 Die vorigen Kapitel haben schon eingies vorwegennommen, was beim Speichern von Daten sinnvoll und wichtig ist, folgend seien weitere Aspekte aufgeführt, die für die Speicherung von Daten relevant sind:
 
-- Vermeiden proprietärer Datenformate [s. a. Datenformate](#5)
+- Vermeiden proprietärer Datenformate [s. a. Datenformate](#datenformate)
 - 3-2-1-Regel: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
 - Passwortverschlüsselung der Daten
 - Sinnvolles und konsistentes Dateiablagesystem

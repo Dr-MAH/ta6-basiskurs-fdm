@@ -655,6 +655,12 @@ Es gibt ein RDMO-Demo-Programm auf der RDMO-Website, dass jede:r Interessierte n
 Der Datenmanagement-Plan beschreibt wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>
 Eine Dokumentation hingegen beschreibt und dokumentiert Prozesse und Daten im Projekt. Da sich dieser Kurs um das Datenmanagement handelt, sei hier ein Fokus auf die **Datendokumentation** gelegt.
 
+Eine gute Datendokumentation erhöht die Nachnutzbarkeit der Daten erheblich. Die Daten werden FAIRer. (s.a. [FAIR-Prinzipien](#die-fair-prinzipien)) <br>
+Das gilt nicht nur für die Nachnutzung Dritter, sondern auch die Nutzung der Daten durch den Datenerzeugenden selbst.
+
+Es bietet sich an, Daten direkt nach ihrer Erhebung zu dokumentieren. <br>
+In jedem Projekt ist individuell zu entscheiden, welche Arten der Dokumentation am geeignetsten sind. Es gibt jedoch einige Leitlinien, an denen sich orientiert werden kann.
+
 ---
 
 Bestandteile einer Datendokumentation:
@@ -675,9 +681,21 @@ Bestandteile einer Datendokumentation:
 
 Formen von Dokumentationen:
 
-- Anlegen von READ.me-Dateien
+- Dokumentation durch Metadaten (s. a. Kapitel [Metadaten](#metadaten))
+- READ.me-Dateien
 - Data Dictionaries
 - Codebooks
+
+  - Erklärungen für Codes und Label
+
+---
+
+Was passiert, wenn ich Daten nicht richtig dokumentiere?
+
+- Daten werden schlecht oder gar nicht gefunden
+- Entstehung ist nicht nachvollziehbar, was die Interpretation erschwert oder verhindert
+- Fehlende Informationen zur Erhebung und Kontext verhindern die Nachnutzung
+- Verwechslung von Daten (ältere Versionen, gleichnamige Dateien)
 
 ## Exkurs: Ökologisch nachhaltiges Datenmanagement
 <!--- [KB] Ich schreib hier noch weiter --->

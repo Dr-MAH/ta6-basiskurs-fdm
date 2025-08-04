@@ -593,12 +593,9 @@ Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie si
 - [[ ]] CC-BY-NC 
 - [[ ]] CC-BY-NC-SA
 - [[x]] unzulässig
-
----
-
-Hinweis: Die Lösung ist unzulässig, da
-<!--- Ja, warum eigentlich? --->
----
+***
+<p font=#b0b0b0> Warum ist es unzulässig? <br> CC-BY-SA erlaubt die kommerzielle Nutzung, CC-BY-NC verbietet diese aber explizit, somit widersprechen sich die beiden Lizenzen und können nicht kombiniert werden.</p>
+***
 
 ---
 
@@ -606,14 +603,11 @@ Hinweis: Die Lösung ist unzulässig, da
 
 - [[ ]] CC-BY
 - [[ ]] CC BY-NA
-- [[ ]] unzulässig
+- [[x]] unzulässig
 - [[ ]] andere
-
----
-
-Hinweis: Die Lösung ist unzulässig, da
-<!--- Ja, warum eigentlich? --->
----
+***
+<p font=#b0b0b0> Warum ist es unzulässig? <br> CC-BY-SA erlaubt die Bearbeitung, CC-BY-ND verbietet diese aber explizit, somit widersprechen sich die beiden Lizenzen und können nicht kombiniert werden.</p>
+***
 
 ## Der Datenmanagementplan (DMP)
 

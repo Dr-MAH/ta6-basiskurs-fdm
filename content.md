@@ -77,8 +77,9 @@ Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespe
 Verwenden Sie möglichst weit verbreitete und mit einem ISO-Standard verbundene Dateiformate. Sie sollten nicht proprietär, also nicht an eine Software oder einen Hersteller gebunden, mit unterschiedlichen Programmen verwendbar und mit einer offenen Lizenz versehen sein und über eine frei zugängliche Dokumentation einschließlich der technischen Spezifikationen verfügen. Sie erlauben eine verlustfreie Speicherung ohne Kompression und sie sind einfach dekodierbar oder unmittelbar lesbar.
 Konsultieren Sie Ihre Datenplattform, welche Dateiformate dort entgegengenommen bzw. empfohlen werden.
 
-Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die Verwendung folgender Standard-Dateiformate:<br>
+Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die Verwendung folgender Standard-Dateiformate:
 <br><br>
+
 **Text**
 
 - Extensible Markup Language (XML) 1.1, mit XML Schema Definition (XSD)
@@ -88,7 +89,7 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die V
 - Comma-Separated Values (CSV)
 - Textdatei (TXT) (Codierung UTF-8)
 - Präsentationsformat: Portable Document Format A (PDF-A)
-<br><br>
+<br>
 
 **Musik**
 
@@ -96,7 +97,7 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die V
 - MusicXML
 - Parsons Code
 - Präsentationsformat: Portable Document Format A (PDF-A)
-<br><br>
+<br>
 
 **Bild (Rastergrafiken)**
 
@@ -104,18 +105,18 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die V
 - Master: baseline Tagged Image File Format (TIFF), unkomprimiert; TIFF mit Lempel-Ziv-Welch-Komprimierung (TIFF-LZW)
 - Joint Photographic Experts Group (JPEG 1 und JPEG 2000), verlustfrei komprimiert, lizenzfreie Bereiche
 - Präsentationsformate (Derivate): JPEG, JPEG 2000, Portable Network Graphics (PNG)
-<br><br>
+<br>
 
 **Bild (Vektorgrafiken) und CAD**
 
 - Scalable Vector Graphics (SVG)
-<br><br>
+<br>
 
 **Audio**
 
 - Archivformat: Waveform Audio File-Format (WAV) in Verbindung mit Pulse Code Modulation (PCM); Free Lossless Audio Codec (FLAC)
 - Präsentationsformat: MPEG-2 Audiolayer III (MP3)
-<br><br>
+<br>
 
 **Video/Film**
 
@@ -129,8 +130,6 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die V
   - TIFF mit FFV1 in Matroshka codiert
 - Präsentationsformat: MP4 (MPEG-4, part 14)
 - Weitere Empfehlungen bietet die [nestor AG Media.](https://wiki.dnb.de/display/NESTOR/Digitalisierungsempfehlungen)
-
-
 
 #### <font color=#f55249> 🎨 Forschungsdaten in der Kunstgeschichte </font>
 Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie umfassen u. a. Notizen, Exzerpte, Fotografien, Tabellen, Skizzen, Transkriptionen, Textversionen, Rekon­struk­tionen. <br>

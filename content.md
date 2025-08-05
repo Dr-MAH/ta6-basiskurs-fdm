@@ -7,11 +7,10 @@ narrator: Deutsch female
 comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer 441958017. <br> Wir nutzen hierfür den Markdown-Dialekt LiaScript. <br> Der Kurs steht unter der CC-BY-Lizenz
 -->
 
-<!--- Link zum How To-Dokument: https://cloud.nfdi4culture.de/f/3313403  --->
-
 # Basiskurs "Forschungsdatenmanangement für Geistes- und Kulturwissenschaften"
 
-Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/id/E1826)
+Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/id/E1826)<br>
+Autoren: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Andrea Polywka, Alexander Stark
 
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
@@ -21,8 +20,6 @@ Projektnummer: 441958017
 ---
 
 Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, die die Nachnutzung ermöglicht: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-<br>
-<br> Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Andrea Polywka, Alexander Stark
 
 ## Welche Inhalte bietet dieser Kurs?
 
@@ -58,9 +55,7 @@ Wenn wir uns mit dem Thema Forschungsdatenmanagement auseinandersetzen, dann sol
 Die DFG beschreibt es so:
 
 „Ein fachspezifisch adäquater Umgang mit Forschungsdaten, die wissenschaftlichen Projekten zugrunde liegen oder bei deren Durchführung entstehen, ist ein wesentlicher Bestandteil qualitätsorientierter und anschlussfähiger Forschung. Zu Forschungsdaten zählen u. a. Messdaten, Laborwerte, audiovisuelle Informationen, Texte, Surveydaten oder Beobachtungsdaten, methodische Testverfahren sowie Fragebögen.“
-<sub>([aus den Leitlinien zum Umgang mit Forschungsdaten  der Deutsche Forschungsgemeinschaft, 2023](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/forschungsdaten))</sub>
-
-
+<sub>[Zitat der Deutschen Forschungsgemeinschaft (DFG) zum Umgang mit Forschungsdaten, 2023](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/forschungsdaten)</sub>
 
 ---
 
@@ -213,30 +208,21 @@ Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhö
 
 Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlicher Arbeit und Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten, bspw. in Form eines Datenmanagementplan (DMP).
 
-> Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp) der DFG
+> Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://doi.org/10.5281/zenodo.14281892) der DFG
 
 
 
 ## Der Datenlebenszyklus 
+
 <!---
-MAH: Ich würde die Graphik und die folgenden Stationen nicht voneinader trennen, sondewrn auf einewr Seite bringen.
+[KB] Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiele ergänzt
 --->
 
-<img src="../resources/FD_LZ.png" width=50% height=auto>
-<p><br>
+<img src="../resources/FD_LZ.png" width=50% height=auto> <br>
 <sub> Graphische Darstellung eines DLZ, Creator: CRDA, CC0 </sub>
-</p>
-<br>
 
-
-
-<!---
-Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiele ergänzt
---->
-
-- Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten.
-- Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen.
-- Die grundsätzlichen Stationen sind:
+Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten. Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen.<br>
+Die grundsätzlichen Stationen sind:
 
   1. Forschungsvorhaben planen: Ein erster Datenmanagementplan wird erstellt.
   2. Daten erheben: Während der Forschungsarbeit entstehen Unbereinigten Daten. 
@@ -249,7 +235,50 @@ Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiel
 
 <!--- [KB] Wir könnten hier auch noch ein Quiz einbauen, á la: Was macht man an welcher Station des DLZ / MAH: sehr gute Idee :-)--->
 
+## Quiz: Was beinhalten die Stationen des Forschungsdaten-Lebenszyklus?
+Multiple Choice möglich.
 
+**Forschungsvorhaben planen**
+[[x]] Erstellen eines Datenmanagementplans (DMP)
+[[x]] Lokalisieren vorhandener Daten
+[[ ]] Videos annotieren
+[[ ]] 
+[[ ]]
+
+**Daten erheben**
+[[x]] Bilddaten annotieren
+[[ ]] 
+[[x]] Interviews führen
+[[x]] Noten transkribieren
+[[ ]] 
+
+**Daten aufbereiten**
+[[ ]] 
+[[x]] Objekte digitalisieren
+[[ ]]
+[[x]] Daten bereinigen
+[[x]] Daten interpretieren
+
+**Daten teilen und publizieren**
+[[x]] Urheberrechte festlegen
+[[ ]]
+[[ ]]
+[[x]] Zugänge kontrollieren
+[[ ]]
+
+**Daten archivieren**
+[[ ]]
+[[ ]]
+[[x]] Daten in geeignete Formate migrieren
+[[ ]]
+[[x]] Daten auf geeignete Medien migrieren
+
+**Daten nachnutzen**
+[[ ]]
+[[x]] Bisherige Forschung rezensieren
+[[x]] Daten für Lehre und Lernen verwenden
+[[ ]]
+[[ ]] 
 
 ## FAIR und CARE
 Die Akronyme FAIR und CARE stehen für zwei wichtige Regelwerke im Kontext guten Forschungsdatenmanagement, sie werden in den folgenden Abschnitten genauer betrachtet.
@@ -701,7 +730,7 @@ Was passiert, wenn ich Daten nicht richtig dokumentiere?
 <!--- [KB] Ich schreib hier noch weiter --->
 Dieser Exkurs wäre es wert, eine ganz eigene Lernressource zu werden, dennoch wollen wir in diesem kleinen Exkurs gerne auf Maßnahmen aufmerksam machen, die dabei helfen können, die Forschungsdaten nicht nur nachhaltig im Sinne von FAIR, sondern auch ökologisch nachhaltig zu managen.
 
-## Weiterführende Literatur
+## Weiterführende Literatur und Links
 **Dang 2020**<br>
 Dang, Sarah-Mai: Forschungsdatenmanagement in der Filmwissenschaft. Daten, Praktiken und Erkenntnisprozesse. In: montage AV. Zeitschrift für Theorie und Geschichte audiovisueller Kommunikation, Jg. 29 (2020), Nr. 1, http://dx.doi.org/10.25969/mediarep/21687
 
@@ -710,6 +739,16 @@ Goller, Marion / Heftberger, Adelheid (2018) Die Öffnung von Forschungsdaten in
 
 **Kailus 2023**<br>
 Kailus, Angela: Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten, 2023, https://nfdi4culture.de/go/E3625
+
+---
+
+Deutschen Forschungsgemeinschaft (DFG): Checkliste zum Umgang mit Forschungsdaten, 2021, https://www.dfg.de/resource/blob/174732/forschungsdaten-checkliste-de.pdf
+
+Deutschen Forschungsgemeinschaft (DFG): Dokumente zum fachspezifischen Umgang mit Forschungsdaten, https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/forschungsdaten/empfehlungen
+
+Deutschen Forschungsgemeinschaft (DFG): Leitlinien zur Sicherung guter wissenschaftlicher Praxis, Aufl. 3 (2025), https://doi.org/10.5281/zenodo.3923601
+
+Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“, 2024, https://doi.org/10.11588/artdok.00009194
 
 ## Zusatzmaterial: Interaktive Module
 Dieses Kapitel stellt einige Übungen und Aktivierungsmethoden vor, die in der Lehre genutzt werden können und die vorliegende OER ergänzen.

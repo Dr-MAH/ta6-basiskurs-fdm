@@ -9,8 +9,10 @@ comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeits
 
 # Basiskurs "Forschungsdatenmanangement für Geistes- und Kulturwissenschaften"
 
-Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/id/E1826)<br>
-Autoren: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Andrea Polywka, Alexander Stark
+Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/id/E1826)
+
+Mitarbeitende an diesem Projekt:<br>
+[Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Alexander Stark](https://orcid.org/0000-0003-4893-5924), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719)
 
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
@@ -52,7 +54,7 @@ Wenn wir uns mit dem Thema Forschungsdatenmanagement auseinandersetzen, dann sol
 
 ---
 
-Die DFG beschreibt es so:
+Die Deutsche Forschungsgemeinschaft (DFG) beschreibt es so:
 
 „Ein fachspezifisch adäquater Umgang mit Forschungsdaten, die wissenschaftlichen Projekten zugrunde liegen oder bei deren Durchführung entstehen, ist ein wesentlicher Bestandteil qualitätsorientierter und anschlussfähiger Forschung. Zu Forschungsdaten zählen u. a. Messdaten, Laborwerte, audiovisuelle Informationen, Texte, Surveydaten oder Beobachtungsdaten, methodische Testverfahren sowie Fragebögen.“
 <sub>[Zitat der Deutschen Forschungsgemeinschaft (DFG) zum Umgang mit Forschungsdaten, 2023](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/forschungsdaten)</sub>
@@ -238,47 +240,55 @@ Die grundsätzlichen Stationen sind:
 ## Quiz: Was beinhalten die Stationen des Forschungsdaten-Lebenszyklus?
 Multiple Choice möglich.
 
+<!--- [KB] "Falsche" Antworten ergänzen; gerne alle die Ideen haben --->
+
 **Forschungsvorhaben planen**
+
 [[x]] Erstellen eines Datenmanagementplans (DMP)
 [[x]] Lokalisieren vorhandener Daten
 [[ ]] Videos annotieren
-[[ ]] 
-[[ ]]
+[[ ]] Objekte digitalisieren
+[[ ]] x
 
 **Daten erheben**
+
 [[x]] Bilddaten annotieren
-[[ ]] 
+[[ ]] x
 [[x]] Interviews führen
 [[x]] Noten transkribieren
-[[ ]] 
+[[ ]] x
 
 **Daten aufbereiten**
-[[ ]] 
+
+[[ ]] x
 [[x]] Objekte digitalisieren
-[[ ]]
+[[ ]] x
 [[x]] Daten bereinigen
 [[x]] Daten interpretieren
 
 **Daten teilen und publizieren**
+
 [[x]] Urheberrechte festlegen
-[[ ]]
-[[ ]]
+[[ ]] x
+[[ ]] x
 [[x]] Zugänge kontrollieren
-[[ ]]
+[[ ]] x
 
 **Daten archivieren**
-[[ ]]
-[[ ]]
+
+[[ ]] x
+[[ ]] x
 [[x]] Daten in geeignete Formate migrieren
-[[ ]]
+[[ ]] x
 [[x]] Daten auf geeignete Medien migrieren
 
 **Daten nachnutzen**
-[[ ]]
+
+[[ ]] x
 [[x]] Bisherige Forschung rezensieren
 [[x]] Daten für Lehre und Lernen verwenden
-[[ ]]
-[[ ]] 
+[[ ]] x
+[[ ]] x
 
 ## FAIR und CARE
 Die Akronyme FAIR und CARE stehen für zwei wichtige Regelwerke im Kontext guten Forschungsdatenmanagement, sie werden in den folgenden Abschnitten genauer betrachtet.

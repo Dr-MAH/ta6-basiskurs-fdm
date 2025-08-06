@@ -146,7 +146,7 @@ Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Seque
 #### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
 
 Auch musikwissenschaftliche Forschungsdaten sind sehr divers, umfassen sie schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie in unterschiedlichster Form digital (PDFs, Codierungen, Aufnahmen etc.) oder analog, wie auch deren digitale Reproduktionen.  
- <br> 
+
 Sie umfassen 
 
 - Notentexte (handschriftlich oder gedruckt) sowie weitere Textzeugen wie Skizzen, Briefe etc.
@@ -171,7 +171,7 @@ Nutzungsszenarien von Videoannotationstools:
 - Visualisierung von Annotationen
 
 ---
-Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu. <br>
+Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu.
 <br><br>
 Annotationstools für AV-Material (Auswahl):
 
@@ -298,10 +298,6 @@ Die CARE-Prinzipien hingegen stehen für einen angemessenen Umgang mit Daten, di
 
 Lest in den nächsten Kapiteln genauer nach, wofür FAIR und CARE stehen!
 
-<!---
-hier Erklärung/Erläuterung einfügen // MAH: welche?
---->
-
 ### Die FAIR-Prinzipien
 
 FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusable; übersetzt also für: auffindbar, zugreifbar, interoperabel und nachnutzbar.
@@ -313,13 +309,11 @@ Es gibt verschiedene Tools, die Wissenschaftler:innen dabei unterstützen, den F
 - [NFDI4Culture FAIR-Check](https://nfdi4culture.de/id/E5080)
 - [FAIR Assessment Tool von TKDM](https://tkfdm.github.io/FAIR-Data-Assessment-Tool/)
 
-### QUIZ
+### QUIZ: Wofür stehen die Buchstaben in FAIR?
 
 <!---
 MAH: Sollten die Quiz-Seiten eine eigene Überschrift bekommen? Und sie sollten in der Einleitung erwähnt werden!
 --->
-
-Wofür stehen die Buchstaben in FAIR?
 
 **F wie ...**
 

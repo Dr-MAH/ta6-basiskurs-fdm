@@ -7,7 +7,7 @@ h1,
 h2,
 h3,
 h4 {
-   /* color: #111111 !important;*/
+    /* color: #111111 !important;*/
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
@@ -42,9 +42,7 @@ Button Design
 /*
 Icon Button Design
 */
-/*.lia-btn__icon {
-    color: #111111 !important;
-}*/
+.lia-btn__icon {}
 
 /*
 Dividing line
@@ -57,7 +55,7 @@ Dividing line
 Pagination
 */
 .lia-pagination__content {
-   background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 /*
@@ -84,19 +82,12 @@ Links
 /*
 Slides
 */
-/*.lia-slide {
-    background-color: #fcfcfc !important;
-}*/
+.lia-slide {}
 
-/*
 .lia-header {
-    background-color: #fcfcfc !important;
-}*/
+}
 
-/*
-.lia-support-menu {
-    background-color: #fcfcfc !important;
-}*/
+.lia-support-menu {}
 
 /*
 Links in der TOC
@@ -175,5 +166,6 @@ Quiz-Checkbox Design
 Quotes
 */
 .lia-quote {
-    background-color: #82d8bb56;
+    background-color: #82d8bb3e !important;
+    color: #323232 !important;
 }

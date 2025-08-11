@@ -32,10 +32,11 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
  5. Die FAIR Prinzipien [>](#die-fair-prinzipien)
  6. Die CARE Prinzipien [>](#die-care-prinzipien)
  7. Metadaten [>](#metadaten)
- 8. Normdaten und kontrollierte Vokabulare [>](#normdaten)
+ 8. Normdaten [>](#normdaten)
  9. Sichern und Speichern [>](#sichern-und-speichern)
  10. Der Datenmanagement-Plan [>](#der-datenmanagementplan-dmp)
- 12. Dokumentation [>](#dokumentation)
+ 11. Dokumentation [>](#dokumentation)
+ 12. Exkurs: Ökologisch nachhaltiges Forschungsdatenmanagement [>](#exkurs-ökologisch-nachhaltiges-datenmanagement)
 <br>
 - Weiterführende Literatur [>](#weiterführende-literatur)
 - Zusatzmaterial [>](#zusatzmaterial-interaktive-module)
@@ -56,7 +57,7 @@ Wenn wir uns mit dem Thema Forschungsdatenmanagement auseinandersetzen, dann sol
 
 Die Deutsche Forschungsgemeinschaft (DFG) beschreibt es so:
 
-„Ein fachspezifisch adäquater Umgang mit Forschungsdaten, die wissenschaftlichen Projekten zugrunde liegen oder bei deren Durchführung entstehen, ist ein wesentlicher Bestandteil qualitätsorientierter und anschlussfähiger Forschung. Zu Forschungsdaten zählen u. a. Messdaten, Laborwerte, audiovisuelle Informationen, Texte, Surveydaten oder Beobachtungsdaten, methodische Testverfahren sowie Fragebögen.“
+„Ein fachspezifisch adäquater Umgang mit Forschungsdaten, die wissenschaftlichen Projekten zugrunde liegen oder bei deren Durchführung entstehen, ist ein wesentlicher Bestandteil qualitätsorientierter und anschlussfähiger Forschung. [...] Zu Forschungsdaten zählen u. a. Messdaten, Laborwerte, audiovisuelle Informationen, Texte, Surveydaten oder Beobachtungsdaten, methodische Testverfahren sowie Fragebögen.“
 <sub>[Zitat der Deutschen Forschungsgemeinschaft (DFG) zum Umgang mit Forschungsdaten, 2023](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/forschungsdaten)</sub>
 
 ---
@@ -66,13 +67,14 @@ Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 > Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
 
 ## Datenformate
-Jede Software hat ein vorgegebenes Dateiformat, in dem es seine Daten speichert. Doch ist das in den allermeisten Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>
-Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. Zudem kann darauf geachtet werden, dass die Dateiformate resourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen, als alternative Formate. <br>
+Jede Software hat ein vorgegebenes Dateiformat, in dem es seine Daten speichert. Doch ist das in einigen Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>
+Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. <br>
+Zudem kann darauf geachtet werden, dass die gewählten Dateiformate resourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen als alternative Formate.
 
 ---
 
 **Empfehlungen für Dateiformate** <br>
-<sub>(aus [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/empfehlungen-dateiformate#10-empfehlungen-f%C3%BCr-dateiformate))</sub>
+<sub>(zitiert aus [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/empfehlungen-dateiformate#10-empfehlungen-f%C3%BCr-dateiformate))</sub>
 
 Verwenden Sie möglichst weit verbreitete und mit einem ISO-Standard verbundene Dateiformate. Sie sollten nicht proprietär, also nicht an eine Software oder einen Hersteller gebunden, mit unterschiedlichen Programmen verwendbar und mit einer offenen Lizenz versehen sein und über eine frei zugängliche Dokumentation einschließlich der technischen Spezifikationen verfügen. Sie erlauben eine verlustfreie Speicherung ohne Kompression und sie sind einfach dekodierbar oder unmittelbar lesbar.
 Konsultieren Sie Ihre Datenplattform, welche Dateiformate dort entgegengenommen bzw. empfohlen werden.
@@ -135,17 +137,17 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die V
 Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie umfassen u. a. Notizen, Exzerpte, Fotografien, Tabellen, Skizzen, Transkriptionen, Textversionen, Rekon­struk­tionen. <br>
 Je nach fachlicher Ausrichtung braucht es andere Dateiformate und Analysetools, um mit ihnen umzugehen. Beispielsweise werden an 3D-Rekonstruktionen von Plastiken und Statuen andere Fragestellungen gestellt, als an Architektur-Rekonstruktionen; an Buchmalerei andere Fragen als an Ölgemälde. <br>
 
-Die deutschsprachige Kunstgeschichte hat sich bisher nicht auf einen einheitlichen Umgang mit Forschungsdaten und feste Standards geeinigt. Doch steigt auch unter Kunsthistorikern das Bewusstsein um die Relevanz guten Forschungsdatenmanagements. Mit dem [Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“](https://doi.org/10.11588/artdok.00009194) liegt jedoch seit 2024 ein Paper vor, das auf Initiative des Deutschen Verbandes für Kunstgeschichte e. V., der Universitätsbibliothek Heidelberg / arthistoricum.net und des Zentralinstituts für Kunstgeschichte erarbeitet wurde, und aus Sicht des Faches in Deutschland aktuelle Anforderungen, Positionen und Impulse zur weiteren Entwicklung digitaler kunsthistorischer Forschungsdaten und ihrer Infrastruktur formuliert.
+Die deutschsprachige Kunstgeschichte hat sich bisher nicht auf einen einheitlichen Umgang mit Forschungsdaten und feste Standards geeinigt. Doch steigt auch unter Kunsthistorikern das Bewusstsein um die Relevanz guten Forschungsdatenmanagements. Mit dem [Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“](https://doi.org/10.11588/artdok.00009194) liegt seit 2024 ein Paper vor, das auf Initiative des Deutschen Verbandes für Kunstgeschichte e. V., der Universitätsbibliothek Heidelberg / arthistoricum.net und des Zentralinstituts für Kunstgeschichte erarbeitet wurde, und aus Sicht des Faches in Deutschland aktuelle Anforderungen, Positionen und Impulse zur weiteren Entwicklung digitaler kunsthistorischer Forschungsdaten und ihrer Infrastruktur formuliert.
 
 #### <font color=#d618c0> 🎬 Forschungsdaten in der Medienwissenschaft </font>
 
-Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen „alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen", mitunter auch Koppelungen von "fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä." ([Goller, Heftberger 2018, S.1](https://doi.org/10.17176/20180515-233758))
+Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen, mitunter auch Koppelungen von fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä. (Vgl. [Goller / Heftberger 2018](https://doi.org/10.17176/20180515-233758))
 
-Digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen)." ([Dang 2020, S. 119–140](http://dx.doi.org/10.25969/mediarep/21687))
+"Für die Filmwissenschaft [lässt sich] allein mit Blick auf Filmkorpora eine ähnliche Datenvielfalt feststellen: digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen." ([Dang 2020, S. 121](http://dx.doi.org/10.25969/mediarep/21687))
 
 #### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
 
-Auch musikwissenschaftliche Forschungsdaten sind sehr divers, umfassen sie schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie in unterschiedlichster Form digital (PDFs, Codierungen, Aufnahmen etc.) oder analog, wie auch deren digitale Reproduktionen.  
+Musikwissenschaftliche Forschungsdaten sind sehr divers, umfassen sie schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie in unterschiedlichster Form digital (PDFs, Codierungen, Aufnahmen etc.) oder analog, wie auch deren digitale Reproduktionen.  
 
 Sie umfassen 
 
@@ -154,8 +156,6 @@ Sie umfassen
 - rein digitale Textzeugen (Emails, Webseiten, etc.)
 - Datenbanken
 - Annotation und Metadaten 
-
----
 
 ### Exkurs: Video- und Bildannotation
 
@@ -171,6 +171,7 @@ Nutzungsszenarien von Videoannotationstools:
 - Visualisierung von Annotationen
 
 ---
+<!--- KB: Bisschen merkwürdig, wenn wir den Satz hier schreiben, aber dann nicht verraten, welche Tools das zulassen --->
 Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu.
 <br><br>
 Annotationstools für AV-Material (Auswahl):
@@ -191,23 +192,23 @@ Annotationstools Bild (Auswahl):
 
 ## Forschungsdatenmanagement
 
-<!---
-[KB] Hier muss noch mehr hin. Etwas wenig Inhalt bisher. [AP] Ich füge mal ein paar Stichpunkte aus unserem Skript vom letzten FFK-Kurs bei
----> 
+<!--- [KB] Hier muss noch mehr hin. Etwas wenig Inhalt bisher. [AP] Ich füge mal ein paar Stichpunkte aus unserem Skript vom letzten FFK-Kurs bei ---> 
 Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
 
 - der Aufbereitung,
 - Speicherung,
 - Archivierung,
-- und Nutzung von Forschungsdaten.
+- und Nutzung
 
-FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten. <br>
+... von Forschungsdaten.
 
-FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern auch das Risiko von Datenverlusten. Daten können durch geeignete FDM-Maßnahmen bestenfalls noch nach Jahrzehnten genutzt werden.<br>
+FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten.
 
-Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren [s. a. CARE-Principles](#die-care-prinzipien).
+FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern auch das Risiko von Datenverlusten. Daten können durch geeignete FDM-Maßnahmen bestenfalls noch nach Jahrzehnten genutzt werden.
 
-Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlicher Arbeit und Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten, bspw. in Form eines Datenmanagementplan (DMP).
+Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren ([s. a. CARE-Principles](#die-care-prinzipien).)
+
+Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlicher Arbeit und Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten, festgehalten bspw. in Form eines Datenmanagementplans [DMP](#der-datenmanagementplan-dmp).
 
 > Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://doi.org/10.5281/zenodo.14281892) der DFG
 
@@ -216,30 +217,28 @@ Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlic
 ## Der Datenlebenszyklus 
 
 <!---
-[KB] Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiele ergänzt
+[KB] Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiele ergänzt [KB] Danke! Aber andere Idee noch: Wir lassen Erklärungen hier weg und lösen das nur über das Quiz auf der kommenden Seite?
 --->
 
 <img src="../resources/FD_LZ.png" width=50% height=auto> <br>
-<sub> Graphische Darstellung eines DLZ, Creator: CRDA, CC0 </sub>
+<sub> Graphische Darstellung eines DLZ, Creator: CRDA, [CC0](https://creativecommons.org/publicdomain/zero/1.0/) </sub>
 
 Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten. Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen.<br>
 Die grundsätzlichen Stationen sind:
 
   1. Forschungsvorhaben planen: Ein erster Datenmanagementplan wird erstellt.
-  2. Daten erheben: Während der Forschungsarbeit entstehen Unbereinigten Daten. 
-  3. Daten aufbereiten und analysieren: Die Daten werden bereinigt; Analysen und Datenaufbereitungen <br>
-     (z. B. Digitalisierungs-, Transkriptions-, und Annotationsprozesse; Datenanalyse: Metadaten)
-  4. Daten teilen und publizieren: Datenpublikation während oder nach dem Forschungsvorhaben <br>
-     (z. B. über Open Access-Plattformen)
+  2. Daten erheben: Während der Forschungsarbeit entstehen unbereinigte Daten. 
+  3. Daten aufbereiten und analysieren: Die Daten werden bereinigt; Analysen und Datenaufbereitungen finden statt (z. B. Digitalisierungs-, Transkriptions-, und Annotationsprozesse; Datenanalyse: Metadaten)
+  4. Daten teilen und publizieren: Datenpublikation während oder nach dem Forschungsvorhaben (z. B. über Open Access-Plattformen)
   5. Daten archivieren: Archivierung ausgewählter Daten für längere Zeiträume.
   6. Daten nachnutzen: Die veröffentlichten Daten können selbst oder durch andere nachgenutzt werden.
 
 <!--- [KB] Wir könnten hier auch noch ein Quiz einbauen, á la: Was macht man an welcher Station des DLZ / MAH: sehr gute Idee :-)--->
 
-## Quiz: Was beinhalten die Stationen des Forschungsdaten-Lebenszyklus?
-Multiple Choice möglich.
+### Quiz: Was beinhalten die Stationen des Forschungsdaten-Lebenszyklus?
+Bei allen Fragen ist Mehrfachauswahl möglich.
 
-<!--- [KB] "Falsche" Antworten ergänzen; gerne alle die Ideen haben --->
+<!--- [KB] "Falsche" Antworten ergänzen; gerne von allen die Ideen haben --->
 
 **Forschungsvorhaben planen**
 
@@ -290,21 +289,24 @@ Multiple Choice möglich.
 [[ ]] x
 
 ## FAIR und CARE
-Die Akronyme FAIR und CARE stehen für zwei wichtige Regelwerke im Kontext guten Forschungsdatenmanagement, sie werden in den folgenden Abschnitten genauer betrachtet.
+Die Akronyme FAIR und CARE stehen für zwei wichtige Regelwerke im Kontext guten Forschungsdatenmanagements, sie werden in den folgenden Abschnitten genauer betrachtet.<br>
+Die beiden Akronyme werden gerne in einem Atemzug genannt, es ist aber wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu betrachten!
 
-Die beiden Akronyme werden gerne in einem Atemzug genutzt, es ist aber wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu betrachten! <br><br>
-Die FAIR-Prinzpien fokussieren überwiegend auf technische Aspekte und sind auf quasi jeden Datensatz anwendbar.<br><br>
-Die CARE-Prinzipien hingegen stehen für einen angemessenen Umgang mit Daten, die indigene Gemeinschaften betreffen. Im Gegensatz zu FAIR liegt der Fokus also explizit nicht auf die Erleichterung des Datenaustauschs, sondern auf die Wahrung der Interessen indigener Gemeinschaften, was in einigen Fällen die FAIR-heit der Daten reduzieren kann.
+Die FAIR-Prinzpien fokussieren sich überwiegend auf technische Aspekte und sind auf nahezu jeden Datensatz anwendbar.
 
-Lest in den nächsten Kapiteln genauer nach, wofür FAIR und CARE stehen!
+Die CARE-Prinzipien hingegen stehen für einen angemessenen Umgang mit Daten, die indigene Gemeinschaften betreffen. Im Gegensatz zu FAIR liegt der Fokus also explizit nicht auf die Erleichterung des Datenaustauschs, sondern auf die Wahrung der Interessen indigener Gemeinschaften, was in einigen Fällen auch die FAIR-heit der Daten reduzieren kann.
+
+Lesen Sie in den nächsten Kapiteln genauer nach, wofür FAIR und CARE genau stehen!
 
 ### Die FAIR-Prinzipien
 
 FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusable; übersetzt also für: auffindbar, zugreifbar, interoperabel und nachnutzbar.
 
-Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows.
+Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen und die Daten für die Nachnutzung zu optimieren. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows, die im Zusammenhang mit den Daten stehen.<br>
 
-Es gibt verschiedene Tools, die Wissenschaftler:innen dabei unterstützen, den FAIR-Gehalt ihrer Daten zu ermitteln:
+Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdings auch mehr und mehr Tools, die Wissenschaftler:innen dabei unterstützen, den FAIR-Gehalt ihrer Daten zu ermitteln:
+
+<!--- KB: Gerne ergänzen --->
 
 - [NFDI4Culture FAIR-Check](https://nfdi4culture.de/id/E5080)
 - [FAIR Assessment Tool von TKDM](https://tkfdm.github.io/FAIR-Data-Assessment-Tool/)
@@ -350,7 +352,8 @@ Die [CARE-Prinzipien](https://doi.org/10.5334/dsj-2020-042) wurden 2019 von der 
 Die Prinzipien sind für jene Forschende relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch Forschen oder sich mit Daten aus kolonialen Kontexten beschäftigen.
 
 CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Übersetzt also: Kollektiver Nutzen, Kontrollbefugnisse, Verantwortung und Ethik.
-Vergleiche hierzu auch die [NFDI4Culture-Kommunikationsleitlinie zu den CARE-Prinzipien für indigene Datensouveränität](https://nfdi4culture.de/id/E6467)
+
+> Lesetipp: [NFDI4Culture-Kommunikationsleitlinie zu den CARE-Prinzipien für indigene Datensouveränität](https://nfdi4culture.de/id/E6467)
 
 ---
 
@@ -361,10 +364,10 @@ Kooperationen mit Ursprungscommunities können den CARE-Prinzipien folgend u. a.
 - indigene Ethik einbeziehen
 - eigenes Handeln und Darstellung von Objekten/Forschungsgegenständen regelmäßig hinterfragen
 - wenn nötig, öffentlichen Zugang zu Daten einschränken
-- kulturelle Metadaten, z. B. Bezeichnungen aus Herkunftskontexten; Provenienzangaben in den Metadaten; Auswahl der Metadaten transparent machen
+- kulturelle Metadaten, z. B. Bezeichnungen aus Herkunftskontexten, Provenienzangaben in den Metadaten, Auswahl der Metadaten transparent machen
 - Nutzung von Disclaimern
-- Nutzung von Notices, dass indigene Daten verwaltet werden
-- Nutzung von Traditional Knowledge Labels (z. B. Kennzeichnung als weibliches Wissen, sakralen Kontext etc.)
+- Nutzung von Hinweisen, dass indigene Daten verwaltet werden
+- Nutzung von [Traditional Knowledge Labels](https://localcontexts.org/labels/traditional-knowledge-labels/) (z. B. Kennzeichnung als weibliches Wissen, sakralen Kontext etc.)
 
 ### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE-Prinzipien
 In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten.
@@ -403,18 +406,21 @@ Eine übliche Aufteilung ist:
 - **Archivmetadaten**: Sie beinhalten spezieller zusammengestellte Informationen, die für die Archivierung relevant sind
 
 <img src= "../resources/Metadaten.png" width=50% height=70%> <br>
-<sub>Andrea Polywka, Alexander Stark: Metadaten Schaubild</sub>
+<sub>Andrea Polywka, Alexander Stark: Metadaten Schaubild, [CC0](https://creativecommons.org/publicdomain/zero/1.0/)</sub>
 
-### Metadaten – warum?
+<!--- Hab hier CC0 drangeschrieben, bitte prüfen @Marburg --->
 
-- Alle Arten von Forschungsdaten sollten stets mit Metadaten versehen werden
-- Metadaten halten Daten verständlich und machen sie leichter auffindbar, da sie 
-  
-  * weiterführende, maschinenlesbare Informationen zu den Daten bereitstellen
-  * und Datensätze untereinander in Beziehung setzen.
-- Metadaten sollten gesondert als Metadatenpublikation veröffentlicht werden, um auch unabhängig von dem betreffenden Datum abrufbar zu sein.
+### Metadaten und Metadaten-Standards
 
-### Metadaten Standards
+Alle Arten von Forschungsdaten sollten stets mit Metadaten versehen werden. Metadaten halten Daten verständlich und machen sie leichter auffindbar, da sie
+
+- weiterführende, maschinenlesbare Informationen zu den Daten bereitstellen und
+- Datensätze untereinander in Beziehung setzen.
+
+Metadaten sollten gesondert als Metadatenpublikation veröffentlicht werden, um auch unabhängig von dem betreffenden Datum abrufbar zu sein.
+
+---
+
 Auch für Metadaten gibt es Standards, die ihre Vergleichbarkeit sicherstellen und vor allem ihre Nutzbarkeit für Suchmaschinen erhöhen.
 
 Dies sind einige fachübergreifende Standards:
@@ -424,7 +430,7 @@ Dies sind einige fachübergreifende Standards:
 - PREMIS
 - METS MODS
 
-Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechen.
+Für alle Metadaten gilt, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechend.
 
 ---
 
@@ -450,7 +456,7 @@ Eine Auswahl  von in der  Archivierung gebräuchlichen Normen und Standards für
 
 **Was sind Normdaten?**
 
-- Eine Normdatei oder kontrolliertes Vokabular ist ein Verzeichnis strukturierter Datensätze.
+- Eine Normdatei oder ein kontrolliertes Vokabular ist ein Verzeichnis strukturierter Datensätze.
 - Jedem Normdatum wird eine feste Nummer als Identifikator zugeordnet.
 
 ---
@@ -484,22 +490,23 @@ Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaft
 
 ## Sichern und Speichern
 
-Die vorigen Kapitel haben schon eingies vorwegennommen, was beim Speichern von Daten sinnvoll und wichtig ist, folgend seien weitere Aspekte aufgeführt, die für die Speicherung von Daten relevant sind:
+Die vorigen Kapitel haben schon eingies vorwegennommen, was beim Speichern von Daten sinnvoll und wichtig ist, folgend seien weitere Aspekte aufgeführt, die bei der Speicherung von Daten relevant sind:
 
 - Vermeiden proprietärer Datenformate [s. a. Datenformate](#datenformate)
 - 3-2-1-Regel: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
 - Passwortverschlüsselung der Daten
 - Sinnvolles und konsistentes Dateiablagesystem
 
-  - In einer READ.me-Datei kann das System auf oberster Ebene erläutert werden; das ist gerade bei der Arbeit in geteilten Dateiablagesystem empfehlenswert
+  - In einer READ.me-Datei kann das System auf oberster Ebene erläutert werden; das ist gerade bei der Arbeit in geteilten Dateiablagesystemen und/oder bei größeren Arbeitsgruppen empfehlenswert
 
 ### Sichern vs. Archivieren
 
 Speichern und Archivieren, dass kann im ersten Moment sehr ähnlich klingen, also wo liegt der Unterschied?
 
-Sichern meint die Sicherung aller Daten (Backup) um Datenverlust vorzubeugen
+- Sichern meint die Sicherung aller Daten (Backup) um Datenverlust vorzubeugen
+- Archivieren hingegen ist die Sicherung und **Langzeitarchivierung** ausgewählter, "endgültiger" Daten. Archivieren geschieht also zumeist erst nach dem Abschluss eines Forschungsprojektes, oder dem Abschluss eines eigenständigen Moduls in einem Projekt.
 
-Archivieren hingegen ist die Sicherung und **Langzeitarchivierung** ausgewählter, "endgültiger" Daten. Archivieren geschieht also zumeist erst nach dem Abschluss eines Forschungsprojektes, oder dem Abschluss eines eigenständigen Moduls in einem Projekt.
+<!--- Hier noch ergänzen --->
 
 ### Daten publizieren
 
@@ -521,14 +528,14 @@ Aber warum sollte man Daten zitieren?
 
 - Richtiges Zitieren ist Teil guten wissenschaftlichen Arbeitens.
 
-  * Auch Daten sollten gut und richtig zitiert werden.
+  * Auch Daten sollten gut und richtig zitiert werden, denn auch sie sind Forschungsergebnisse.
 
-Wie zitiere ich richtig?
+Wie zitiere ich Daten richtig?
 
-- Grundsätzlich so zitieren, wie andere Publikationen zitiert werden.
-- Genannt werden sollten also Autoren/Herausgeber, der Titel und das Veröffentlichungsdatum.
-- Ergänzt wird dies bestenfalls um eine DOI, die direkt zum Datensatz führt!
-- Ein Beispiel von forschungsdaten.info:
+- Grundsätzlich werden sie so zitiert, wie andere Arten an Publikationen.
+- Genannt werden sollten also Autoren und/oder Herausgeber, der Titel und das Veröffentlichungsdatum.
+- Ergänzt wird dies bestenfalls um einen _Persistent Identificator_ (PID), etwa eine DOI, die direkt zum Datensatz führt!
+- Ein Beispiel von [forschungsdaten.info](https://forschungsdaten.info/):
 
   * Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
 
@@ -542,54 +549,96 @@ Wie zitiere ich richtig?
 
 ---
 
-Wo finde ich ein geeignetes Repositorium?
+**Wo finde ich ein geeignetes Repositorium?**
 
-- Re3data
-- DFG RIsources
-- NFDI4Culture Repositorien-Überblick
-- ... auch der NFDI4Culture Helpdesk hilft gerne weiter!
+Es gibt verschiedene Portale, die Repositorien listen und diese Auflistungen durchsuchbar machen, in vielen Fällen zeigen diese Portale direkt die wichtigsten Eckdaten der Repositorien an.<br>
+Einige dieser Portale: 
 
-Kulturwissenschaftliche Repositorien – eine Auswahl
+- Re3data [>](https://www.re3data.org/)
+- DFG RIsources [>](https://risources.dfg.de/index.html#q=*&sort=RI_SORT_DE%20asc&rows=10&RI_EXT=Y)
+- NFDI4Cultures kuratierte Repositorieliste [>](https://nfdi4culture.de/services/details/curated-repository-list.html)
+
+---
+
+<!--- KB: Verlinken wir hier auf die Repos? Oder sind das zu viele Links, die ablaufen könnten?--->
+
+**Kulturwissenschaftliche Repositorien – eine Auswahl**
 
 - DARIAH-DE – Digital Research Infrastructure for the Arts and Humanities
 - CLARIN-D – Digitale Forschungsinfrastruktur für Sprachressourcen in den Geisteswissenschaften
 - IANUS – Forschungsdatenzentrum Archäologie und Altertumswissenschaften
 - TextGrid Repository – Langzeitarchiv für geisteswissenschaftliche Forschungsdaten
 - RADAR4Culture
+- SLUBArchiv.digital
+- TIB AV-Portal
+- TIB Preservation-as-a-Service
 
-<font color=PURPLE> 🎬 Medienwissenschaft </font>
+---
+
+<font> 🎨 **Kunstgeschichte** </font>
+
+- ART-Dok
+- arthistoricum.net @ heiDATA
+- arthistoricum.net – ART-Books
+- Bildindex der Kunst und Architektur
+- Deutsche Fotothek
+- heiARCHIVE
+- heidICON – Heidelberger Objekt- und Multimediadatenbank
+- Kompakkt
+- prometheus - A distributed digital image archive for research and teaching
+
+---
+
+<font color=PURPLE> 🎬 **Medienwissenschaft** </font>
 
 - media/rep/ <br>
-🢡 Data Sets können beispielsweise über das Fachrepositorium media/rep/ publiziert werden, Data Papers im NECSUS Journal
 
-<font color=GREEN> 🎵 Musikwissenschaft </font>
+  - Data Sets können beispielsweise über das Fachrepositorium media/rep/ publiziert werden, Data Papers im NECSUS Journal
+  
+- arthistoricum.net @ heiDATA
+- heidICON – Heidelberger Objekt- und Multimediadatenbank
+- prometheus - A distributed digital image archive for research and teaching
+
+---
+
+<font color=GREEN> 🎵 **Musikwissenschaft** </font>
+
 - musiconn.publish
+- Kompakkt
 
-### Persistent Identifier (PI)
+---
 
-- Persistent Identifiers sind Codes, die eine digitale Ressource eindeutig benennen.
-- Sie dienen der besseren und nachhaltigeren Auffindbarkeit und helfen  „tote“ Links zu vermeiden
+<font> **Theaterwissenschaften** </font>
 
-Beispiele
+- Deutsche Fotothek
+- Kompakkt
+
+### Persistent Identifier (PID)
+
+Persistent Identifiers sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhren dadurch ihre Auffindbarkeit stark.
+
+Beispiele für gänge PIDs sind:
 
 - Digital Object Identifier (DOI) 
   
   * für digitale Objekte (Artikel, Datensätze, …)
-  * Verweist permanent auf den Datensatz, „haltbarer“ als URL und erhöht und verbessert dadurch Zitationen.
+  * Verweist permanent auf den Datensatz, beständiger als eine URL und erhöht und verbessert dadurch Zitationen.
+  
 - Open Researcher and Contributer ID (ORCID) 
   
   * Personen ID
-  * Erleichtert die Identifikation von Personen, präsentiert die wiss. Laufbahn, kann eigenhändig angelegt werden (Vor- und Nachteil).
+  * Erleichtert die Identifikation von Personen, präsentiert die wiss. Laufbahn, kann eigenhändig angelegt werden
 
 ### Langzeitarchivierung
 
-- Archivieren meint meist ± 10 Jahre Speicherzeit
-- Metadaten halten die archivierten Daten verständlich.
+<!--- KB: Hier noch ergänzen; in TA4 GL schauen, in jedem Fall drauf verweisen --->
+
+Archivieren meint meist eine Aufbewahrungsgarantie von ± 10 Jahren. Dabei halten Metadaten archivierte Daten verständlich und verbessern oder ermöglichen gar erst ihre Nutzbarkeit.<br>
+Worauf sollte bei der Archivierung geachtet werden:
+
 - Verwendete Software sollte mit archiviert oder zumindest sollte in den Metadaten verzeichnet werden, welche Software genutzt wurde.
-- Möglichst keine proprietäre Software/Datenformate nutzen.
-
-Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
-
+- Möglichst keine proprietäre Software und Datenformate nutzen ([s. Kap. Datenformate](#datenformate)).
+- Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
 - Einmal archivierte Daten werden nicht mehr verändert!
 - Sollten Veränderungen vorgenommen werden, dann sollte eine neue Version der Daten gespeichert werden, die deutlich als solche gekennzeichnet ist.
 
@@ -734,16 +783,39 @@ Was passiert, wenn ich Daten nicht richtig dokumentiere?
 Dieser Exkurs wäre es wert, eine ganz eigene Lernressource zu werden, dennoch wollen wir in diesem kleinen Exkurs gerne auf Maßnahmen aufmerksam machen, die dabei helfen können, die Forschungsdaten nicht nur nachhaltig im Sinne von FAIR, sondern auch ökologisch nachhaltig zu managen.
 
 ## Weiterführende Literatur und Links
+<p style="font-size:25px"><b><u>Literatur</u></b></p>
+
 **Dang 2020**<br>
 Dang, Sarah-Mai: Forschungsdatenmanagement in der Filmwissenschaft. Daten, Praktiken und Erkenntnisprozesse. In: montage AV. Zeitschrift für Theorie und Geschichte audiovisueller Kommunikation, Jg. 29 (2020), Nr. 1, http://dx.doi.org/10.25969/mediarep/21687
 
-**Goller, Heftberger 2018**<br>
+**Goller / Heftberger 2018**<br>
 Goller, Marion / Heftberger, Adelheid (2018) Die Öffnung von Forschungsdaten in den Film- und Medienwissenschaften: praktische und urheberrechtliche Herausforderungen. In: Fachinformationsdienst für internationale und interdisziplinäre Rechtsforschung, 2018, https://doi.org/10.17176/20180515-233758
+
+**Imeri / Rizzolli 2022**<br>
+Imeri, Sabine / Rizzolli, Michaela (2022): CARE Principles for Indigenous Data Governance: Eine Leitlinie für ethische Fragen im Umgang mit Forschungsdaten?, in: O-Bib. Das Offene Bibliotheksjournal 9, 2 (2022), S. 1–14, https://doi.org/10.5282/o-bib/5815
 
 **Kailus 2023**<br>
 Kailus, Angela: Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten, 2023, https://nfdi4culture.de/go/E3625
 
+**Klimpel / Rack 2023**<br>
+Rack, Fabian / Klimpel, Paul: Audiovisuelle Materialien in Forschung und Lehre
+– eine Übersicht zu urheberrechtlichen Aspekten, 2023, https://docs.nfdi4culture.de/ta6-
+audiovisuelle-materialien-urheberrecht-in-forschung-und-lehre
+
+**Stellmacher / Vettermann 2025**<br>
+Stellmacher, Martha / Vettermann, Oliver: NFDI4Culture-Kommunikationsleitlinie zu den CARE-Prinzipien für indigene Datensouveränität, 2025, https://nfdi4culture.de/id/E6467
+
+**Vettermann / Petri 2023**<br>
+Vettermann, Oliver / Petri, Grischka: Should I CARE about FAIR – Ein juristischer Blick auf die Prinzipien des Forschungsdatenmanagements, in: Recht und Zugang 4, 1 (2023), S. 5–29, https://doi.org/10.5771/2699-1284-2023-1-5
+
+**Wilkinson et. al 2016**<br>
+Wilkinson, Mark D./ Dumontier, Michel / Aalberg, Isbrand J. / Appleton, Gabrielle /
+Axton, Myles / Baak, Arie / Blomberg, Niklas et al. (2016): The FAIR Guiding Principles
+for scientific data management and stewardship, Scientific Data 3 (2016),
+https://doi.org/10.1038/sdata.2016.18
+
 ---
+<p style="font-size:25px"><b><u>Links</u></b></p>
 
 Deutschen Forschungsgemeinschaft (DFG): Checkliste zum Umgang mit Forschungsdaten, 2021, https://www.dfg.de/resource/blob/174732/forschungsdaten-checkliste-de.pdf
 

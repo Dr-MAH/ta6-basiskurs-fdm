@@ -86,7 +86,7 @@ Musikwissenschaftliche Forschungsdaten sind sehr divers, sie umfassen schließli
 
 Sie umfassen 
 
-- Notentexte (handschriftlich oder gedruckt) sowie weitere Textzeugen wie Skizzen, Briefe etc.
+- Notentexte und Textzeugen wie Skizzen, Briefe etc. (handschriftlich oder gedruckt)
 - visuelle und audiovisuelle Quellen (Fotos, Videos, Interviews etc.)
 - rein digitale Textzeugen (Emails, Webseiten, etc.)
 - Datenbanken

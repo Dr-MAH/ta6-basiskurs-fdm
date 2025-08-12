@@ -84,7 +84,7 @@ Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Mate
 
 Musikwissenschaftliche Forschungsdaten sind sehr divers, sie umfassen schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie in unterschiedlichster Form digital (PDFs, Codierungen, Aufnahmen etc.) oder analog, wie auch deren digitale Reproduktionen.  
 
-Sie umfassen 
+Sie umfassen u. a.:
 
 - Notentexte und Textzeugen wie Skizzen, Briefe etc. (handschriftlich oder gedruckt)
 - visuelle und audiovisuelle Quellen (Fotos, Videos, Interviews etc.)

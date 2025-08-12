@@ -91,7 +91,9 @@ Sie umfassen
 - rein digitale Textzeugen (Emails, Webseiten, etc.)
 - Datenbanken
 - Annotation und Metadaten 
+- Musikinstrumente und sonstige involvierte Hardware oder Objekte (Computer, Räume, etc.)
 
+Vergleiche hierzu u. a. das asuführliche [Positionsapier](https://www.musikforschung.de/wp-content/uploads/2024/05/DFG-Forschungsdaten_GfM.pdf) der DFG mit der Gesellschaft für Musikforschung.
 
 ## Datenformate
 Jede Software hat ein vorgegebenes Dateiformat, in dem es seine Daten speichert. Doch ist das in einigen Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>

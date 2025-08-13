@@ -94,14 +94,16 @@ Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Mate
 
 Musikwissenschaftliche Forschungsdaten sind sehr divers, sie umfassen schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie in unterschiedlichster Form digital (PDFs, Codierungen, Aufnahmen etc.) oder analog, wie auch deren digitale Reproduktionen.  
 
-Sie umfassen 
+Sie umfassen u. a.:
 
-- Notentexte (handschriftlich oder gedruckt) sowie weitere Textzeugen wie Skizzen, Briefe etc.
+- Notentexte und Textzeugen wie Skizzen, Briefe etc. (handschriftlich oder gedruckt)
 - visuelle und audiovisuelle Quellen (Fotos, Videos, Interviews etc.)
 - rein digitale Textzeugen (Emails, Webseiten, etc.)
 - Datenbanken
 - Annotation und Metadaten 
+- Musikinstrumente und sonstige involvierte Hardware oder Objekte (Computer, Räume, etc.)
 
+Vergleiche hierzu u. a. das ausführliche [Positionsapier](https://www.musikforschung.de/wp-content/uploads/2024/05/DFG-Forschungsdaten_GfM.pdf) der DFG mit der Gesellschaft für Musikforschung.
 
 ## Datenformate
 Jede Software hat ein vorgegebenes Dateiformat, in dem es seine Daten speichert. Doch ist das in einigen Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>

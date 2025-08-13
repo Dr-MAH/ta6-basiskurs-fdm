@@ -43,13 +43,13 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
 
 ### Abkürzungen in diesem Kurs
 
-- CRDA = Cultural Research Data Akademy
+- CRDA = Cultural Research Data Academy
+- DFG = Deutsche Forschungsgemeinschaft
 - DLZ = Datenlebenszyklus
 - DMP = Datenmanagementplan
 - FD = Forschungsdaten
 - FDM = Forschungsdatenamangement
 - LZA = Langzeitarchivierung
-- NFDI4C = ?
 
 ## Der Forschungsdatenbegriff
 
@@ -69,7 +69,17 @@ Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 > Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
 
 #### <font color=#f55249> 🎨 Forschungsdaten in der Kunstgeschichte </font>
-Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie umfassen u. a. Notizen, Exzerpte, Fotografien, Tabellen, Skizzen, Transkriptionen, Textversionen, Rekon­struk­tionen. <br>
+Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie umfassen u. a.:
+
+- Notizen
+- Exzerpte
+- Fotografien
+- Tabellen
+- Skizzen
+- Transkriptionen
+- Textversionen
+- Rekon­struk­tionen
+
 Je nach fachlicher Ausrichtung braucht es andere Dateiformate und Analysetools, um mit ihnen umzugehen. Beispielsweise werden an 3D-Rekonstruktionen von Plastiken und Statuen andere Fragestellungen gestellt, als an Architektur-Rekonstruktionen; an Buchmalerei andere Fragen als an Ölgemälde. <br>
 
 Die deutschsprachige Kunstgeschichte hat sich bisher nicht auf einen einheitlichen Umgang mit Forschungsdaten und feste Standards geeinigt. Doch steigt auch unter Kunsthistorikern das Bewusstsein um die Relevanz guten Forschungsdatenmanagements. Mit dem [Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“](https://doi.org/10.11588/artdok.00009194) liegt seit 2024 ein Paper vor, das auf Initiative des Deutschen Verbandes für Kunstgeschichte e. V., der Universitätsbibliothek Heidelberg / arthistoricum.net und des Zentralinstituts für Kunstgeschichte erarbeitet wurde, und aus Sicht des Faches in Deutschland aktuelle Anforderungen, Positionen und Impulse zur weiteren Entwicklung digitaler kunsthistorischer Forschungsdaten und ihrer Infrastruktur formuliert.
@@ -637,7 +647,15 @@ Beispiele für gänge PIDs sind:
 
 <!--- KB: Hier noch ergänzen; in TA4 GL schauen, in jedem Fall drauf verweisen --->
 
-Archivieren meint meist eine Aufbewahrungsgarantie von ± 10 Jahren. Dabei halten Metadaten archivierte Daten verständlich und verbessern oder ermöglichen gar erst ihre Nutzbarkeit.<br>
+Langzeitarchivierung meint in der Regel eine Aufbewahrungsgarantie von mindestens 10 Jahren, so fordert es u. a. auch die DFG bei der Förderung von Forschung. (DFG 2019, S. 24)<br>
+Anders als Backups, die den Zustand der Daten zu einem bestimmten Zeitpunkt sichern, ist die Langzeitarchivierung (LZA) auf einen dauerhaften Erhalt der Daten ausgelegt. Die Archivierung ist auf den dauerhaften Erhalt der Daten ausgelegt und nicht den täglichen Gebrauch, deshalb sind archivierte Daten nicht zwangsläufig direkt abrufbar, wenn sie etwa auf Magnetbändern oder anderen in der LZA genutzten Medien gesichert werden.
+
+<!--- Dabei halten Metadaten archivierte Daten verständlich und verbessern oder ermöglichen gar erst ihre Nutzbarkeit.
+
+Der wichtigste Standard für die elektronische Archivierung ist das Referenzmodell „Open Archival Information System“ (OAIS). --->
+
+> Weitere Informationen finden sich in dieser NFDI4Culture Guideline zur Langzeitarchivierung: [Heseler / Büttner / Arnold 2024](https://nfdi4culture.de/id/E5342)
+
 Worauf sollte bei der Archivierung geachtet werden:
 
 - Verwendete Software sollte mit archiviert oder zumindest sollte in den Metadaten verzeichnet werden, welche Software genutzt wurde.
@@ -661,8 +679,8 @@ Worauf sollte bei der Archivierung geachtet werden:
 - Einmal vergebene Lizenzen können nicht zurückgezogen oder verschärft werden!
 
 #### Das CC-Lizenzen Quiz
-
-Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie sich selbst und erkennen Sie auch unzulässige Lizenz-Kombinationen?
+Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie sich selbst und erkennen Sie auch unzulässige Lizenz-Kombinationen? <br>
+<sub> (Übernommen aus den Train-the-Trainer-Folien der DINI/nestor-AG Forschungsdaten) </sub>
 
 **Was erhählt man bei der Kombination von CC-BY und CC-BY-SA?**
 
@@ -794,6 +812,9 @@ Dang, Sarah-Mai: Forschungsdatenmanagement in der Filmwissenschaft. Daten, Prakt
 
 **Goller / Heftberger 2018**<br>
 Goller, Marion / Heftberger, Adelheid (2018) Die Öffnung von Forschungsdaten in den Film- und Medienwissenschaften: praktische und urheberrechtliche Herausforderungen. In: Fachinformationsdienst für internationale und interdisziplinäre Rechtsforschung, 2018, https://doi.org/10.17176/20180515-233758
+
+**Heseler / Büttner / Arnold 2024**<br>
+Heseler, Jörg / Büttner, Alexandra / Arnold, Matthias, Grundlagen der digitalen Langzeitarchivierung. Eine Handreichung zur digitalen Langzeitarchivierung aus Perspektive der NFDI4Culture Community, 2024, https://nfdi4culture.de/id/E5342
 
 **Imeri / Rizzolli 2022**<br>
 Imeri, Sabine / Rizzolli, Michaela (2022): CARE Principles for Indigenous Data Governance: Eine Leitlinie für ethische Fragen im Umgang mit Forschungsdaten?, in: O-Bib. Das Offene Bibliotheksjournal 9, 2 (2022), S. 1–14, https://doi.org/10.5282/o-bib/5815

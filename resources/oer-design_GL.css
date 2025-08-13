@@ -165,7 +165,14 @@ Quiz-Checkbox Design
 /*
 Quotes
 */
-.lia-quote {
-    background-color: #82d8bb3e !important;
+blockquote.lia-quote {
+    /*outline: #111111 !important;
+    outline-width: 2px !important;
+    border-color: #111111 !important;
+    border-bottom-width: 2px !important;
+    border-top-width: 2px !important;
+    border-left-width: 2px !important;
+    border-right-width: 2px !important;*/
+    background-color: #dcfff3b7 !important;
     color: #323232 !important;
 }

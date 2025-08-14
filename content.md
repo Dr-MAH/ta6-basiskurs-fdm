@@ -842,10 +842,11 @@ Was passiert, wenn ich Daten nicht richtig dokumentiere?
 - Fehlende Informationen zur Erhebung und Kontext verhindern die Nachnutzung
 - Verwechslung von Daten (ältere Versionen, gleichnamige Dateien)
 
-<!---
+<!--- KB schaut mal, ob sie was substantielles zu Papier bringt.
 ## Exkurs: Ökologisch nachhaltiges Datenmanagement
-Dieser Exkurs wäre es wert, eine ganz eigene Lernressource zu werden, dennoch wollen wir in diesem kleinen Exkurs gerne auf Maßnahmen aufmerksam machen, die dabei helfen können, die Forschungsdaten nicht nur nachhaltig im Sinne von FAIR, sondern auch ökologisch nachhaltig zu managen.
+Dieser Exkurs wäre es wert, eine ganz eigene Lernressource zu werden, dennoch wollen wir in diesem kleinen Exkurs gerne auf Maßnahmen aufmerksam machen, die dabei helfen können, Forschungsdaten ökologisch nachhaltig zu managen.
 
+Die FAIR-Prinzipien sprechen von Nachhaltigkeit im Sinne des langfristigen Nachhaltens von Forschungsdaten, dabei bleibt die ökoligischen Nachhaltigkeit außenvor.
 --->
 
 ## Weiterführende Literatur und Links

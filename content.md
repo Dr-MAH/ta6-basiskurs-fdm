@@ -3,8 +3,9 @@ link : ./resources/oer-design_GL.css
 icon : ./resources/icon_4Culture.png
 version: 0.5
 author: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Alexander Stark, Andrea Polywka
+attribute: Der Kurs steht unter der CC-BY-Lizenz
 narrator: Deutsch female
-comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer 441958017. <br> Wir nutzen hierfür den Markdown-Dialekt LiaScript. <br> Der Kurs steht unter der CC-BY-Lizenz
+comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer 441958017. <br> Dieser Kurs ist unter Zuhilfenahme des Markdown-Dialekts LiaScript entstanden.
 -->
 
 # Basiskurs "Forschungsdatenmanangement für Geistes- und Kulturwissenschaften"
@@ -118,7 +119,7 @@ Zudem kann darauf geachtet werden, dass die gewählten Dateiformate resourcensch
 Verwenden Sie möglichst weit verbreitete und mit einem ISO-Standard verbundene Dateiformate. Sie sollten nicht proprietär, also nicht an eine Software oder einen Hersteller gebunden, mit unterschiedlichen Programmen verwendbar und mit einer offenen Lizenz versehen sein und über eine frei zugängliche Dokumentation einschließlich der technischen Spezifikationen verfügen. Sie erlauben eine verlustfreie Speicherung ohne Kompression und sie sind einfach dekodierbar oder unmittelbar lesbar.
 Konsultieren Sie Ihre Datenplattform, welche Dateiformate dort entgegengenommen bzw. empfohlen werden.
 
-Für die Kulturwissenschaften und für Kulturerbe-Sammlungen empfehlen wir die Verwendung folgender Standard-Dateiformate:
+Für die Kulturwissenschaften und für Kulturerbe-Sammlungen kann die Verwendung folgender Standard-Dateiformate empfohlen werden:
 <br><br>
 
 **Text**
@@ -326,6 +327,9 @@ Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdin
 
 - [NFDI4Culture FAIR-Check](https://nfdi4culture.de/id/E5080)
 - [FAIR Assessment Tool von TKDM](https://tkfdm.github.io/FAIR-Data-Assessment-Tool/)
+- [FAIR Data Self-Assessment Tool](https://ardc.edu.au/resource/fair-data-self-assessment-tool/)
+- [FAIR Data Maturity Model](https://doi.org/10.5281/zenodo.5834115)
+- [F-UJI – Automated FAIR Data Assessment Tool](https://www.f-uji.net/)
 
 ### QUIZ: Wofür stehen die Buchstaben in FAIR?
 
@@ -404,7 +408,8 @@ Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzi
 
 ## Metadaten
 
-Metadaten sind Daten, die andere Daten beschreiben. Sie sind in vielerlei Hinsicht relevant, etwa um die Auffindbarkeit von Daten zu erhöhen oder Daten zu beschreiben, die ihrerseits nur unter eingeschränkten Zugang oder gar nicht verfügbar sind.
+Metadaten sind Daten, die andere Daten beschreiben. Sie sind in vielerlei Hinsicht relevant, etwa um die Auffindbarkeit von Daten zu erhöhen oder Daten zu beschreiben, die ihrerseits nur unter eingeschränkten Zugang oder gar nicht verfügbar sind.<br>
+Die Nutzung von [Normdaten und kontrollierten Vokabularen](#normdaten) ist wichtig, um qualitätvolle Metadaten zu erhalten.
 
 <br>
 
@@ -416,9 +421,12 @@ Metadaten können in verschiedene Kategorien unterteilt werden.
 Eine übliche Aufteilung ist:
 
 - **Deskriptive Metadaten**: Sie enthalten beschreibende Informationen über den Inhalt des Objekts, sie dienen der Identifizierung von Objekten oder Daten
-- **Administrative Metadaten**: Sie enthalten Informationen zum Objekt, die über seinen Inhalt hinausgehen wie z. B. Rechteinformationen und Details des analogen Objekts
-- **Strukturelle Metadaten**: Sie beschreiben den Metadatensatz an sich und seine Beziehung zur digitalen Datei
-- **Technische Metadaten**: Sie beschreiben die technischen Eigenschaften einer digitalen Datei Ergänzt werden kann diese Liste durch
+- **Administrative Metadaten**: Sie klären verwaltungsrelevante und rechtliche Rahmenbedingungen, dafür enthalten sie Informationen zum Objekt, die über seinen Inhalt hinausgehen wie z. B. Rechteinformationen und Details des analogen Objekts
+- **Strukturelle Metadaten**: Sie erläutern die Datenstruktu, beschreiben also den Metadatensatz an sich und seine Beziehung zur digitalen Datei
+- **Technische Metadaten**: Sie beschreiben die technischen Eigenschaften einer digitalen Datei, sie werden oft automatisch durch die Erfassungssoftware erstellt, können, und sollten in einigen Fällen, erweitert werden.
+
+Ergänzt werden kann diese Liste durch
+
 - **Archivmetadaten**: Sie beinhalten spezieller zusammengestellte Informationen, die für die Archivierung relevant sind
 
 <img src= "../resources/Metadaten.png" width=50% height=70%> <br>
@@ -454,11 +462,18 @@ Warum gibt es mehr fachspezifische denn medienspezifische Standards?
 
 - Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen; das hat teilweise den Effekt, dass sie teils unterschiedliche Metadaten erfassen und sich dadurch historisch verschiedene Standards entwickelt haben!
 
+#### <font color=RED> 🎬 Metadatenstandards der Kunstgeschichte </font>
+Eine Auswahl an Standards, die in der kunsthistorischen Forschung Anwendung finden:
+
+- Lightweight Information Describing Objects (LIDO) für deskriptive und administrative Metadaten von 2D- und 3D-Objekten
+- Das Schema der Text Encoding Initiative (TEI)
+- Extensible Metadata Plattform (XMP) für technische Metadaten von 2D- und 3D-Objekten
+
 #### <font color=#d618c0> 🎬 Metadatenstandards der Medienwissenschaft </font>
 In Deutschland gibt es (noch) keinen allgemein genutzten/akzeptierten Metadaten-Standard für audiovisuelle Metadaten. <br>
 Damit Metadaten FAIR sind und bleiben, sollten sie sich an bestehenden Schemata orientieren.
 
-Eine Auswahl  von in der  Archivierung gebräuchlichen Normen und Standards für die Erschliessung:
+Eine Auswahl von in der Archivierung gebräuchlichen Normen und Standards für die Erschliessung:
 
 - ISAD (G)
 - PREMIS
@@ -496,12 +511,17 @@ Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaft
 
 - Deutsche Nationalbibliothek – Gemeinsame Normdatei (GND)
 - Virtual International Authority File (VIAF)
+- Open Researcher and Contributor ID (ORCID)
+- Research Organization Registry (ROR)
+- Crossref Funder Registry
 - International Standard Name Identifier (ISNI)
 - Getty Vokabulare
   
   * Thesaurus of Geographic Names (TGN)
   * Art & Architecture Thesaurus (AAT)
   * Union List of Artists Names (ULAN)
+
+- Iconclass
 - Wikidata
 
 ## Sichern und Speichern
@@ -557,8 +577,10 @@ Wie zitiere ich Daten richtig?
 
 ### Repositorien – die Daten-Speicher
 
-- Repositorien sind Speicherorte für digitale Forschungsergebnisse und -daten
-- Sie machen Daten für die Öffentlichkeit oder einen beschränkten Kreis an Nutzer:innen verfügbar.
+Repositorien sind Speicherorte für digitale Forschungsergebnisse und -daten. Sie machen Daten für die Öffentlichkeit oder einen beschränkten Kreis an Nutzer:innen verfügbar.
+
+Neben FAIR- und CARE-Prinzipien, die sich um die Daten selbst drehen, liefern die TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology) Anhaltspunkte für gute Datensicherung und [Archivierung](#langzeitarchivierung).
+
 - Es werden dauerhafter „Identifikatoren“ zur besseren Zitation und Auffindbarkeit der Daten vergeben
 - Es wird zumeist zwischen generischen, fachspezifischen und institutionellen Repositorien unterschieden.
 - Es gibt Siegel/Zertifikate für gute Langzeitarchive: CoreTrustSeal (CTS); nestor Siegel/DIN 31644; ISO 16363
@@ -631,7 +653,8 @@ Einige dieser Portale:
 
 ### Persistent Identifier (PID)
 
-Persistent Identifiers sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhren dadurch ihre Auffindbarkeit stark.
+Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhren dadurch ihre Auffindbarkeit stark.<br>
+PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die versichern, dass sie eine dauerhafte Referenzierung der Objekte im Internet schaffen.
 
 Beispiele für gänge PIDs sind:
 
@@ -643,30 +666,42 @@ Beispiele für gänge PIDs sind:
 - Open Researcher and Contributer ID (ORCID) 
   
   * Personen ID
-  * Erleichtert die Identifikation von Personen, präsentiert die wiss. Laufbahn, kann eigenhändig angelegt werden
+  * Erleichtert die Identifikation von Personen, präsentiert die wiss. Laufbahn, listet Publikationen und kann eigenhändig angelegt werden
 
 ### Langzeitarchivierung
 
 <!--- KB: Hier noch ergänzen; in TA4 GL schauen, in jedem Fall drauf verweisen --->
 
-Langzeitarchivierung meint in der Regel eine Aufbewahrungsgarantie von mindestens 10 Jahren, so fordert es u. a. auch die DFG bei der Förderung von Forschung. (DFG 2019, S. 24)<br>
-Anders als Backups, die den Zustand der Daten zu einem bestimmten Zeitpunkt sichern, ist die Langzeitarchivierung (LZA) auf einen dauerhaften Erhalt der Daten ausgelegt. Die Archivierung ist auf den dauerhaften Erhalt der Daten ausgelegt und nicht den täglichen Gebrauch, deshalb sind archivierte Daten nicht zwangsläufig direkt abrufbar, wenn sie etwa auf Magnetbändern oder anderen in der LZA genutzten Medien gesichert werden.
+Langzeitarchivierung meint in der Regel eine Aufbewahrungsgarantie von mindestens 10 Jahren, so fordert es u. a. auch die DFG bei der Förderung von Forschungsprojekten. (DFG 2019, S. 24)<br>
+Anders als Backups, die den Zustand der Daten zu einem bestimmten Zeitpunkt sichern, ist die Langzeitarchivierung (LZA) auf einen dauerhaften Erhalt der Daten ausgelegt und nicht für den alltäglichen Zugriff. Deshalb sind archivierte Daten nicht zwangsläufig direkt abrufbar, wenn sie etwa auf Magnetbändern oder anderen in der LZA genutzten Medien gesichert werden. <br>
+Auch mit Datenpublikation sollte die Archivierung nicht verwechselt werden. Bei der Publikation steht im Vordergrund, dass die Daten schnell abrufbar und nutzbar sind, was mit dem Anspruch der Langzeitspeicherung und zuverlässigen Verfügbarmachung nicht immer im Einklang steht. Es gibt aber viele Datenrepositorien, die eine Archivierung direkt mitbedenken und die Daten in archivierbaren Formaten sichern.
 
-<!--- Dabei halten Metadaten archivierte Daten verständlich und verbessern oder ermöglichen gar erst ihre Nutzbarkeit.
+Damit die Daten später noch verständlich sind und damit ihre Auffindbarkeit ehöhrt wird, ist auch bei archivierten Daten eine gute Beschreibung mit Metadaten unerlässlich. [s. Kap. Metadaten](#metadaten)
 
-Der wichtigste Standard für die elektronische Archivierung ist das Referenzmodell „Open Archival Information System“ (OAIS). --->
+Es werden nicht alle Daten aus einem Projekt archiviert. Es muss immer entschieden werden, welche Daten erhaltenswert sind. Bestenfalls sind die Richtlinien dafür in einem Projekt bereits im Datenamanagementplan festgehalten.<br>
+Es gibt verschiedene Ansätze, erhaltenswerte Eigenschaften zu bestimmen. Den provenienzbasierten Ansatz und den nutzergruppenbasierten Ansatz, welche sich auch kombinieren lassen, man spricht dann auch vom Preservation Intent.<br>
+Der provenienzbasierten Ansatz blickt auf die vermutete oder die überlieferte Absicht, die bei der Erstellung des Objektes verfolgt wurde. Der nutzergruppenbasierten Ansatz hingegen schaut, welche Anforderungen die Community zukünftig an das Objekt stellen könnte.<br>
+Wie bei der Publikation von Daten sind auch bei der Archivierung rechtliche und ethische Aspekte zu beachten. <br>
+Eine Besprechung dieser Themen würde jedoch den Rahmen dieses Kurses sprengen.
+
+Die TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology), die bei den [Repositorien](#repositorien--die-daten-speicher) schon erwähnt wurden, gelten auch für Langzeitarchive.
+
+Digitale Lanzeitarchive unterscheiden sich in Umfang ihrer angebotenen Services und der Qualität. Zertifikate können Nutzenden die Auswahl eines für sie geeigneten Archivs erleichtern.<br>
+Zu den bekanntesten und meistgenutzten Zertifikaten für digitale Langzeitarchive und Repositorien gehören das nestor-Siegel und das CoreTrustSeal. Ihre Kriterienkataloge sind publiziert und online verfügbar.
 
 > Weitere Informationen finden sich in dieser NFDI4Culture Guideline zur Langzeitarchivierung: [Heseler / Büttner / Arnold 2024](https://nfdi4culture.de/id/E5342)
 
-Worauf sollte bei der Archivierung geachtet werden:
+Einige Merksätze:
 
-- Verwendete Software sollte mit archiviert oder zumindest sollte in den Metadaten verzeichnet werden, welche Software genutzt wurde.
-- Möglichst keine proprietäre Software und Datenformate nutzen ([s. Kap. Datenformate](#datenformate)).
 - Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
+- Es sollten möglichst keine proprietäre Software und Datenformate genutzt werden ([s. Kap. Datenformate](#datenformate)).
+- Verwendete Software sollte mit archiviert oder zumindest sollte in den Metadaten verzeichnet werden, welche Software genutzt wurde.
 - Einmal archivierte Daten werden nicht mehr verändert!
-- Sollten Veränderungen vorgenommen werden, dann sollte eine neue Version der Daten gespeichert werden, die deutlich als solche gekennzeichnet ist.
 
-### CC-Lizenzen
+### Creative-Commons-Lizenzen
+
+Wenngleich auf rechtliche Aspekte in diesem Kurs nicht erschöpfend eingegangen werden kann sei exemplarisch auf eine weit verbreitete Form der Lizensierung von Forschungsdaten geschaut.Publizierte und archivierte Daten sollten stets unter einer Lizenz stehen, die ihre Möglichkeiten zur Nachnutzung beschreibt.<br>
+Die Creative-Commons-Lizenzen (CC-Lizenze) bieten ein verbreitetes, angesehenes und leicht zu händelndes Lizenz-System.
 
 - CC-Lizenzen decken die meisten Nutzungsszenarien ab und liegen in zahlreichen Sprachen vor.
 - CC-Lizenzen sind modular aufgebaut und bestehen aus folgenden Bestandteilen: 
@@ -675,8 +710,8 @@ Worauf sollte bei der Archivierung geachtet werden:
   * NC: nicht kommerzieller Gebrauch
   * ND: nicht bearbeiten oder verändern
   * SA: Weitergabe unter selben Bedingungen
-- Sie sind beliebig kombinierbar, solange sie sich nicht widersprechen.
 - Mit CC0 / Public Domain werden alle Rechte am Werk abgegeben.
+- Sie sind beliebig kombinierbar, solange sie sich nicht widersprechen, das würde sie ungültig machen.
 - CC-Lizenzen sind nur mit Link zur Lizenz-Ressource gültig.
 - Einmal vergebene Lizenzen können nicht zurückgezogen oder verschärft werden!
 
@@ -717,10 +752,13 @@ Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie si
 
 ## Der Datenmanagementplan (DMP)
 
-> Ein DMP beschreibt den strukturierten Umgang mit Daten. Er bestimmt, wie mit Daten verfahren wird – während und nach dem Projekt – und sollte deshalb ein lebendes Dokument sein, dass sich Projekt anpassen und verändern darf
+> Merksatz:<br>Ein DMP beschreibt den strukturierten Umgang mit Daten. Er bestimmt, wie mit Daten verfahren wird – während und nach dem Projekt – und sollte deshalb ein lebendes Dokument sein, dass sich Projekt anpassen und verändern darf
+
+Datenmanagementpläne helfen dabei den Umgang mit Daten in Projekten zu planen. Außerdem sind DMPs eine gute Grundlage und Anlaufstelle für Fragestellungen rund um die Datenhaltung, die bei der Arbeit in einem Forschungs-Team entstehen.
 
 - Fördergeber können Vorgaben machen, aber ein DMP muss nicht grundsätzlich einem bestimmten Aufbau folgen.
-- Der Forschungsdaten-Lebenszyklus kann als Orientierung dienen.
+
+  - Der Forschungsdaten-Lebenszyklus kann als Orientierung dienen.
 - Ein DMP verbessert die Nachnutzbarkeit von Daten und das Management von Daten und Wissen, etwa bei Personalwechseln.
 
 Hilfe und Unterstützung:
@@ -737,6 +775,8 @@ Was macht einen guten DMP aus?
 - „So kurz wie möglich, so lang wie nötig.“
 - Alle Projektbeteiligte sollten den DMP kennen und Zugriff darauf haben.
 - Idealerweise wird der DMP zu Projektende mit veröffentlicht.
+
+<!--- KB: Das doppelt sich jetzt hier mit dem 1. Kasten auf der Folie. Sollte man vielleicht zusammenfassen und vorne oder hinten platzieren (?) --->
 
 > Wichtig: DMPs wachsen mit dem Projekt! Der DMP aus dem Projektantrag darf verändert werden, wenn sich Situationen während der Projektlaufzeit ändern oder auffällt, dass ursprünglich Geplantes so nicht umgesetzt werden kann.
 
@@ -802,15 +842,20 @@ Was passiert, wenn ich Daten nicht richtig dokumentiere?
 - Fehlende Informationen zur Erhebung und Kontext verhindern die Nachnutzung
 - Verwechslung von Daten (ältere Versionen, gleichnamige Dateien)
 
+<!---
 ## Exkurs: Ökologisch nachhaltiges Datenmanagement
-<!--- [KB] Ich schreib hier noch weiter --->
 Dieser Exkurs wäre es wert, eine ganz eigene Lernressource zu werden, dennoch wollen wir in diesem kleinen Exkurs gerne auf Maßnahmen aufmerksam machen, die dabei helfen können, die Forschungsdaten nicht nur nachhaltig im Sinne von FAIR, sondern auch ökologisch nachhaltig zu managen.
+
+--->
 
 ## Weiterführende Literatur und Links
 <p style="font-size:25px"><b><u>Literatur</u></b></p>
 
 **Dang 2020**<br>
 Dang, Sarah-Mai: Forschungsdatenmanagement in der Filmwissenschaft. Daten, Praktiken und Erkenntnisprozesse. In: montage AV. Zeitschrift für Theorie und Geschichte audiovisueller Kommunikation, Jg. 29 (2020), Nr. 1, http://dx.doi.org/10.25969/mediarep/21687
+
+**Fischer / Petri 2022**<br>
+Fischer, Veronika / Petri, Grischka: Bildrechte in der kunsthistorischen Praxis – ein Leitfaden, zweite, überarbeitete und erweiterte Auflage, 2022, https://doi.org/10.11588/ARTDOK.00007769
 
 **Goller / Heftberger 2018**<br>
 Goller, Marion / Heftberger, Adelheid (2018) Die Öffnung von Forschungsdaten in den Film- und Medienwissenschaften: praktische und urheberrechtliche Herausforderungen. In: Fachinformationsdienst für internationale und interdisziplinäre Rechtsforschung, 2018, https://doi.org/10.17176/20180515-233758
@@ -828,6 +873,15 @@ Kailus, Angela: Handreichung für ein FAIRes Management kulturwissenschaftlicher
 Rack, Fabian / Klimpel, Paul: Audiovisuelle Materialien in Forschung und Lehre
 – eine Übersicht zu urheberrechtlichen Aspekten, 2023, https://docs.nfdi4culture.de/ta6-
 audiovisuelle-materialien-urheberrecht-in-forschung-und-lehre
+
+**Klimpel 2021**<br>
+Klimpel, Paul: „Urheberrechtsreform 2021: neue Chancen für das kulturelle Erbe“, 2021, https://nbn-resolving.org/urn:nbn:de:0297-zib-84315
+
+**Lin et al.**<br>
+Lin, Dawei / Crabtree, Jonathan / Dillo, Ingrid / Downs, Robert R. / Edmunds, Rorie / Giaretta, David / De Giusti, Marisa / L’Hours, Hervé / Hugo, Wim / Jenkyns, Reyna / Khodiyar, Varsha / Martone, Maryann E. / Mokrane, Mustapha / Navale, Vivek / Petters, Jonathan / Sierman, Barbara / Sokolova, Dina V. / Stockhause, Martina / Westbrook, John: „The TRUST Principles for digital repositories“, in: Scientific Data, 7(1), 2020, https://doi.org/10.1038/s41597-020-0486-7
+
+**Rothfritz / Burkart 2020**<br>
+Rothfritz, Laura / Burkart, Christine: FAIR Data Maturity Model (dt. Übersetzung), 2020, https://doi.org/10.5281/zenodo.5834115
 
 **Stellmacher / Vettermann 2025**<br>
 Stellmacher, Martha / Vettermann, Oliver: NFDI4Culture-Kommunikationsleitlinie zu den CARE-Prinzipien für indigene Datensouveränität, 2025, https://nfdi4culture.de/id/E6467

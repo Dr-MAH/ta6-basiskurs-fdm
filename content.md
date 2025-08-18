@@ -4,6 +4,7 @@ icon : ./resources/icon_4Culture.png
 version: 0.5
 author: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Alexander Stark, Andrea Polywka
 attribute: Der Kurs steht unter der CC-BY-Lizenz
+language: de
 narrator: Deutsch female
 comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer 441958017. <br> Dieser Kurs ist unter Zuhilfenahme des Markdown-Dialekts LiaScript entstanden.
 -->
@@ -37,7 +38,7 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
  9. Sichern, Speichern, Publizieren und Archivieren [>](#sichern-speichern-publizieren-und-archivieren)
  10. Der Datenmanagement-Plan [>](#der-datenmanagementplan-dmp)
  11. Dokumentation [>](#dokumentation)
- 12. Exkurs: Ökologisch nachhaltiges Forschungsdatenmanagement [>](#exkurs-ökologisch-nachhaltiges-datenmanagement)
+ <!--- 12. Exkurs: Ökologisch nachhaltiges Forschungsdatenmanagement [>](#exkurs-ökologisch-nachhaltiges-datenmanagement) --->
 <br>
 - Weiterführende Literatur [>](#weiterführende-literatur)
 - Zusatzmaterial [>](#zusatzmaterial-interaktive-module)
@@ -85,7 +86,7 @@ Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie umf
 
 Je nach fachlicher Ausrichtung braucht es andere Dateiformate und Analysetools, um mit ihnen umzugehen. Beispielsweise werden an 3D-Rekonstruktionen von Plastiken und Statuen andere Fragestellungen gestellt, als an Architektur-Rekonstruktionen; an Buchmalerei andere Fragen als an Ölgemälde.
 
-Die deutschsprachige Kunstgeschichte hat sich bisher nicht auf einen einheitlichen Umgang mit Forschungsdaten und feste Standards geeinigt. Doch steigt auch unter Kunsthistorikern das Bewusstsein um die Relevanz guten Forschungsdatenmanagements. Mit dem [Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“](https://doi.org/10.11588/artdok.00009194) liegt seit 2024 ein Paper vor, das auf Initiative des Deutschen Verbandes für Kunstgeschichte e. V., der Universitätsbibliothek Heidelberg / arthistoricum.net und des Zentralinstituts für Kunstgeschichte erarbeitet wurde, und aus Sicht des Faches in Deutschland aktuelle Anforderungen, Positionen und Impulse zur weiteren Entwicklung digitaler kunsthistorischer Forschungsdaten und ihrer Infrastruktur formuliert.
+Die deutschsprachige Kunstgeschichte hat sich bisher nicht auf einen einheitlichen Umgang mit Forschungsdaten und feste Standards geeinigt. Doch steigt auch unter Kunsthistoriker:innen das Bewusstsein um die Relevanz guten Forschungsdatenmanagements. Mit dem [Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“](https://doi.org/10.11588/artdok.00009194) liegt seit 2024 ein Paper vor, das auf Initiative des Deutschen Verbandes für Kunstgeschichte e. V., der Universitätsbibliothek Heidelberg / arthistoricum.net und des Zentralinstituts für Kunstgeschichte erarbeitet wurde, und aus Sicht des Faches in Deutschland aktuelle Anforderungen, Positionen und Impulse zur weiteren Entwicklung digitaler kunsthistorischer Forschungsdaten und ihrer Infrastruktur formuliert.
 
 #### <font color=#d618c0> 🎬 Forschungsdaten in der Medienwissenschaft </font>
 
@@ -225,9 +226,9 @@ Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ..
 
 Der vorliegende Kurs wird die Grundlagen dieser Aspekte des Forschungsdatenmanagements betrachten.
 
-FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten.
+---
 
-FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern zudem das Risiko von Datenverlusten. Daten können durch geeignete FDM-Maßnahmen bestenfalls noch nach Jahrzehnten genutzt werden.
+FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten.<br>FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern zudem das Risiko von Datenverlusten. Daten können durch geeignete FDM-Maßnahmen bestenfalls noch nach Jahrzehnten genutzt werden.
 
 Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren ([s. a. CARE-Principles](#die-care-prinzipien).)
 
@@ -244,8 +245,9 @@ Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlic
 <img src="../resources/FD_LZ.png" width=50% height=auto> <br>
 <sub> Graphische Darstellung eines DLZ, Creator: CRDA, [CC0](https://creativecommons.org/publicdomain/zero/1.0/) </sub>
 
-Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten. Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen.<br>
-Die grundsätzlichen Stationen sind:
+Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten. Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen.
+
+Die grundlegenden Stationen sind:
 
   1. Forschungsvorhaben planen: Ein erster Datenmanagementplan wird erstellt.
   2. Daten erheben: Während der Forschungsarbeit entstehen unbereinigte Daten. 
@@ -253,8 +255,6 @@ Die grundsätzlichen Stationen sind:
   4. Daten teilen und publizieren: Datenpublikation während oder nach dem Forschungsvorhaben (z. B. über Open Access-Plattformen)
   5. Daten archivieren: Archivierung ausgewählter Daten für längere Zeiträume.
   6. Daten nachnutzen: Die veröffentlichten Daten können selbst oder durch andere nachgenutzt werden.
-
-<!--- [KB] Wir könnten hier auch noch ein Quiz einbauen, á la: Was macht man an welcher Station des DLZ / MAH: sehr gute Idee :-)--->
 
 ### Quiz: Was beinhalten die Stationen des Forschungsdaten-Lebenszyklus?
 Bei allen Fragen ist die Mehrfachauswahl möglich.
@@ -310,14 +310,17 @@ Bei allen Fragen ist die Mehrfachauswahl möglich.
 [[ ]] x
 
 ## FAIR und CARE
-Die Akronyme FAIR und CARE stehen für zwei wichtige Regelwerke im Kontext guten Forschungsdatenmanagements, sie werden in den folgenden Abschnitten genauer betrachtet.<br>
-Die beiden Akronyme werden gerne in einem Atemzug genannt, es ist aber wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu betrachten!
+Die Akronyme FAIR und CARE stehen für zwei wichtige Richtlinien im Kontext guten Forschungsdatenmanagements, sie werden in den folgenden Abschnitten genauer betrachtet.
+
+--- 
+
+Wenngleich die beiden Akronyme gerne in einem Atemzug genannt werden, es ist wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu berücksichtigen!
 
 Die FAIR-Prinzpien fokussieren sich überwiegend auf technische Aspekte und sind auf nahezu jeden Datensatz anwendbar.
 
 Die CARE-Prinzipien stehen hingegen für einen angemessenen Umgang mit Daten, die indigene Gemeinschaften betreffen. Im Gegensatz zu FAIR liegt der Fokus also bei CARE explizit nicht auf der Erleichterung des Datenaustauschs, sondern auf der Wahrung der Interessen indigener Gemeinschaften, was in einigen Fällen auch die FAIR-heit der Daten reduzieren kann.
 
-Lesen Sie in den nächsten Kapiteln genauer nach, wofür FAIR und CARE genau stehen!
+Lesen Sie in den nächsten Kapiteln genauer nach, wofür die Akronyme FAIR und CARE genau stehen!
 
 ### Die FAIR-Prinzipien
 
@@ -488,6 +491,16 @@ Eine Auswahl von in der Archivierung gebräuchlichen Normen und Standards für d
 - PBCore
 - EBUCore
 - MPEG-7 Multimedia Content Description Interface
+
+### QUIZ: Metadaten
+
+**Füllen sie die Lücken im folgenden Text aus.**
+
+Zu Beginn dieses Kapitels wurden verschiedene Kategorien von Metadaten vorgestellt. [[Deskriptive]] Metadaten beschreiben das Objekt inhaltlich, wohingegen [[administrative]] Metadaten verwaltungsrelevante und rechtliche Rahmenbedingungen enthalten. Die Struktur der Datei und ihre Beziehung zu anderen Dateien wird durch die [[strukturellen]] Metadaten beschrieben. Technische Eigenschaften finden sich hingegen in den [[technischen]] Metadaten.
+
+---
+
+<!--- KB: Weitere Fragen hier noch ergänzen --->
 
 ## Normdaten
 

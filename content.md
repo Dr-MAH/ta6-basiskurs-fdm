@@ -68,7 +68,7 @@ Die Deutsche Forschungsgemeinschaft (DFG) beschreibt es so:
 
 Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
-> Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
+> Digitale Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
 
 <!--- KB: Hier einfügen, was wir nicht als FD verstehen? --->
 
@@ -228,7 +228,7 @@ Der vorliegende Kurs wird die Grundlagen dieser Aspekte des Forschungsdatenmanag
 
 ---
 
-FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten.<br>FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern zudem das Risiko von Datenverlusten. Daten können durch geeignete FDM-Maßnahmen bestenfalls noch nach Jahrzehnten genutzt werden.
+FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten.<br>FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern zudem das Risiko von Datenverlusten. Außerdem steigern sie die Reproduzierbarkeit und Nachnutzbarkeit der Daten. Durch geeignete FDM-Maßnahmen können Daten bestenfalls noch nach Jahrzehnten genutzt werden.
 
 Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren ([s. a. CARE-Principles](#die-care-prinzipien).)
 
@@ -379,9 +379,14 @@ MAH: Sollten die Quiz-Seiten eine eigene Überschrift bekommen? Und sie sollten 
 
 Die [CARE-Prinzipien](https://doi.org/10.5334/dsj-2020-042) wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht darum, koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse zu identifizieren und zu berücksichtigen.
 
-Die Prinzipien sind für jene Forschende relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch Forschen oder sich mit Daten aus kolonialen Kontexten beschäftigen.
+Die Prinzipien sind vorrangig für jene Forschenden relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch forschen oder sich mit Daten aus kolonialen Kontexten beschäftigen.
 
-CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Übersetzt also: Kollektiver Nutzen, Kontrollbefugnisse, Verantwortung und Ethik.
+CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Frei übersetzt also: Kollektiver Nutzen, Datenkontrolle, Verantwortung und Ethik.
+
+- **Collective Benefit**:<br>Die Daten und Forschung mit und an ebendiesen, soll auch Nutzen für die Ursprungscommunities haben. Die Umsetzung dessen kann sehr verschieden aussehen und z. B. aus Investitionen in die Infrastruktur der Community bestehen.
+- **Authority of Control**:<br>Anerkennung der Rechte und Interessen indigener Communities und Befugnisse in der Kontrolle der Daten. Die indigenen Communities sind aktive Partner im Forschungsprozess.
+- **Responsibility**:<br>Forschende haben die Verantwortung die Daten zu verwalten und mit ihnen umzugehen, wie mit den Ursprungscommunities festgelegt wurde. Dazu gehört auch die Berücksichtigung dessen, was die Forschungsergebnisse für die Communities bedeuten und den ihnen die Daten in verständlicher und nützlicher Form zur Verfügung zu stellen.
+- **Ethics**:<br>Die Rechte der Communities sollten über den gesamten Forschungsprozess hinweg gewahrt und ihre Würde respektiert sowie ihr Weltanschauung berücksichtigt werden.
 
 > Lesetipp: [NFDI4Culture-Kommunikationsleitlinie zu den CARE-Prinzipien für indigene Datensouveränität](https://nfdi4culture.de/id/E6467)
 
@@ -395,13 +400,15 @@ Kooperationen mit Ursprungscommunities können den CARE-Prinzipien folgend u. a.
 - das eigene Handeln und die Darstellung von Objekten/Forschungsgegenständen regelmäßig hinterfragen
 - öffentlichen Zugang zu Daten einschränken, wenn nötig
 - kulturelle Metadaten, z. B. Bezeichnungen aus Herkunftskontexten, Provenienzangaben in den Metadaten, Auswahl der Metadaten transparent machen
-- Nutzung von Disclaimern
-- Nutzung von Hinweisen, dass indigene Daten verwaltet werden
+- Nutzung von Disclaimern, die Herkunft und Bedeutung, sowie Zugriffseinschränkungen auf die Daten beschreiben
+- Nutzung von Hinweisen darauf, dass indigene Daten verwaltet werden
 - Nutzung der [Traditional Knowledge Labels](https://localcontexts.org/labels/traditional-knowledge-labels/)
-  - mit ihnen können Daten als weibliches Wissen, geschlechtsspezifische Restriktionen, sakralen Kontext u. v. m. gekennzeichnet werden
+
+  - mit ihnen können u. a. geschlechtsspezifische Restriktionen der Daten angezeigt werden, Daten als weibliches Wissen oder als aus sakralen Kontext stammend gekennzeichnet werden 
 
 ### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE-Prinzipien
-In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten.
+In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten.<br>
+Aber auch in Projekten, in denen mit personenbezogenen Daten gearbeitet wird, etwa in Interviews oder Studien, können sie eine wichtige Leitlinie sein, wenngleich es ihre intendierte Verwendung ist, eine Leitlinie für die Arbeit und Forschung in und mit indigenen Communities.
 
 Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
 
@@ -581,7 +588,7 @@ Wie zitiere ich Daten richtig?
 
 - Grundsätzlich werden sie so zitiert, wie andere Arten an Publikationen auch.
 - Genannt werden sollten also Autoren und/oder Herausgeber, der Titel und das Veröffentlichungsdatum.
-- Ergänzt wird dies bestenfalls um einen Persistent Identificator ([s. Kap. PID](#persistent-identifier-pid)), etwa eine DOI, die direkt zum Datensatz führt!
+- Ergänzt wird dies bestenfalls um den Publikationagenten und einen Persistent Identificator ([s. Kap. PID](#persistent-identifier-pid)), etwa eine DOI, der direkt zum Datensatz führt!
 - Ein Beispiel von [forschungsdaten.info](https://forschungsdaten.info/):
 
   * Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
@@ -662,7 +669,7 @@ Einige dieser Portale sind:
 
 ### Persistent Identifier (PID)
 
-Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhren dadurch ihre Auffindbarkeit stark.<br>
+Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhren dadurch ihre Auffindbarkeit stark. Die Ressource selbst kann physisch an verschiedenen Orten liegen, die PID verweist nur auf sie.<br>
 PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die versichern, dass sie eine dauerhafte Referenzierung der Objekte im Internet schaffen.
 
 Beispiele für gängige PIDs sind:
@@ -671,7 +678,7 @@ Beispiele für gängige PIDs sind:
   
   * für digitale Objekte (Artikel, Datensätze, …)
   * vergleichbar mit einer ISBN im Analogen
-  * Verweist permanent auf den Datensatz und verbessert dadurch Zitationen.
+  * Verweist permanent auf eine Ressource und verbessert dadurch Zitationen.
   
     - Anbieter von DOIs versichern die Permanenz der digitalen Adresse
   

@@ -26,6 +26,9 @@ Projektnummer: 441958017
 Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, die die Nachnutzung ermöglicht: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Welche Inhalte bietet dieser Kurs?
+Alle generischen Inhalte dieses Kurses werden ergänzt um fachspezifische Module. Diese tragen farbliche abgegrenzte Überschriften, um sie gut von den übrigen Inhalten unterscheiden zu können. Sie können beim Bearbeiten des Kurses übersprungen werden, bzw. dann bearbeitet werden, wenn sie sich für das Fach und die Inhalte interessieren.
+
+**Inhalt**
 
  1. Der Forschungsdatenbegriff [>](#der-forschungsdatenbegriff)
  2. Datenformate [>](#datenformate)
@@ -72,29 +75,30 @@ Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
 <!--- KB: Hier einfügen, was wir nicht als FD verstehen? --->
 
-#### <font color=#f55249> 🎨 Forschungsdaten in der Kunstgeschichte </font>
+#### <font color=#d1bcf5> 🎨 Forschungsdaten in der Kunstgeschichte </font>
 Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie umfassen u. a.:
 
 - Notizen
 - Exzerpte
 - Fotografien
+- Annotationen
 - Tabellen
 - Skizzen
 - Transkriptionen
 - Textversionen
 - Rekon­struk­tionen
 
-Je nach fachlicher Ausrichtung braucht es andere Dateiformate und Analysetools, um mit ihnen umzugehen. Beispielsweise werden an 3D-Rekonstruktionen von Plastiken und Statuen andere Fragestellungen gestellt, als an Architektur-Rekonstruktionen; an Buchmalerei andere Fragen als an Ölgemälde.
+Je nach fachlicher Ausrichtung braucht es andere Dateiformate und Analysetools, um mit ihnen umzugehen. Beispielsweise werden an 3D-Rekonstruktionen von Plastiken und Statuen andere Fragestellungen formuliert als an Architektur-Rekonstruktionen; an Buchmalerei andere Fragen als an Ölgemälde.
 
 Die deutschsprachige Kunstgeschichte hat sich bisher nicht auf einen einheitlichen Umgang mit Forschungsdaten und feste Standards geeinigt. Doch steigt auch unter Kunsthistoriker:innen das Bewusstsein um die Relevanz guten Forschungsdatenmanagements. Mit dem [Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“](https://doi.org/10.11588/artdok.00009194) liegt seit 2024 ein Paper vor, das auf Initiative des Deutschen Verbandes für Kunstgeschichte e. V., der Universitätsbibliothek Heidelberg / arthistoricum.net und des Zentralinstituts für Kunstgeschichte erarbeitet wurde, und aus Sicht des Faches in Deutschland aktuelle Anforderungen, Positionen und Impulse zur weiteren Entwicklung digitaler kunsthistorischer Forschungsdaten und ihrer Infrastruktur formuliert.
 
-#### <font color=#d618c0> 🎬 Forschungsdaten in der Medienwissenschaft </font>
+#### <font color=#a2d0eb> 🎬 Forschungsdaten in der Medienwissenschaft </font>
 
 Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen, mitunter auch Koppelungen von fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä. (Vgl. [Goller / Heftberger 2018](https://doi.org/10.17176/20180515-233758))
 
 "Für die Filmwissenschaft [lässt sich] allein mit Blick auf Filmkorpora eine ähnliche Datenvielfalt feststellen: digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen." ([Dang 2020, S. 121](http://dx.doi.org/10.25969/mediarep/21687))
 
-#### <font color=GREEN> 🎵 Forschungsdaten in der Musikwissenschaft </font>
+#### <font color=#99e089> 🎵 Forschungsdaten in der Musikwissenschaft </font>
 
 Musikwissenschaftliche Forschungsdaten sind sehr divers, sie umfassen schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie in unterschiedlichster Form digital (PDFs, Codierungen, Aufnahmen etc.) oder analog, wie auch deren digitale Reproduktionen.  
 
@@ -249,15 +253,16 @@ Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten
 
 Die grundlegenden Stationen sind:
 
-  1. Forschungsvorhaben planen: Ein erster Datenmanagementplan wird erstellt.
-  2. Daten erheben: Während der Forschungsarbeit entstehen unbereinigte Daten. 
-  3. Daten aufbereiten und analysieren: Die Daten werden bereinigt; Analysen und Datenaufbereitungen finden statt (z. B. Digitalisierungs-, Transkriptions-, und Annotationsprozesse; Datenanalyse: Metadaten)
-  4. Daten teilen und publizieren: Datenpublikation während oder nach dem Forschungsvorhaben (z. B. über Open Access-Plattformen)
-  5. Daten archivieren: Archivierung ausgewählter Daten für längere Zeiträume.
-  6. Daten nachnutzen: Die veröffentlichten Daten können selbst oder durch andere nachgenutzt werden.
+  1. **Forschungsvorhaben planen:**<br>Ein erster Datenmanagementplan wird erstellt.
+  2. **Daten erheben:**<br>Während der Forschungsarbeit entstehen unbereinigte Daten. 
+  3. **Daten aufbereiten und analysieren:**<br>Die Daten werden bereinigt; Analysen und Datenaufbereitungen finden statt (z. B. Digitalisierungs-, Transkriptions-, und Annotationsprozesse; Datenanalyse: Metadaten)
+  4. **Daten teilen und publizieren:**<br>Datenpublikation während oder nach dem Forschungsvorhaben (z. B. über Open Access-Plattformen)
+  5. **Daten archivieren:**<br>Archivierung ausgewählter Daten für längere Zeiträume.
+  6. **Daten nachnutzen:**<br>Die veröffentlichten Daten können selbst oder durch andere nachgenutzt werden.
 
 ### Quiz: Was beinhalten die Stationen des Forschungsdaten-Lebenszyklus?
 Bei allen Fragen ist die Mehrfachauswahl möglich.
+<br><br>
 
 <!--- [KB] "Falsche" Antworten ergänzen, da wo bei den Antwortmöglicheiten noch x steht; gerne von allen die Ideen haben --->
 
@@ -312,7 +317,9 @@ Bei allen Fragen ist die Mehrfachauswahl möglich.
 ## FAIR und CARE
 Die Akronyme FAIR und CARE stehen für zwei wichtige Richtlinien im Kontext guten Forschungsdatenmanagements, sie werden in den folgenden Abschnitten genauer betrachtet.
 
---- 
+---
+
+**FAIR und CARE – Wo liegt der Unterschied?**
 
 Wenngleich die beiden Akronyme gerne in einem Atemzug genannt werden, es ist wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu berücksichtigen!
 
@@ -379,7 +386,7 @@ MAH: Sollten die Quiz-Seiten eine eigene Überschrift bekommen? Und sie sollten 
 
 Die [CARE-Prinzipien](https://doi.org/10.5334/dsj-2020-042) wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht darum, koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse zu identifizieren und zu berücksichtigen.
 
-Die Prinzipien sind vorrangig für jene Forschenden relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch forschen oder sich mit Daten aus kolonialen Kontexten beschäftigen.
+Die Prinzipien sind vorrangig für jene Forschende relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch forschen oder sich mit Daten aus kolonialen Kontexten beschäftigen.
 
 CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Frei übersetzt also: Kollektiver Nutzen, Datenkontrolle, Verantwortung und Ethik.
 
@@ -404,11 +411,11 @@ Kooperationen mit Ursprungscommunities können den CARE-Prinzipien folgend u. a.
 - Nutzung von Hinweisen darauf, dass indigene Daten verwaltet werden
 - Nutzung der [Traditional Knowledge Labels](https://localcontexts.org/labels/traditional-knowledge-labels/)
 
-  - mit ihnen können u. a. geschlechtsspezifische Restriktionen der Daten angezeigt werden, Daten als weibliches Wissen oder als aus sakralen Kontext stammend gekennzeichnet werden 
+  - mit ihnen können u. a. geschlechtsspezifische Restriktionen angezeigt werden, Daten als weibliches Wissen oder als aus sakralen Kontext stammend gekennzeichnet werden 
 
 ### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE-Prinzipien
 In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten.<br>
-Aber auch in Projekten, in denen mit personenbezogenen Daten gearbeitet wird, etwa in Interviews oder Studien, können sie eine wichtige Leitlinie sein, wenngleich es ihre intendierte Verwendung ist, eine Leitlinie für die Arbeit und Forschung in und mit indigenen Communities.
+Aber auch in Projekten, in denen mit personenbezogenen Daten gearbeitet wird, etwa in Interviews oder Studien, können sie eine wichtige Leitlinie sein, wenngleich es ihre intendierte Verwendung ist, eine Leitlinie für die Arbeit und Forschung in und mit indigenen Communities zu sein.
 
 Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
 
@@ -432,21 +439,21 @@ Dabei ist die Nutzung von [Normdaten und kontrollierten Vokabularen](#normdaten)
 
 <br>
 
-> Merksatz: "Metadaten sind Daten, die andere Daten beschreiben"
+> Merksatz: "Metadaten sind Daten, die andere Daten beschreiben."
 
 <br>
 
 Metadaten können in verschiedene Kategorien unterteilt werden.
 Eine übliche Aufteilung ist:
 
-- **Deskriptive Metadaten**: Sie enthalten beschreibende Informationen über den Inhalt des Objekts, sie dienen der Identifizierung von Objekten oder Daten
-- **Administrative Metadaten**: Sie klären verwaltungsrelevante und rechtliche Rahmenbedingungen, dafür enthalten sie Informationen zum Objekt, die über seinen Inhalt hinausgehen wie z. B. Rechteinformationen und Details des analogen Objekts
-- **Strukturelle Metadaten**: Sie erläutern die Datenstruktu, beschreiben also den Metadatensatz an sich und seine Beziehung zur digitalen Datei
-- **Technische Metadaten**: Sie beschreiben die technischen Eigenschaften einer digitalen Datei, sie werden oft automatisch durch die Erfassungssoftware erstellt, können, und sollten in einigen Fällen, erweitert werden.
+- **Deskriptive Metadaten**:<br>Sie enthalten beschreibende Informationen über den Inhalt des Objekts, sie dienen der Identifizierung von Objekten oder Daten
+- **Administrative Metadaten**:<br>Sie klären verwaltungsrelevante und rechtliche Rahmenbedingungen, dafür enthalten sie Informationen zum Objekt, die über seinen Inhalt hinausgehen wie z. B. Rechteinformationen und Details des analogen Objekts
+- **Strukturelle Metadaten**:<br>Sie erläutern die Datenstruktu, beschreiben also den Metadatensatz an sich und seine Beziehung zur digitalen Datei
+- **Technische Metadaten**:<br>Sie beschreiben die technischen Eigenschaften einer digitalen Datei, sie werden oft automatisch durch die Erfassungssoftware erstellt, können, und sollten in einigen Fällen, erweitert werden.
 
 Ergänzt werden kann diese Liste durch
 
-- **Archivmetadaten**: Sie beinhalten spezieller zusammengestellte Informationen, die für die Archivierung relevant sind
+- **Archivmetadaten**:<br>Sie beinhalten spezieller zusammengestellte Informationen, die für die Archivierung relevant sind
 
 <!--- KB: Hab hier mutwillig CC0 drangeschrieben, bitte prüfen @Marburg --->
 <img src= "../resources/Metadaten.png" width=50% height=70%> <br>
@@ -478,14 +485,14 @@ Warum gibt es mehr fachspezifische denn medienspezifische Standards?
 
 - Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen; das hat teilweise den Effekt, dass sie unterschiedliche Metadaten erfassen und sich dadurch historisch verschiedene Standards entwickelt haben! Einige Standards kultur- und geisteswissenschaftlicher Fächer sind auf den folgenden Unterseiten aufgelistet.
 
-#### <font color=RED> 🎬 Metadatenstandards der Kunstgeschichte </font>
+#### <font color=#d1bcf5> 🎨 Metadatenstandards der Kunstgeschichte </font>
 Eine Auswahl an Standards, die in der kunsthistorischen Forschung Anwendung finden:
 
 - Lightweight Information Describing Objects (LIDO) für deskriptive und administrative Metadaten von 2D- und 3D-Objekten
 - Das Schema der Text Encoding Initiative (TEI)
 - Extensible Metadata Plattform (XMP) für technische Metadaten von 2D- und 3D-Objekten
 
-#### <font color=#d618c0> 🎬 Metadatenstandards der Medienwissenschaft </font>
+#### <font color=#a2d0eb> 🎬 Metadatenstandards der Medienwissenschaft </font>
 In Deutschland gibt es (noch) keinen allgemein genutzten/akzeptierten Metadaten-Standard für audiovisuelle Metadaten. <br>
 Damit Metadaten FAIR sind und bleiben, sollten sie sich an bestehenden Schemata orientieren.
 
@@ -629,7 +636,7 @@ Einige dieser Portale sind:
 
 ---
 
-#### <font> 🎨 **Kunstgeschichte** </font>
+#### <font color=#d1bcf5> 🎨 Kunstgeschichte </font>
 
 - ART-Dok
 - arthistoricum.net @ heiDATA
@@ -643,7 +650,7 @@ Einige dieser Portale sind:
 
 ---
 
-#### <font color=PURPLE> 🎬 **Medienwissenschaft** </font>
+#### <font color=#a2d0eb> 🎬 Medienwissenschaft </font>
 
 - media/rep/ <br>
 
@@ -655,14 +662,14 @@ Einige dieser Portale sind:
 
 ---
 
-#### <font color=GREEN> 🎵 **Musikwissenschaft** </font>
+#### <font color=#99e089> 🎵 Musikwissenschaft </font>
 
 - musiconn.publish
 - Kompakkt
 
 ---
 
-#### <font> **Theaterwissenschaften** </font>
+#### <font color=#edba82> 🎭 Theaterwissenschaften </font>
 
 - Deutsche Fotothek
 - Kompakkt

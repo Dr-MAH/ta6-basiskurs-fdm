@@ -114,14 +114,19 @@ Table of Content
 .lia-toc {
     background-color: #111111 !important;
     color: #fcfcfc !important;
+    text-decoration-color: purple !important;
 }
 
 /*
 Actice TOC element
 */
 .lia-active {
-    color: white !important;
+    color: #fcfcfc !important;
     font-weight: bold !important;
+}
+
+.lia-active::before {
+    background-color: #64bea0 !important;
 }
 
 /*

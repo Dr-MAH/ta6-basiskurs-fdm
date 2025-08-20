@@ -195,6 +195,7 @@ Nutzungsszenarien von Videoannotationstools:
 - Zeitbezogene Analyse von Bild und Ton
 - Qualitative oder quantitative Datenanalyse
 - Visualisierung von Annotationen
+- Vorannotation von Tanz und Performances (s. Projekt [#vortanz](https://vortanz.ai/))
 
 ---
 <!--- KB: Bisschen merkwürdig, wenn wir den Satz hier schreiben, aber dann nicht verraten, welche Tools das zulassen --->
@@ -558,28 +559,31 @@ Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaft
 
 ## Sichern, Speichern, Publizieren und Archivieren
 
-Die vorigen Kapitel haben schon eingies vorwegennommen, was beim Speichern von Daten sinnvoll und wichtig ist, folgend einige Tipps für die Datenspeicherung:
+Die vorherigen Kapitel haben schon einiges vorweggennommen, was beim Speichern von Daten sinnvoll und wichtig ist, wie die Anreicherung mit Metadaten (s. Kap. [Metadaten](#metadaten)).
+Folgend einige konkrete Tipps für die Datenspeicherung:
 
-- Vermeiden proprietärer Datenformate [s. a. Datenformate](#datenformate)
+- Vermeiden proprietärer Datenformate (s. Kap. [Datenformate](#datenformate))
 - 3-2-1-Regel: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
 - Passwortverschlüsselung der Daten
 - Sinnvolles und konsistentes Dateiablagesystem
 
   - In einer READ.me-Datei kann das System auf oberster Ebene erläutert werden; das ist gerade bei der Arbeit in geteilten Dateiablagesystemen und/oder bei größeren Arbeitsgruppen empfehlenswert
 
-Soviel zum lokalen Speichern im Projekt. Die folgenden Kapitel schauen auf die Datenpublikation und (Langzeit-)Archivierung.
+---
+
+Die folgenden Kapitel fokussieren die Datenpublikation und (Langzeit-)Archivierung.
 
 ### Daten publizieren
 
 Vorteile bei der Veröffentlichung von Forschungsdaten:
 
-- Es können neue Kooperationen weltweit entstehen.
 - Forschungsergebnisse werden durch die Veröffentlichung von Daten und deren Zitierung sichtbarer.
+- Einmalige <!--- KB: Was sind "einmalige" Daten? Kann ich mir zwar denken, was gemeint ist, aber das kann man, denke ich, charmanter/cleverer beschreiben? ---> Daten gehen nicht verloren, sondern stehen für weitere Forschungen zur Verfügung.
 - Öffentlich zugängliche Daten können zu neuen oder ergänzenden Hypothesen anregen.
+- Es können neue Kooperationen weltweit entstehen.
 - Wissenschaftliche Integrität wird gestärkt.
 - Durch das Teilen von Daten wird eine offene Wissenschaftskultur befördert.
-- Einmalige <!--- KB: Was sind "einmalige" Daten? Kann ich mir zwar denken, was gemeint ist, aber das kann man denke ich charmanter beschreiben? ---> Daten gehe nicht verloren, sondern stehen für weitere Forschungen zur Verfügung.
-- Kosten werden gespart.
+- Kosten werden gespart, indem publizierte Daten nachgenutzt werden können.
 
 ### Daten zitieren
 
@@ -595,7 +599,7 @@ Wie zitiere ich Daten richtig?
 
 - Grundsätzlich werden sie so zitiert, wie andere Arten an Publikationen auch.
 - Genannt werden sollten also Autoren und/oder Herausgeber, der Titel und das Veröffentlichungsdatum.
-- Ergänzt wird dies bestenfalls um den Publikationagenten und einen Persistent Identificator ([s. Kap. PID](#persistent-identifier-pid)), etwa eine DOI, der direkt zum Datensatz führt!
+- Ergänzt wird dies bestenfalls um den Publikationagenten und einen Persistent Identificator (s. Kap. [PID](#persistent-identifier-pid)), etwa eine DOI, der direkt zum Datensatz führt!
 - Ein Beispiel von [forschungsdaten.info](https://forschungsdaten.info/):
 
   * Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
@@ -604,7 +608,7 @@ Wie zitiere ich Daten richtig?
 
 Repositorien sind Speicherorte für digitale Forschungsergebnisse und -daten. Sie machen Daten für die Öffentlichkeit oder einen beschränkten Kreis an Nutzer:innen verfügbar.
 
-Neben FAIR- und CARE-Prinzipien, die sich um die Daten selbst drehen, liefern die TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology) in diesem Kontext Anhaltspunkte für gute Datensicherung und [Archivierung](#langzeitarchivierung).
+Neben FAIR- und CARE-Prinzipien, die sich um die Daten selbst drehen, liefern die TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology) in diesem Kontext Anhaltspunkte für gute Datensicherung und [Archivierung](#langzeitarchivierung):
 
 - Es werden dauerhafte Identifikatoren zur besseren Zitation und Auffindbarkeit der Daten vergeben
 - Es wird zumeist zwischen generischen, fachspezifischen und institutionellen Repositorien unterschieden.
@@ -636,7 +640,7 @@ Einige dieser Portale sind:
 
 ---
 
-#### <font color=#d1bcf5> 🎨 Kunstgeschichte </font>
+#### <font color=#d1bcf5> 🎨 Repositorien für die Kunstgeschichte </font>
 
 - ART-Dok
 - arthistoricum.net @ heiDATA
@@ -650,7 +654,7 @@ Einige dieser Portale sind:
 
 ---
 
-#### <font color=#a2d0eb> 🎬 Medienwissenschaft </font>
+#### <font color=#a2d0eb> 🎬 Repositorien für die Medienwissenschaft </font>
 
 - media/rep/ <br>
 
@@ -662,21 +666,22 @@ Einige dieser Portale sind:
 
 ---
 
-#### <font color=#99e089> 🎵 Musikwissenschaft </font>
+#### <font color=#99e089> 🎵 Repositorien für die Musikwissenschaft </font>
 
 - musiconn.publish
 - Kompakkt
 
 ---
 
-#### <font color=#edba82> 🎭 Theaterwissenschaften </font>
+#### <font color=#edba82> 🎭 Repositorien für die Theaterwissenschaften </font>
 
 - Deutsche Fotothek
 - Kompakkt
+- arkumu.nrw
 
 ### Persistent Identifier (PID)
 
-Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhren dadurch ihre Auffindbarkeit stark. Die Ressource selbst kann physisch an verschiedenen Orten liegen, die PID verweist nur auf sie.<br>
+Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhen dadurch ihre Auffindbarkeit stark. Der PID verweist auf die Ressource, sie selbst kann dabei physisch an verschiedenen Orten liegen.<br>
 PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die versichern, dass sie eine dauerhafte Referenzierung der Objekte im Internet schaffen.
 
 Beispiele für gängige PIDs sind:
@@ -711,7 +716,7 @@ Langzeitarchivierung meint in der Regel eine Aufbewahrungsgarantie von mindesten
 Anders als Backups, die den Zustand der Daten zu einem bestimmten Zeitpunkt sichern, ist die Langzeitarchivierung (LZA) auf einen dauerhaften Erhalt der Daten ausgelegt und nicht für den alltäglichen Zugriff. Deshalb sind archivierte Daten nicht zwangsläufig direkt abrufbar, wenn sie etwa auf Magnetbändern oder anderen in der LZA genutzten Medien gesichert werden. <br>
 Auch mit Datenpublikation sollte die Archivierung nicht verwechselt werden. Bei der Publikation steht im Vordergrund, dass die Daten schnell abrufbar und nutzbar sind, was mit dem Anspruch der Langzeitspeicherung und zuverlässigen Verfügbarmachung nicht immer im Einklang steht. Es gibt aber viele Datenrepositorien, die eine Archivierung direkt mitbedenken und die Daten in archivierbaren Formaten sichern.
 
-Damit die Daten später noch verständlich sind und damit ihre Auffindbarkeit ehöhrt wird, ist auch bei archivierten Daten eine gute Beschreibung mit Metadaten unerlässlich. [s. Kap. Metadaten](#metadaten)
+Damit die Daten später noch verständlich sind und damit ihre Auffindbarkeit ehöht wird, ist auch bei archivierten Daten eine gute Beschreibung mit Metadaten unerlässlich. (s. Kap. [Metadaten](#metadaten))
 
 Es werden nicht alle Daten aus einem Projekt archiviert. Es muss immer entschieden werden, welche Daten erhaltenswert sind. Bestenfalls sind die Richtlinien dafür in einem Projekt bereits im Datenamanagementplan festgehalten.<br>
 Es gibt verschiedene Ansätze, erhaltenswerte Eigenschaften zu bestimmen. Den provenienzbasierten Ansatz und den nutzergruppenbasierten Ansatz, welche sich auch kombinieren lassen, man spricht dann auch vom Preservation Intent.<br>
@@ -819,6 +824,8 @@ Was macht einen guten DMP aus?
 > Wichtig: DMPs wachsen mit dem Projekt! Der DMP aus dem Projektantrag darf verändert werden, wenn sich Situationen während der Projektlaufzeit ändern oder auffällt, dass ursprünglich Geplantes so nicht umgesetzt werden kann.
 
 ### Das RDMO-Tool
+
+<!--- KB: Brauchen wir diese Folie? --->
 
 RDMO, steht für Research Data Management Organiser und ist ein freies Open Source Tool für die Erstellung von Datenmanagementplänen
 

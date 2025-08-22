@@ -48,6 +48,8 @@ Alle generischen Inhalte dieses Kurses werden ergänzt um fachspezifische Module
 
 ### Abkürzungen in diesem Kurs
 
+<!--- KB: Brauchen wir das? --->
+
 - CRDA = Cultural Research Data Academy
 - DFG = Deutsche Forschungsgemeinschaft
 - DLZ = Datenlebenszyklus
@@ -285,8 +287,8 @@ Bei allen Fragen ist die Mehrfachauswahl möglich.
 
 **Daten aufbereiten**
 
-[[ ]] x
-[[x]] Objekte digitalisieren
+[[x]] Digitale Objekte mit Metadaten anreichern
+[[ ]] Objekte digitalisieren
 [[ ]] x
 [[x]] Daten bereinigen
 [[x]] Daten interpretieren
@@ -332,6 +334,8 @@ Lesen Sie in den nächsten Kapiteln nach, wofür die Akronyme FAIR und CARE gena
 
 ### Die FAIR-Prinzipien
 
+<!--- KB: Sollten wir das ausführlicher machen, oder einfach auf Angelas GL verlinken? --->
+
 FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusable; übersetzt also für: auffindbar, zugänglich, interoperabel und nachnutzbar.
 
 Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen und die Daten für die Nachnutzung zu optimieren. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows, die im Zusammenhang mit den Daten stehen.<br>
@@ -352,35 +356,35 @@ Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdin
 MAH: Sollten die Quiz-Seiten eine eigene Überschrift bekommen? Und sie sollten in der Einleitung erwähnt werden! KB: Meinst Du in der Einleitung hinweisen darauf, das es Quizzes gibt? Von mir aus ja, schadet ja nicht.
 --->
 
-<!--- KB: Gerne hier auch die falschen Antworten ändern und kreativer gestalten! --->
+<!--- KB: Gerne hier auch die falschen Antworten ändern und kreativer gestalten! Bzw. überlege ich (KB) nochmal, ob man das Quiz cleverer hinbekommt... --->
 
 **F wie ...**
 
-- [[x]] findable
-- [[ ]] free
-- [[ ]] fantastic
-- [[ ]] freely usable
+- [(x)] findable
+- [( )] free
+- [( )] fantastic
+- [( )] freely usable
 
 **A wie ...**
 
-- [[ ]] archivable
-- [[ ]] addressable
-- [[x]] accessable
-- [[ ]] alternative
+- [( )] archivable
+- [( )] addressable
+- [(x)] accessable
+- [( )] alternative
 
 **I wie ...**
 
-- [[ ]] integrate
-- [[x]] interoparable
-- [[ ]] interesting
-- [[ ]] intellectual
+- [( )] integrate
+- [(x)] interoparable
+- [( )] interesting
+- [( )] intellectual
 
 **R wie ...**
 
-- [[ ]] reproduce
-- [[ ]] repurpuse
-- [[ ]] redirectable
-- [[x]] reusable
+- [( )] reproduce
+- [( )] repurpuse
+- [( )] redirectable
+- [(x)] reusable
 
 ### Die CARE-Prinzipien
 
@@ -391,9 +395,9 @@ Die Prinzipien sind vorrangig für jene Forschende relevant und sollten von ihne
 CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Frei übersetzt also: Kollektiver Nutzen, Datenkontrolle, Verantwortung und Ethik.
 
 - **Collective Benefit**:<br>Die Daten und Forschung mit und an ebendiesen, soll auch Nutzen für die Ursprungscommunities haben. Die Umsetzung dessen kann sehr verschieden aussehen und z. B. aus Investitionen in Infrastrukturen der Community bestehen.
-- **Authority of Control**:<br> Rechte und Interessen indigener Communities sollen gewahrt sowie Befugnisse in der Kontrolle der Daten gewährleistet sein. Die indigenen Communities sind aktive Partner im Forschungsprozess zu verstehen.
+- **Authority of Control**:<br> Rechte und Interessen indigener Communities sollen gewahrt sein sowie Befugnisse in der Kontrolle der Daten gewährt werden. Die indigenen Communities sind als aktive Partner im Forschungsprozess zu verstehen.
 - **Responsibility**:<br>Forschende haben die Verantwortung, die Daten zu verwalten und mit ihnen umzugehen, so, wie es mit den Ursprungscommunities festgelegt wurde. Dazu gehört auch die Berücksichtigung dessen, was die Forschungsergebnisse für die Communities bedeuten und die Verpflichtung ihnen die Daten in verständlicher und nützlicher Form zur Verfügung zu stellen.
-- **Ethics**:<br>Die Rechte der Communities sollten über den gesamten Forschungsprozess hinweg gewahrt und ihre Würde respektiert sowie ihr Weltanschauung berücksichtigt werden.
+- **Ethics**:<br>Die Rechte der Communities sollten über den gesamten Forschungsprozess hinweg gewahrt und ihre Würde respektiert sowie ihre Weltanschauung berücksichtigt werden.
 
 > Lesetipp: [NFDI4Culture-Kommunikationsleitlinie zu den CARE-Prinzipien für indigene Datensouveränität](https://nfdi4culture.de/id/E6467)
 
@@ -415,7 +419,7 @@ Kooperationen mit Ursprungscommunities können den CARE-Prinzipien folgend u. a.
 
 ### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE-Prinzipien
 In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten.<br>
-Aber auch in Projekten, in denen mit personenbezogenen Daten gearbeitet wird, etwa in Interviews oder Studien, können sie eine wichtige Leitlinie sein, wenngleich nicht vergessen werden sollte, dass es ihre intendierte Verwendung ist, eine Leitlinie für die Arbeit und Forschung in und mit indigenen Communities zu sein.
+Aber auch in Projekten, in denen mit personenbezogenen Daten gearbeitet wird, etwa im Kontext von Interviews oder Studien, können sie eine wichtige Leitlinie sein, wenngleich nicht vergessen werden sollte, dass es ihre intendierte Verwendung ist, eine Leitlinie für die Arbeit und Forschung in und mit indigenen Communities zu sein.
 
 Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
 
@@ -477,14 +481,14 @@ Dies sind einige fachübergreifende Standards:
 - PREMIS
 - METS MODS
 
-Für alle Metadaten gilt zudem, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechend.
+Für alle Metadaten gilt zudem, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechend.<br>Eine Auswahl fachspezifischer Standards findet sich auf den folgenden Unterseiten.
 
 ---
 <!--- KB: Kann auch gerne raus... Ich glaub ich habe das reingeschrieben, weiß aber auch nicht wirklich, was ich damit bezwecken wollte... --->
 
 Warum gibt es mehr fachspezifische denn medienspezifische Standards? 
 
-- Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen; das hat teilweise den Effekt, dass sie unterschiedliche Metadaten erfassen und sich dadurch historisch verschiedene Standards entwickelt haben! Einige Standards kultur- und geisteswissenschaftlicher Fächer sind auf den folgenden Unterseiten aufgelistet.
+- Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen; das hat teilweise den Effekt, dass sie unterschiedliche Metadaten erfassen und sich dadurch historisch verschiedene Standards entwickelt haben!
 
 #### <font color=#d1bcf5> 🎨 Metadatenstandards der Kunstgeschichte </font>
 Eine Auswahl an Standards, die in der kunsthistorischen Forschung Anwendung finden:
@@ -512,7 +516,9 @@ Eine Auswahl von in der Archivierung gebräuchlichen Normen und Standards für d
 
 **Füllen sie die Lücken im folgenden Text aus.**
 
-Zu Beginn dieses Kapitels wurden verschiedene Kategorien von Metadaten vorgestellt. [[Deskriptive]] Metadaten beschreiben das Objekt inhaltlich, wohingegen [[administrative]] Metadaten verwaltungsrelevante und rechtliche Rahmenbedingungen enthalten. Die Struktur der Datei und ihre Beziehung zu anderen Dateien wird durch die [[strukturellen]] Metadaten beschrieben. Technische Eigenschaften finden sich hingegen in den [[technischen]] Metadaten.
+<!--- KB: Noch nicht ideal, das Wording der Sätze gibt zu leicht vor, welche Antwort erwartet wird... --->
+
+Zu Beginn dieses Kapitels wurden verschiedene Kategorien von Metadaten vorgestellt. [[Administrative | (Deskriptive) | Strukturelle | Technische]] Metadaten beschreiben das Objekt inhaltlich, wohingegen [[(administrative) | deskriptive | strukturelle | technische]] Metadaten verwaltungsrelevante und rechtliche Rahmenbedingungen enthalten. Die Struktur der Datei und ihre Beziehung zu anderen Dateien wird durch die [[administrativen | deskriptiven | (strukturellen) | technischen]] Metadaten beschrieben. Technische Eigenschaften finden sich hingegen in den [[administrativen | deskriptiven | strukturellen | (technischen)]] Metadaten.
 
 ---
 
@@ -572,7 +578,12 @@ Folgend einige konkrete Tipps für die Datenspeicherung:
 
 ### Daten publizieren
 
-Vorteile bei der Veröffentlichung von Forschungsdaten:
+Daten sollten publiziert werden, denn sie sind Forschungsergebnisse. Sie sind die Grundlage der Forschung und die Basis für das abschließende Forschungsprodukt, sei es ein Buch, ein Paper oder ähnliches.<br>
+Publizierte Forschungsdaten können zudem nachgenutzt werden und befördern dadurch nicht nur die Wissenschaft, sie machen sie auch nachhaltiger und vernetzter.
+
+---
+
+**Vorteile bei der Veröffentlichung von Forschungsdaten:**
 
 - Forschungsergebnisse werden durch die Veröffentlichung von Daten und deren Zitierung sichtbarer.
 - Einmalige <!--- KB: Was sind "einmalige" Daten? Kann ich mir zwar denken, was gemeint ist, aber das kann man, denke ich, charmanter/cleverer beschreiben? ---> Daten gehen nicht verloren, sondern stehen für weitere Forschungen zur Verfügung.
@@ -603,9 +614,9 @@ Vorteile bei der Veröffentlichung von Forschungsdaten:
 
 ### Repositorien – die Daten-Speicher
 
-Repositorien sind Speicherorte für digitale Forschungsergebnisse und -daten. Sie machen Daten für die Öffentlichkeit oder einen beschränkten Kreis an Nutzer:innen verfügbar.
+Repositorien sind Speicherorte für digitale Forschungsergebnisse und -daten. Sie machen Daten für die Öffentlichkeit oder einem ausgewählten Kreis an Nutzer:innen verfügbar.
 
-Neben FAIR- und CARE-Prinzipien, die sich um die Daten selbst drehen, liefern die TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology) in diesem Kontext Anhaltspunkte für gute Datensicherung und [Archivierung](#langzeitarchivierung).
+Neben FAIR- und CARE-Prinzipien, die sich um die Daten selbst drehen, liefern die sogenannten TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology) in Bezug auf Repositorien Anhaltspunkte für gute Datensicherung und [Archivierung](#langzeitarchivierung).
 
 **Was sind Hinweise auf gute Repositorien?**
 
@@ -636,6 +647,8 @@ Einige dieser Portale sind:
 - SLUBArchiv.digital
 - TIB AV-Portal
 - TIB Preservation-as-a-Service
+
+Die folgenden Unterseiten listen eine Auswahl weiterer fachspezifischer Repositorien auf.
 
 ---
 
@@ -681,7 +694,7 @@ Einige dieser Portale sind:
 ### Persistent Identifier (PID)
 
 Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhen dadurch ihre Auffindbarkeit stark. Der PID verweist auf die Ressource, sie selbst kann dabei physisch an verschiedenen Orten liegen.<br>
-PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die versichern, dass sie eine dauerhafte Referenzierung der Objekte im Internet schaffen.
+PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die eine dauerhafte Referenzierung der Objekte im Internet versichern.
 
 Beispiele für gängige PIDs im Wissenschaftskontext sind:
 
@@ -733,7 +746,7 @@ Zu den bekanntesten und meistgenutzten Zertifikaten für digitale Langzeitarchiv
 Einige Merksätze:
 
 - Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
-- Es sollten möglichst keine proprietäre Software und Datenformate genutzt werden ([s. Kap. Datenformate](#datenformate)).
+- Es sollten möglichst keine proprietäre Software und Datenformate genutzt werden (s. Kap. [Datenformate](#datenformate)).
 - Verwendete Software sollte mit archiviert oder zumindest sollte in den Metadaten verzeichnet werden, welche Software genutzt wurde.
 - Einmal archivierte Daten werden nicht mehr verändert!
 
@@ -742,7 +755,7 @@ Einige Merksätze:
 Wenngleich auf rechtliche Aspekte in diesem Kurs nicht erschöpfend eingegangen werden kann, sei exemplarisch auf eine weit verbreitete Form der Lizensierung von Forschungsdaten geschaut.
 
 Publizierte und archivierte Daten sollten stets unter einer Lizenz stehen, die ihre Möglichkeiten zur Nachnutzung beschreibt.<br>
-Die Creative-Commons-Lizenzen (CC-Lizenze) bieten ein verbreitetes, angesehenes und leicht zu händelndes Lizenz-System.
+Die Creative-Commons-Lizenzen (CC-Lizenzen) bieten ein verbreitetes, angesehenes und leicht zu händelndes Lizenz-System.
 
 - CC-Lizenzen decken die meisten Nutzungsszenarien ab und liegen in zahlreichen Sprachen vor.
 - Sie liefern für Laien verständliche Erklärungen der Lizenzen, sowie einen rechtlich fundierten Lizenzvertrag.
@@ -753,8 +766,8 @@ Die Creative-Commons-Lizenzen (CC-Lizenze) bieten ein verbreitetes, angesehenes 
   * ND: nicht bearbeiten oder verändern
   * SA: Weitergabe unter selben Bedingungen
 - Mit CC0 / Public Domain werden alle Rechte am Werk abgegeben.
-- Diese Lizenze sind beliebig kombinierbar, solange sie sich nicht widersprechen, das würde sie ungültig machen.
-- CC-Lizenzen sind nur mit Link zur Lizenz-Ressource gültig.
+- Diese Lizenzen sind beliebig kombinierbar, solange sie sich nicht widersprechen, das würde sie ungültig machen.
+- CC-Lizenzen sind nur mit einer Verlinkung der entsprechenden Lizenz-Urkunde auf der Creative-Commons-Website gültig.
 - Einmal vergebene Lizenzen können nicht zurückgezogen oder verschärft werden!
 
 #### Das CC-Lizenzen Quiz
@@ -838,8 +851,8 @@ Die RDMO-Website bietet ein Demo-Programm an, das nach Anmeldung kostenlos genut
 Der Datenmanagement-Plan beschreibt wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>
 Eine Dokumentation hingegen beschreibt und dokumentiert Prozesse und Daten im Projekt. Da sich dieser Kurs um das Datenmanagement handelt, sei hier ein Fokus auf die **Datendokumentation** gelegt.
 
-Eine gute Datendokumentation erhöht die Nachnutzbarkeit der Daten erheblich. Die Daten werden FAIRer. (s.a. [FAIR-Prinzipien](#die-fair-prinzipien)) <br>
-Das gilt nicht nur für die Nachnutzung Dritter, sondern auch die Nutzung der Daten durch den Datenerzeugenden selbst.
+Eine gute Datendokumentation erhöht die Nachnutzbarkeit der Daten erheblich, die Daten werden FAIRer. (s. a. [FAIR-Prinzipien](#die-fair-prinzipien)) <br>
+Das gilt nicht nur für die Nachnutzung Dritter, sondern auch die Nutzung der Daten durch die Datenerzeugenden selbst.
 
 Es bietet sich an, Daten direkt nach ihrer Erhebung zu dokumentieren. Wichtige Informationen könnten verloren gehen, wenn die Dokumentation erst zum Ende eines Projektes erstellt wird, zudem würde so die alltägliche Arbeit mit den Daten erschwert, läge konkretes Wissen über die Daten doch nur bei den Datenerzeugenden selbst. <br>
 In jedem Projekt ist individuell zu entscheiden, welche Arten der Dokumentation am geeignetsten sind. Es gibt jedoch einige Leitlinien, an denen sich orientiert werden kann.
@@ -917,6 +930,9 @@ audiovisuelle-materialien-urheberrecht-in-forschung-und-lehre
 
 **Klimpel 2021**<br>
 Klimpel, Paul: „Urheberrechtsreform 2021: neue Chancen für das kulturelle Erbe“, 2021, https://nbn-resolving.org/urn:nbn:de:0297-zib-84315
+
+**Krause et al. 2024**<br>
+Krause, Celia / Bergmann, Katharina / Hausen, Daniela Adele / Riedel, Roman / Windeck, Jürgen: Qualitätskriterien für DMP-Vorlagen, 2024, https://doi.org/10.5281/zenodo.13347687
 
 **Lin et al. 2020**<br>
 Lin, Dawei / Crabtree, Jonathan / Dillo, Ingrid / Downs, Robert R. / Edmunds, Rorie / Giaretta, David / De Giusti, Marisa / L’Hours, Hervé / Hugo, Wim / Jenkyns, Reyna / Khodiyar, Varsha / Martone, Maryann E. / Mokrane, Mustapha / Navale, Vivek / Petters, Jonathan / Sierman, Barbara / Sokolova, Dina V. / Stockhause, Martina / Westbrook, John: „The TRUST Principles for digital repositories“, in: Scientific Data, 7(1), 2020, https://doi.org/10.1038/s41597-020-0486-7

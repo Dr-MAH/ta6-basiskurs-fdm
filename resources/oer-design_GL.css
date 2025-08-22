@@ -40,11 +40,6 @@ Button Design
 }
 
 /*
-Icon Button Design
-*/
-.lia-btn__icon {}
-
-/*
 Dividing line
 */
 .lia-divider {
@@ -78,16 +73,6 @@ Links
 .lia-link {
     color: #64bea0 !important;
 }
-
-/*
-Slides
-*/
-.lia-slide {}
-
-.lia-header {
-}
-
-.lia-support-menu {}
 
 /*
 Links in der TOC
@@ -128,21 +113,6 @@ Actice TOC element
 .lia-active::before {
     background-color: #64bea0 !important;
 }
-
-/*
-Table of Content, Searchbar
-*/
-.lia-toc__search {}
-
-/*
-Table of Content, Searchbar-input
-*/
-.lia-input {}
-
-/*
-Quizzes
-*/
-.lia-quiz {}
 
 /*
 Quiz "Check answer" button

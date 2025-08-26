@@ -18,10 +18,17 @@ h4 {
 }
 
 /*
-Lists bullet points
+Unordered lists bullet points
 */
 .lia-list--unordered>li::before {
     color: #64bea0;
+}
+
+/*
+Ordered lists bullet points
+*/
+.lia-list--ordered>li::marker {
+    color: #64bea0 !important;
 }
 
 /*

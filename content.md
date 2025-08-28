@@ -1,7 +1,7 @@
 <!--
 link : ./resources/oer-design_GL.css
 icon : ./resources/icon_4Culture.png
-version: 0.5
+version: 0.9
 author: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Alexander Stark, Andrea Polywka
 attribute: Der Kurs steht unter der CC-BY-Lizenz
 language: de
@@ -58,6 +58,30 @@ Alle generischen Inhalte dieses Kurses werden ergänzt um fachspezifische Module
 - FDM = Forschungsdatenamangement
 - LZA = Langzeitarchivierung
 
+## Forschungsdatenmanagement
+
+<!--- [KB] Hier muss noch mehr hin. Etwas wenig Inhalt bisher. [AP] Ich füge mal ein paar Stichpunkte aus unserem Skript vom letzten FFK-Kurs bei ---> 
+Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
+
+- der Aufbereitung,
+- Speicherung,
+- Archivierung,
+- und Nutzung
+
+... von Forschungsdaten.
+
+Der vorliegende Kurs wird die Grundlagen dieser Aspekte des Forschungsdatenmanagements betrachten.
+
+---
+
+FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten.<br>FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern zudem das Risiko von Datenverlusten. Außerdem steigern sie die Reproduzierbarkeit und Nachnutzbarkeit der Daten. Durch geeignete FDM-Maßnahmen können Daten bestenfalls noch nach Jahrzehnten genutzt werden.
+
+Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten weitere rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren (s. a. [CARE-Principles](#die-care-prinzipien).)
+
+Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlicher Arbeit und Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten, festgehalten bspw. in Form eines Datenmanagementplans [DMP](#der-datenmanagementplan-dmp).
+
+> Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://doi.org/10.5281/zenodo.14281892) der DFG
+
 ## Der Forschungsdatenbegriff
 
 Wenn wir uns mit dem Thema Forschungsdatenmanagement auseinandersetzen, dann sollten wir klären, was eigentlich unter dem Begriff "Forschungsdaten" zu verstehen ist.
@@ -77,6 +101,14 @@ Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
 <!--- KB: Hier einfügen, was wir nicht als FD verstehen? --->
 
+#### <font color=#a2d0eb> 🎬 Forschungsdaten in der Film- und Medienwissenschaft </font>
+
+Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen, mitunter auch Koppelungen von fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä. (Vgl. [Goller / Heftberger 2018](https://doi.org/10.17176/20180515-233758))
+
+"Für die Filmwissenschaft [lässt sich] allein mit Blick auf Filmkorpora eine ähnliche Datenvielfalt feststellen: digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen." ([Dang 2020, S. 121](http://dx.doi.org/10.25969/mediarep/21687))
+
+Einen guten Einblick in die Vielfalt des Forschungsdaten-Begriffs in der Film- und Medienwissenschaft, bietet der Open Media Studies Blog in den Beiträgen aus seiner [Sonderreihe Forschungsdaten](https://mediastudies.hypotheses.org/tag/sonderreihe-forschungsdaten).
+
 #### <font color=#d1bcf5> 🎨 Forschungsdaten in der Kunstgeschichte </font>
 Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie umfassen u. a.:
 
@@ -93,12 +125,6 @@ Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie umf
 Je nach fachlicher Ausrichtung braucht es andere Dateiformate und Analysetools, um mit ihnen umzugehen. Beispielsweise werden an 3D-Rekonstruktionen von Plastiken und Statuen andere Fragestellungen formuliert als an Architektur-Rekonstruktionen; an Buchmalerei andere Fragen als an Ölgemälde.
 
 Die deutschsprachige Kunstgeschichte hat sich bisher nicht auf einen einheitlichen Umgang mit Forschungsdaten und feste Standards geeinigt. Doch steigt auch unter Kunsthistoriker:innen das Bewusstsein um die Relevanz guten Forschungsdatenmanagements. Mit dem [Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“](https://doi.org/10.11588/artdok.00009194) liegt seit 2024 ein Paper vor, das auf Initiative des Deutschen Verbandes für Kunstgeschichte e. V., der Universitätsbibliothek Heidelberg / arthistoricum.net und des Zentralinstituts für Kunstgeschichte erarbeitet wurde, und aus Sicht des Faches in Deutschland aktuelle Anforderungen, Positionen und Impulse zur weiteren Entwicklung digitaler kunsthistorischer Forschungsdaten und ihrer Infrastruktur formuliert.
-
-#### <font color=#a2d0eb> 🎬 Forschungsdaten in der Medienwissenschaft </font>
-
-Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen, mitunter auch Koppelungen von fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä. (Vgl. [Goller / Heftberger 2018](https://doi.org/10.17176/20180515-233758))
-
-"Für die Filmwissenschaft [lässt sich] allein mit Blick auf Filmkorpora eine ähnliche Datenvielfalt feststellen: digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen." ([Dang 2020, S. 121](http://dx.doi.org/10.25969/mediarep/21687))
 
 #### <font color=#99e089> 🎵 Forschungsdaten in der Musikwissenschaft </font>
 
@@ -117,8 +143,8 @@ Vergleiche hierzu u. a. das ausführliche [Positionsapier](https://www.musikfors
 
 ## Datenformate
 Jede Software hat ein vorgegebenes Dateiformat, in dem sie mit ihr erzeugte Daten speichert. Doch ist das in einigen Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>
-Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. <br>
-Zudem kann darauf geachtet werden, dass die gewählten Dateiformate resourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen als alternative Formate.
+Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. Proprietäre Datenformate sind solche, die von Hersteller:innen für eine bestimmte Software erstellt wurden und meist nur mit dieser nutzbar sind. Sie sind also keine offenen Standards und erschweren oder verhindern dadurch die Nachnutzbarkeit und Langzeitarchivierung der in ihrem Format gespeicherten Daten.<br>
+Zudem sollte darauf geachtet werden, dass die gewählten Dateiformate resourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen als alternative Formate.
 
 ---
 
@@ -219,30 +245,6 @@ Annotationstools Bild (Auswahl):
 - CVAT (Computer Vision Annotation Tool)
 - labelme
 
-## Forschungsdatenmanagement
-
-<!--- [KB] Hier muss noch mehr hin. Etwas wenig Inhalt bisher. [AP] Ich füge mal ein paar Stichpunkte aus unserem Skript vom letzten FFK-Kurs bei ---> 
-Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
-
-- der Aufbereitung,
-- Speicherung,
-- Archivierung,
-- und Nutzung
-
-... von Forschungsdaten.
-
-Der vorliegende Kurs wird die Grundlagen dieser Aspekte des Forschungsdatenmanagements betrachten.
-
----
-
-FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten.<br>FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern zudem das Risiko von Datenverlusten. Außerdem steigern sie die Reproduzierbarkeit und Nachnutzbarkeit der Daten. Durch geeignete FDM-Maßnahmen können Daten bestenfalls noch nach Jahrzehnten genutzt werden.
-
-Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten weitere rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren (s. a. [CARE-Principles](#die-care-prinzipien).)
-
-Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlicher Arbeit und Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten, festgehalten bspw. in Form eines Datenmanagementplans [DMP](#der-datenmanagementplan-dmp).
-
-> Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://doi.org/10.5281/zenodo.14281892) der DFG
-
 ## Der Datenlebenszyklus 
 
 <!---
@@ -263,7 +265,7 @@ Die grundlegenden Stationen sind:
   5. **Daten archivieren:**<br>Archivierung ausgewählter Daten für längere Zeiträume.
   6. **Daten nachnutzen:**<br>Die veröffentlichten Daten können in weiteren Forschungskontexten oder durch Dritte nachgenutzt werden.
 
-### Quiz: Was beinhalten die Stationen des Forschungsdaten-Lebenszyklus?
+### Quiz: Was können die Stationen des Forschungsdaten-Lebenszyklus beinhalten?
 Bei allen Fragen ist die Mehrfachauswahl möglich.
 <br><br>
 
@@ -490,15 +492,7 @@ Warum gibt es mehr fachspezifische denn medienspezifische Standards?
 
 - Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen; das hat teilweise den Effekt, dass sie unterschiedliche Metadaten erfassen und sich dadurch historisch verschiedene Standards entwickelt haben!
 
-#### <font color=#d1bcf5> 🎨 Metadatenstandards der Kunstgeschichte </font>
-Eine Auswahl an Standards, die in der kunsthistorischen Forschung Anwendung finden:
-
-- Categories for the Description of Works of Art (CDWA)
-- Lightweight Information Describing Objects (LIDO) für deskriptive und administrative Metadaten von 2D- und 3D-Objekten
-- Das Schema der Text Encoding Initiative (TEI)
-- Extensible Metadata Plattform (XMP) für technische Metadaten von 2D- und 3D-Objekten
-
-#### <font color=#a2d0eb> 🎬 Metadatenstandards der Medienwissenschaft </font>
+#### <font color=#a2d0eb> 🎬 Metadatenstandards der Film- und Medienwissenschaft </font>
 In Deutschland gibt es (noch) keinen allgemein genutzten/akzeptierten Metadaten-Standard für audiovisuelle Metadaten. <br>
 Damit Metadaten FAIR sind und bleiben, sollten sie sich an bestehenden Schemata orientieren.
 
@@ -511,6 +505,23 @@ Eine Auswahl von in der Archivierung gebräuchlichen Normen und Standards für d
 - PBCore
 - EBUCore
 - MPEG-7 Multimedia Content Description Interface
+
+#### <font color=#d1bcf5> 🎨 Metadatenstandards der Kunstgeschichte </font>
+Eine Auswahl an Standards, die in der kunsthistorischen Forschung Anwendung finden:
+
+- Categories for the Description of Works of Art (CDWA)
+- Lightweight Information Describing Objects (LIDO) für deskriptive und administrative Metadaten von 2D- und 3D-Objekten
+- Das Schema der Text Encoding Initiative (TEI)
+- Extensible Metadata Plattform (XMP) für technische Metadaten von 2D- und 3D-Objekten
+
+---
+
+Zu LIDO s. a.:<br>
+
+- **Fichtel 2024**: LIDO-Schulung [>](https://nfdi4culture.de/go/E5247)
+- **Knaus / Stein / Kailus 2019**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 1: Graphik [>](https://doi.org/10.11588/arthistoricum.382.544)
+- **Knaus / Kailus / Stein 2022**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 2: Malerei und Skulptur [>](https://doi.org/10.11588/arthistoricum.1026)
+- **Rössel / Stenger / Kailus / Stein 2025**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 3: Architektur und andere ortsfeste Werke [>](https://doi.org/10.11588/arthistoricum.1407)
 
 ### QUIZ: Metadaten
 
@@ -581,6 +592,8 @@ Folgend einige konkrete Tipps für die Datenspeicherung:
 Daten sollten publiziert werden, denn sie sind Forschungsergebnisse. Sie sind die Grundlage der Forschung und die Basis für das abschließende Forschungsprodukt, sei es ein Buch, ein Paper oder ähnliches.<br>
 Publizierte Forschungsdaten können zudem nachgenutzt werden und befördern dadurch nicht nur die Wissenschaft, sie machen sie auch nachhaltiger und vernetzter.
 
+Wie Datenpublikationen aussehen können zeigen Beispiele aus der Film- und Medienwissenschaft, die im Repositorium media/rep/ veröffentlicht wurden. Werfen Sie [hier](https://mediarep.org/communities/7e880a5a-5bcd-49b7-9b0e-ce4851b8d7bf) einen Blick auf die dort abgelegten Datenpublikationen.
+
 ---
 
 **Vorteile bei der Veröffentlichung von Forschungsdaten:**
@@ -650,7 +663,15 @@ Einige dieser Portale sind:
 
 Die folgenden Unterseiten listen eine Auswahl weiterer fachspezifischer Repositorien auf.
 
----
+#### <font color=#a2d0eb> 🎬 Repositorien für die Film- und Medienwissenschaft </font>
+
+- media/rep/ <br>
+
+  - Data Sets und Data Papers können beispielsweise über das Fachrepositorium media/rep/ publiziert werden, Data Papers darüber hinaus auch im NECSUS Journal
+  
+- arthistoricum.net @ heiDATA
+- heidICON – Heidelberger Objekt- und Multimediadatenbank
+- prometheus – A distributed digital image archive for research and teaching
 
 #### <font color=#d1bcf5> 🎨 Repositorien für die Kunstgeschichte </font>
 
@@ -662,28 +683,12 @@ Die folgenden Unterseiten listen eine Auswahl weiterer fachspezifischer Reposito
 - heiARCHIVE
 - heidICON – Heidelberger Objekt- und Multimediadatenbank
 - Kompakkt
-- prometheus - A distributed digital image archive for research and teaching
-
----
-
-#### <font color=#a2d0eb> 🎬 Repositorien für die Medienwissenschaft </font>
-
-- media/rep/ <br>
-
-  - Data Sets können beispielsweise über das Fachrepositorium media/rep/ publiziert werden, Data Papers im NECSUS Journal
-  
-- arthistoricum.net @ heiDATA
-- heidICON – Heidelberger Objekt- und Multimediadatenbank
-- prometheus - A distributed digital image archive for research and teaching
-
----
+- prometheus – A distributed digital image archive for research and teaching
 
 #### <font color=#99e089> 🎵 Repositorien für die Musikwissenschaft </font>
 
 - musiconn.publish
 - Kompakkt
-
----
 
 #### <font color=#edba82> 🎭 Repositorien für die Theaterwissenschaften </font>
 
@@ -714,7 +719,7 @@ Beispiele für gängige PIDs im Wissenschaftskontext sind:
 
 ### Speichern vs. Archivieren
 
-Speichern und Archivieren, dass kann im ersten Moment sehr ähnlich klingen, also wo liegt der Unterschied?
+Speichern und Archivieren, das kann im ersten Moment sehr ähnlich klingen, also wo liegt der Unterschied?
 
 **Speichern / Sichern** meint die Sicherung aller Daten (Backup) um Datenverlust vorzubeugen
 
@@ -836,7 +841,7 @@ Datenmanagementpläne helfen dabei den Umgang mit Daten in Projekten zu planen. 
 
 <!--- KB: Brauchen wir diese Folie? --->
 
-RDMO, steht für Research Data Management Organiser und ist ein freies Open Source Tool für die Erstellung von Datenmanagementplänen
+RDMO, steht für Research Data Management Organiser und ist ein freies Open Source Tool für die Erstellung von Datenmanagementplänen.
 
 - Wie ist das Vorgehen und wie wird RDMO genutzt? 
   
@@ -845,10 +850,10 @@ RDMO, steht für Research Data Management Organiser und ist ein freies Open Sour
   * Auswurf des „fertigen“ Plans in verschiedenen Dateiformaten
 - Institutionen können RDMO-Instanzen einrichten, Funktionen und Design sind dabei individualisierbar.
 
-Die RDMO-Website bietet ein Demo-Programm an, das nach Anmeldung kostenlos genutzt werden kann. Accounts können kostenlos erstellt werden
+Die RDMO-Website bietet ein Demo-Programm an, das nach Anmeldung kostenlos genutzt werden kann. Accounts können kostenlos erstellt werden.
 
 ## Dokumentation
-Der Datenmanagement-Plan beschreibt wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>
+Der Datenmanagement-Plan beschreibt, wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>
 Eine Dokumentation hingegen beschreibt und dokumentiert Prozesse und Daten im Projekt. Da sich dieser Kurs um das Datenmanagement handelt, sei hier ein Fokus auf die **Datendokumentation** gelegt.
 
 Eine gute Datendokumentation erhöht die Nachnutzbarkeit der Daten erheblich, die Daten werden FAIRer. (s. a. [FAIR-Prinzipien](#die-fair-prinzipien)) <br>
@@ -908,6 +913,9 @@ Die FAIR-Prinzipien sprechen von Nachhaltigkeit im Sinne des langfristigen Nachh
 **Dang 2020**<br>
 Dang, Sarah-Mai: Forschungsdatenmanagement in der Filmwissenschaft. Daten, Praktiken und Erkenntnisprozesse. In: montage AV. Zeitschrift für Theorie und Geschichte audiovisueller Kommunikation, Jg. 29 (2020), Nr. 1, http://dx.doi.org/10.25969/mediarep/21687
 
+**Fichtel 2024**<br>
+Fichtel, Barbara: LIDO-Schulung, 2024, https://nfdi4culture.de/go/E5247
+
 **Fischer / Petri 2022**<br>
 Fischer, Veronika / Petri, Grischka: Bildrechte in der kunsthistorischen Praxis – ein Leitfaden, zweite, überarbeitete und erweiterte Auflage, 2022, https://doi.org/10.11588/ARTDOK.00007769
 
@@ -931,11 +939,20 @@ audiovisuelle-materialien-urheberrecht-in-forschung-und-lehre
 **Klimpel 2021**<br>
 Klimpel, Paul: „Urheberrechtsreform 2021: neue Chancen für das kulturelle Erbe“, 2021, https://nbn-resolving.org/urn:nbn:de:0297-zib-84315
 
+**Knaus / Stein / Kailus 2019**<br>
+Knaus, Gudrun / Stein, Regine / Kailus, Angela: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 1: Graphik, herausgegeben von Deutsches Dokumentationszentrum für Kunstgeschichte – Bildarchiv Foto Marburg und Christian Bracht, Heidelberg: arthistoricum.net, 2019 (LIDO-Handbuch, Band 1), https://doi.org/10.11588/arthistoricum.382.544
+
+**Knaus / Kailus / Stein 2022**<br>
+Knaus, Gudrun / Kailus, Angela / Stein, Regine: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 2: Malerei und Skulptur, herausgegeben von Deutsches Dokumentationszentrum für Kunstgeschichte – Bildarchiv Foto Marburg und Christian Bracht, Heidelberg: arthistoricum.net, 2022 (LIDO-Handbuch, Band 2), https://doi.org/10.11588/arthistoricum.1026
+
 **Krause et al. 2024**<br>
 Krause, Celia / Bergmann, Katharina / Hausen, Daniela Adele / Riedel, Roman / Windeck, Jürgen: Qualitätskriterien für DMP-Vorlagen, 2024, https://doi.org/10.5281/zenodo.13347687
 
 **Lin et al. 2020**<br>
 Lin, Dawei / Crabtree, Jonathan / Dillo, Ingrid / Downs, Robert R. / Edmunds, Rorie / Giaretta, David / De Giusti, Marisa / L’Hours, Hervé / Hugo, Wim / Jenkyns, Reyna / Khodiyar, Varsha / Martone, Maryann E. / Mokrane, Mustapha / Navale, Vivek / Petters, Jonathan / Sierman, Barbara / Sokolova, Dina V. / Stockhause, Martina / Westbrook, John: „The TRUST Principles for digital repositories“, in: Scientific Data, 7(1), 2020, https://doi.org/10.1038/s41597-020-0486-7
+
+**Rössel / Stenger / Kailus / Stein 2025**<br>
+Rössel, Julia / Stenger, Viola / Kailus, Angela / Stein, Regine: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 3: Architektur und andere ortsfeste Werke, herausgegeben von Christian Bracht, Heidelberg: arthistoricum.net, 2025 (LIDO-Handbuch, Band 3), https://doi.org/10.11588/arthistoricum.1407
 
 **Rothfritz / Burkart 2020**<br>
 Rothfritz, Laura / Burkart, Christine: FAIR Data Maturity Model (dt. Übersetzung), 2020, https://doi.org/10.5281/zenodo.5834115
@@ -963,6 +980,8 @@ Deutschen Forschungsgemeinschaft (DFG): Dokumente zum fachspezifischen Umgang mi
 Deutschen Forschungsgemeinschaft (DFG): Leitlinien zur Sicherung guter wissenschaftlicher Praxis, Aufl. 3 (2025), https://doi.org/10.5281/zenodo.3923601
 
 Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“, 2024, https://doi.org/10.11588/artdok.00009194
+
+Sonderrreihe Forschungsdaten, Open Media Studies Blog, https://mediastudies.hypotheses.org/tag/sonderreihe-forschungsdaten
 
 ## Zusatzmaterial: Interaktive Module
 Dieses Kapitel stellt einige Übungen und Aktivierungsmethoden vor, die in der Lehre genutzt werden können und die vorliegende OER ergänzen.

@@ -103,9 +103,9 @@ Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
 #### <font color=#a2d0eb> 🎬 Forschungsdaten in der Film- und Medienwissenschaft </font>
 
-Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen, mitunter auch Koppelungen von fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä. (Vgl. [Goller / Heftberger 2018](https://doi.org/10.17176/20180515-233758))
+Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen, mitunter auch Koppelungen von fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä. (vgl. [Goller / Heftberger 2018](https://doi.org/10.17176/20180515-233758)).
 
-"Für die Filmwissenschaft [lässt sich] allein mit Blick auf Filmkorpora eine ähnliche Datenvielfalt feststellen: digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen." ([Dang 2020, S. 121](http://dx.doi.org/10.25969/mediarep/21687))
+"Für die Filmwissenschaft [lässt sich] allein mit Blick auf Filmkorpora eine ähnliche Datenvielfalt feststellen: digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen" ([Dang 2020, S. 121](http://dx.doi.org/10.25969/mediarep/21687)).
 
 Einen guten Einblick in die Vielfalt des Forschungsdaten-Begriffs in der Film- und Medienwissenschaft, bietet der Open Media Studies Blog in den Beiträgen aus seiner [Sonderreihe Forschungsdaten](https://mediastudies.hypotheses.org/tag/sonderreihe-forschungsdaten).
 
@@ -318,6 +318,14 @@ Bei allen Fragen ist die Mehrfachauswahl möglich.
 [[x]] Daten für Lehre und Lernen verwenden
 [[ ]] x
 [[ ]] x
+
+## Versionsverwaltung / Git
+Nicht nur für das kollaborative Arbeiten, sondern ganz grundsätzlich für die Organisation bei der Arbeit mit Forschungsdaten, ist eine Versionsverwaltung der Daten von essentieller Wichtigkeit. 
+Einfach gesagt bedeutet das, die Schritte der Arbeit und Ergebnisse zu dokumentieren, um bspw. im Zweifelsfall an früheren Punkten erneut ansetzen zu können.
+
+...
+
+<!--- [MAH] So weit nur ein erster Vorschlag, hier könnte Daniel noch einiges ergänzen und zu seinen Folien überleiten. --->
 
 ## FAIR und CARE
 Die Akronyme FAIR und CARE stehen für zwei wichtige Richtlinien im Kontext guten Forschungsdatenmanagements, sie werden in den folgenden Abschnitten genauer betrachtet.

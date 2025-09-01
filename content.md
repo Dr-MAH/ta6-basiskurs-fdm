@@ -325,8 +325,7 @@ Einfach gesagt bedeutet das, die Schritte der Arbeit und Ergebnisse zu dokumenti
 
 ...
 
-<!--- [MAH] So weit nur ein erster Vorschlag, hier könnte Daniel noch einiges ergänzen und zu seinen Folien überleiten. 
---->
+<!--- [MAH] So weit nur ein erster Vorschlag, hier könnte Daniel noch einiges ergänzen und zu seinen Folien überleiten. --->
 
 ## FAIR und CARE
 Die Akronyme FAIR und CARE stehen für zwei wichtige Richtlinien im Kontext guten Forschungsdatenmanagements, sie werden in den folgenden Abschnitten genauer betrachtet.

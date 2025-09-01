@@ -849,8 +849,6 @@ Datenmanagementpläne helfen dabei den Umgang mit Daten in Projekten zu planen. 
 
 ### Das RDMO-Tool
 
-<!--- KB: Brauchen wir diese Folie? --->
-
 RDMO, steht für Research Data Management Organiser und ist ein freies Open Source Tool für die Erstellung von Datenmanagementplänen.
 
 - Wie ist das Vorgehen und wie wird RDMO genutzt? 
@@ -861,6 +859,14 @@ RDMO, steht für Research Data Management Organiser und ist ein freies Open Sour
 - Institutionen können RDMO-Instanzen einrichten, Funktionen und Design sind dabei individualisierbar.
 
 Die RDMO-Website bietet ein Demo-Programm an, das nach Anmeldung kostenlos genutzt werden kann. Accounts können kostenlos erstellt werden.
+
+---
+Seit Hebst 2025 stellt auch NFDI4Culture einen Research Data Management Organiser (RDMO) für Forschende und Kulturschaffende der Architektur-, Kunst- und Musik- bis hin zu Theater-, Tanz-, Film- und Medienwissenschaft zur Verfügung. 
+
+https://rdmo.nfdi4culture.de/
+
+Nach dem Login und einmaliger Freischaltung Ihres NFDI4Culture Accounts, können verschiedene Vorlagen für einen DMP ausgewählt werden.  
+
 
 ## Dokumentation
 Der Datenmanagement-Plan beschreibt, wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>

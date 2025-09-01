@@ -16,6 +16,8 @@ Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research
 Mitarbeitende an diesem Projekt:<br>
 [Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Alexander Stark](https://orcid.org/0000-0003-4893-5924), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719)
 
+<!--- Hier sollte noch Daniel erwähnt werden. --->
+
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
 Gefördert durch die Deutsche Forschungsgemeinschaft (DFG).<br>

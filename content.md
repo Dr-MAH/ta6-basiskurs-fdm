@@ -99,11 +99,13 @@ Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
 > Digitale Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
 
-<!--- KB: Hier einfügen, was wir nicht als FD verstehen? --->
+<!--- KB: Hier einfügen, was wir nicht als FD verstehen? [AP] Meinst du, dass das notwendig ist? Vielleicht drehen wir uns da einen eigenen Strick, da es ja auch fachspezifische Unterschiede gibt --->
 
 #### <font color=#a2d0eb> 🎬 Forschungsdaten in der Film- und Medienwissenschaft </font>
 
-Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen, mitunter auch Koppelungen von fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä. (vgl. [Goller / Heftberger 2018](https://doi.org/10.17176/20180515-233758)).
+Innerhalb der Fachdisziplin der Medien- und Filmwissenschaft zeigen sich Forschungsdaten in unterschiedlichen Formen und Eigenschaften.
+
+Medienwissenschaftliche Forschungsdaten zeichnen sich in der Regel durch ein äußerst heterogenes Material aus. Darunter zählen alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen, mitunter auch Koppelungen von fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä. (vgl. [Goller / Heftberger 2018](https://doi.org/10.17176/20180515-233758)).
 
 "Für die Filmwissenschaft [lässt sich] allein mit Blick auf Filmkorpora eine ähnliche Datenvielfalt feststellen: digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen" ([Dang 2020, S. 121](http://dx.doi.org/10.25969/mediarep/21687)).
 
@@ -144,10 +146,9 @@ Vergleiche hierzu u. a. das ausführliche [Positionsapier](https://www.musikfors
 ## Datenformate
 Jede Software hat ein vorgegebenes Dateiformat, in dem sie mit ihr erzeugte Daten speichert. Doch ist das in einigen Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>
 Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. Proprietäre Datenformate sind solche, die von Hersteller:innen für eine bestimmte Software erstellt wurden und meist nur mit dieser nutzbar sind. Sie sind also keine offenen Standards und erschweren oder verhindern dadurch die Nachnutzbarkeit und Langzeitarchivierung der in ihrem Format gespeicherten Daten.<br>
-Zudem sollte darauf geachtet werden, dass die gewählten Dateiformate resourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen als alternative Formate.
-
+Zudem sollte darauf geachtet werden, dass die gewählten Dateiformate ressourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen als alternative Formate.
+<!--- [AP] Wir sollten überprüfen, dass die Empfehlungen von Angela keine proprietären Datenformate aufführen oder? --->
 ---
-
 **Empfehlungen für Dateiformate** <br>
 <sub>(zitiert aus [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/empfehlungen-dateiformate#10-empfehlungen-f%C3%BCr-dateiformate))</sub>
 
@@ -248,7 +249,7 @@ Annotationstools Bild (Auswahl):
 ## Der Datenlebenszyklus 
 
 <!---
-[KB] Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiele ergänzt [KB] Danke! Aber andere Idee noch: Wir lassen Erklärungen hier doch weg und lösen das nur über das Quiz auf der kommenden Seite?
+[KB] Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiele ergänzt [KB] Danke! Aber andere Idee noch: Wir lassen Erklärungen hier doch weg und lösen das nur über das Quiz auf der kommenden Seite? [AP] Das würde weniger textlastig sein, finde ich sehr gut :)
 --->
 
 <img src="../resources/FD_LZ.png" width=50% height=auto> <br>
@@ -282,7 +283,7 @@ Bei allen Fragen ist die Mehrfachauswahl möglich.
 **Daten erheben**
 
 [[x]] Bilddaten annotieren
-[[ ]] x
+[[ ]] Liste mit ToDo's erstellen
 [[x]] Interviews führen
 [[x]] Noten transkribieren
 [[ ]] x

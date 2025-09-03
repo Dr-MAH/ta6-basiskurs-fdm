@@ -363,41 +363,15 @@ Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdin
 - [FAIR Data Maturity Model](https://doi.org/10.5281/zenodo.5834115)
 - [F-UJI – Automated FAIR Data Assessment Tool](https://www.f-uji.net/)
 
-### QUIZ: Wofür stehen die Buchstaben in FAIR?
+### QUIZ: Die FAIR-Prinzipien
 
-<!---
-MAH: Sollten die Quiz-Seiten eine eigene Überschrift bekommen? Und sie sollten in der Einleitung erwähnt werden! KB: Meinst Du in der Einleitung hinweisen darauf, das es Quizzes gibt? Von mir aus ja, schadet ja nicht.
---->
+Beginnen wir einfach: Wofür stehen die Buchstaben in FAIR?
 
-<!--- KB: Gerne hier auch die falschen Antworten ändern und kreativer gestalten! Bzw. überlege ich (KB) nochmal, ob man das Quiz cleverer hinbekommt... --->
+F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R für [[reusable]].
 
-**F wie ...**
+---
 
-- [(x)] findable
-- [( )] free
-- [( )] fantastic
-- [( )] freely usable
 
-**A wie ...**
-
-- [( )] archivable
-- [( )] addressable
-- [(x)] accessable
-- [( )] alternative
-
-**I wie ...**
-
-- [( )] integrate
-- [(x)] interoparable
-- [( )] interesting
-- [( )] intellectual
-
-**R wie ...**
-
-- [( )] reproduce
-- [( )] repurpuse
-- [( )] redirectable
-- [(x)] reusable
 
 ### Die CARE-Prinzipien
 

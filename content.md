@@ -270,7 +270,6 @@ Die grundlegenden Stationen sind:
 Bei allen Fragen ist die Mehrfachauswahl möglich.
 <br><br>
 
-<!--- [KB] "Falsche" Antworten ergänzen, da wo bei den Antwortmöglicheiten noch x steht; gerne von allen die Ideen haben --->
 
 **Forschungsvorhaben planen**
 

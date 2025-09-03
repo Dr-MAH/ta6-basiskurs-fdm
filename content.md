@@ -516,6 +516,7 @@ F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R
 ---
 
 **Die Bedingungen der FAIR-Prinzipien**
+
 Jeder Buchstabe von FAIR hat ein Set an Bedingungen, die umgesetzt werden sollen, um diesen Aspekt von FAIR vollständig abzudecken.<br>
 Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen?
 

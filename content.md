@@ -327,101 +327,6 @@ Einfach gesagt bedeutet das, die Schritte der Arbeit und Ergebnisse zu dokumenti
 
 <!--- [MAH] So weit nur ein erster Vorschlag, hier könnte Daniel noch einiges ergänzen und zu seinen Folien überleiten. --->
 
-## FAIR und CARE
-Die Akronyme FAIR und CARE stehen für zwei wichtige Richtlinien im Kontext guten Forschungsdatenmanagements, sie werden in den folgenden Abschnitten genauer betrachtet.
-
----
-
-**FAIR und CARE – Wo liegt der Unterschied?**
-
-Wenngleich die beiden Akronyme gerne in einem Atemzug genannt werden, es ist wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu berücksichtigen!
-
-Die FAIR-Prinzpien fokussieren sich überwiegend auf technische Aspekte und Datenqualität. Sie sind auf nahezu jeden Datensatz anwendbar.
-
-Die CARE-Prinzipien stehen hingegen für einen angemessenen Umgang mit Daten, die indigene Gemeinschaften betreffen. Im Gegensatz zu FAIR liegt der Fokus also bei CARE explizit nicht auf der Erleichterung des Datenaustauschs, sondern auf der Wahrung der Interessen indigener Gemeinschaften, was in einigen Fällen auch die FAIR-heit der Daten reduzieren kann.
-
-Lesen Sie in den nächsten Kapiteln nach, wofür die Akronyme FAIR und CARE genau stehen!
-
-### Die FAIR-Prinzipien
-
-<!--- KB: Sollten wir das ausführlicher machen, oder einfach auf Angelas GL verlinken? --->
-
-FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusable; übersetzt also für: auffindbar, zugänglich, interoperabel und nachnutzbar.
-
-Zu jedem Hauptziele liefern die FAIR-Prinzipien je ein Set an Bedingungen. Wenn Sie mehr dazu wissen wollen, lesen sie weiter in: [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/vier-grundlegende-praemissen-zum-verstaendnis-der-fair-prinzipien).
-
-Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen und die Daten für die Nachnutzung zu optimieren. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows, die im Zusammenhang mit den Daten stehen.<br>
-
-Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdings auch mehr und mehr Tools, die Wissenschaftler:innen dabei unterstützen, den FAIR-Gehalt ihrer Daten zu ermitteln, u. a.:
-
-<!--- KB: Gerne ergänzen --->
-
-- [NFDI4Culture FAIR-Check](https://nfdi4culture.de/id/E5080)
-- [FAIR Assessment Tool von TKDM](https://tkfdm.github.io/FAIR-Data-Assessment-Tool/)
-- [FAIR Data Self-Assessment Tool](https://ardc.edu.au/resource/fair-data-self-assessment-tool/)
-- [FAIR Data Maturity Model](https://doi.org/10.5281/zenodo.5834115)
-- [F-UJI – Automated FAIR Data Assessment Tool](https://www.f-uji.net/)
-
-### QUIZ: Die FAIR-Prinzipien
-
-Beginnen wir einfach: Wofür stehen die Buchstaben in FAIR?
-
-F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R für [[reusable]].
-
----
-
-
-
-### Die CARE-Prinzipien
-
-Die [CARE-Prinzipien](https://doi.org/10.5334/dsj-2020-042) wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht darum, koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse zu identifizieren und zu berücksichtigen.
-
-Die Prinzipien sind vorrangig für jene Forschende relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch forschen oder sich mit Daten aus kolonialen Kontexten beschäftigen.
-
-CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Frei übersetzt also: Kollektiver Nutzen, Datenkontrolle, Verantwortung und Ethik.
-
-- **Collective Benefit**:<br>Die Daten und Forschung mit und an ebendiesen, soll auch Nutzen für die Ursprungscommunities haben. Die Umsetzung dessen kann sehr verschieden aussehen und z. B. aus Investitionen in Infrastrukturen der Community bestehen.
-- **Authority of Control**:<br> Rechte und Interessen indigener Communities sollen gewahrt sein sowie Befugnisse in der Kontrolle der Daten gewährt werden. Die indigenen Communities sind als aktive Partner im Forschungsprozess zu verstehen.
-- **Responsibility**:<br>Forschende haben die Verantwortung, die Daten zu verwalten und mit ihnen umzugehen, so, wie es mit den Ursprungscommunities festgelegt wurde. Dazu gehört auch die Berücksichtigung dessen, was die Forschungsergebnisse für die Communities bedeuten und die Verpflichtung ihnen die Daten in verständlicher und nützlicher Form zur Verfügung zu stellen.
-- **Ethics**:<br>Die Rechte der Communities sollten über den gesamten Forschungsprozess hinweg gewahrt und ihre Würde respektiert sowie ihre Weltanschauung berücksichtigt werden.
-
-> Lesetipp: [NFDI4Culture-Kommunikationsleitlinie zu den CARE-Prinzipien für indigene Datensouveränität](https://nfdi4culture.de/id/E6467)
-
----
-
-Kooperationen mit Ursprungscommunities können den CARE-Prinzipien folgend u. a. wie folgt aussehen: 
-
-- gemeinsame Bearbeitung von Objekten
-- gleichberechtigten Zugang zu den Daten ermöglichen
-- indigene Ethik einbeziehen
-- das eigene Handeln und die Darstellung von Objekten/Forschungsgegenständen regelmäßig hinterfragen
-- öffentlichen Zugang zu Daten einschränken, wenn nötig
-- kulturelle Metadaten, z. B. Bezeichnungen aus Herkunftskontexten, Provenienzangaben in den Metadaten, Auswahl der Metadaten transparent machen
-- Nutzung von Disclaimern, die Herkunft und Bedeutung, sowie Zugriffseinschränkungen auf die Daten beschreiben
-- Nutzung von Hinweisen darauf, dass indigene Daten verwaltet werden
-- Nutzung der [Traditional Knowledge Labels](https://localcontexts.org/labels/traditional-knowledge-labels/)
-
-  - mit ihnen können u. a. geschlechtsspezifische Restriktionen angezeigt werden, Daten als weibliches Wissen oder als aus sakralen Kontext stammend gekennzeichnet werden 
-
-### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE-Prinzipien
-In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten.<br>
-Aber auch in Projekten, in denen mit personenbezogenen Daten gearbeitet wird, etwa im Kontext von Interviews oder Studien, können sie eine wichtige Leitlinie sein, wenngleich nicht vergessen werden sollte, dass es ihre intendierte Verwendung ist, eine Leitlinie für die Arbeit und Forschung in und mit indigenen Communities zu sein.
-
-Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
-
-<!--- Hier noch ergänzen: Bisher nur das Material von Andrea und Alex aus dem FFK-Kurs / Material von Barbara Alge?--->
-- Forschungsdaten zu Filmmaterial aus kolonialen Kontexten
-
-  - bspw. Amateurfilme, wissenschaftliche Filme, Travelogues, „Kulturfilme“
-  
-- Forschungsdaten zu Tonmaterial aus kolonialen Kontexten
-  
-  - bspw. Phonographenwalzen aus Wachs aus ethnologischen Forschungskontexten, u. a. auch aus Kriegsgefangenenlagern des Ersten Weltkriegs
-
-- Forschungsdaten zu geraubten Kulturgütern aus kolonialen Kontexten
-
-  - bspw. 3D-Digitalisate von geraubten Objekten
-
 ## Metadaten
 
 Metadaten sind Daten, die andere Daten beschreiben. Sie sind in vielerlei Hinsicht relevant, etwa um die Auffindbarkeit von Daten zu erhöhen oder Daten zu beschreiben, die ihrerseits nur unter eingeschränkten Zugang oder gar nicht verfügbar sind.<br>
@@ -558,6 +463,101 @@ Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaft
 
 - Iconclass
 - Wikidata
+
+## FAIR und CARE
+Die Akronyme FAIR und CARE stehen für zwei wichtige Richtlinien im Kontext guten Forschungsdatenmanagements, sie werden in den folgenden Abschnitten genauer betrachtet.
+
+---
+
+**FAIR und CARE – Wo liegt der Unterschied?**
+
+Wenngleich die beiden Akronyme gerne in einem Atemzug genannt werden, es ist wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu berücksichtigen!
+
+Die FAIR-Prinzpien fokussieren sich überwiegend auf technische Aspekte und Datenqualität. Sie sind auf nahezu jeden Datensatz anwendbar.
+
+Die CARE-Prinzipien stehen hingegen für einen angemessenen Umgang mit Daten, die indigene Gemeinschaften betreffen. Im Gegensatz zu FAIR liegt der Fokus also bei CARE explizit nicht auf der Erleichterung des Datenaustauschs, sondern auf der Wahrung der Interessen indigener Gemeinschaften, was in einigen Fällen auch die FAIR-heit der Daten reduzieren kann.
+
+Lesen Sie in den nächsten Kapiteln nach, wofür die Akronyme FAIR und CARE genau stehen!
+
+### Die FAIR-Prinzipien
+
+<!--- KB: Sollten wir das ausführlicher machen, oder einfach auf Angelas GL verlinken? --->
+
+FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusable; übersetzt also für: auffindbar, zugänglich, interoperabel und nachnutzbar.
+
+Zu jedem Hauptziele liefern die FAIR-Prinzipien je ein Set an Bedingungen. Wenn Sie mehr dazu wissen wollen, lesen sie weiter in: [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/vier-grundlegende-praemissen-zum-verstaendnis-der-fair-prinzipien).
+
+Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen und die Daten für die Nachnutzung zu optimieren. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows, die im Zusammenhang mit den Daten stehen.<br>
+
+Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdings auch mehr und mehr Tools, die Wissenschaftler:innen dabei unterstützen, den FAIR-Gehalt ihrer Daten zu ermitteln, u. a.:
+
+<!--- KB: Gerne ergänzen --->
+
+- [NFDI4Culture FAIR-Check](https://nfdi4culture.de/id/E5080)
+- [FAIR Assessment Tool von TKDM](https://tkfdm.github.io/FAIR-Data-Assessment-Tool/)
+- [FAIR Data Self-Assessment Tool](https://ardc.edu.au/resource/fair-data-self-assessment-tool/)
+- [FAIR Data Maturity Model](https://doi.org/10.5281/zenodo.5834115)
+- [F-UJI – Automated FAIR Data Assessment Tool](https://www.f-uji.net/)
+
+### QUIZ: Die FAIR-Prinzipien
+
+Beginnen wir einfach: Wofür stehen die Buchstaben in FAIR?
+
+F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R für [[reusable]].
+
+---
+
+
+
+### Die CARE-Prinzipien
+
+Die [CARE-Prinzipien](https://doi.org/10.5334/dsj-2020-042) wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht darum, koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse zu identifizieren und zu berücksichtigen.
+
+Die Prinzipien sind vorrangig für jene Forschende relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch forschen oder sich mit Daten aus kolonialen Kontexten beschäftigen.
+
+CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Frei übersetzt also: Kollektiver Nutzen, Datenkontrolle, Verantwortung und Ethik.
+
+- **Collective Benefit**:<br>Die Daten und Forschung mit und an ebendiesen, soll auch Nutzen für die Ursprungscommunities haben. Die Umsetzung dessen kann sehr verschieden aussehen und z. B. aus Investitionen in Infrastrukturen der Community bestehen.
+- **Authority of Control**:<br> Rechte und Interessen indigener Communities sollen gewahrt sein sowie Befugnisse in der Kontrolle der Daten gewährt werden. Die indigenen Communities sind als aktive Partner im Forschungsprozess zu verstehen.
+- **Responsibility**:<br>Forschende haben die Verantwortung, die Daten zu verwalten und mit ihnen umzugehen, so, wie es mit den Ursprungscommunities festgelegt wurde. Dazu gehört auch die Berücksichtigung dessen, was die Forschungsergebnisse für die Communities bedeuten und die Verpflichtung ihnen die Daten in verständlicher und nützlicher Form zur Verfügung zu stellen.
+- **Ethics**:<br>Die Rechte der Communities sollten über den gesamten Forschungsprozess hinweg gewahrt und ihre Würde respektiert sowie ihre Weltanschauung berücksichtigt werden.
+
+> Lesetipp: [NFDI4Culture-Kommunikationsleitlinie zu den CARE-Prinzipien für indigene Datensouveränität](https://nfdi4culture.de/id/E6467)
+
+---
+
+Kooperationen mit Ursprungscommunities können den CARE-Prinzipien folgend u. a. wie folgt aussehen: 
+
+- gemeinsame Bearbeitung von Objekten
+- gleichberechtigten Zugang zu den Daten ermöglichen
+- indigene Ethik einbeziehen
+- das eigene Handeln und die Darstellung von Objekten/Forschungsgegenständen regelmäßig hinterfragen
+- öffentlichen Zugang zu Daten einschränken, wenn nötig
+- kulturelle Metadaten, z. B. Bezeichnungen aus Herkunftskontexten, Provenienzangaben in den Metadaten, Auswahl der Metadaten transparent machen
+- Nutzung von Disclaimern, die Herkunft und Bedeutung, sowie Zugriffseinschränkungen auf die Daten beschreiben
+- Nutzung von Hinweisen darauf, dass indigene Daten verwaltet werden
+- Nutzung der [Traditional Knowledge Labels](https://localcontexts.org/labels/traditional-knowledge-labels/)
+
+  - mit ihnen können u. a. geschlechtsspezifische Restriktionen angezeigt werden, Daten als weibliches Wissen oder als aus sakralen Kontext stammend gekennzeichnet werden 
+
+### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE-Prinzipien
+In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten.<br>
+Aber auch in Projekten, in denen mit personenbezogenen Daten gearbeitet wird, etwa im Kontext von Interviews oder Studien, können sie eine wichtige Leitlinie sein, wenngleich nicht vergessen werden sollte, dass es ihre intendierte Verwendung ist, eine Leitlinie für die Arbeit und Forschung in und mit indigenen Communities zu sein.
+
+Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
+
+<!--- Hier noch ergänzen: Bisher nur das Material von Andrea und Alex aus dem FFK-Kurs / Material von Barbara Alge?--->
+- Forschungsdaten zu Filmmaterial aus kolonialen Kontexten
+
+  - bspw. Amateurfilme, wissenschaftliche Filme, Travelogues, „Kulturfilme“
+  
+- Forschungsdaten zu Tonmaterial aus kolonialen Kontexten
+  
+  - bspw. Phonographenwalzen aus Wachs aus ethnologischen Forschungskontexten, u. a. auch aus Kriegsgefangenenlagern des Ersten Weltkriegs
+
+- Forschungsdaten zu geraubten Kulturgütern aus kolonialen Kontexten
+
+  - bspw. 3D-Digitalisate von geraubten Objekten
 
 ## Sichern, Speichern, Publizieren und Archivieren
 

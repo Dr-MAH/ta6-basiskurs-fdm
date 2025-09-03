@@ -515,7 +515,7 @@ F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R
 
 ---
 
-
+<iframe src="./resources/FAIR-Drag-and-Drop.html" width=100% height=100%></iframe>
 
 ### Die CARE-Prinzipien
 

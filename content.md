@@ -270,7 +270,6 @@ Die grundlegenden Stationen sind:
 Bei allen Fragen ist die Mehrfachauswahl möglich.
 <br><br>
 
-<!--- [KB] "Falsche" Antworten ergänzen, da wo bei den Antwortmöglicheiten noch x steht; gerne von allen die Ideen haben --->
 
 **Forschungsvorhaben planen**
 
@@ -286,39 +285,39 @@ Bei allen Fragen ist die Mehrfachauswahl möglich.
 [[ ]] Liste mit ToDo's erstellen
 [[x]] Interviews führen
 [[x]] Noten transkribieren
-[[ ]] x
+[[ ]] Ins Kino gehen
 
 **Daten aufbereiten**
 
 [[x]] Digitale Objekte mit Metadaten anreichern
 [[ ]] Objekte digitalisieren
-[[ ]] x
+[[ ]] Dateiordner mit AV-, Bild- und Textdateien füllen
 [[x]] Daten bereinigen
 [[x]] Daten interpretieren
 
 **Daten teilen und publizieren**
 
 [[x]] Urheberrechte festlegen
-[[ ]] x
-[[ ]] x
+[[ ]] Excel-Liste mit Publikationstitel erstellen
+[[ ]] Eigene Publikationen lokal abspeichern
 [[x]] Zugänge kontrollieren
-[[ ]] x
+[[ ]] Interviewaufzeichnungen transkribieren
 
 **Daten archivieren**
 
-[[ ]] x
-[[ ]] x
+[[ ]] Datenmanagementplan erstellen
+[[ ]] AV-, Bild- und Textdateien auf einem USB-Stick abspeichern
 [[x]] Daten in geeignete Formate migrieren
-[[ ]] x
+[[ ]] Liste mit Forschungsdaten erstellen und an geeignete Archive versenden
 [[x]] Daten auf geeignete Medien migrieren
 
 **Daten nachnutzen**
 
-[[ ]] x
+[[ ]] Forschungsergebnisse über Social Media-Kanäle teilen
 [[x]] Bisherige Forschung rezensieren
 [[x]] Daten für Lehre und Lernen verwenden
-[[ ]] x
-[[ ]] x
+[[ ]] Forschungsdaten in öffentlichen Cloud-Systemen abspeichern
+[[x]] Bisherige Forschung auf geeigneten Repositorien veröffentlichen
 
 ## Versionsverwaltung / Git
 Nicht nur für das kollaborative Arbeiten, sondern ganz grundsätzlich für die Organisation bei der Arbeit mit Forschungsdaten, ist eine Versionsverwaltung der Daten von essentieller Wichtigkeit. 

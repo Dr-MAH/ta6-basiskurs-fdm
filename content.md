@@ -509,11 +509,15 @@ Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdin
 
 ### QUIZ: Die FAIR-Prinzipien
 
-Beginnen wir einfach: Wofür stehen die Buchstaben in FAIR?
+**Beginnen wir einfach: Wofür stehen die Buchstaben in FAIR?**
 
 F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R für [[reusable]].
 
 ---
+
+**Die Bedingungen der FAIR-Prinzipien**
+Jeder Buchstabe von FAIR hat ein Set an Bedingungen, die umgesetzt werden sollen, um diesen Aspekt von FAIR vollständig abzudecken.<br>
+Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen?
 
 <iframe src="./resources/FAIR-Drag-and-Drop.html" width=100% height=100%></iframe>
 

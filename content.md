@@ -583,11 +583,7 @@ Folgend einige konkrete Tipps für die Datenspeicherung:
 Daten sollten publiziert werden, denn sie sind Forschungsergebnisse. Sie sind die Grundlage der Forschung und die Basis für das abschließende Forschungsprodukt, sei es ein Buch, ein Paper oder ähnliches.<br>
 Publizierte Forschungsdaten können zudem nachgenutzt werden und befördern dadurch nicht nur die Wissenschaft, sie machen sie auch nachhaltiger und vernetzter.
 
-Wie Datenpublikationen aussehen können zeigen Beispiele aus der Film- und Medienwissenschaft, die im Repositorium media/rep/ veröffentlicht wurden. Werfen Sie 
-
-<font color=red>Anrede vereinheitlichen oder umgehen, "Sie" ist doof.</font> 
-
-[hier](https://mediarep.org/communities/7e880a5a-5bcd-49b7-9b0e-ce4851b8d7bf) einen Blick auf die dort abgelegten Datenpublikationen.
+Wie Datenpublikationen aussehen können, zeigen Beispiele aus der Film- und Medienwissenschaft, die im Repositorium [media/rep/](https://mediarep.org/communities/7e880a5a-5bcd-49b7-9b0e-ce4851b8d7bf) veröffentlicht sind.
 
 ---
 
@@ -603,19 +599,19 @@ Wie Datenpublikationen aussehen können zeigen Beispiele aus der Film- und Medie
 
 ### Daten zitieren
 
-Öfter noch als das Veröffentlichen, begegnet einem im Forschungsalltag die Frage nach dem Zitieren von Daten!
+Oft stellt sich im Forschungsalltag die Frage nach dem Zitieren von Daten.
 
-**Aber warum sollte man Daten zitieren?**
+**Wie bei Texten sollte man auch Daten zitieren und nachweisen!**
 
 - Richtiges Zitieren ist Teil guten wissenschaftlichen Arbeitens.
 
-  * Auch Daten sollten gut und richtig zitiert werden, denn auch sie sind Forschungsergebnisse.
+  * Daten sollten gut und richtig zitiert werden, denn auch sie sind Forschungsergebnisse.
 
 **Wie zitiere ich Daten richtig?**
 
-- Grundsätzlich werden sie so zitiert, wie andere Arten an Publikationen auch.
-- Genannt werden sollten also Autor:innen und/oder Herausgeber:innen, der Titel und das Veröffentlichungsdatum.
-- Ergänzt wird dies bestenfalls um den Publikationagenten und einen Persistent Identificator (s. Kap. [PID](#persistent-identifier-pid)), etwa eine DOI, der direkt zum Datensatz führt!
+- Grundsätzlich werden sie so ähnlich zitiert, wie andere Arten an Publikationen auch.
+- Genannt werden sollten also Autor:innen bzw. Herausgeber:innen, der Titel und das Veröffentlichungsdatum.
+- Ergänzt wird dies bestenfalls um den Publikationagenten und einen Persistent Identificator (s. Kap. [PID](#persistent-identifier-pid)), etwa mittels DOI, womit man direkt zum Datensatz weitergeleitet wird!
 - Ein Beispiel von [forschungsdaten.info](https://forschungsdaten.info/):
 
   * Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
@@ -628,9 +624,9 @@ Neben FAIR- und CARE-Prinzipien, die sich um die Daten selbst drehen, liefern di
 
 **Was sind Hinweise auf gute Repositorien?**
 
-- Es werden dauerhafte Identifikatoren zur besseren Zitation und Auffindbarkeit der Daten vergeben
+- Es werden dauerhafte Identifikatoren zur besseren Zitation und Auffindbarkeit der Daten vergeben.
 - Es wird zumeist zwischen generischen, fachspezifischen und institutionellen Repositorien unterschieden.
-- Es gibt Siegel und Zertifikate für gute Langzeitarchive: CoreTrustSeal (CTS); nestor Siegel/DIN 31644; ISO 16363
+- Es gibt Siegel und Zertifikate für gute Langzeitarchive: CoreTrustSeal (CTS); nestor Siegel/DIN 31644; ISO 16363.
 
 **Wo finde ich ein geeignetes Repositorium?**
 
@@ -655,6 +651,8 @@ Einige dieser Portale sind:
 - TIB Preservation-as-a-Service
 
 Die folgenden Unterseiten listen eine Auswahl weiterer fachspezifischer Repositorien auf.
+
+<font color=red> Es gibt doch einige Überschneidungen, vielleicht ist eine gemeinsame Liste hier im Anschluss besser? </font>
 
 #### <font color=#a2d0eb> 🎬 Repositorien für die Film- und Medienwissenschaft </font>
 

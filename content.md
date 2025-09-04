@@ -36,14 +36,13 @@ Alle generischen Inhalte dieses Kurses werden ergänzt um fachspezifische Module
  2. Datenformate [>](#datenformate)
  3. Forschungsdatenmanagement [>](#forschungsdatenmanagement)
  4. Der Datenlebenszyklus [>](#der-datenlebenszyklus)
- 5. Die FAIR Prinzipien [>](#die-fair-prinzipien)
- 6. Die CARE Prinzipien [>](#die-care-prinzipien)
- 7. Metadaten [>](#metadaten)
- 8. Normdaten [>](#normdaten)
+ 5. Metadaten [>](#metadaten)
+ 6. Normdaten [>](#normdaten)
+ 7. Die FAIR Prinzipien [>](#die-fair-prinzipien)
+ 8. Die CARE Prinzipien [>](#die-care-prinzipien)
  9. Sichern, Speichern, Publizieren und Archivieren [>](#sichern-speichern-publizieren-und-archivieren)
  10. Der Datenmanagement-Plan [>](#der-datenmanagementplan-dmp)
- 11. Dokumentation [>](#dokumentation)
- <!--- 12. Exkurs: Ökologisch nachhaltiges Forschungsdatenmanagement [>](#exkurs-ökologisch-nachhaltiges-datenmanagement) --->
+ 11. Datendokumentation [>](#dokumentation)
 <br>
 - Weiterführende Literatur [>](#weiterführende-literatur)
 - Zusatzmaterial [>](#zusatzmaterial-interaktive-module)
@@ -62,7 +61,6 @@ Alle generischen Inhalte dieses Kurses werden ergänzt um fachspezifische Module
 
 ## Forschungsdatenmanagement
 
-<!--- [KB] Hier muss noch mehr hin. Etwas wenig Inhalt bisher. [AP] Ich füge mal ein paar Stichpunkte aus unserem Skript vom letzten FFK-Kurs bei ---> 
 Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
 
 - der Aufbereitung,
@@ -101,11 +99,11 @@ Wir haben unser Verständnis in diesem knappen Merksatz zusammengefasst:
 
 > Digitale Daten werden zu Forschungsdaten, wenn sie wissenschaftlichen Richtlinien entsprechend erfasst, beschrieben, kontextualisiert oder kommentiert werden.
 
-<!--- KB: Hier einfügen, was wir nicht als FD verstehen? --->
-
 #### <font color=#a2d0eb> 🎬 Forschungsdaten in der Film- und Medienwissenschaft </font>
 
-Medienwissenschaftliche Forschungsdaten zeichnen sich durch sehr heterogene Materialien aus. Darunter zählen alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen, mitunter auch Koppelungen von fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä. (vgl. [Goller / Heftberger 2018](https://doi.org/10.17176/20180515-233758)).
+Innerhalb der Fachdisziplin der Medien- und Filmwissenschaft zeigen sich Forschungsdaten in unterschiedlichen Formen und Eigenschaften.
+
+Medienwissenschaftliche Forschungsdaten zeichnen sich in der Regel durch ein äußerst heterogenes Material aus. Darunter zählen alle schriftlichen und bildlichen Aufzeichnungen sowie Material- und Quellensammlungen, mitunter auch Koppelungen von fremden und eigenen Daten, d. h. von Originalquellen und eigenen Annotationen, Zeichnungen o. ä. (vgl. [Goller / Heftberger 2018](https://doi.org/10.17176/20180515-233758)).
 
 "Für die Filmwissenschaft [lässt sich] allein mit Blick auf Filmkorpora eine ähnliche Datenvielfalt feststellen: digitalisierte Filme, einzelne Videoausschnitte, filmografische Metadaten, Sequenzprotokolle, Annotationen, Informationen zur Dokumentation des Analyseverfahrens (Ausführungen zum theoretischen Hintergrund, Bibliografie der verwendeten Forschungsliteratur, Nennung der Beteiligten), Reflexion der ausgewählten Kategorien, Hinweise zu den verwendeten Softwareprogrammen" ([Dang 2020, S. 121](http://dx.doi.org/10.25969/mediarep/21687)).
 
@@ -146,10 +144,9 @@ Vergleiche hierzu u. a. das ausführliche [Positionsapier](https://www.musikfors
 ## Datenformate
 Jede Software hat ein vorgegebenes Dateiformat, in dem sie mit ihr erzeugte Daten speichert. Doch ist das in einigen Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>
 Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. Proprietäre Datenformate sind solche, die von Hersteller:innen für eine bestimmte Software erstellt wurden und meist nur mit dieser nutzbar sind. Sie sind also keine offenen Standards und erschweren oder verhindern dadurch die Nachnutzbarkeit und Langzeitarchivierung der in ihrem Format gespeicherten Daten.<br>
-Zudem sollte darauf geachtet werden, dass die gewählten Dateiformate resourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen als alternative Formate.
+Zudem sollte darauf geachtet werden, dass die gewählten Dateiformate ressourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen als alternative Formate.
 
 ---
-
 **Empfehlungen für Dateiformate** <br>
 <sub>(zitiert aus [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/empfehlungen-dateiformate#10-empfehlungen-f%C3%BCr-dateiformate))</sub>
 
@@ -228,9 +225,9 @@ Nutzungsszenarien von Videoannotationstools:
 - Vorannotation von Tanz und Performances (s. Projekt [#vortanz](https://vortanz.ai/))
 
 ---
-<!--- KB: Bisschen merkwürdig, wenn wir den Satz hier schreiben, aber dann nicht verraten, welche Tools das zulassen --->
-Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu.
-<br><br>
+
+<!--- Einige dieser Tools lassen manuelle oder (semi-)automatische Annotation von Bild und Ton zu. --->
+
 Annotationstools für AV-Material (Auswahl):
 
 - ELAN (Eudico Linguistik Annotator)
@@ -249,10 +246,6 @@ Annotationstools Bild (Auswahl):
 
 ## Der Datenlebenszyklus 
 
-<!---
-[KB] Bei den Stationen kann gerne weiter ergänzt werden! [AP] Habe ein paar Beispiele ergänzt [KB] Danke! Aber andere Idee noch: Wir lassen Erklärungen hier doch weg und lösen das nur über das Quiz auf der kommenden Seite?
---->
-
 <img src="../resources/FD_LZ.png" width=50% height=auto> <br>
 <sub> Graphische Darstellung eines DLZ, Creator: CRDA, [CC0](https://creativecommons.org/publicdomain/zero/1.0/) </sub>
 
@@ -260,18 +253,18 @@ Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten
 
 Die grundlegenden Stationen sind:
 
-  1. **Forschungsvorhaben planen:**<br>Ein erster Datenmanagementplan wird erstellt.
-  2. **Daten erheben:**<br>Während der Forschungsarbeit entstehen unbereinigte Daten. 
-  3. **Daten aufbereiten und analysieren:**<br>Die Daten werden bereinigt; Analysen und Datenaufbereitungen finden statt (z. B. Digitalisierungs-, Transkriptions-, und Annotationsprozesse)
-  4. **Daten teilen und publizieren:**<br>Datenpublikation während oder nach dem Forschungsvorhaben (z. B. über Open Access-Plattformen oder Data Journals)
-  5. **Daten archivieren:**<br>Archivierung ausgewählter Daten für längere Zeiträume.
-  6. **Daten nachnutzen:**<br>Die veröffentlichten Daten können in weiteren Forschungskontexten oder durch Dritte nachgenutzt werden.
+  1. **Forschungsvorhaben planen**
+  2. **Daten erheben**
+  3. **Daten aufbereiten und analysieren**
+  4. **Daten teilen und publizieren**
+  5. **Daten archivieren**
+  6. **Daten nachnutzen**
+
+Im Quiz auf der nächsten Seite erfahren Sie mehr dazu, was die einzelnen Stationen beinhalten!
 
 ### Quiz: Was können die Stationen des Forschungsdaten-Lebenszyklus beinhalten?
 Bei allen Fragen ist die Mehrfachauswahl möglich.
 <br><br>
-
-<!--- [KB] "Falsche" Antworten ergänzen, da wo bei den Antwortmöglicheiten noch x steht; gerne von allen die Ideen haben --->
 
 **Forschungsvorhaben planen**
 
@@ -284,42 +277,42 @@ Bei allen Fragen ist die Mehrfachauswahl möglich.
 **Daten erheben**
 
 [[x]] Bilddaten annotieren
-[[ ]] x
+[[ ]] Liste mit ToDo's erstellen
 [[x]] Interviews führen
 [[x]] Noten transkribieren
-[[ ]] x
+[[ ]] Ins Kino gehen
 
 **Daten aufbereiten**
 
 [[x]] Digitale Objekte mit Metadaten anreichern
 [[ ]] Objekte digitalisieren
-[[ ]] x
+[[ ]] Dateiordner mit AV-, Bild- und Textdateien füllen
 [[x]] Daten bereinigen
 [[x]] Daten interpretieren
 
 **Daten teilen und publizieren**
 
 [[x]] Urheberrechte festlegen
-[[ ]] x
-[[ ]] x
+[[ ]] Excel-Liste mit Publikationstitel erstellen
+[[ ]] Eigene Publikationen lokal abspeichern
 [[x]] Zugänge kontrollieren
-[[ ]] x
+[[ ]] Interviewaufzeichnungen transkribieren
 
 **Daten archivieren**
 
-[[ ]] x
-[[ ]] x
+[[ ]] Datenmanagementplan erstellen
+[[ ]] AV-, Bild- und Textdateien auf einem USB-Stick abspeichern
 [[x]] Daten in geeignete Formate migrieren
-[[ ]] x
+[[ ]] Liste mit Forschungsdaten erstellen und an geeignete Archive versenden
 [[x]] Daten auf geeignete Medien migrieren
 
 **Daten nachnutzen**
 
-[[ ]] x
+[[ ]] Forschungsergebnisse über Social Media-Kanäle teilen
 [[x]] Bisherige Forschung rezensieren
 [[x]] Daten für Lehre und Lernen verwenden
-[[ ]] x
-[[ ]] x
+[[ ]] Forschungsdaten in öffentlichen Cloud-Systemen abspeichern
+[[x]] Bisherige Forschung auf geeigneten Repositorien veröffentlichen
 
 ## Versionsverwaltung / Git
 Nicht nur für das kollaborative Arbeiten, sondern ganz grundsätzlich für die Organisation bei der Arbeit mit Forschungsdaten, ist eine Versionsverwaltung der Daten von essentieller Wichtigkeit. 
@@ -328,6 +321,143 @@ Einfach gesagt bedeutet das, die Schritte der Arbeit und Ergebnisse zu dokumenti
 ...
 
 <!--- [MAH] So weit nur ein erster Vorschlag, hier könnte Daniel noch einiges ergänzen und zu seinen Folien überleiten. --->
+
+## Metadaten
+
+Metadaten sind Daten, die andere Daten beschreiben. Sie sind in vielerlei Hinsicht relevant, etwa um die Auffindbarkeit von Daten zu erhöhen oder Daten zu beschreiben, die ihrerseits nur unter eingeschränkten Zugang oder gar nicht verfügbar sind.<br>
+Dabei ist die Nutzung von [Normdaten und kontrollierten Vokabularen](#normdaten) wichtig, um qualitätvolle Metadaten zu erhalten.
+
+<br>
+
+> Merksatz: "Metadaten sind Daten, die andere Daten beschreiben."
+
+<br>
+
+Metadaten können in verschiedene Kategorien unterteilt werden.
+Eine übliche Aufteilung ist:
+
+- **Deskriptive Metadaten**:<br>Sie enthalten beschreibende Informationen über den Inhalt des Objekts, sie dienen der Identifizierung von Objekten oder Daten
+- **Administrative Metadaten**:<br>Sie klären verwaltungsrelevante und rechtliche Rahmenbedingungen, dafür enthalten sie Informationen zum Objekt, die über seinen Inhalt hinausgehen wie z. B. Rechteinformationen und Details des analogen Objekts
+- **Strukturelle Metadaten**:<br>Sie erläutern die Datenstruktur, beschreiben also den Metadatensatz an sich und seine Beziehung zur digitalen Datei
+- **Technische Metadaten**:<br>Sie beschreiben die technischen Eigenschaften einer digitalen Datei, sie werden oft automatisch durch die Erfassungssoftware erstellt, können, und sollten in einigen Fällen, erweitert werden.
+
+Ergänzt werden kann diese Liste durch
+
+- **Archivmetadaten**:<br>Sie beinhalten spezieller zusammengestellte Informationen, die für die Archivierung relevant sind
+
+<img src= "../resources/Metadaten.png" width=50% height=70%> <br>
+<sub>Andrea Polywka, Alexander Stark: Metadaten Schaubild, [CC0](https://creativecommons.org/publicdomain/zero/1.0/)</sub>
+
+### Metadaten und Metadaten-Standards
+
+Alle Arten von Forschungsdaten sollten stets mit Metadaten versehen werden. Metadaten halten Daten verständlich und machen sie leichter auffindbar, da sie maschinell ausgelesen und verarbeitet werden können und so z. B. Datensätze untereinander in Beziehung gesetzt werden können.
+
+Metadaten sollten gesondert als Metadatenpublikation veröffentlicht werden, um auch unabhängig von ihren zugehörigen Daten abrufbar zu sein.<br>
+Das ist vor allem in solchen Fällen sinnvoll, wo Daten aus rechtlichen oder ethischen Gründen (s. [CARE-Prinzipien](#die-care-prinzipien)) nicht frei zugänglich publiziert werden können.
+
+---
+
+Auch für Metadaten gibt es Standards, die ihre Vergleichbarkeit sicherstellen und vor allem ihre Nutzbarkeit für Suchmaschinen erhöhen.
+
+Dies sind einige fachübergreifende Standards:
+
+- Dublin Core
+- EXIF (Bildmetadaten)
+- PREMIS
+- METS MODS
+
+Für alle Metadaten gilt zudem, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechend.<br>Eine Auswahl fachspezifischer Standards findet sich auf den folgenden Unterseiten.
+
+---
+
+Warum gibt es mehr fachspezifische denn medienspezifische Standards? 
+
+- Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen; das hat teilweise den Effekt, dass sie unterschiedliche Metadaten erfassen und sich dadurch historisch verschiedene Standards entwickelt haben!
+
+#### <font color=#a2d0eb> 🎬 Metadatenstandards der Film- und Medienwissenschaft </font>
+In Deutschland gibt es (noch) keinen allgemein genutzten/akzeptierten Metadaten-Standard für audiovisuelle Metadaten. <br>
+Damit Metadaten FAIR sind und bleiben, sollten sie sich an bestehenden Schemata orientieren.
+
+Eine Auswahl von in der Archivierung gebräuchlichen Normen und Standards für die Erschliessung:
+
+- ISAD (G)
+- PREMIS
+- METS
+- Dublin Core (DC)
+- PBCore
+- EBUCore
+- MPEG-7 Multimedia Content Description Interface
+
+#### <font color=#d1bcf5> 🎨 Metadatenstandards der Kunstgeschichte </font>
+Eine Auswahl an Standards, die in der kunsthistorischen Forschung Anwendung finden:
+
+- Categories for the Description of Works of Art (CDWA)
+- Lightweight Information Describing Objects (LIDO) für deskriptive und administrative Metadaten von 2D- und 3D-Objekten
+- Das Schema der Text Encoding Initiative (TEI)
+- Extensible Metadata Plattform (XMP) für technische Metadaten von 2D- und 3D-Objekten
+
+---
+
+Zu LIDO s. a.:<br>
+
+- **Fichtel 2024**: LIDO-Schulung [>](https://nfdi4culture.de/go/E5247)
+- **Knaus / Stein / Kailus 2019**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 1: Graphik [>](https://doi.org/10.11588/arthistoricum.382.544)
+- **Knaus / Kailus / Stein 2022**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 2: Malerei und Skulptur [>](https://doi.org/10.11588/arthistoricum.1026)
+- **Rössel / Stenger / Kailus / Stein 2025**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 3: Architektur und andere ortsfeste Werke [>](https://doi.org/10.11588/arthistoricum.1407)
+
+### QUIZ: Metadaten
+
+**Füllen Sie die Lücken im folgenden Text aus.**
+
+Zu Beginn dieses Kapitels wurden verschiedene Kategorien von Metadaten vorgestellt.<br>[[Administrative | (Deskriptive) | Strukturelle | Technische]] Metadaten beschreiben das Objekt inhaltlich, nennen z. B. Titel und Autor:in, wohingegen [[(administrative) | deskriptive | strukturelle | technische]] Metadaten verwaltungsrelevante und rechtliche Rahmenbedingungen enthalten. Typische Inhalte von [[administrativen | deskriptiven | (strukturellen) | technischen]] Metadaten sind Relationen zwischen Daten. Informationen, wie Dateigröße, -format oder verwendete Software und Hardware finden sich hingegen in den [[administrativen | deskriptiven | strukturellen | (technischen)]] Metadaten.
+
+## Normdaten
+
+**Was sind Normdaten?**
+
+Normdaten sind strukturierte Datensätze, die wissenschaftlich geprüft und frei verfügbar sind.<br>
+Jedem Normdatum ist ein eindeutiger Identifikator zugeordnet, mit einer eindeutig referenzierbaren URI, einem Union Resource Identifier, quasi eine stabile URL.
+
+Ein Normdatum ist mit vielen weiteren Normdaten verknüpft und setzt dadurch die Informationen mit einander in Verbindung.<br>
+Damit das klappt, braucht es neben den Identifikatoren auch weitere Regeln und Standards für Normdaten. MARC 21 ist ein solcher weit verbreiteter, internationaler Standard. Er kann als XML konvertiert werden und ist als RDF (Resource Description Framework) ausspielbar.<br>
+RDF seinerseits ist wieder Grundlage des Semantic Web.
+
+Ein **kontrolliertes Vokabular** ist eine Sammlung von Normdaten, es verknüpft auch Synonyme, die zum selben Suchergebnis führen und liefert dazu oft Übersetzungen in andere Sprachen.
+
+---
+
+**Wozu brauche ich Normdaten?**
+
+- Zum vereinfachen die Darstellung komplexer Zusammenhänge
+- Zur Vermeidung von Mehrdeutigkeiten und falschen Zuordnungen vor allem für Maschinen, die anders als Menschen nicht aus dem Kontext schließen können
+
+  - Variierende Schreibweisen von Namen
+  - Gleiche Städtenamen (z.B.: Paris in Frankreich und Paris in Texas)
+- Die Verwendung von Normdaten ermöglicht besseren Austausch und bessere Nachnutzbarkeit der Daten.
+
+> Video-Tipp: NFDI4Culture Video-Tutorial zu Normdaten! https://av.tib.eu/media/60986
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
+  <iframe src="https://av.tib.eu/player/60986" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+### Kontrollierte Vokabulare in Geistes- und Kulturwissenschaften
+
+Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaften:
+
+- Deutsche Nationalbibliothek – Gemeinsame Normdatei (GND)
+- Virtual International Authority File (VIAF)
+- Open Researcher and Contributor ID (ORCID)
+- Research Organization Registry (ROR)
+- Crossref Funder Registry
+- International Standard Name Identifier (ISNI)
+- Getty Vokabulare
+  
+  * Thesaurus of Geographic Names (TGN)
+  * Art & Architecture Thesaurus (AAT)
+  * Union List of Artists Names (ULAN)
+
+- Iconclass
+- Wikidata
 
 ## FAIR und CARE
 Die Akronyme FAIR und CARE stehen für zwei wichtige Richtlinien im Kontext guten Forschungsdatenmanagements, sie werden in den folgenden Abschnitten genauer betrachtet.
@@ -346,8 +476,6 @@ Lesen Sie in den nächsten Kapiteln nach, wofür die Akronyme FAIR und CARE gena
 
 ### Die FAIR-Prinzipien
 
-<!--- KB: Sollten wir das ausführlicher machen, oder einfach auf Angelas GL verlinken? --->
-
 FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusable; übersetzt also für: auffindbar, zugänglich, interoperabel und nachnutzbar.
 
 Zu jedem Hauptziele liefern die FAIR-Prinzipien je ein Set an Bedingungen. Wenn Sie mehr dazu wissen wollen, lesen sie weiter in: [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/vier-grundlegende-praemissen-zum-verstaendnis-der-fair-prinzipien).
@@ -356,49 +484,26 @@ Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen
 
 Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdings auch mehr und mehr Tools, die Wissenschaftler:innen dabei unterstützen, den FAIR-Gehalt ihrer Daten zu ermitteln, u. a.:
 
-<!--- KB: Gerne ergänzen --->
-
 - [NFDI4Culture FAIR-Check](https://nfdi4culture.de/id/E5080)
 - [FAIR Assessment Tool von TKDM](https://tkfdm.github.io/FAIR-Data-Assessment-Tool/)
 - [FAIR Data Self-Assessment Tool](https://ardc.edu.au/resource/fair-data-self-assessment-tool/)
 - [FAIR Data Maturity Model](https://doi.org/10.5281/zenodo.5834115)
 - [F-UJI – Automated FAIR Data Assessment Tool](https://www.f-uji.net/)
 
-### QUIZ: Wofür stehen die Buchstaben in FAIR?
+### QUIZ: Die FAIR-Prinzipien
 
-<!---
-MAH: Sollten die Quiz-Seiten eine eigene Überschrift bekommen? Und sie sollten in der Einleitung erwähnt werden! KB: Meinst Du in der Einleitung hinweisen darauf, das es Quizzes gibt? Von mir aus ja, schadet ja nicht.
---->
+**Beginnen wir einfach: Wofür stehen die Buchstaben in FAIR?**
 
-<!--- KB: Gerne hier auch die falschen Antworten ändern und kreativer gestalten! Bzw. überlege ich (KB) nochmal, ob man das Quiz cleverer hinbekommt... --->
+F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R für [[reusable]].
 
-**F wie ...**
+---
 
-- [(x)] findable
-- [( )] free
-- [( )] fantastic
-- [( )] freely usable
+**Die Bedingungen der FAIR-Prinzipien**
 
-**A wie ...**
+Jeder Buchstabe von FAIR hat ein Set an Bedingungen, die umgesetzt werden sollen, um diesen Aspekt von FAIR vollständig abzudecken.<br>
+Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen?
 
-- [( )] archivable
-- [( )] addressable
-- [(x)] accessable
-- [( )] alternative
-
-**I wie ...**
-
-- [( )] integrate
-- [(x)] interoparable
-- [( )] interesting
-- [( )] intellectual
-
-**R wie ...**
-
-- [( )] reproduce
-- [( )] repurpuse
-- [( )] redirectable
-- [(x)] reusable
+<iframe src="./resources/FAIR-Drag-and-Drop.html" width=100% height=100%></iframe>
 
 ### Die CARE-Prinzipien
 
@@ -438,6 +543,7 @@ Aber auch in Projekten, in denen mit personenbezogenen Daten gearbeitet wird, et
 Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
 
 <!--- Hier noch ergänzen: Bisher nur das Material von Andrea und Alex aus dem FFK-Kurs / Material von Barbara Alge?--->
+
 - Forschungsdaten zu Filmmaterial aus kolonialen Kontexten
 
   - bspw. Amateurfilme, wissenschaftliche Filme, Travelogues, „Kulturfilme“
@@ -449,143 +555,6 @@ Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzi
 - Forschungsdaten zu geraubten Kulturgütern aus kolonialen Kontexten
 
   - bspw. 3D-Digitalisate von geraubten Objekten
-
-## Metadaten
-
-Metadaten sind Daten, die andere Daten beschreiben. Sie sind in vielerlei Hinsicht relevant, etwa um die Auffindbarkeit von Daten zu erhöhen oder Daten zu beschreiben, die ihrerseits nur unter eingeschränkten Zugang oder gar nicht verfügbar sind.<br>
-Dabei ist die Nutzung von [Normdaten und kontrollierten Vokabularen](#normdaten) wichtig, um qualitätvolle Metadaten zu erhalten.
-
-<br>
-
-> Merksatz: "Metadaten sind Daten, die andere Daten beschreiben."
-
-<br>
-
-Metadaten können in verschiedene Kategorien unterteilt werden.
-Eine übliche Aufteilung ist:
-
-- **Deskriptive Metadaten**:<br>Sie enthalten beschreibende Informationen über den Inhalt des Objekts, sie dienen der Identifizierung von Objekten oder Daten
-- **Administrative Metadaten**:<br>Sie klären verwaltungsrelevante und rechtliche Rahmenbedingungen, dafür enthalten sie Informationen zum Objekt, die über seinen Inhalt hinausgehen wie z. B. Rechteinformationen und Details des analogen Objekts
-- **Strukturelle Metadaten**:<br>Sie erläutern die Datenstruktur, beschreiben also den Metadatensatz an sich und seine Beziehung zur digitalen Datei
-- **Technische Metadaten**:<br>Sie beschreiben die technischen Eigenschaften einer digitalen Datei, sie werden oft automatisch durch die Erfassungssoftware erstellt, können, und sollten in einigen Fällen, erweitert werden.
-
-Ergänzt werden kann diese Liste durch
-
-- **Archivmetadaten**:<br>Sie beinhalten spezieller zusammengestellte Informationen, die für die Archivierung relevant sind
-
-<!--- KB: Hab hier mutwillig CC0 drangeschrieben, bitte prüfen @Marburg --->
-<img src= "../resources/Metadaten.png" width=50% height=70%> <br>
-<sub>Andrea Polywka, Alexander Stark: Metadaten Schaubild, [CC0](https://creativecommons.org/publicdomain/zero/1.0/)</sub>
-
-### Metadaten und Metadaten-Standards
-
-Alle Arten von Forschungsdaten sollten stets mit Metadaten versehen werden. Metadaten halten Daten verständlich und machen sie leichter auffindbar, da sie maschinell ausgelesen und verarbeitet werden können und so z. B. Datensätze untereinander in Beziehung gesetzt werden können.
-
-Metadaten sollten gesondert als Metadatenpublikation veröffentlicht werden, um auch unabhängig von ihren zugehörigen Daten abrufbar zu sein.<br>
-Das ist vor allem in solchen Fällen sinnvoll, wo Daten aus rechtlichen oder ethischen Gründen (s. [CARE-Prinzipien](#die-care-prinzipien)) nicht frei zugänglich publiziert werden können.
-
----
-
-Auch für Metadaten gibt es Standards, die ihre Vergleichbarkeit sicherstellen und vor allem ihre Nutzbarkeit für Suchmaschinen erhöhen.
-
-Dies sind einige fachübergreifende Standards:
-
-- Dublin Core
-- EXIF (Bildmetadaten)
-- PREMIS
-- METS MODS
-
-Für alle Metadaten gilt zudem, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechend.<br>Eine Auswahl fachspezifischer Standards findet sich auf den folgenden Unterseiten.
-
----
-<!--- KB: Kann auch gerne raus... Ich glaub ich habe das reingeschrieben, weiß aber auch nicht wirklich, was ich damit bezwecken wollte... --->
-
-Warum gibt es mehr fachspezifische denn medienspezifische Standards? 
-
-- Einzelne Fächer stellen unterschiedliche Fragen an dieselben Medien und arbeiten anders mit ihnen; das hat teilweise den Effekt, dass sie unterschiedliche Metadaten erfassen und sich dadurch historisch verschiedene Standards entwickelt haben!
-
-#### <font color=#a2d0eb> 🎬 Metadatenstandards der Film- und Medienwissenschaft </font>
-In Deutschland gibt es (noch) keinen allgemein genutzten/akzeptierten Metadaten-Standard für audiovisuelle Metadaten. <br>
-Damit Metadaten FAIR sind und bleiben, sollten sie sich an bestehenden Schemata orientieren.
-
-Eine Auswahl von in der Archivierung gebräuchlichen Normen und Standards für die Erschliessung:
-
-- ISAD (G)
-- PREMIS
-- METS
-- Dublin Core (DC)
-- PBCore
-- EBUCore
-- MPEG-7 Multimedia Content Description Interface
-
-#### <font color=#d1bcf5> 🎨 Metadatenstandards der Kunstgeschichte </font>
-Eine Auswahl an Standards, die in der kunsthistorischen Forschung Anwendung finden:
-
-- Categories for the Description of Works of Art (CDWA)
-- Lightweight Information Describing Objects (LIDO) für deskriptive und administrative Metadaten von 2D- und 3D-Objekten
-- Das Schema der Text Encoding Initiative (TEI)
-- Extensible Metadata Plattform (XMP) für technische Metadaten von 2D- und 3D-Objekten
-
----
-
-Zu LIDO s. a.:<br>
-
-- **Fichtel 2024**: LIDO-Schulung [>](https://nfdi4culture.de/go/E5247)
-- **Knaus / Stein / Kailus 2019**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 1: Graphik [>](https://doi.org/10.11588/arthistoricum.382.544)
-- **Knaus / Kailus / Stein 2022**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 2: Malerei und Skulptur [>](https://doi.org/10.11588/arthistoricum.1026)
-- **Rössel / Stenger / Kailus / Stein 2025**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 3: Architektur und andere ortsfeste Werke [>](https://doi.org/10.11588/arthistoricum.1407)
-
-### QUIZ: Metadaten
-
-**Füllen sie die Lücken im folgenden Text aus.**
-
-<!--- KB: Noch nicht ideal, das Wording der Sätze gibt zu leicht vor, welche Antwort erwartet wird... --->
-
-Zu Beginn dieses Kapitels wurden verschiedene Kategorien von Metadaten vorgestellt. [[Administrative | (Deskriptive) | Strukturelle | Technische]] Metadaten beschreiben das Objekt inhaltlich, wohingegen [[(administrative) | deskriptive | strukturelle | technische]] Metadaten verwaltungsrelevante und rechtliche Rahmenbedingungen enthalten. Die Struktur der Datei und ihre Beziehung zu anderen Dateien wird durch die [[administrativen | deskriptiven | (strukturellen) | technischen]] Metadaten beschrieben. Technische Eigenschaften finden sich hingegen in den [[administrativen | deskriptiven | strukturellen | (technischen)]] Metadaten.
-
----
-
-<!--- KB: Weitere Fragen hier noch ergänzen --->
-
-## Normdaten
-
-**Was sind Normdaten?**
-
-Eine Normdatei oder ein kontrolliertes Vokabular ist ein Verzeichnis strukturierter Datensätze. Jedem Normdatum wird darin eine feste Nummer als Identifikator zugeordnet.
-
----
-
-**Wozu brauche ich Normdaten?**
-
-- Zum vereinfachen die Darstellung komplexer Zusammenhänge
-- Zur Vermeidung von Mehrdeutigkeiten und falschen Zuordnungen vor allem für Maschinen, die anders als Menschen nicht aus dem Kontext schließen können
-- Die Verwendung von Normdaten ermöglicht besseren Austausch und bessere Nachnutzbarkeit der Daten.
-
-Ein **kontrolliertes Vokabular** ist eine Sammlung von Normdaten, es verknüpft auch Synonyme, die zum selben Suchergebnis führen und liefert dazu oft Übersetzungen in andere Sprachen.
-
-> Video-Tipp: NFDI4Culture Video-Tutorial zu Normdaten! https://av.tib.eu/media/60986
-<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
-  <iframe src="https://av.tib.eu/player/60986" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div>
-
-### Kontrollierte Vokabulare in Geistes- und Kulturwissenschaften
-
-Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaften:
-
-- Deutsche Nationalbibliothek – Gemeinsame Normdatei (GND)
-- Virtual International Authority File (VIAF)
-- Open Researcher and Contributor ID (ORCID)
-- Research Organization Registry (ROR)
-- Crossref Funder Registry
-- International Standard Name Identifier (ISNI)
-- Getty Vokabulare
-  
-  * Thesaurus of Geographic Names (TGN)
-  * Art & Architecture Thesaurus (AAT)
-  * Union List of Artists Names (ULAN)
-
-- Iconclass
-- Wikidata
 
 ## Sichern, Speichern, Publizieren und Archivieren
 
@@ -611,7 +580,7 @@ Wie Datenpublikationen aussehen können zeigen Beispiele aus der Film- und Medie
 **Vorteile bei der Veröffentlichung von Forschungsdaten:**
 
 - Forschungsergebnisse werden durch die Veröffentlichung von Daten und deren Zitierung sichtbarer.
-- Einmalige <!--- KB: Was sind "einmalige" Daten? Kann ich mir zwar denken, was gemeint ist, aber das kann man, denke ich, charmanter/cleverer beschreiben? ---> Daten gehen nicht verloren, sondern stehen für weitere Forschungen zur Verfügung.
+- Einmalige, nicht reproduzierbare Daten gehen nicht verloren, sondern stehen für weitere Forschungen zur Verfügung.
 - Öffentlich zugängliche Daten können zu neuen oder ergänzenden Hypothesen anregen.
 - Es können neue Kooperationen weltweit entstehen.
 - Wissenschaftliche Integrität wird gestärkt.
@@ -659,8 +628,6 @@ Einige dieser Portale sind:
 - NFDI4Cultures kuratierte Repositorieliste [>](https://nfdi4culture.de/services/details/curated-repository-list.html)
 
 ---
-
-<!--- KB: Verlinken wir hier folgend auf die einzelnen Repos? Oder sind das zu viele Links, die ablaufen könnten? (Stichwort: Kuratierung) --->
 
 **Kulturwissenschaftliche Repositorien – eine Auswahl**
 
@@ -737,30 +704,39 @@ Speichern und Archivieren, das kann im ersten Moment sehr ähnlich klingen, also
 
 **Archivieren** hingegen ist die Sicherung und **Langzeitarchivierung** ausgewählter, "endgültiger" Daten. Archivieren geschieht also zumeist erst nach dem Abschluss eines Forschungsprojektes, oder dem Abschluss eines eigenständigen Moduls in einem Projekt.
 
-<!--- KB: Hier noch weiter ergänzen (?) --->
+| Speichern | Archivieren |
+| :---: | :---: |
+| Kopie auf ein anderes Medium | Daten die nachdem sie ins Archiv übergegangen sind unverändert bleiben |
+| Vorbeugen von Datenverlust | Langzeitsicherung für Nachnutzungsszenarien oder aus rechtlichen Gründen |
+| Lokale Speicherorte, USB-Sticks, Discs, Cloud-Dienste | langlebige Medien z. B. Magnetband |
 
 ### Langzeitarchivierung
 
 Langzeitarchivierung meint in der Regel eine Aufbewahrungsgarantie von mindestens 10 Jahren, so fordert es u. a. auch die DFG bei ihrer Förderung von Forschungsprojekten. ([DFG 2025, S. 22](https://doi.org/10.5281/zenodo.14281892))
 
-Anders als Backups, die den Zustand der Daten zu einem bestimmten Zeitpunkt sichern, ist die Langzeitarchivierung (LZA) auf einen dauerhaften Erhalt der Daten ausgelegt und nicht für den alltäglichen Zugriff. Deshalb sind archivierte Daten nicht zwangsläufig direkt abrufbar, wenn sie etwa auf Magnetbändern oder anderen in der LZA genutzten Medien gesichert werden. <br>
+--- 
+
+Anders als Backups, die den Zustand der Daten zu einem bestimmten Zeitpunkt sichern, ist die Langzeitarchivierung (LZA) auf einen dauerhaften Erhalt der Daten ausgelegt und nicht für den alltäglichen Zugriff. Deshalb sind archivierte Daten nicht zwangsläufig direkt abrufbar, wenn sie etwa auf Magnetbändern oder anderen in der LZA genutzten Medien gesichert werden.
+
 Auch mit Datenpublikation sollte die Archivierung nicht verwechselt werden. Bei der Publikation steht im Vordergrund, dass die Daten schnell abrufbar und nutzbar sind, was mit dem Anspruch der Langzeitspeicherung und zuverlässigen Verfügbarmachung nicht immer im Einklang steht. Es gibt aber viele Datenrepositorien, die eine Archivierung direkt mitbedenken und die Daten in archivierbaren Formaten sichern.
+
+---
 
 Damit die Daten später noch verständlich sind und damit ihre Auffindbarkeit ehöht wird, ist auch bei archivierten Daten eine gute Beschreibung mit Metadaten unerlässlich. (s. Kap. [Metadaten](#metadaten))
 
-Es werden nicht alle Daten aus einem Projekt archiviert. Es muss immer entschieden werden, welche Daten erhaltenswert sind. Bestenfalls sind die Richtlinien dafür in einem Projekt bereits im Datenamanagementplan festgehalten.<br>
-Es gibt verschiedene Ansätze, erhaltenswerte Eigenschaften zu bestimmen. Den provenienzbasierten Ansatz und den nutzergruppenbasierten Ansatz, welche sich auch kombinieren lassen, man spricht dann auch vom Preservation Intent.<br>
-Der provenienzbasierten Ansatz blickt auf die vermutete oder die überlieferte Absicht, die bei der Erstellung des Objektes verfolgt wurde. Der nutzergruppenbasierten Ansatz hingegen schaut, welche Anforderungen die Community zukünftig an das Objekt stellen könnte.<br>
+Es werden nicht alle Daten aus einem Projekt archiviert. Es muss immer entschieden werden, welche Daten erhaltenswert sind. Bestenfalls sind die Richtlinien dafür in einem Projekt bereits im Datenamanagementplan festgehalten.
+
+<!--- Es gibt verschiedene Ansätze, erhaltenswerte Eigenschaften zu bestimmen. Den provenienzbasierten Ansatz und den nutzergruppenbasierten Ansatz, welche sich auch kombinieren lassen, man spricht dann auch vom Preservation Intent.<br>
+Der provenienzbasierten Ansatz blickt auf die vermutete oder die überlieferte Absicht, die bei der Erstellung des Objektes verfolgt wurde. Der nutzergruppenbasierten Ansatz hingegen schaut, welche Anforderungen die Community zukünftig an das Objekt stellen könnte.<br> --->
 Wie bei der Publikation von Daten sind auch bei der Archivierung rechtliche und ethische Aspekte zu beachten. Eine ausführliche Besprechung dieser Themen würde jedoch den Rahmen dieses Kurses sprengen.
 
-Die TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology), die bei den [Repositorien](#repositorien--die-daten-speicher) schon erwähnt wurden, gelten auch für Langzeitarchive.
-
+Die TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology), die bei den [Repositorien](#repositorien--die-daten-speicher) schon erwähnt wurden, gelten auch für Langzeitarchive.<br>
 Digitale Lanzeitarchive unterscheiden sich in Umfang ihrer angebotenen Services und der Qualität. Zertifikate können Nutzenden die Auswahl eines für sie geeigneten Archivs erleichtern.<br>
 Zu den bekanntesten und meistgenutzten Zertifikaten für digitale Langzeitarchive und Repositorien gehören das nestor-Siegel und das CoreTrustSeal. Ihre Kriterienkataloge sind publiziert und online verfügbar.
 
 > Weitere Informationen finden sich in dieser NFDI4Culture Guideline zur Langzeitarchivierung: [Heseler / Büttner / Arnold 2024](https://nfdi4culture.de/id/E5342)
 
-Einige Merksätze:
+**Einige Merksätze:**
 
 - Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
 - Es sollten möglichst keine proprietäre Software und Datenformate genutzt werden (s. Kap. [Datenformate](#datenformate)).
@@ -845,10 +821,6 @@ Datenmanagementpläne helfen dabei den Umgang mit Daten in Projekten zu planen. 
 - Alle Projektbeteiligte sollten den DMP kennen und Zugriff darauf haben.
 - Idealerweise wird der DMP zu Projektende mit veröffentlicht.
 
-<!--- KB: Das Folgende doppelt sich jetzt hier mit dem 1. Kasten auf der Folie. Sollte man vielleicht zusammenfassen und vorne oder hinten platzieren (?) --->
-
-> Wichtig: DMPs wachsen mit dem Projekt! Der DMP aus dem Projektantrag darf verändert werden, wenn sich Situationen während der Projektlaufzeit ändern oder auffällt, dass ursprünglich Geplantes so nicht umgesetzt werden kann.
-
 ### Das RDMO-Tool
 
 RDMO, steht für Research Data Management Organiser und ist ein freies Open Source Tool für die Erstellung von Datenmanagementplänen.
@@ -863,12 +835,11 @@ RDMO, steht für Research Data Management Organiser und ist ein freies Open Sour
 Die RDMO-Website bietet ein Demo-Programm an, das nach Anmeldung kostenlos genutzt werden kann. Accounts können kostenlos erstellt werden.
 
 ---
-Seit Hebst 2025 stellt auch NFDI4Culture einen Research Data Management Organiser (RDMO) für Forschende und Kulturschaffende der Architektur-, Kunst- und Musik- bis hin zu Theater-, Tanz-, Film- und Medienwissenschaft zur Verfügung. 
+Seit Herbst 2025 stellt auch NFDI4Culture einen Research Data Management Organiser (RDMO) für Forschende und Kulturschaffende der Architektur-, Kunst- und Musik- bis hin zu Theater-, Tanz-, Film- und Medienwissenschaft zur Verfügung. 
 
 https://rdmo.nfdi4culture.de/
 
 Nach dem Login und einmaliger Freischaltung Ihres NFDI4Culture Accounts, können verschiedene Vorlagen für einen DMP ausgewählt werden.  
-
 
 ## Dokumentation
 Der Datenmanagement-Plan beschreibt, wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>
@@ -915,15 +886,6 @@ Formen von Dokumentationen:
 - Entstehung der Daten ist nicht nachvollziehbar, was die Interpretation erschwert oder sogar verhindert
 - Fehlende Informationen zur Erhebung und Kontext verhindern die Nachnutzung
 - Verwechslung von Daten (ältere Versionen, gleichnamige Dateien etc.)
-
-<!--- KB schaut mal, ob sie was substantielles zu Papier bringt. Bleibt erstmal noch auskommentiert bitte
-
-## Exkurs: Ökologisch nachhaltiges Datenmanagement
-Dieser Exkurs wäre es wert, eine ganz eigene Lernressource zu werden, dennoch wollen wir in diesem kleinen Exkurs gerne auf Maßnahmen aufmerksam machen, die dabei helfen können, Forschungsdaten ökologisch nachhaltig zu managen.
-
-Die FAIR-Prinzipien sprechen von Nachhaltigkeit im Sinne des langfristigen Nachhaltens von Forschungsdaten, dabei bleibt die ökoligischen Nachhaltigkeit außenvor.
-
---->
 
 ## Weiterführende Literatur und Links
 <p style="font-size:25px"><b><u>Literatur</u></b></p>

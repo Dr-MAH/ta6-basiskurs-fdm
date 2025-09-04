@@ -40,9 +40,9 @@ Alle generischen Inhalte dieses Kurses werden ergänzt um fachspezifische Module
  6. Metadaten [>](#6. metadaten)
  7. Normdaten [>](7. #normdaten)
  8. FAIR und CARE [>](#8. fair-und-care)
- 9. Sichern, Speichern, Publizieren und Archivieren [>](#9. sichern-speichern-publizieren-und-archivieren)
+ 9. Sichern, Speichern, Publizieren und Archivieren [>](#9. sichern,-speichern,-publizieren-und-archivieren)
  10. Creative Commons Lizenzen[>](#10. creative-commons-lizenzen) 
- 11. Der Datenmanagement-Plan [>](#11. der-datenmanagementplan-dmp)
+ 11. Der Datenmanagement-Plan [>](#11. der-datenmanagementplan)
  12. Datendokumentation [>](#12. dokumentation)
 <br>
 - Weiterführende Literatur [>](#weiterführende-literatur)
@@ -127,7 +127,7 @@ Je nach fachlicher Ausrichtung braucht es andere Dateiformate und Analysetools, 
 
 Die deutschsprachige Kunstgeschichte hat sich bisher nicht auf einen einheitlichen Umgang mit Forschungsdaten und feste Standards geeinigt. Doch steigt auch unter Kunsthistoriker:innen das Bewusstsein um die Relevanz guten Forschungsdatenmanagements. Mit dem [Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“](https://doi.org/10.11588/artdok.00009194) liegt seit 2024 ein Paper vor, das auf Initiative des Deutschen Verbandes für Kunstgeschichte e. V., der Universitätsbibliothek Heidelberg / arthistoricum.net und des Zentralinstituts für Kunstgeschichte erarbeitet wurde, und aus Sicht des Faches in Deutschland aktuelle Anforderungen, Positionen und Impulse zur weiteren Entwicklung digitaler kunsthistorischer Forschungsdaten und ihrer Infrastruktur formuliert.
 
-#### <font color=#99e089> 🎵 Forschungsdaten in der Musikwissenschaft </font>
+#### <font color=#99e089> 🎵 Forschungsdaten in der Musikwissenschaften </font>
 
 Musikwissenschaftliche Forschungsdaten sind sehr divers, sie umfassen schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie in unterschiedlichster Form digital (PDFs, Codierungen, Aufnahmen etc.) oder analog, wie auch deren digitale Reproduktionen.  
 
@@ -406,6 +406,12 @@ Zu LIDO s. a.:<br>
 - **Knaus / Kailus / Stein 2022**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 2: Malerei und Skulptur [>](https://doi.org/10.11588/arthistoricum.1026)
 - **Rössel / Stenger / Kailus / Stein 2025**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 3: Architektur und andere ortsfeste Werke [>](https://doi.org/10.11588/arthistoricum.1407)
 
+#### <font color=#99e089> 🎵 Metadatenstandards der Musikwissenschaften </font>
+Eine Auswahl an Standards, die in der musikwissenschaftlichen Forschung Anwendung finden:
+
+- ... <font color=red> [muss hier noch ergänzt werden!] </font>
+- ...
+
 ### QUIZ: Metadaten
 
 **Füllen Sie die Lücken im folgenden Text aus.**
@@ -423,18 +429,19 @@ Ein Normdatum ist mit vielen weiteren Normdaten verknüpft und setzt dadurch die
 Damit das klappt, braucht es neben den Identifikatoren auch weitere Regeln und Standards für Normdaten. MARC 21 ist ein solcher weit verbreiteter, internationaler Standard. Er kann als XML konvertiert werden und ist als RDF (Resource Description Framework) ausspielbar.<br>
 RDF seinerseits ist wieder Grundlage des Semantic Web.
 
-Ein **kontrolliertes Vokabular** ist eine Sammlung von Normdaten, es verknüpft auch Synonyme, die zum selben Suchergebnis führen und liefert dazu oft Übersetzungen in andere Sprachen.
+Ein **kontrolliertes Vokabular** (mehr zu diesem Begriff im nächsten Kapitel) ist eine Sammlung von Normdaten, es verknüpft auch Synonyme, die zum selben Suchergebnis führen und liefert dazu oft Übersetzungen in andere Sprachen.
 
 ---
 
-**Wozu brauche ich Normdaten?**
+**Wir benötigen Normdaten ...**
 
-- Zum vereinfachen die Darstellung komplexer Zusammenhänge
-- Zur Vermeidung von Mehrdeutigkeiten und falschen Zuordnungen vor allem für Maschinen, die anders als Menschen nicht aus dem Kontext schließen können
+- für die Vereinfachung der Darstellung komplexer Zusammenhänge,
+- zur Vermeidung von Mehrdeutigkeiten und falschen Zuordnungen vor allem für Maschinen, die anders als Menschen nicht aus dem Kontext schließen können, wie bspw. bei ...
 
-  - Variierende Schreibweisen von Namen
-  - Gleiche Städtenamen (z.B.: Paris in Frankreich und Paris in Texas)
-- Die Verwendung von Normdaten ermöglicht besseren Austausch und bessere Nachnutzbarkeit der Daten.
+  - variierenden Schreibweisen von Namen oder
+  - gleichen Städtenamen (z. B.: Paris in Frankreich und Paris in Texas).
+
+**Die Verwendung von Normdaten ermöglicht also besseren Austausch und bessere Nachnutzbarkeit von Daten!**
 
 > Video-Tipp: NFDI4Culture Video-Tutorial zu Normdaten! https://av.tib.eu/media/60986
 <div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
@@ -465,21 +472,23 @@ Die Akronyme FAIR und CARE stehen für zwei wichtige Richtlinien im Kontext gute
 
 ---
 
-**FAIR und CARE – Wo liegt der Unterschied?**
+**FAIR und CARE – zwei sehr unterschiede Kontexte**
 
-Wenngleich die beiden Akronyme gerne in einem Atemzug genannt werden, es ist wichtig ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu berücksichtigen!
+Wenngleich die beiden Akronyme gerne in einem Atemzug genannt werden, ist es wichtig, ihre sehr unterschiedlichen Anwendungsbereiche und Entstehungskontexte zu berücksichtigen!
 
 Die FAIR-Prinzpien fokussieren sich überwiegend auf technische Aspekte und Datenqualität. Sie sind auf nahezu jeden Datensatz anwendbar.
 
-Die CARE-Prinzipien stehen hingegen für einen angemessenen Umgang mit Daten, die indigene Gemeinschaften betreffen. Im Gegensatz zu FAIR liegt der Fokus also bei CARE explizit nicht auf der Erleichterung des Datenaustauschs, sondern auf der Wahrung der Interessen indigener Gemeinschaften, was in einigen Fällen auch die FAIR-heit der Daten reduzieren kann.
+Die CARE-Prinzipien stehen hingegen für einen angemessenen Umgang mit Daten, die indigene Gemeinschaften betreffen. 
 
-Lesen Sie in den nächsten Kapiteln nach, wofür die Akronyme FAIR und CARE genau stehen!
+Im Gegensatz zu FAIR liegt der Fokus also bei CARE explizit nicht auf der Erleichterung des Datenaustauschs, sondern auf der Wahrung der Interessen indigener Gemeinschaften, was in einigen Fällen auch die FAIR-heit der Daten reduzieren kann.
+
+Lesen Sie in den nächsten Kapiteln nach, wofür die Akronyme FAIR und CARE im Einzelnen stehen!
 
 ### Die FAIR-Prinzipien
 
 FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusable; übersetzt also für: auffindbar, zugänglich, interoperabel und nachnutzbar.
 
-Zu jedem Hauptziele liefern die FAIR-Prinzipien je ein Set an Bedingungen. Wenn Sie mehr dazu wissen wollen, lesen sie weiter in: [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/vier-grundlegende-praemissen-zum-verstaendnis-der-fair-prinzipien).
+Zu jedem Hauptziele liefern die FAIR-Prinzipien je ein Set an Bedingungen. Wenn Sie mehr dazu wissen wollen, empfehlen wir die NFDI4Culture-Handreichung zu diesem Thema: [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/) bzw. diese [Kapitel](https://docs.nfdi4culture.de/ta2-fair-handreichung/vier-grundlegende-praemissen-zum-verstaendnis-der-fair-prinzipien) daraus.
 
 Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen und die Daten für die Nachnutzung zu optimieren. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows, die im Zusammenhang mit den Daten stehen.<br>
 
@@ -491,7 +500,7 @@ Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdin
 - [FAIR Data Maturity Model](https://doi.org/10.5281/zenodo.5834115)
 - [F-UJI – Automated FAIR Data Assessment Tool](https://www.f-uji.net/)
 
-### QUIZ: Die FAIR-Prinzipien
+### QUIZ zu den FAIR-Prinzipien
 
 **Beginnen wir einfach: Wofür stehen die Buchstaben in FAIR?**
 
@@ -502,7 +511,7 @@ F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R
 **Die Bedingungen der FAIR-Prinzipien**
 
 Jeder Buchstabe von FAIR hat ein Set an Bedingungen, die umgesetzt werden sollen, um diesen Aspekt von FAIR vollständig abzudecken.<br>
-Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen?
+Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen? <font color=red> Das muss noch besser erklärt und zudem geprüft werden </font>
 
 <iframe src="./resources/FAIR-Drag-and-Drop.html" width=100% height=100%></iframe>
 
@@ -514,10 +523,10 @@ Die Prinzipien sind vorrangig für jene Forschende relevant und sollten von ihne
 
 CARE steht für Collective Benefit, Authority of Control, Responsibility und Ethics. Frei übersetzt also: Kollektiver Nutzen, Datenkontrolle, Verantwortung und Ethik.
 
-- **Collective Benefit**:<br>Die Daten und Forschung mit und an ebendiesen, soll auch Nutzen für die Ursprungscommunities haben. Die Umsetzung dessen kann sehr verschieden aussehen und z. B. aus Investitionen in Infrastrukturen der Community bestehen.
-- **Authority of Control**:<br> Rechte und Interessen indigener Communities sollen gewahrt sein sowie Befugnisse in der Kontrolle der Daten gewährt werden. Die indigenen Communities sind als aktive Partner im Forschungsprozess zu verstehen.
-- **Responsibility**:<br>Forschende haben die Verantwortung, die Daten zu verwalten und mit ihnen umzugehen, so, wie es mit den Ursprungscommunities festgelegt wurde. Dazu gehört auch die Berücksichtigung dessen, was die Forschungsergebnisse für die Communities bedeuten und die Verpflichtung ihnen die Daten in verständlicher und nützlicher Form zur Verfügung zu stellen.
-- **Ethics**:<br>Die Rechte der Communities sollten über den gesamten Forschungsprozess hinweg gewahrt und ihre Würde respektiert sowie ihre Weltanschauung berücksichtigt werden.
+- **Collective Benefit**<br>Die Daten und Forschung mit und an ebendiesen, soll auch Nutzen für die Ursprungscommunities haben. Die Umsetzung dessen kann sehr verschieden aussehen und z. B. aus Investitionen in Infrastrukturen der Community bestehen.
+- **Authority of Control**<br>Rechte und Interessen indigener Communities sollen gewahrt sein sowie Befugnisse in der Kontrolle der Daten gewährt werden. Die indigenen Communities sind als aktive Partner im Forschungsprozess zu verstehen.
+- **Responsibility**<br>Forschende haben die Verantwortung, die Daten zu verwalten und mit ihnen umzugehen, so, wie es mit den Ursprungscommunities festgelegt wurde. Dazu gehört auch die Berücksichtigung dessen, was die Forschungsergebnisse für die Communities bedeuten und die Verpflichtung ihnen die Daten in verständlicher und nützlicher Form zur Verfügung zu stellen.
+- **Ethics**<br>Die Rechte der Communities sollten über den gesamten Forschungsprozess hinweg gewahrt und ihre Würde respektiert sowie ihre Weltanschauung berücksichtigt werden.
 
 > Lesetipp: [NFDI4Culture-Kommunikationsleitlinie zu den CARE-Prinzipien für indigene Datensouveränität](https://nfdi4culture.de/id/E6467)
 
@@ -574,7 +583,11 @@ Folgend einige konkrete Tipps für die Datenspeicherung:
 Daten sollten publiziert werden, denn sie sind Forschungsergebnisse. Sie sind die Grundlage der Forschung und die Basis für das abschließende Forschungsprodukt, sei es ein Buch, ein Paper oder ähnliches.<br>
 Publizierte Forschungsdaten können zudem nachgenutzt werden und befördern dadurch nicht nur die Wissenschaft, sie machen sie auch nachhaltiger und vernetzter.
 
-Wie Datenpublikationen aussehen können zeigen Beispiele aus der Film- und Medienwissenschaft, die im Repositorium media/rep/ veröffentlicht wurden. Werfen Sie [hier](https://mediarep.org/communities/7e880a5a-5bcd-49b7-9b0e-ce4851b8d7bf) einen Blick auf die dort abgelegten Datenpublikationen.
+Wie Datenpublikationen aussehen können zeigen Beispiele aus der Film- und Medienwissenschaft, die im Repositorium media/rep/ veröffentlicht wurden. Werfen Sie 
+
+<font color=red>Anrede vereinheitlichen oder umgehen, "Sie" ist doof.</font> 
+
+[hier](https://mediarep.org/communities/7e880a5a-5bcd-49b7-9b0e-ce4851b8d7bf) einen Blick auf die dort abgelegten Datenpublikationen.
 
 ---
 
@@ -799,7 +812,7 @@ Warum ist es unzulässig?<br>CC-BY-SA erlaubt die kommerzielle Nutzung, CC-BY-NC
 Warum ist es unzulässig?<br>CC-BY-SA erlaubt die Bearbeitung, CC-BY-ND verbietet diese aber explizit, somit widersprechen sich die beiden Lizenzen und können nicht kombiniert werden.
 ***
 
-## 11. Der Datenmanagementplan (DMP)
+## 11. Der Datenmanagementplan
 
 > Merksatz:<br>Ein Datenmanagementplan (DMP) beschreibt den strukturierten Umgang mit Daten. Er bestimmt, wie mit Daten verfahren wird – während und nach dem Projekt – und sollte deshalb ein lebendes Dokument sein, dass sich Projekt anpassen und verändern darf
 
@@ -842,7 +855,7 @@ https://rdmo.nfdi4culture.de/
 
 Nach dem Login und einmaliger Freischaltung Ihres NFDI4Culture Accounts, können verschiedene Vorlagen für einen DMP ausgewählt werden.  
 
-## Dokumentation
+## 12. Dokumentation
 Der Datenmanagement-Plan beschreibt, wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>
 Eine Dokumentation hingegen beschreibt und dokumentiert Prozesse und Daten im Projekt. Da sich dieser Kurs um das Datenmanagement handelt, sei hier ein Fokus auf die **Datendokumentation** gelegt.
 

@@ -405,9 +405,9 @@ Zu LIDO s. a.:<br>
 
 ### QUIZ: Metadaten
 
-**Füllen sie die Lücken im folgenden Text aus.**
+**Füllen Sie die Lücken im folgenden Text aus.**
 
-Zu Beginn dieses Kapitels wurden verschiedene Kategorien von Metadaten vorgestellt. [[Administrative | (Deskriptive) | Strukturelle | Technische]] Metadaten beschreiben das Objekt inhaltlich, nennen z. B. Titel und Autor:in, wohingegen [[(administrative) | deskriptive | strukturelle | technische]] Metadaten verwaltungsrelevante und rechtliche Rahmenbedingungen enthalten. Typische Inhalte von [[administrativen | deskriptiven | (strukturellen) | technischen]] Metadaten sind Relationen zwischen Daten. Informationen, wie Dateigröße, -format oder verwendete Software und Hardware finden sich hingegen in den [[administrativen | deskriptiven | strukturellen | (technischen)]] Metadaten.
+Zu Beginn dieses Kapitels wurden verschiedene Kategorien von Metadaten vorgestellt.<br>[[Administrative | (Deskriptive) | Strukturelle | Technische]] Metadaten beschreiben das Objekt inhaltlich, nennen z. B. Titel und Autor:in, wohingegen [[(administrative) | deskriptive | strukturelle | technische]] Metadaten verwaltungsrelevante und rechtliche Rahmenbedingungen enthalten. Typische Inhalte von [[administrativen | deskriptiven | (strukturellen) | technischen]] Metadaten sind Relationen zwischen Daten. Informationen, wie Dateigröße, -format oder verwendete Software und Hardware finden sich hingegen in den [[administrativen | deskriptiven | strukturellen | (technischen)]] Metadaten.
 
 ## Normdaten
 

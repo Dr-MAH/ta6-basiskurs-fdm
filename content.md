@@ -14,7 +14,7 @@ comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeits
 Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/id/E1826)
 
 Mitarbeitende an diesem Projekt:<br>
-[Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Alexander Stark](https://orcid.org/0000-0003-4893-5924), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719)
+[Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Andreas Münzmay](https://orcid.org/0000-0002-8373-4055), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719), [Daniel Röwenstrunk](https://orcid.org/0000-0001-6271-2095), [Alexander Stark](https://orcid.org/0000-0003-4893-5924) 
 
 <!--- Hier sollte noch Daniel erwähnt werden. --->
 
@@ -32,17 +32,18 @@ Alle generischen Inhalte dieses Kurses werden ergänzt um fachspezifische Module
 
 **Inhalt**
 
- 1. Der Forschungsdatenbegriff [>](#der-forschungsdatenbegriff)
- 2. Datenformate [>](#datenformate)
- 3. Forschungsdatenmanagement [>](#forschungsdatenmanagement)
- 4. Der Datenlebenszyklus [>](#der-datenlebenszyklus)
- 5. Metadaten [>](#metadaten)
- 6. Normdaten [>](#normdaten)
- 7. Die FAIR Prinzipien [>](#die-fair-prinzipien)
- 8. Die CARE Prinzipien [>](#die-care-prinzipien)
- 9. Sichern, Speichern, Publizieren und Archivieren [>](#sichern-speichern-publizieren-und-archivieren)
- 10. Der Datenmanagement-Plan [>](#der-datenmanagementplan-dmp)
- 11. Datendokumentation [>](#dokumentation)
+ 1. Forschungsdatenmanagement [>](#1. forschungsdatenmanagement) 
+ 2. Der Forschungsdatenbegriff [>](#2. der-forschungsdatenbegriff)
+ 3. Datenformate [>](#3. datenformate)
+ 4. Der Datenlebenszyklus [>](#4. der-datenlebenszyklus)
+ 5. Versionsverwaltung [>](#5. versionsverwaltung)
+ 6. Metadaten [>](#6. metadaten)
+ 7. Normdaten [>](7. #normdaten)
+ 8. FAIR und CARE [>](#8. fair-und-care)
+ 9. Sichern, Speichern, Publizieren und Archivieren [>](#9. sichern-speichern-publizieren-und-archivieren)
+ 10. Creative Commons Lizenzen[>](#10. creative-commons-lizenzen) 
+ 11. Der Datenmanagement-Plan [>](#11. der-datenmanagementplan-dmp)
+ 12. Datendokumentation [>](#12. dokumentation)
 <br>
 - Weiterführende Literatur [>](#weiterführende-literatur)
 - Zusatzmaterial [>](#zusatzmaterial-interaktive-module)
@@ -59,7 +60,7 @@ Alle generischen Inhalte dieses Kurses werden ergänzt um fachspezifische Module
 - FDM = Forschungsdatenamangement
 - LZA = Langzeitarchivierung
 
-## Forschungsdatenmanagement
+## 1. Forschungsdatenmanagement
 
 Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
 
@@ -82,7 +83,7 @@ Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlic
 
 > Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://doi.org/10.5281/zenodo.14281892) der DFG
 
-## Der Forschungsdatenbegriff
+## 2. Der Forschungsdatenbegriff
 
 Wenn wir uns mit dem Thema Forschungsdatenmanagement auseinandersetzen, dann sollten wir klären, was eigentlich unter dem Begriff "Forschungsdaten" zu verstehen ist.
 
@@ -141,7 +142,7 @@ Sie umfassen u. a.:
 
 Vergleiche hierzu u. a. das ausführliche [Positionsapier](https://www.musikforschung.de/wp-content/uploads/2024/05/DFG-Forschungsdaten_GfM.pdf) der DFG mit der Gesellschaft für Musikforschung.
 
-## Datenformate
+## 3. Datenformate
 Jede Software hat ein vorgegebenes Dateiformat, in dem sie mit ihr erzeugte Daten speichert. Doch ist das in einigen Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>
 Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. Proprietäre Datenformate sind solche, die von Hersteller:innen für eine bestimmte Software erstellt wurden und meist nur mit dieser nutzbar sind. Sie sind also keine offenen Standards und erschweren oder verhindern dadurch die Nachnutzbarkeit und Langzeitarchivierung der in ihrem Format gespeicherten Daten.<br>
 Zudem sollte darauf geachtet werden, dass die gewählten Dateiformate ressourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen als alternative Formate.
@@ -244,7 +245,7 @@ Annotationstools Bild (Auswahl):
 - CVAT (Computer Vision Annotation Tool)
 - labelme
 
-## Der Datenlebenszyklus 
+## 4. Der Datenlebenszyklus 
 
 <img src="../resources/FD_LZ.png" width=50% height=auto> <br>
 <sub> Graphische Darstellung eines DLZ, Creator: CRDA, [CC0](https://creativecommons.org/publicdomain/zero/1.0/) </sub>
@@ -314,7 +315,7 @@ Bei allen Fragen ist die Mehrfachauswahl möglich.
 [[ ]] Forschungsdaten in öffentlichen Cloud-Systemen abspeichern
 [[x]] Bisherige Forschung auf geeigneten Repositorien veröffentlichen
 
-## Versionsverwaltung / Git
+## 5. Versionsverwaltung
 Nicht nur für das kollaborative Arbeiten, sondern ganz grundsätzlich für die Organisation bei der Arbeit mit Forschungsdaten, ist eine Versionsverwaltung der Daten von essentieller Wichtigkeit. 
 Einfach gesagt bedeutet das, die Schritte der Arbeit und Ergebnisse zu dokumentieren, um bspw. im Zweifelsfall an früheren Punkten erneut ansetzen zu können.
 
@@ -322,7 +323,7 @@ Einfach gesagt bedeutet das, die Schritte der Arbeit und Ergebnisse zu dokumenti
 
 <!--- [MAH] So weit nur ein erster Vorschlag, hier könnte Daniel noch einiges ergänzen und zu seinen Folien überleiten. --->
 
-## Metadaten
+## 6. Metadaten
 
 Metadaten sind Daten, die andere Daten beschreiben. Sie sind in vielerlei Hinsicht relevant, etwa um die Auffindbarkeit von Daten zu erhöhen oder Daten zu beschreiben, die ihrerseits nur unter eingeschränkten Zugang oder gar nicht verfügbar sind.<br>
 Dabei ist die Nutzung von [Normdaten und kontrollierten Vokabularen](#normdaten) wichtig, um qualitätvolle Metadaten zu erhalten.
@@ -411,7 +412,7 @@ Zu LIDO s. a.:<br>
 
 Zu Beginn dieses Kapitels wurden verschiedene Kategorien von Metadaten vorgestellt.<br>[[Administrative | (Deskriptive) | Strukturelle | Technische]] Metadaten beschreiben das Objekt inhaltlich, nennen z. B. Titel und Autor:in, wohingegen [[(administrative) | deskriptive | strukturelle | technische]] Metadaten verwaltungsrelevante und rechtliche Rahmenbedingungen enthalten. Typische Inhalte von [[administrativen | deskriptiven | (strukturellen) | technischen]] Metadaten sind Relationen zwischen Daten. Informationen, wie Dateigröße, -format oder verwendete Software und Hardware finden sich hingegen in den [[administrativen | deskriptiven | strukturellen | (technischen)]] Metadaten.
 
-## Normdaten
+## 7. Normdaten
 
 **Was sind Normdaten?**
 
@@ -459,7 +460,7 @@ Eine Auswahl kontrollierter Vokuabulare für die Geistes- und Kulturwissenschaft
 - Iconclass
 - Wikidata
 
-## FAIR und CARE
+## 8. FAIR und CARE
 Die Akronyme FAIR und CARE stehen für zwei wichtige Richtlinien im Kontext guten Forschungsdatenmanagements, sie werden in den folgenden Abschnitten genauer betrachtet.
 
 ---
@@ -556,9 +557,9 @@ Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzi
 
   - bspw. 3D-Digitalisate von geraubten Objekten
 
-## Sichern, Speichern, Publizieren und Archivieren
+## 9. Sichern, Speichern, Publizieren und Archivieren
 
-Die vorherigen Kapitel haben schon einiges vorweggennommen, was beim Speichern von Daten sinnvoll und wichtig ist, wie die Anreicherung mit Metadaten (s. Kap. [Metadaten](#metadaten)).
+Die vorherigen Kapitel haben schon einiges vorweggennommen, was beim Speichern von Daten sinnvoll und wichtig ist, wie die Anreicherung mit Metadaten (s. Kap. [6. Metadaten](#6. metadaten)).
 Folgend einige konkrete Tipps für die Datenspeicherung:
 
 - Vermeiden proprietärer Datenformate (s. Kap. [Datenformate](#datenformate))
@@ -743,7 +744,7 @@ Zu den bekanntesten und meistgenutzten Zertifikaten für digitale Langzeitarchiv
 - Verwendete Software sollte mit archiviert oder zumindest sollte in den Metadaten verzeichnet werden, welche Software genutzt wurde.
 - Einmal archivierte Daten werden nicht mehr verändert!
 
-### Creative-Commons-Lizenzen
+## 10. Creative Commons Lizenzen
 
 Wenngleich auf rechtliche Aspekte in diesem Kurs nicht erschöpfend eingegangen werden kann, sei exemplarisch auf eine weit verbreitete Form der Lizensierung von Forschungsdaten geschaut.
 
@@ -763,7 +764,7 @@ Die Creative-Commons-Lizenzen (CC-Lizenzen) bieten ein verbreitetes, angesehenes
 - CC-Lizenzen sind nur mit einer Verlinkung der entsprechenden Lizenz-Urkunde auf der Creative-Commons-Website gültig.
 - Einmal vergebene Lizenzen können nicht zurückgezogen oder verschärft werden!
 
-#### Das CC-Lizenzen Quiz
+### Das CC-Lizenzen Quiz
 Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie sich selbst, erkennen Sie auch unzulässige Lizenz-Kombinationen? <br>
 <sub> (Übernommen aus den Train-the-Trainer-Folien der DINI/nestor-AG Forschungsdaten) </sub>
 
@@ -798,7 +799,7 @@ Warum ist es unzulässig?<br>CC-BY-SA erlaubt die kommerzielle Nutzung, CC-BY-NC
 Warum ist es unzulässig?<br>CC-BY-SA erlaubt die Bearbeitung, CC-BY-ND verbietet diese aber explizit, somit widersprechen sich die beiden Lizenzen und können nicht kombiniert werden.
 ***
 
-## Der Datenmanagementplan (DMP)
+## 11. Der Datenmanagementplan (DMP)
 
 > Merksatz:<br>Ein Datenmanagementplan (DMP) beschreibt den strukturierten Umgang mit Daten. Er bestimmt, wie mit Daten verfahren wird – während und nach dem Projekt – und sollte deshalb ein lebendes Dokument sein, dass sich Projekt anpassen und verändern darf
 

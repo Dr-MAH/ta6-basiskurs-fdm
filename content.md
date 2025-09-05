@@ -429,7 +429,7 @@ Ein Normdatum ist mit vielen weiteren Normdaten verknüpft und setzt dadurch die
 Damit das klappt, braucht es neben den Identifikatoren auch weitere Regeln und Standards für Normdaten. MARC 21 ist ein solcher weit verbreiteter, internationaler Standard. Er kann als XML konvertiert werden und ist als RDF (Resource Description Framework) ausspielbar.<br>
 RDF seinerseits ist wieder Grundlage des Semantic Web.
 
-Ein **kontrolliertes Vokabular** (mehr zu diesem Begriff im nächsten Kapitel) ist eine Sammlung von Normdaten, es verknüpft auch Synonyme, die zum selben Suchergebnis führen und liefert dazu oft Übersetzungen in andere Sprachen.
+Ein **kontrolliertes Vokabular** ist eine Sammlung von Normdaten, es verknüpft auch Synonyme, die zum selben Suchergebnis führen und liefert dazu oft Übersetzungen in andere Sprachen.
 
 ---
 

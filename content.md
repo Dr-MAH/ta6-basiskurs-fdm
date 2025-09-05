@@ -674,7 +674,6 @@ Einige dieser Portale sind:
 
 Die folgenden Unterseiten listen eine Auswahl weiterer fachspezifischer Repositorien auf.
 
-<font color=red> Es gibt doch einige Überschneidungen, vielleicht ist eine gemeinsame Liste hier im Anschluss besser? </font>
 
 #### <font color=#a2d0eb> 🎬 Repositorien für die Film- und Medienwissenschaft </font>
 

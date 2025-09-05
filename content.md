@@ -142,6 +142,20 @@ Sie umfassen u. a.:
 
 Vergleiche hierzu u. a. das ausführliche [Positionsapier](https://www.musikforschung.de/wp-content/uploads/2024/05/DFG-Forschungsdaten_GfM.pdf) der DFG mit der Gesellschaft für Musikforschung.
 
+---
+
+Musikbibliographische Forschungsdaten sind Teil der Recherche, der Beratung und der Vermittlung, z. B. bei: 
+
+
+- Katalogisierung / Bestandserschließung, etwa bei der Erfassung, Analyse, Beschreibung, Kommentierung oder Auszeichnung (Materialität, Formate/Maße, Autor:in, Datierung, ...) von Beständen
+- Bereitstellung von Daten digitaler Musikbibliotheken
+- Digitalen Editionen und musikwissenschaftlichen Gesamtausgaben
+- digitalen Werkverzeichnissen
+- (verknüpften) Dateien und ihre Formaten (AV-Dateien, PDFs, MEI/TEI ...)
+- Repositorien 
+- urheberrechtlichen Aspekten
+
+
 ## 3. Datenformate
 Jede Software hat ein vorgegebenes Dateiformat, in dem sie mit ihr erzeugte Daten speichert. Doch ist das in einigen Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>
 Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. Proprietäre Datenformate sind solche, die von Hersteller:innen für eine bestimmte Software erstellt wurden und meist nur mit dieser nutzbar sind. Sie sind also keine offenen Standards und erschweren oder verhindern dadurch die Nachnutzbarkeit und Langzeitarchivierung der in ihrem Format gespeicherten Daten.<br>
@@ -679,7 +693,16 @@ Die folgenden Unterseiten listen eine Auswahl weiterer fachspezifischer Reposito
 #### <font color=#99e089> 🎵 Repositorien für die Musikwissenschaft </font>
 
 - musiconn.publish
-- Kompakkt
+
+- musiconn (SLUB Dresden), diverse Services, u. a. 
+
+  - musiconn.publish, Veröffentlichung und Langzeitarchivierung musikalischer Fachliteratur
+  - musiconn.performance, Publikation von Forschungsdaten und -ergebnissen (tematisch eingeschränkt auf den Bereich musikalischer AufführungenI
+
+- RISM (Répertoire International des Sources Musicales), Dokumentation schriftlicher musikalischer Quellen
+
+- RADAR4Culture
+
 
 #### <font color=#edba82> 🎭 Repositorien für die Theaterwissenschaften </font>
 

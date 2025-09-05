@@ -278,7 +278,7 @@ Die grundlegenden Stationen sind:
 Im Quiz auf der nächsten Seite erfahren Sie mehr dazu, was die einzelnen Stationen beinhalten!
 
 ### Quiz: Was können die Stationen des Forschungsdaten-Lebenszyklus beinhalten?
-Bei allen Fragen ist die Mehrfachauswahl möglich.
+Bei allen Fragen können mehrere Antworten korrekt sein.
 <br><br>
 
 **Forschungsvorhaben planen**
@@ -287,31 +287,31 @@ Bei allen Fragen ist die Mehrfachauswahl möglich.
 [[x]] Lokalisieren vorhandener Daten
 [[ ]] Videos annotieren
 [[ ]] Objekte digitalisieren
-[[ ]] Interviews führen
+[[ ]] Interviews verschriftlichen
 
 **Daten erheben**
 
-[[x]] Bilddaten annotieren
+[[x]] Bild- oder Audiodaten annotieren
 [[ ]] Liste mit ToDo's erstellen
-[[x]] Interviews führen
+[[x]] Interviews durchführen
 [[x]] Noten transkribieren
-[[ ]] Ins Kino gehen
+[[ ]] regelmäßig ins Kino gehen
 
 **Daten aufbereiten**
 
-[[x]] Digitale Objekte mit Metadaten anreichern
+[[x]] Digitale Objekte/Digitalisate mit Metadaten anreichern
 [[ ]] Objekte digitalisieren
-[[ ]] Dateiordner mit AV-, Bild- und Textdateien füllen
+[[ ]] Dateiordner aufräumen und mit AV-, Bild- und Textdateien füllen
 [[x]] Daten bereinigen
 [[x]] Daten interpretieren
 
 **Daten teilen und publizieren**
 
-[[x]] Urheberrechte festlegen
+[[x]] Urheberrechte für die eigenen Ergebnisse festlegen
 [[ ]] Excel-Liste mit Publikationstitel erstellen
-[[ ]] Eigene Publikationen lokal abspeichern
-[[x]] Zugänge kontrollieren
-[[ ]] Interviewaufzeichnungen transkribieren
+[[ ]] eigene Publikationen lokal abspeichern
+[[x]] Zugänge/Zugriffsmöglichkeiten auf Forschungsdaten kontrollieren
+[[x]] bisherige Forschung auf geeigneten Repositorien veröffentlichen
 
 **Daten archivieren**
 
@@ -324,10 +324,10 @@ Bei allen Fragen ist die Mehrfachauswahl möglich.
 **Daten nachnutzen**
 
 [[ ]] Forschungsergebnisse über Social Media-Kanäle teilen
-[[x]] Bisherige Forschung rezensieren
+[[x]] bisherige Forschung rezensieren
 [[x]] Daten für Lehre und Lernen verwenden
 [[ ]] Forschungsdaten in öffentlichen Cloud-Systemen abspeichern
-[[x]] Bisherige Forschung auf geeigneten Repositorien veröffentlichen
+[[x]] für weitere Forschung auf bisherigen Ergebissen anknüpfen
 
 ## 5. Versionsverwaltung
 Nicht nur für das kollaborative Arbeiten, sondern ganz grundsätzlich für die Organisation bei der Arbeit mit Forschungsdaten, ist eine Versionsverwaltung der Daten von essentieller Wichtigkeit. 
@@ -533,7 +533,9 @@ F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R
 **Die Bedingungen der FAIR-Prinzipien**
 
 Jeder Buchstabe von FAIR hat ein Set an Bedingungen, die umgesetzt werden sollen, um diesen Aspekt von FAIR vollständig abzudecken.<br>
-Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen? <font color=red> Das muss noch besser erklärt und zudem geprüft werden </font>
+Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen? Bitte erst dann auf "Prüfen" klicken, wenn alle Kästchen den Feldern auf der linken Seite zugeordnet wurden.
+<br><br>
+<font color=red> Das muss noch besser erklärt und zudem geprüft werden; das ist ziemlich schwer ... ohne die einzelnen Prinzipien im Detail angeschaut zu haben, ist das nicht lösbar; der Platz im linken Feld muss ggf. größer sein, damit alle Antowrten reinpassen; oder weniger Antworten? Das Ergebnis/die Punktevergabe muss noch angepasst werden, keine Abzüge bei falschen Antworten!  </font><br><br>
 
 <iframe src="./resources/FAIR-Drag-and-Drop.html" width=100% height=100%></iframe>
 
@@ -797,15 +799,20 @@ Die Creative-Commons-Lizenzen (CC-Lizenzen) bieten ein verbreitetes, angesehenes
 - CC-Lizenzen sind modular aufgebaut und bestehen aus folgenden Bestandteilen: 
   
   * BY: Namensnennung des Urhebers
-  * NC: nicht kommerzieller Gebrauch
-  * ND: nicht bearbeiten oder verändern
-  * SA: Weitergabe unter selben Bedingungen
+  * NC: nicht kommerzieller Gebrauch (Non Commercial)
+  * ND: nicht bearbeiten oder verändern (No Derivatives)
+  * SA: Weitergabe unter selben Bedingungen (Share Alike)
 - Mit CC0 / Public Domain werden alle Rechte am Werk abgegeben.
 - Diese Lizenzen sind beliebig kombinierbar, solange sie sich nicht widersprechen, das würde sie ungültig machen.
 - CC-Lizenzen sind nur mit einer Verlinkung der entsprechenden Lizenz-Urkunde auf der Creative-Commons-Website gültig.
 - Einmal vergebene Lizenzen können nicht zurückgezogen oder verschärft werden!
 
-### Das CC-Lizenzen Quiz
+<!--- 
+
+Das ist einiges inhaltlich falsch, vergleiche https://de.creativecommons.net/was-ist-cc/
+Habe erst noch die zweite Frage korrigiert, aber die dritte noch gelassen, weil das angeblich unzulässig ist; aber CC-BY-ND ist ja schon die Kombination von CC-BY und CC-ND! 
+
+### Das CC-Lizenzen Quiz // DAS KANN NICHT SO BLEIBEN!
 Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie sich selbst, erkennen Sie auch unzulässige Lizenz-Kombinationen? <br>
 <sub> (Übernommen aus den Train-the-Trainer-Folien der DINI/nestor-AG Forschungsdaten) </sub>
 
@@ -822,13 +829,13 @@ Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie si
 
 - [( )] CC-BY-SA
 - [( )] CC-BY-NC 
-- [( )] CC-BY-NC-SA
-- [(x)] unzulässig
+- [(x)] CC-BY-NC-SA
+- [( )] unzulässig
 ***
-Warum ist es unzulässig?<br>CC-BY-SA erlaubt die kommerzielle Nutzung, CC-BY-NC verbietet diese aber explizit, somit widersprechen sich die beiden Lizenzen und können nicht kombiniert werden.
+<br>CC-BY-SA erlaubt zwar die kommerzielle Nutzung, sie wird aber durch die Komnbination mit CC-BY-NC ausgeschlossen; die Kombination ist also eine gültige Ergänzung, aber kein Widerspruch [(vgl.)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de).
 ***
 
----
+ 
 
 **Was erhählt man bei der Kombination von CC-BY und CC-BY-ND?**
 
@@ -837,41 +844,42 @@ Warum ist es unzulässig?<br>CC-BY-SA erlaubt die kommerzielle Nutzung, CC-BY-NC
 - [(x)] unzulässig
 - [( )] andere
 ***
-Warum ist es unzulässig?<br>CC-BY-SA erlaubt die Bearbeitung, CC-BY-ND verbietet diese aber explizit, somit widersprechen sich die beiden Lizenzen und können nicht kombiniert werden.
+Warum ist es unzulässig?<br>CC-BY erlaubt die Bearbeitung, CC-BY-ND verbietet diese aber explizit, somit widersprechen sich die beiden Lizenzen und können nicht kombiniert werden.
 ***
+--->
 
 ## 11. Der Datenmanagementplan
 
-> Merksatz:<br>Ein Datenmanagementplan (DMP) beschreibt den strukturierten Umgang mit Daten. Er bestimmt, wie mit Daten verfahren wird – während und nach dem Projekt – und sollte deshalb ein lebendes Dokument sein, dass sich Projekt anpassen und verändern darf
+> Merksatz:<br>Ein Datenmanagementplan (DMP) beschreibt den strukturierten Umgang mit Daten. Er bestimmt, wie mit Daten im Laufe des Projekts verfahren wird und sollte deshalb ein **lebendes Dokument** sein, dass während des Projekts angepasst und verändert werden darf.
 
 Datenmanagementpläne helfen dabei den Umgang mit Daten in Projekten zu planen. Außerdem sind DMPs eine gute Grundlage und Anlaufstelle für Fragestellungen rund um die Datenhaltung, die bei der Arbeit in einem Forschungs-Team entstehen.
 
 - Fördergeber können Vorgaben machen, aber ein DMP muss nicht grundsätzlich einem bestimmten Aufbau folgen.
 
   - Der Forschungsdaten-Lebenszyklus kann dabei als Orientierung dienen.
-  - Die meisten Fördergeber bieten Checklisten an, die bei der Erstellung von DMPs unterstützen sollen und auf die Anforderungen ebenjenes Fördergebers ausgelegt sind.
+  - Die meisten Fördergeber bieten Checklisten an, die bei der Erstellung von DMPs unterstützen sollen und auf die Anforderungen des Fördergebers ausgelegt sind.
   
 - Ein DMP verbessert die Nachnutzbarkeit von Daten und das Management von Daten und Wissen, etwa bei Personalwechseln.
-- Zur Orientierung kann es helfen, DMPs anderer Projekte anzusehen.
+- Zur Orientierung kann es helfen, DMPs anderer Projekte zu konsultieren.
 
 ---
 
 **Was macht einen guten DMP aus?**
 
-- DMPs sollten gut strukturiert sein
+- DMPs sollten gut strukturiert sein.
 - „So kurz wie möglich, so lang wie nötig.“
 - Alle Projektbeteiligte sollten den DMP kennen und Zugriff darauf haben.
-- Idealerweise wird der DMP zu Projektende mit veröffentlicht.
+- Idealerweise wird der DMP zu Projektende ebenfalls veröffentlicht.
 
 ### Das RDMO-Tool
 
-RDMO, steht für Research Data Management Organiser und ist ein freies Open Source Tool für die Erstellung von Datenmanagementplänen.
+RDMO, steht für Research Data Management Organiser und ist ein freies Open Source Tool für die Erstellung von Datenmanagementplänen. Es stellt anhand von Frgaenkatalogen Muster für fach- bzw. datenspezifische Forschungsdaten zur Verfügung.
 
 - Wie ist das Vorgehen und wie wird RDMO genutzt? 
   
-  * Auswahl eines Fragenkatalogs
-  * Schritt-für-Schritt-Abarbeiten der Fragen
-  * Auswurf des „fertigen“ Plans in verschiedenen Dateiformaten
+  * Auswahl eines passenden Fragenkatalogs
+  * Schritt für Schritt abarbeiten der Fragen
+  * Als Ergebnis erhält man einen „fertigen“ Plan in verschiedenen Dateiformaten.
 - Institutionen können RDMO-Instanzen einrichten, Funktionen und Design sind dabei individualisierbar.
 
 Die RDMO-Website bietet ein Demo-Programm an, das nach Anmeldung kostenlos genutzt werden kann. Accounts können kostenlos erstellt werden.
@@ -887,10 +895,11 @@ Nach dem Login und einmaliger Freischaltung Ihres NFDI4Culture Accounts, können
 Der Datenmanagement-Plan beschreibt, wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>
 Eine Dokumentation hingegen beschreibt und dokumentiert Prozesse und Daten im Projekt. Da sich dieser Kurs um das Datenmanagement handelt, sei hier ein Fokus auf die **Datendokumentation** gelegt.
 
-Eine gute Datendokumentation erhöht die Nachnutzbarkeit der Daten erheblich, die Daten werden FAIRer. (s. a. [FAIR-Prinzipien](#die-fair-prinzipien)) <br>
+Eine gute Datendokumentation erhöht die Nachnutzbarkeit der Daten erheblich, die Daten werden FAIRer (s. a. [FAIR-Prinzipien](#die-fair-prinzipien)). <br>
 Das gilt nicht nur für die Nachnutzung Dritter, sondern auch die Nutzung der Daten durch die Datenerzeugenden selbst.
 
 Es bietet sich an, Daten direkt nach ihrer Erhebung zu dokumentieren. Wichtige Informationen könnten verloren gehen, wenn die Dokumentation erst zum Ende eines Projektes erstellt wird, zudem würde so die alltägliche Arbeit mit den Daten erschwert, läge konkretes Wissen über die Daten doch nur bei den Datenerzeugenden selbst. <br>
+Zudem sind gegen Ende von Forschungsprojekten häufig Zeit und Resourcen knapp, wodurch die Gefahr besteht, dass die Dokumentation nicht aureichend erstellt wird. <br><br> 
 In jedem Projekt ist individuell zu entscheiden, welche Arten der Dokumentation am geeignetsten sind. Es gibt jedoch einige Leitlinien, an denen sich orientiert werden kann.
 
 ---
@@ -908,12 +917,13 @@ Bestandteile einer guten Datendokumentation:
 - Erläuterung von Variablen, Labels und Codes
 - Unterschiede zwischen verschiedenen Versionen
 - Informationen über Zugang und Nutzungsbedingungen
+- Speicherorte der Daten
 
 ---
 
 Formen von Dokumentationen:
 
-- Dokumentation durch Metadaten (s. a. Kapitel [Metadaten](#metadaten))
+- Dokumentation durch Metadaten (s. a. Kapitel [6. Metadaten](#6. metadaten))
 - READ.me-Dateien
 - Data Dictionaries
 - Codebooks
@@ -1010,16 +1020,23 @@ Dieses Kapitel stellt einige Übungen und Aktivierungsmethoden vor, die in der L
 
 ### Übung zum Thema "Datenlebenszyklus"
 <!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->
-- *Anregegung aus dem Train-the-Trainer von fdm.nrw*: Kurze Übung, max. 15. Min.: Auf einem Conceptboard "Überschriften" des DLZ verschieden farbig angeben und dazu ungeordnet auf weißen Post-Its Schlüsselbegriffe/Schlagwörter und Inhalte aus DMPs angeben. Die TN müssen dann die Begriffen mit den zugehörigen Überschriften verknüpfen. Wenn die TN mit der Auswahl sicher sind, dann können die Post-Its der Farbe der Überschrift angeglichen werden. Anschließend Ergebnisse im Plenum diskutieren. (nur bis zu einer best. Gruppengröße sinnvoll, ansonsten Kleingruppen, denn wenn alle TN einer Gruppe 20+ auf dem Conceptboard gleichzeitig Post-Its verschieben ist es mehr Chaos als Lerneffekt)
+- *Anregegung aus dem Train-the-Trainer von fdm.nrw*: Kurze Übung, max. 15. Min.: <br>
+Auf einem Conceptboard "Überschriften" des DLZ verschieden farbig angeben und dazu ungeordnet auf weißen Post-Its Schlüsselbegriffe/Schlagwörter und Inhalte aus DMPs angeben. <br>
+Die TN müssen dann die Begriffen mit den zugehörigen Überschriften verknüpfen. Wenn die TN mit der Auswahl sicher sind, dann können die Post-Its der Farbe der Überschrift angeglichen werden.<br> Anschließend Ergebnisse im Plenum diskutieren. <br>
+Die Übung ust nur bis zu einer bestimmten Gruppengröße sinnvoll, ansonsten besser Kleingruppen, denn wenn alle Teilnehmer einer Gruppe 20+ auf dem Conceptboard gleichzeitig Post-Its verschieben, ist es mehr Chaos als Lerneffekt.
 
 ### Übung zum Thema "Kontrollierte Vokabulare" (GLAM-Fokus)
 <!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->
-- Zu Beginn des Kurses als Aktivierung mit Mentimeter den Kenntnisstand der TN abfragen, bzgl. der in diesem WS besprochenen Themen. Z.B.: WordCloud mit der Frage: Welche kontrollierten Vokabulare werden an ihrer Einrichtung genutzt; oder (anonyme! das auch betonen bei Stellen der Frage) Abfrage mit der Ausgabe eines Balkendiagramms, z.B. zu der Frage: Wie gut ist die Qualität meiner Sammlungsdaten
+- Zu Beginn des Kurses als Aktivierung mit Mentimeter den Kenntnisstand der TN abfragen, bzgl. der in diesem WS besprochenen Themen; z. B.: WordCloud mit der Frage: Welche kontrollierten Vokabulare werden an ihrer Einrichtung genutzt? oder (anonyme! das auch betonen bei Stellen der Frage) Abfrage mit der Ausgabe eines Balkendiagramms, z. B. zu der Frage: Wie gut ist die Qualität meiner Sammlungsdaten?
 
 ### Rechercheaufgabe FDM-Policies (10 Min.)
 <!--- [AP] Hier müsste man Alex fragen, ob es okay ist, dass wir unsere interaktiven Aufgaben aus dem FFK-Kurs veröffentlichen! --->
 
-- Wenn man sich als frische/r Doktorand:in die Frage stellt, wie man mit seinen Forschungsdaten umgehen soll bzw. welche Regeln man befolgen muss, wird man bei der Suche schnell erschlagen von den vielen (häufig generischen) Antworten, die man dazu findet - bspw. die FAIR- und CARE-Prinzipien. Deshalb lohnt es sich, erstmal zu recherchieren, ob die Institution, bei der man angestellt ist, 1. eine eigene Beratungsstelle zum Umgang mit Forschungsdaten hat und 2. ob eure Institution vielleicht sogar schon eine eigene Forschungsdaten-Policy verabschiedet hat, an die ihr euch grundsätzlich halten müsstet. Und genau das wollen wir jetzt mal machen: 
+- Wenn man sich als frische/r Doktorand:in die Frage stellt, wie man mit seinen Forschungsdaten umgehen soll bzw. welche Regeln man befolgen muss, wird man bei der Suche schnell erschlagen von den vielen (häufig generischen) Antworten, die man dazu findet - bspw. die FAIR- und CARE-Prinzipien. Deshalb lohnt es sich, erstmal zu recherchieren, ob die Institution, bei der man angestellt ist,<br>
+1. eine eigene Beratungsstelle zum Umgang mit Forschungsdaten hat und<br> 
+2. ob eure Institution vielleicht sogar schon eine eigene Forschungsdaten-Policy verabschiedet hat, an die ihr euch grundsätzlich halten müsstet. <br>
+Und genau das wollen wir jetzt mal machen: 
+
 - Hat Eure Universität eine eigene FD-Policy?
 - Welche FD-Beratungsstellen gibt es an Euren Universitäten?
 
@@ -1041,6 +1058,5 @@ Zu Beginn des Kurses
 
 * Mentimeter (für Umfragen & WordCloud)
 * Conceptboard/Miro (für Kleingruppenarbeit, Conceptboard datenschutzrechtlich besser)
-* Wheel of Names (als Aktivierungsmethode: Unverfängliche Fragen eingeben, hier können die Teilnehmer:innenn das Rad drehen und Fragen beantworten (ist eine kommerziell betriebene Seite, die mit Werbebannern versehen ist)
-  * kann auch fachspezifisch umgewidmet werden
-* Tools können auch direkt in Zoom genutzt werden, wie etwa für Umfragen, als Kommentarfunktion, um ein häufiges Wechseln der Oberfläche geringzuhalten
+* Wheel of Names (als Aktivierungsmethode): Unverfängliche Fragen eingeben, hier können die Teilnehmer:innenn das Rad drehen und Fragen beantworten (ist eine kommerziell betriebene Seite, die mit Werbebannern versehen ist), kann auch fachspezifisch umgewidmet werden.
+* Tools können auch direkt in Zoom genutzt werden, wie etwa für Umfragen, als Kommentarfunktion, um ein häufiges Wechseln der Oberfläche geringzuhalten.

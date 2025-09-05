@@ -381,7 +381,9 @@ Dies sind einige fachübergreifende Standards:
 - PREMIS
 - METS MODS
 
-Für alle Metadaten gilt zudem, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechend.<br>Eine Auswahl fachspezifischer Standards findet sich auf den folgenden Unterseiten.
+Für alle Metadaten gilt zudem, dass sie strukturiert erfasst sein sollten und den Standards des jeweiligen Fachs entsprechend.<br><br>
+Detailiertere Informationen zu Metadatenstandanrds liefert u. a. [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/empfehlungen-zu-metadatenstandards#12-empfehlungen-zu-metadatenstandards). <br><br>
+Eine Auswahl fachspezifischer Standards findet sich auf den folgenden Unterseiten.
 
 ---
 
@@ -421,10 +423,16 @@ Zu LIDO s. a.:<br>
 - **Rössel / Stenger / Kailus / Stein 2025**: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 3: Architektur und andere ortsfeste Werke [>](https://doi.org/10.11588/arthistoricum.1407)
 
 #### <font color=#99e089> 🎵 Metadatenstandards der Musikwissenschaften </font>
+
+Musik-Metadaten enthalten Informationen über Audio-, Video, Notendateien etc.
+
 Eine Auswahl an Standards, die in der musikwissenschaftlichen Forschung Anwendung finden:
 
-- ... <font color=red> [muss hier noch ergänzt werden!] </font>
-- ...
+- DDEX ERN-Standard zur Ablieferung von Netzpublikationen, also auch Musikdateien mit Metadaten an die Deutschen Nationalbibliothek, der auch für den Datenaustausch in der Musikindustrie verwendet wird [(vgl. hierzu)](https://www.dnb.de/DE/Professionell/Sammeln/Unkoerperliche_Medienwerke/ddexERN.html).  
+- MEI [(Music Encoding Initiatve)](https://music-encoding.org/) ist primär eine XML-Musik-Codierung, die aber in Anlehnung an die TEI (Text Encoding Initiative) für die Edition/Publikation von Musiknotationen in ihrem Header äußerst umfangreiche Möglichkeiten bietet,  detailiert Metadaten mitzuliefern, bspw. über Autoren/Komponisten, philologische Werkkontexte wie Quellenbeschreibungen, beteilgte Personen und Orte, Formate etc. [(vgl. hierzu)](https://music-encoding.org/guidelines/v4/content/metadata.html). Dabei orientiert sich MEI stark an bestehenden Metadatenstandards wie [MARC](https://www.dnb.de/DE/Professionell/Metadatendienste/Exportformate/MARC21/marc21_node.html) (Machine-Readable Cataloging) oder [FRBR](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr-deutsch.pdf) (Functional Requirements for Bibliographic Records).
+
+- METS/MODS ist ein Metadatenformat für den Austausch von Daten zu digitalisierten Drucken. Es verwendet Elemente der Metadatenstandards Metadata Encoding and Transmission Format [(METS)](https://www.loc.gov/standards/mets/) und Metadata Object Description Schema [(MODS)](https://www.loc.gov/standards/mods/), die vom [Network Development and MARC Standards Office der Library of Congress](https://www.loc.gov/marc/ndmso.html) entwickelt werden. Während METS die administrativen und strukturellen Eigenschaften von Digitalisaten beschreibt, wird MODS für die bibliografische Beschreibung der Drucke verwendet [(vgl. hierzu)](https://pro.deutsche-digitale-bibliothek.de/glossar/metsmods-format). 
+
 
 ### QUIZ: Metadaten
 

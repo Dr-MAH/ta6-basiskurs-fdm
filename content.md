@@ -889,7 +889,7 @@ Seit Herbst 2025 stellt auch NFDI4Culture einen Research Data Management Organis
 
 https://rdmo.nfdi4culture.de/
 
-Nach dem Login und einmaliger Freischaltung Ihres NFDI4Culture Accounts, können verschiedene Vorlagen für einen DMP ausgewählt werden.  
+Nach dem Login und einmaliger Freischaltung Ihres NFDI4Culture Accounts, können verschiedene Vorlagen, z. B. von Fördergebern wie der DFG oder der Europäischen Kommission, für einen DMP ausgewählt werden.  
 
 ## 12. Dokumentation
 Der Datenmanagement-Plan beschreibt, wie in dem Projekt die Daten behandelt werden und wächst mit dem Projekt. <br>

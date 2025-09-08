@@ -1019,29 +1019,28 @@ Sonderrreihe Forschungsdaten, Open Media Studies Blog, https://mediastudies.hypo
 Dieses Kapitel stellt einige Übungen und Aktivierungsmethoden vor, die in der Lehre genutzt werden können und die vorliegende OER ergänzen.
 
 ### Übung zum Thema "Datenlebenszyklus"
-<!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->
+
 - *Anregegung aus dem Train-the-Trainer von fdm.nrw*: Kurze Übung, max. 15. Min.: <br>
 Auf einem Conceptboard "Überschriften" des DLZ verschieden farbig angeben und dazu ungeordnet auf weißen Post-Its Schlüsselbegriffe/Schlagwörter und Inhalte aus DMPs angeben. <br>
 Die TN müssen dann die Begriffen mit den zugehörigen Überschriften verknüpfen. Wenn die TN mit der Auswahl sicher sind, dann können die Post-Its der Farbe der Überschrift angeglichen werden.<br> Anschließend Ergebnisse im Plenum diskutieren. <br>
 Die Übung ust nur bis zu einer bestimmten Gruppengröße sinnvoll, ansonsten besser Kleingruppen, denn wenn alle Teilnehmer einer Gruppe 20+ auf dem Conceptboard gleichzeitig Post-Its verschieben, ist es mehr Chaos als Lerneffekt.
 
 ### Übung zum Thema "Kontrollierte Vokabulare" (GLAM-Fokus)
-<!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->
+
 - Zu Beginn des Kurses als Aktivierung mit Mentimeter den Kenntnisstand der TN abfragen, bzgl. der in diesem WS besprochenen Themen; z. B.: WordCloud mit der Frage: Welche kontrollierten Vokabulare werden an ihrer Einrichtung genutzt? oder (anonyme! das auch betonen bei Stellen der Frage) Abfrage mit der Ausgabe eines Balkendiagramms, z. B. zu der Frage: Wie gut ist die Qualität meiner Sammlungsdaten?
 
 ### Rechercheaufgabe FDM-Policies (10 Min.)
-<!--- [AP] Hier müsste man Alex fragen, ob es okay ist, dass wir unsere interaktiven Aufgaben aus dem FFK-Kurs veröffentlichen! --->
 
-- Wenn man sich als frische/r Doktorand:in die Frage stellt, wie man mit seinen Forschungsdaten umgehen soll bzw. welche Regeln man befolgen muss, wird man bei der Suche schnell erschlagen von den vielen (häufig generischen) Antworten, die man dazu findet - bspw. die FAIR- und CARE-Prinzipien. Deshalb lohnt es sich, erstmal zu recherchieren, ob die Institution, bei der man angestellt ist,<br>
+- Wenn man sich als Doktorand:in, Early Career Researcher, GLAM-Mitarbeiter:in, etc. die Frage stellt, wie man mit den eigenen Forschungsdaten umgehen soll bzw. welche Regeln man befolgen muss, wird man bei der Suche schnell erschlagen von den vielen (häufig generischen) Antworten, die man dazu findet - bspw. die FAIR- und CARE-Prinzipien. Deshalb lohnt es sich, erstmal zu recherchieren, ob die Institution, bei der man angestellt ist,<br>
 1. eine eigene Beratungsstelle zum Umgang mit Forschungsdaten hat und<br> 
 2. ob eure Institution vielleicht sogar schon eine eigene Forschungsdaten-Policy verabschiedet hat, an die ihr euch grundsätzlich halten müsstet. <br>
 Und genau das wollen wir jetzt mal machen: 
 
-- Hat Eure Universität eine eigene FD-Policy?
-- Welche FD-Beratungsstellen gibt es an Euren Universitäten?
+- Hat Eure Universität oder Institution eine eigene FD-Policy?
+- Welche FD-Beratungsstellen gibt es an Euren Universitäten oder Institutionen?
 
 ### Teilnehmer-Aktivierung
-<!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->
+
 Zu Beginn des Kurses
 
 * Erfahrung: Direkt zu Beginn möglichst die Teilnehmer aktiv mit einbeziehen, das hilft erfahrungsgemäß dabei, dass bei späteren aktiven Parts, Gruppenarbeit, etc. weniger Leute abspringen. (Also jenes Phänomen von Online-Veranstaltungen, dass wenn man aktive Mitarbeit der Teilnehmer:innen ankündigt, ein großer Block der TN das Meeting verlässt.)
@@ -1054,7 +1053,7 @@ Zu Beginn des Kurses
   * Notiz: Vorstellungsrunden lohnen bei großen Gruppen und bei kurzen Veranstaltungen von wenigen Stunden wenig. Ab 2-tägigen Veranstaltungen und bei moderater Gruppengröße können sie aber helfen, die Gruppe zu stärken und Hemmschwellen zu senken
 
 ### Tools für interaktive Online-Sessions
-<!--- [AP] Quelle: Methodensammlung für TA2-Glamkursreihe --->
+
 
 * Mentimeter (für Umfragen & WordCloud)
 * Conceptboard/Miro (für Kleingruppenarbeit, Conceptboard datenschutzrechtlich besser)

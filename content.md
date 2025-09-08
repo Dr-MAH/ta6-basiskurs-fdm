@@ -885,7 +885,7 @@ RDMO, steht für Research Data Management Organiser und ist ein freies Open Sour
 Die RDMO-Website bietet ein Demo-Programm an, das nach Anmeldung kostenlos genutzt werden kann. Accounts können kostenlos erstellt werden.
 
 ---
-Seit Herbst 2025 stellt auch NFDI4Culture einen Research Data Management Organiser (RDMO) für Forschende und Kulturschaffende der Architektur-, Kunst- und Musik- bis hin zu Theater-, Tanz-, Film- und Medienwissenschaft zur Verfügung. 
+Ab sofort stellt unser Konsortium einen Research Data Management Organiser (RDMO) für Forschende und Kulturschaffende der Architektur-, Kunst- und Musik- bis hin zu Theater-, Tanz-, Film- und Medienwissenschaft zur Verfügung. 
 
 https://rdmo.nfdi4culture.de/
 

@@ -62,7 +62,7 @@ Alle generischen Inhalte dieses Kurses werden ergänzt um fachspezifische Module
 
 ## 1. Forschungsdatenmanagement
 
-Forschungsdatenamangement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
+Forschungsdatenmanagement (FDM) umfasst alle Aktivitäten im Zusammenhang mit ...
 
 - der Aufbereitung,
 - Speicherung,
@@ -658,7 +658,7 @@ Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzi
 Die vorherigen Kapitel haben schon einige Aspekte angesprochen, die beim Sichern und Speichern von Daten sinnvoll und wichtig ist, wie die Anreicherung mit Metadaten (s. Kap. [6. Metadaten](#6. metadaten)).
 Folgend einige konkrete Tipps für die Datensicherung und -speicherung:
 
-- Vermeiden proprietärer Datenformate (s. Kap. [Datenformate](#datenformate))
+- Vermeiden proprietärer Datenformate (s. Kap. [Datenformate](#3. datenformate))
 - 3-2-1-Regel für die Sicherung von Daten: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
 - Verschlüsselung von Daten zum Beispiel mit Passwort
 - Gute Dokumentation

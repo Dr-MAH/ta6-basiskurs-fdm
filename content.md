@@ -639,6 +639,27 @@ Oft stellt sich im Forschungsalltag die Frage nach dem Zitieren von Daten.
 - Ein Beispiel von [forschungsdaten.info](https://forschungsdaten.info/):
 
   * Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
+  
+### Persistent Identifier (PID)
+
+Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhen dadurch ihre Auffindbarkeit stark. Der PID verweist auf die Ressource, sie selbst kann dabei physisch an verschiedenen Orten liegen.<br>
+PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die eine dauerhafte Referenzierung der Objekte im Internet versichern.
+
+Beispiele für gängige PIDs im Wissenschaftskontext sind:
+
+- Digital Object Identifier (DOI) 
+  
+  * für digitale Objekte (Artikel, Datensätze, …)
+  * vergleichbar mit einer ISBN im Analogen
+  * Verweist permanent auf eine Ressource und verbessert dadurch Zitationen.
+  
+    - Anbieter von DOIs versichern die Permanenz der digitalen Adresse
+  
+- Open Researcher and Contributer ID (ORCID) 
+  
+  * Personen ID
+  * Erleichtert die Identifikation von Personen
+  * präsentiert die wiss. Laufbahn, listet Publikationen und kann eigenhändig angelegt werden
 
 ### Repositorien – die Daten-Speicher
 
@@ -718,27 +739,6 @@ Die folgenden Unterseiten listen eine Auswahl weiterer fachspezifischer Reposito
 - Deutsche Fotothek
 - Kompakkt
 - arkumu.nrw
-
-### Persistent Identifier (PID)
-
-Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhen dadurch ihre Auffindbarkeit stark. Der PID verweist auf die Ressource, sie selbst kann dabei physisch an verschiedenen Orten liegen.<br>
-PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die eine dauerhafte Referenzierung der Objekte im Internet versichern.
-
-Beispiele für gängige PIDs im Wissenschaftskontext sind:
-
-- Digital Object Identifier (DOI) 
-  
-  * für digitale Objekte (Artikel, Datensätze, …)
-  * vergleichbar mit einer ISBN im Analogen
-  * Verweist permanent auf eine Ressource und verbessert dadurch Zitationen.
-  
-    - Anbieter von DOIs versichern die Permanenz der digitalen Adresse
-  
-- Open Researcher and Contributer ID (ORCID) 
-  
-  * Personen ID
-  * Erleichtert die Identifikation von Personen
-  * präsentiert die wiss. Laufbahn, listet Publikationen und kann eigenhändig angelegt werden
 
 ### Speichern vs. Archivieren
 

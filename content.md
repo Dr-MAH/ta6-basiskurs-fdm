@@ -79,7 +79,7 @@ FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse ve
 
 Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten weitere rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren (s. a. [CARE-Principles](#die-care-prinzipien)).
 
-Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlicher Arbeit und Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten, festgehalten bspw. in Form eines Datenmanagementplans [DMP](#der-datenmanagementplan-dmp).
+Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlicher Praxis, und Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten, festgehalten bspw. in Form eines Datenmanagementplans [DMP](#der-datenmanagementplan-dmp).
 
 > Kodex [„Leitlinien zur Sicherung guter wissenschaftlicher Praxis“](https://doi.org/10.5281/zenodo.14281892) der DFG
 
@@ -140,7 +140,7 @@ Sie umfassen u. a.:
 - Annotation und Metadaten 
 - Musikinstrumente und sonstige involvierte Hardware oder Objekte (Computer, Räume, etc.)
 
-Vergleiche hierzu u. a. das ausführliche [Positionsapier](https://www.musikforschung.de/wp-content/uploads/2024/05/DFG-Forschungsdaten_GfM.pdf) der DFG mit der Gesellschaft für Musikforschung.
+Vergleiche hierzu u. a. das ausführliche [Positionsapier](https://www.musikforschung.de/wp-content/uploads/2024/05/DFG-Forschungsdaten_GfM.pdf) der Gesellschaft für Musikforschung zu den Leitlinien der DFG.
 
 ---
 
@@ -158,7 +158,7 @@ Musikbibliographische Forschungsdaten sind Teil der Recherche, der Beratung und 
 
 ## 3. Datenformate
 Jede Software hat ein vorgegebenes Dateiformat, in dem sie mit ihr erzeugte Daten speichert. Doch ist das in einigen Fällen nicht das einzige nutzbare Datenformat, in einigen Fällen auch nicht das beste für den jeweiligen (Forschungs-)Kontext. <br>
-Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. Proprietäre Datenformate sind solche, die von Hersteller:innen für eine bestimmte Software erstellt wurden und meist nur mit dieser nutzbar sind. Sie sind also keine offenen Standards und erschweren oder verhindern dadurch die Nachnutzbarkeit und Langzeitarchivierung der in ihrem Format gespeicherten Daten.<br>
+Grundsätzlich sollten Daten möglichst nie in proprietären Datenformaten gespeichert, gar archiviert werden. Proprietäre Datenformate sind solche, die von Hersteller:innen für eine bestimmte Software erstellt wurden und meist nur mit dieser nutzbar sind. Sie sind also keine offenen Standards und erschweren oder verhindern dadurch die Nachnutzbarkeit und Langzeitarchivierung in propietärem Format gespeicherten Daten.<br>
 Zudem sollte darauf geachtet werden, dass die gewählten Dateiformate ressourcenschonend sind, indem sie etwa geringere Mengen Speicherplatz beanspruchen als alternative Formate.
 
 ---
@@ -239,7 +239,7 @@ Nutzungsszenarien von Videoannotationstools:
 - Zeitbezogene Analyse von Bild und Ton
 - Qualitative oder quantitative Datenanalyse
 - Visualisierung von Annotationen
-- Vorannotation von Tanz und Performances (s. Projekt [#vortanz](https://vortanz.ai/))
+- Annotation von Tanz und Performances (s. Projekt [#vortanz](https://vortanz.ai/))
 
 ---
 
@@ -466,7 +466,6 @@ Ein **kontrolliertes Vokabular** ist eine Sammlung von Normdaten, es verknüpft 
 
 **Wir benötigen Normdaten ...**
 
-- für die Vereinfachung der Darstellung komplexer Zusammenhänge,
 - zur Vermeidung von Mehrdeutigkeiten und falschen Zuordnungen vor allem für Maschinen, die anders als Menschen nicht aus dem Kontext schließen können, wie bspw. bei ...
 
   - variierenden Schreibweisen von Namen oder
@@ -637,12 +636,13 @@ Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzi
 
 ## 9. Sichern, Speichern, Publizieren und Archivieren
 
-Die vorherigen Kapitel haben schon einiges vorweggennommen, was beim Sichern und Speichern von Daten sinnvoll und wichtig ist, wie die Anreicherung mit Metadaten (s. Kap. [6. Metadaten](#6. metadaten)).
+Die vorherigen Kapitel haben schon einige Aspekte angesprochen, die beim Sichern und Speichern von Daten sinnvoll und wichtig ist, wie die Anreicherung mit Metadaten (s. Kap. [6. Metadaten](#6. metadaten)).
 Folgend einige konkrete Tipps für die Datensicherung und -speicherung:
 
 - Vermeiden proprietärer Datenformate (s. Kap. [Datenformate](#datenformate))
 - 3-2-1-Regel für die Sicherung von Daten: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
 - Verschlüsselung von Daten zum Beispiel mit Passwort
+- Gute Dokumentation
 - Sinnvolles und konsistentes Dateiablagesystem
 
   - In einer README-Datei kann das System auf oberster Ebene erläutert werden; das ist gerade bei der Arbeit in geteilten Dateiablagesystemen und/oder bei größeren Arbeitsgruppen empfehlenswert
@@ -650,7 +650,7 @@ Folgend einige konkrete Tipps für die Datensicherung und -speicherung:
 ### Daten publizieren
 
 Daten sollten publiziert werden, denn sie sind Forschungsergebnisse. Sie sind die Grundlage der Forschung und die Basis für das abschließende Forschungsprodukt, sei es ein Buch, ein Paper oder ähnliches.<br>
-Publizierte Forschungsdaten können zudem nachgenutzt werden und befördern dadurch nicht nur die Wissenschaft, sie machen sie auch nachhaltiger und vernetzter.
+Publizierte Forschungsdaten können zudem nachgenutzt werden. Sie befördern dadurch die Sichtbarkeit und Reichweite der Wissenschaft und machen sie nachhaltiger und vernetzter.
 
 Wie Datenpublikationen aussehen können, zeigen Beispiele aus der Film- und Medienwissenschaft, die im Repositorium [media/rep/](https://mediarep.org/communities/7e880a5a-5bcd-49b7-9b0e-ce4851b8d7bf) veröffentlicht sind.
 
@@ -668,7 +668,7 @@ Wie Datenpublikationen aussehen können, zeigen Beispiele aus der Film- und Medi
 
 ### Daten zitieren
 
-Oft stellt sich im Forschungsalltag die Frage nach dem Zitieren von Daten.
+Öfter noch als das Veröffentlichen, begegnet einem im Forschungsalltag die Frage nach dem Zitieren von Daten!
 
 **Wie bei Texten sollte man auch Daten zitieren und nachweisen!**
 
@@ -680,7 +680,7 @@ Oft stellt sich im Forschungsalltag die Frage nach dem Zitieren von Daten.
 
 - Grundsätzlich werden sie so ähnlich zitiert, wie andere Arten an Publikationen auch.
 - Genannt werden sollten also Autor:innen bzw. Herausgeber:innen, der Titel und das Veröffentlichungsdatum.
-- Ergänzt wird dies bestenfalls um den Publikationagenten und einen Persistent Identificator (s. Kap. [PID](#persistent-identifier-pid)), etwa mittels DOI, womit man direkt zum Datensatz weitergeleitet wird!
+- Ergänzt wird dies bestenfalls um den Publikationagenten und einen Persistent Identifier (s. Kap. [PID](#persistent-identifier-pid)), etwa mittels DOI, womit man direkt zum Datensatz weitergeleitet wird!
 - Ein Beispiel von [forschungsdaten.info](https://forschungsdaten.info/):
 
   * Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
@@ -688,7 +688,7 @@ Oft stellt sich im Forschungsalltag die Frage nach dem Zitieren von Daten.
 ### Persistent Identifier (PID)
 
 Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhen dadurch ihre Auffindbarkeit stark. Der PID verweist auf die Ressource, sie selbst kann dabei physisch an verschiedenen Orten liegen.<br>
-PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die eine dauerhafte Referenzierung der Objekte im Internet versichern.
+PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die eine dauerhafte Referenzierung der Objekte im Internet sicher zu stellen.
 
 Beispiele für gängige PIDs im Wissenschaftskontext sind:
 
@@ -700,7 +700,7 @@ Beispiele für gängige PIDs im Wissenschaftskontext sind:
   
     - Anbieter von DOIs versichern die Permanenz der digitalen Adresse
   
-- Open Researcher and Contributer ID (ORCID) 
+- Open Researcher and Contributor ID (ORCID) 
   
   * Personen ID
   * Erleichtert die Identifikation von Personen
@@ -729,7 +729,7 @@ Einige dieser Portale sind:
 
 - Re3data [>](https://www.re3data.org/)
 - DFG RIsources [>](https://risources.dfg.de/index.html#q=*&sort=RI_SORT_DE%20asc&rows=10&RI_EXT=Y)
-- NFDI4Cultures kuratierte Repositorieliste [>](https://nfdi4culture.de/services/details/curated-repository-list.html)
+- Kuratierte Repositorieliste von NFDI4Culture [>](https://nfdi4culture.de/services/details/curated-repository-list.html)
 
 ---
 

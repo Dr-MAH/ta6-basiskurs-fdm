@@ -670,12 +670,12 @@ Neben FAIR- und CARE-Prinzipien, die sich um die Daten selbst drehen, liefern di
 **Was sind Hinweise auf gute Repositorien?**
 
 - Es werden dauerhafte Identifikatoren zur besseren Zitation und Auffindbarkeit der Daten vergeben.
-- Es wird zumeist zwischen generischen, fachspezifischen und institutionellen Repositorien unterschieden.
 - Es gibt Siegel und Zertifikate für gute Langzeitarchive: CoreTrustSeal (CTS); nestor Siegel/DIN 31644; ISO 16363.
 
 **Wo finde ich ein geeignetes Repositorium?**
 
 Es gibt verschiedene Portale, die Repositorien listen und diese Auflistungen durchsuchbar machen, in vielen Fällen zeigen diese Portale direkt die wichtigsten Eckdaten der Repositorien an, sowie eventuelle Siegel und Zertifikate, die sie halten.<br>
+Es wird zumeist zwischen generischen, fachspezifischen und institutionellen Repositorien unterschieden.<br>
 Einige dieser Portale sind: 
 
 - Re3data [>](https://www.re3data.org/)

@@ -77,7 +77,7 @@ Der vorliegende Kurs wird die Grundlagen dieser Aspekte des Forschungsdatenmanag
 
 FDM begleitet den gesamten Forschungsprozess und standardisierte FDM-Prozesse verringern den zukünftigen Aufwand bei einer eigenen oder fremden Nachnutzung der Daten.<br>FDM-Maßnahmen wie Datendokumentation, Datensicherung und eine geeignete Langzeitarchivierung (LZA) verringern zudem das Risiko von Datenverlusten. Außerdem steigern sie die Reproduzierbarkeit und Nachnutzbarkeit der Daten. Durch geeignete FDM-Maßnahmen können Daten bestenfalls noch nach Jahrzehnten genutzt werden.
 
-Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten weitere rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren (s. a. [CARE-Principles](#die-care-prinzipien).)
+Die vielseitigen technischen Möglichkeiten erfordern allerdings auch eine erhöhte Beachtung der Themen Datenschutz und Urheberrecht. Ebenso sollten weitere rechtliche und ethische Aspekte beachtet werden, um die gute wissenschaftliche Praxis zu wahren (s. a. [CARE-Principles](#die-care-prinzipien)).
 
 Der fachgerechte Umgang mit Forschungsdaten ist zudem Teil guter wissenschaftlicher Arbeit und Fördermittelgeber erwarten einen strukturierten Umgang mit Forschungsdaten, festgehalten bspw. in Form eines Datenmanagementplans [DMP](#der-datenmanagementplan-dmp).
 
@@ -332,9 +332,15 @@ Bei allen Fragen können mehrere Antworten korrekt sein.
 [[x]] für weitere Forschung auf bisherigen Ergebissen anknüpfen
 
 ## 5. Versionsverwaltung
+Im Laufe der Erfassung, Bearbeitung, Anreicherung und Analyse von Daten entstehen verschiedene Zustände oder Versionen von Datensätzen. Für eine gute Dokumentation und damit Nachvollziehbarkeit des Forschungsprozesses ist es sinnvoll, diese einzelnen Versionen mit den Angaben **Wer** hat **was** **wann** verändert?
+
+Versionsverwaltungssysteme erlauben die Erfassung von Veränderungen mit einem Zeitstempel und der Angabe der Person, die die Änderungen vorgenommen hat.
+
+
+<!---
 Nicht nur für das kollaborative Arbeiten, sondern ganz grundsätzlich für die Organisation bei der Arbeit mit Forschungsdaten, ist eine Versionsverwaltung der Daten von essentieller Wichtigkeit. 
 Einfach gesagt bedeutet das, die Schritte der Arbeit und Ergebnisse zu dokumentieren, um bspw. im Zweifelsfall an früheren Punkten erneut ansetzen zu können.
-
+-->
 ...
 
 <!--- [MAH] So weit nur ein erster Vorschlag, hier könnte Daniel noch einiges ergänzen und zu seinen Folien überleiten. --->
@@ -379,6 +385,7 @@ Auch für Metadaten gibt es Standards, die ihre Vergleichbarkeit sicherstellen u
 Dies sind einige fachübergreifende Standards:
 
 - Dublin Core
+- DataCite Metadata Schema
 - EXIF (Bildmetadaten)
 - PREMIS
 - METS MODS
@@ -447,7 +454,7 @@ Zu Beginn dieses Kapitels wurden verschiedene Kategorien von Metadaten vorgestel
 **Was sind Normdaten?**
 
 Normdaten sind strukturierte Datensätze, die wissenschaftlich geprüft und frei verfügbar sind.<br>
-Jedem Normdatum ist ein eindeutiger Identifikator zugeordnet, mit einer eindeutig referenzierbaren URI, einem Union Resource Identifier.
+Jedem Normdatum ist ein eindeutiger Identifikator zugeordnet, mit einer eindeutig referenzierbaren URI, einem Uniform Resource Identifier. Eine URI kann den Namen einer Ressource oder den Speicherort oder beides beinhalten. Im Gegensatz dazu beinhaltet eine URL, Uniform Resource Locator, als spezielle Form der URI lediglich den Ort einer Ressource.
 
 Ein Normdatum ist mit vielen weiteren Normdaten verknüpft und setzt dadurch die Informationen mit einander in Verbindung.<br>
 Damit das klappt, braucht es neben den Identifikatoren auch weitere Regeln und Standards für Normdaten. MARC 21 ist ein solcher weit verbreiteter, internationaler Standard. Er kann als XML konvertiert werden und ist als RDF (Resource Description Framework) ausspielbar.<br>
@@ -630,15 +637,15 @@ Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzi
 
 ## 9. Sichern, Speichern, Publizieren und Archivieren
 
-Die vorherigen Kapitel haben schon einiges vorweggennommen, was beim Speichern von Daten sinnvoll und wichtig ist, wie die Anreicherung mit Metadaten (s. Kap. [6. Metadaten](#6. metadaten)).
-Folgend einige konkrete Tipps für die Datenspeicherung:
+Die vorherigen Kapitel haben schon einiges vorweggennommen, was beim Sichern und Speichern von Daten sinnvoll und wichtig ist, wie die Anreicherung mit Metadaten (s. Kap. [6. Metadaten](#6. metadaten)).
+Folgend einige konkrete Tipps für die Datensicherung und -speicherung:
 
 - Vermeiden proprietärer Datenformate (s. Kap. [Datenformate](#datenformate))
-- 3-2-1-Regel: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
-- Passwortverschlüsselung der Daten
+- 3-2-1-Regel für die Sicherung von Daten: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
+- Verschlüsselung von Daten zum Beispiel mit Passwort
 - Sinnvolles und konsistentes Dateiablagesystem
 
-  - In einer READ.me-Datei kann das System auf oberster Ebene erläutert werden; das ist gerade bei der Arbeit in geteilten Dateiablagesystemen und/oder bei größeren Arbeitsgruppen empfehlenswert
+  - In einer README-Datei kann das System auf oberster Ebene erläutert werden; das ist gerade bei der Arbeit in geteilten Dateiablagesystemen und/oder bei größeren Arbeitsgruppen empfehlenswert
 
 ### Daten publizieren
 
@@ -651,7 +658,7 @@ Wie Datenpublikationen aussehen können, zeigen Beispiele aus der Film- und Medi
 
 **Vorteile bei der Veröffentlichung von Forschungsdaten:**
 
-- Forschungsergebnisse werden durch die Veröffentlichung von Daten und deren Zitierung sichtbarer.
+- Forschungsergebnisse werden durch die Veröffentlichung von Daten und deren Zitierung auffindbar und sichtbarer.
 - Einmalige, nicht reproduzierbare Daten gehen nicht verloren, sondern stehen für weitere Forschungen zur Verfügung.
 - Öffentlich zugängliche Daten können zu neuen oder ergänzenden Hypothesen anregen.
 - Es können neue Kooperationen weltweit entstehen.
@@ -699,9 +706,13 @@ Beispiele für gängige PIDs im Wissenschaftskontext sind:
   * Erleichtert die Identifikation von Personen
   * präsentiert die wiss. Laufbahn, listet Publikationen und kann eigenhändig angelegt werden
 
+**Zitierangaben in strukturierter Metadaten-Datei**
+
+Das [Citation File Format (CFF)](https://citation-file-format.github.io/) ist ein strukturiertes Metadatenschema für die Angabe von Zitierangaben. Das Format ist sowohl für Menschen als auch für Maschinen lesbar und wird bereits von Systemen wie GitHub, Zenodo oder Zotero verstanden und ausgewertet. Durch die explizite Angabe dieser Informationen kann sichergestellt werden, dass Zitationen von Daten oder auch Software korrekt erfolgt.
+
 ### Repositorien – die Daten-Speicher
 
-Repositorien sind Speicherorte für digitale Forschungsergebnisse und -daten. Sie machen Daten für die Öffentlichkeit oder einem ausgewählten Kreis an Nutzer:innen verfügbar.
+Repositorien sind Speicherorte für digitale Forschungsergebnisse und -daten. Sie machen Daten für die Öffentlichkeit oder einem ausgewählten Kreis an Nutzer:innen verfügbar und sind zumeist an (Meta-)Suchmaschinen angeschlossen und erhöhen somit die Auffindbarkeit der Daten erheblich.
 
 Neben FAIR- und CARE-Prinzipien, die sich um die Daten selbst drehen, liefern die sogenannten TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology) in Bezug auf Repositorien Anhaltspunkte für gute Datensicherung und [Archivierung](#langzeitarchivierung).
 
@@ -779,19 +790,55 @@ Die folgenden Unterseiten listen eine Auswahl weiterer fachspezifischer Reposito
 - arkumu.nrw
 --->
 
-### Speichern vs. Archivieren
+### Persistent Identifier (PID)
 
-Speichern und Archivieren, das kann im ersten Moment sehr ähnlich klingen, also wo liegt der Unterschied?
+Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Identifikation von Datensätzen und erhöhen dadurch ihre Auffindbarkeit stark. In aller Regel wird ein PID zusammen mit der Angabe eines Systems veröffentlicht, das den Identifikator auflösen und auf die Adresse des dazugehörigen Metadatensatzes verweisen kann. Die Ressource selbst kann dabei an verschiedenen Orten liegen oder im Laufe der Zeit umziehen.<br>
+PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die eine dauerhafte Referenzierung der Objekte im Internet versichern. Hier entsteht allerdings auch eine Abhängigkeit zu diesen Organisationen und deren dauerhaftem Betrieb.
 
-**Speichern / Sichern** meint die Sicherung aller Daten (Backup) um Datenverlust vorzubeugen
+Beispiele für gängige PIDs im Wissenschaftskontext sind:
 
-**Archivieren** hingegen ist die Sicherung und **Langzeitarchivierung** ausgewählter, "endgültiger" Daten. Archivieren geschieht also zumeist erst nach dem Abschluss eines Forschungsprojektes, oder dem Abschluss eines eigenständigen Moduls in einem Projekt.
+- Digital Object Identifier (DOI) 
+  
+  * für digitale Objekte (Artikel, Datensätze, …)
+  * vergleichbar mit einer ISBN im Analogen
+  * Verweist permanent auf eine Ressource und verbessert dadurch Zitationen.
+  
+    - Anbieter von DOIs versichern die Permanenz der digitalen Adresse
+  
+- Open Researcher and Contributer ID (ORCID) 
+  
+  * Personen ID
+  * Erleichtert die Identifikation von Personen
+  * präsentiert die wiss. Laufbahn, listet Publikationen und kann eigenhändig angelegt werden
 
-| Speichern | Archivieren |
-| :---: | :---: |
-| Kopie auf ein anderes Medium | Daten die nachdem sie ins Archiv übergegangen sind unverändert bleiben |
-| Vorbeugen von Datenverlust, Sichern des aktuellen Arbeitsstandes | Langzeitsicherung für Nachnutzungsszenarien oder aus rechtlichen Gründen |
-| Lokale Speicherorte, USB-Sticks, Discs, Cloud-Dienste | langlebige Medien z. B. Magnetband |
+**Aufbau einer DOI**
+
+DOIs (zum Beispiel `10.5281/zenodo.7851817`) bestehen aus einem DOI-Präfix (`10.5281` steht hier für Zenodo), der die herausgebende Organisation benennt, und einem Identifikator (`zenodo.7851817`), der innerhalb der herausgebenden Organisation eindeutig sein muss.
+
+Nur zusammen mit der Information, dass es sich bei dem Identifikator um eine DOI handelt, ist diese ID von einem System auflösbar. Um diesen Prozess zu vereinfachen, werden DOIs in der Regel mit dem sogenannten Handle bzw. einem DOI-Resolver veröffentlicht. Für DOIs kann das zum Beispiel `https://doi.org/` oder `https://hdl.handle.net` sein.
+
+Die DOI wird dann zum Beispiel in Zitierangaben in der Form `https://doi.org/10.5281/zenodo.7851817` angegeben:
+
+_ Albrecht-Hohmaier, M., Bergmann, K., Eggersglüß, C., Polywka, A., & Stark, A. (2023). Das CRDA-Portfolio der NFDI4Culture für FDM-Kursangebote. Zenodo. https://doi.org/10.5281/zenodo.7851817 _
+
+
+### Speichern, Sichern, Publizieren, Archivieren
+
+Speichern, Sichern, Publizieren und Archivieren, das kann im ersten Moment sehr ähnlich klingen, also wo liegen die Unterschiede?
+
+**Speichern** meint die Ablage der Daten im Forschungsprozess ggf. mit der Möglichkeit zur gemeinsamen Nutzung der Daten
+
+**Sichern** meint die Sicherung aller Daten (im Sinne eines Backups) um Datenverlust vorzubeugen
+
+**Publizieren** meint die Veröffentlichung der Daten und den Eintrag in Verzeichnisse und Suchmaschinen
+
+**Archivieren** hingegen ist die Sicherung und **Langzeitarchivierung** ausgewählter, "endgültiger" Daten oder spezifischer Versionen der Daten. Archivieren geschieht also zumeist erst nach dem Abschluss eines Forschungsprojektes, oder dem Abschluss eines eigenständigen Moduls in einem Projekt.
+
+| Speichern | Sichern | Publizieren | Archivieren |
+| :---: | :---: | :---: | :---: |
+| Versionsverwaltung für die Nachvollziebarkeit und Kollaboration | Kopie auf ein anderes Medium | Daten für die Auffindbarkeit und Zugänglichkeit | Daten die nachdem sie ins Archiv übergegangen sind unverändert bleiben |
+| Metadaten für Prozesse und Workflows | Vorbeugen von Datenverlust, Sichern des aktuellen Arbeitsstandes | Metadaten für Zitation | Langzeitsicherung für Nachnutzungsszenarien oder aus rechtlichen Gründen |
+| Anbindung an Projektmanagement | Lokale Speicherorte, USB-Sticks, Discs, Cloud-Dienste | Fachspezifische Repositorien für gute Einbettung in Communities | langlebige Medien z. B. Magnetband |
 
 ### Langzeitarchivierung
 
@@ -799,7 +846,7 @@ Langzeitarchivierung meint in der Regel eine Aufbewahrungsgarantie von mindesten
 
 --- 
 
-Anders als Backups, die den Zustand der Daten zu einem bestimmten Zeitpunkt sichern, ist die Langzeitarchivierung (LZA) auf einen dauerhaften Erhalt der Daten ausgelegt und nicht für den alltäglichen Zugriff. Deshalb sind archivierte Daten nicht zwangsläufig direkt abrufbar, wenn sie etwa auf Magnetbändern oder anderen in der LZA genutzten Medien gesichert werden.
+Anders als Backups, die den Zustand der Daten in regelmäßigen Zeitabständen speichern und somit die adhoc Verfügbarkeit der Daten im Forschungsprozess absichern, ist die Langzeitarchivierung (LZA) auf einen dauerhaften Erhalt der Daten ausgelegt und nicht für den alltäglichen Zugriff. Deshalb sind archivierte Daten nicht zwangsläufig direkt abrufbar, wenn sie etwa auf Magnetbändern oder anderen in der LZA genutzten Medien gesichert werden. Die Sicherheit der Speichersysteme richtet sich dafür aber nach spezifischen Richtlinien oder Zertifikaten.
 
 Auch mit Datenpublikation sollte die Archivierung nicht verwechselt werden. Bei der Publikation steht im Vordergrund, dass die Daten schnell abrufbar und nutzbar sind, was mit dem Anspruch der Langzeitspeicherung und zuverlässigen Verfügbarmachung nicht immer im Einklang steht. Es gibt aber viele Datenrepositorien, die eine Archivierung direkt mitbedenken und die Daten in archivierbaren Formaten sichern.
 
@@ -846,7 +893,7 @@ Die Creative-Commons-Lizenzen (CC-Lizenzen) bieten ein verbreitetes, angesehenes
 - CC-Lizenzen sind nur mit einer Verlinkung der entsprechenden Lizenz-Urkunde auf der Creative-Commons-Website gültig.
 - Einmal vergebene Lizenzen können nicht zurückgezogen oder verschärft werden!
 
-<!--- 
+<!---
 
 Das ist einiges inhaltlich falsch, vergleiche https://de.creativecommons.net/was-ist-cc/
 Habe erst noch die zweite Frage korrigiert, aber die dritte noch gelassen, weil das angeblich unzulässig ist; aber CC-BY-ND ist ja schon die Kombination von CC-BY und CC-ND! 
@@ -963,7 +1010,7 @@ Bestandteile einer guten Datendokumentation:
 Formen von Dokumentationen:
 
 - Dokumentation durch Metadaten (s. a. Kapitel [6. Metadaten](#6. metadaten))
-- READ.me-Dateien
+- README-Dateien
 - Data Dictionaries
 - Codebooks
 

@@ -912,46 +912,6 @@ Die Creative-Commons-Lizenzen (CC-Lizenzen) bieten ein verbreitetes, angesehenes
 - CC-Lizenzen sind nur mit einer Verlinkung der entsprechenden Lizenz-Urkunde auf der Creative-Commons-Website gültig.
 - Einmal vergebene Lizenzen können nicht zurückgezogen oder verschärft werden!
 
-<!---
-
-Das ist einiges inhaltlich falsch, vergleiche https://de.creativecommons.net/was-ist-cc/
-Habe erst noch die zweite Frage korrigiert, aber die dritte noch gelassen, weil das angeblich unzulässig ist; aber CC-BY-ND ist ja schon die Kombination von CC-BY und CC-ND! 
-
-### Das CC-Lizenzen Quiz 
-Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie sich selbst, erkennen Sie auch unzulässige Lizenz-Kombinationen? <br>
-<sub> (Übernommen aus den Train-the-Trainer-Folien der DINI/nestor-AG Forschungsdaten) </sub>
-
-**Was erhählt man bei der Kombination von CC-BY und CC-BY-SA?**
-
-- [( )] CC-BY
-- [(x)] CC-BY-SA
-- [( )] unzulässig
-- [( )] anderes
-
----
-
-**Was erhählt man bei der Kombination von CC-BY-SA und CC-BY-NC?**
-
-- [( )] CC-BY-SA
-- [( )] CC-BY-NC 
-- [(x)] CC-BY-NC-SA
-- [( )] unzulässig
-***
-<br>CC-BY-SA erlaubt zwar die kommerzielle Nutzung, sie wird aber durch die Komnbination mit CC-BY-NC ausgeschlossen; die Kombination ist also eine gültige Ergänzung, aber kein Widerspruch [(vgl.)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de).
-***
-
- 
-
-**Was erhählt man bei der Kombination von CC-BY und CC-BY-ND?**
-
-- [( )] CC-BY
-- [( )] CC BY-NA
-- [(x)] unzulässig
-- [( )] andere
-***
-Warum ist es unzulässig?<br>CC-BY erlaubt die Bearbeitung, CC-BY-ND verbietet diese aber explizit, somit widersprechen sich die beiden Lizenzen und können nicht kombiniert werden.
-***
---->
 
 ## 11. Der Datenmanagementplan
 

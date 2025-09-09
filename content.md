@@ -658,11 +658,11 @@ Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzi
 Die vorherigen Kapitel haben schon einige Aspekte angesprochen, die beim Sichern und Speichern von Daten sinnvoll und wichtig ist, wie die Anreicherung mit Metadaten (s. Kap. [6. Metadaten](#6. metadaten)).
 Folgend einige konkrete Tipps für die Datensicherung und -speicherung:
 
-- Vermeiden proprietärer Datenformate (s. Kap. [Datenformate](#3. datenformate))
+- Vermeiden proprietärer Datenformate (s. Kap. [3. Datenformate](#3. datenformate))
 - 3-2-1-Regel für die Sicherung von Daten: 3 Kopien, auf 2 Medien, mindestens 1 davon dezentral gespeichert
 - Verschlüsselung von Daten zum Beispiel mit Passwort
-- Gute Dokumentation
-- Sinnvolles und konsistentes Dateiablagesystem
+- gute Dokumentation
+- sinnvolles und konsistentes Dateiablagesystem
 
   - In einer README-Datei kann das System auf oberster Ebene erläutert werden; das ist gerade bei der Arbeit in geteilten Dateiablagesystemen und/oder bei größeren Arbeitsgruppen empfehlenswert
 

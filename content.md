@@ -704,30 +704,7 @@ Wie Datenpublikationen aussehen können, zeigen Beispiele aus der Film- und Medi
 
   * Autoren (Veröffentlichungsdatum): Titel, Publikationsagent, PID
   
-### Persistent Identifier (PID)
 
-Persistent Identifiers (PIDs) sind Codes, die eine digitale Ressource eindeutig benennen. Sie dienen der langfristigen, nachhaltigen Adressierung von Daten und erhöhen dadurch ihre Auffindbarkeit stark. Der PID verweist auf die Ressource, sie selbst kann dabei physisch an verschiedenen Orten liegen.<br>
-PIDs werden von zentralen Institutionen oder Organisationen verwaltet, die eine dauerhafte Referenzierung der Objekte im Internet sicher zu stellen.
-
-Beispiele für gängige PIDs im Wissenschaftskontext sind:
-
-- Digital Object Identifier (DOI) 
-  
-  * für digitale Objekte (Artikel, Datensätze, …)
-  * Ist vergleichbar mit einer ISBN im Analogen.
-  * Verweist permanent auf eine Ressource und verbessert dadurch Zitationen.
-  
-    - Anbieter von DOIs versichern die Permanenz der digitalen Adresse.
-  
-- Open Researcher and Contributor ID (ORCID) 
-  
-  * Personen ID
-  * Erleichtert die Identifikation von Personen.
-  * Präsentiert die wiss. Laufbahn, listet Publikationen und kann eigenhändig angelegt werden.
-
-**Zitierangaben in strukturierter Metadaten-Datei**
-
-Das [Citation File Format (CFF)](https://citation-file-format.github.io/) ist ein strukturiertes Metadatenschema für die Angabe von Zitierangaben. Das Format ist sowohl für Menschen als auch für Maschinen lesbar und wird bereits von Systemen wie GitHub, Zenodo oder Zotero verstanden und ausgewertet. Durch die explizite Angabe dieser Informationen kann sichergestellt werden, dass Zitationen von Daten oder auch Software korrekt erfolgt.
 
 ### Repositorien – die Daten-Speicher
 
@@ -819,16 +796,16 @@ Beispiele für gängige PIDs im Wissenschaftskontext sind:
 - Digital Object Identifier (DOI) 
   
   * für digitale Objekte (Artikel, Datensätze, …)
-  * vergleichbar mit einer ISBN im Analogen
+  * Ist vergleichbar mit einer ISBN im Analogen.
   * Verweist permanent auf eine Ressource und verbessert dadurch Zitationen.
   
-    - Anbieter von DOIs versichern die Permanenz der digitalen Adresse
+    - Anbieter von DOIs versichern die Permanenz der digitalen Adresse.
   
-- Open Researcher and Contributer ID (ORCID) 
+- Open Researcher and Contributor ID (ORCID) 
   
   * Personen ID
-  * Erleichtert die Identifikation von Personen
-  * präsentiert die wiss. Laufbahn, listet Publikationen und kann eigenhändig angelegt werden
+  * Erleichtert die Identifikation von Personen.
+  * Präsentiert die wiss. Laufbahn, listet Publikationen und kann eigenhändig angelegt werden.
 
 **Aufbau einer DOI**
 

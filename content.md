@@ -445,7 +445,7 @@ Zu Beginn dieses Kapitels wurden verschiedene Kategorien von Metadaten vorgestel
 **Was sind Normdaten?**
 
 Normdaten sind strukturierte Datensätze, die wissenschaftlich geprüft und frei verfügbar sind.<br>
-Jedem Normdatum ist ein eindeutiger Identifikator zugeordnet, mit einer eindeutig referenzierbaren URI, einem Union Resource Identifier, quasi eine stabile URL.
+Jedem Normdatum ist ein eindeutiger Identifikator zugeordnet, mit einer eindeutig referenzierbaren URI, einem Union Resource Identifier.
 
 Ein Normdatum ist mit vielen weiteren Normdaten verknüpft und setzt dadurch die Informationen mit einander in Verbindung.<br>
 Damit das klappt, braucht es neben den Identifikatoren auch weitere Regeln und Standards für Normdaten. MARC 21 ist ein solcher weit verbreiteter, internationaler Standard. Er kann als XML konvertiert werden und ist als RDF (Resource Description Framework) ausspielbar.<br>

@@ -752,7 +752,7 @@ Speichern und Archivieren, das kann im ersten Moment sehr ähnlich klingen, also
 | Speichern | Archivieren |
 | :---: | :---: |
 | Kopie auf ein anderes Medium | Daten die nachdem sie ins Archiv übergegangen sind unverändert bleiben |
-| Vorbeugen von Datenverlust | Langzeitsicherung für Nachnutzungsszenarien oder aus rechtlichen Gründen |
+| Vorbeugen von Datenverlust, Sichern des aktuellen Arbeitsstandes | Langzeitsicherung für Nachnutzungsszenarien oder aus rechtlichen Gründen |
 | Lokale Speicherorte, USB-Sticks, Discs, Cloud-Dienste | langlebige Medien z. B. Magnetband |
 
 ### Langzeitarchivierung

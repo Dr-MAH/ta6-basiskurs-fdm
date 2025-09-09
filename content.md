@@ -353,7 +353,7 @@ Eine übliche Aufteilung ist:
 
 - **Deskriptive Metadaten**:<br>Sie enthalten beschreibende Informationen über den Inhalt des Objekts, sie dienen der Identifizierung von Objekten oder Daten
 - **Administrative Metadaten**:<br>Sie klären verwaltungsrelevante und rechtliche Rahmenbedingungen, dafür enthalten sie Informationen zum Objekt, die über seinen Inhalt hinausgehen wie z. B. Rechteinformationen und Details des analogen Objekts
-- **Strukturelle Metadaten**:<br>Sie erläutern die Datenstruktur, beschreiben also den Metadatensatz an sich und seine Beziehung zur digitalen Datei
+- **Strukturelle Metadaten**:<br>Sie erläutern die Datenstruktur, die Organisation, Hierarchie und Beziehung zu anderen Ressourcen.
 - **Technische Metadaten**:<br>Sie beschreiben die technischen Eigenschaften einer digitalen Datei, sie werden oft automatisch durch die Erfassungssoftware erstellt, können, und sollten in einigen Fällen, erweitert werden.
 
 Ergänzt werden kann diese Liste durch
@@ -776,7 +776,7 @@ Der provenienzbasierten Ansatz blickt auf die vermutete oder die überlieferte A
 Wie bei der Publikation von Daten sind auch bei der Archivierung rechtliche und ethische Aspekte zu beachten. Eine ausführliche Besprechung dieser Themen würde jedoch den Rahmen dieses Kurses sprengen.
 
 Die TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology), die bei den [Repositorien](#repositorien--die-daten-speicher) schon erwähnt wurden, gelten auch für Langzeitarchive.<br>
-Digitale Lanzeitarchive unterscheiden sich in Umfang ihrer angebotenen Services und der Qualität. Zertifikate können Nutzenden die Auswahl eines für sie geeigneten Archivs erleichtern.<br>
+Digitale Langzeitarchive unterscheiden sich in Umfang ihrer angebotenen Services und der Qualität. Zertifikate können Nutzenden die Auswahl eines für sie geeigneten Archivs erleichtern.<br>
 Zu den bekanntesten und meistgenutzten Zertifikaten für digitale Langzeitarchive und Repositorien gehören das nestor-Siegel und das CoreTrustSeal. Ihre Kriterienkataloge sind publiziert und online verfügbar.
 
 > Weitere Informationen finden sich in dieser NFDI4Culture Guideline zur Langzeitarchivierung: [Heseler / Büttner / Arnold 2024](https://nfdi4culture.de/id/E5342)

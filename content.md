@@ -524,20 +524,50 @@ Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdin
 
 ### QUIZ zu den FAIR-Prinzipien
 
+<!---
 **Beginnen wir einfach: Wofür stehen die Buchstaben in FAIR?**
 
 F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R für [[reusable]].
+--->
 
 ---
 
 **Die Bedingungen der FAIR-Prinzipien**
 
-Jeder Buchstabe von FAIR hat ein Set an Bedingungen, die umgesetzt werden sollen, um diesen Aspekt von FAIR vollständig abzudecken.<br>
+Jeder Buchstabe von FAIR hat ein Set an Bedingungen, die umgesetzt werden sollen.<br>
+Können Sie die folgenden Sets an Bedingungen den richtigen Buchstaben zuordnen?
+<br><br>
+
+- (Meta-)Daten nutzen eine formale, zugängliche, gemeinsam genutzte und breit anwendbare Sprache für die Wissensrepräsentation
+- (Meta-)Daten enthalten Vokabulare, welche den FAIR-Prinzipien folgen
+- (Meta-)Daten enthalten qualifizierte Verweise auf andere (Meta-)Daten
+[[Findable | Accessible | (Interoperable) | Reusable]]
+
+- (Meta-)Daten wird ein global eindeutiger und persistenter Identifikator zugewiesen
+- Daten werden mit umfangreichen Metadaten (vgl. R1) beschrieben
+- Metadaten enthalten eindeutig und explizit den Identifikator der Daten, die sie beschreiben
+- (Meta-)Daten werden in einer durchsuchbaren Ressource registriert oder indiziert
+[[(Findable) | Accessible | Interoperable | Reusable]]
+
+- (Meta-)Daten sind detailliert beschrieben und enthalten präzise, relevante Attribute
+- (Meta-)Daten enthalten eine eindeutige, zugreifbare Angabe einer Nutzungslizenz
+- (Meta-)Daten enthalten detaillierte Provenienz-Informationen
+- (Meta-)Daten entsprechen den fachgebietsrelevanten Community-Standards
+[[Findable | Accessible | Interoperable | (Reusable)]]
+
+- (Meta-)Daten sind über ihren Identifikator mithilfe eines standardisierten Kommunikationsprotokolls abrufbar
+- Das Protokoll ist offen, kostenlos und universell implementierbar
+- Das Protokoll unterstützt bei Bedarf Verfahren zur Authentifizierung und Rechteverwaltung
+- Metadaten bleiben verfügbar, auch wenn die zugehörigen Daten nicht (mehr) verfügbar sind
+[[Findable | (Accessible) | Interoperable | Reusable]]
+
+<!---
 Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen? Bitte erst dann auf "Prüfen" klicken, wenn alle Kästchen den Feldern auf der linken Seite zugeordnet wurden.
 <br><br>
 <font color=red> Das muss noch besser erklärt und zudem geprüft werden; das ist ziemlich schwer ... ohne die einzelnen Prinzipien im Detail angeschaut zu haben, ist das nicht lösbar; der Platz im linken Feld muss ggf. größer sein, damit alle Antowrten reinpassen; oder weniger Antworten? Das Ergebnis/die Punktevergabe muss noch angepasst werden, keine Abzüge bei falschen Antworten!  </font><br><br>
 
 <iframe src="./resources/FAIR-Drag-and-Drop.html" width=100% height=100%></iframe>
+--->
 
 ### Die CARE-Prinzipien
 

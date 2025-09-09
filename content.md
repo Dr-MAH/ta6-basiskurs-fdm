@@ -9,7 +9,7 @@ narrator: Deutsch female
 comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer 441958017. <br> Dieser Kurs ist unter Zuhilfenahme des Markdown-Dialekts LiaScript entstanden.
 -->
 
-# Basiskurs "Forschungsdatenmanangement für Geistes- und Kulturwissenschaften"
+# Basiskurs "Forschungsdatenmanagement für Geistes- und Kulturwissenschaften"
 
 Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research Data Academy (CRDA)](https://nfdi4culture.de/id/E1826)
 

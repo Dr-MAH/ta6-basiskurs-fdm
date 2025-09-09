@@ -186,8 +186,10 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen kann die Verwendung
 
 - Music Encoding Initiative (MEI)
 - MusicXML
+- LilyPond
+- Humdrum
 - Parsons Code
-- Präsentationsformat: Portable Document Format A (PDF-A)
+- ...
 <br>
 
 **Bild (Rastergrafiken)**

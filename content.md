@@ -917,7 +917,7 @@ Die Creative-Commons-Lizenzen (CC-Lizenzen) bieten ein verbreitetes, angesehenes
 Das ist einiges inhaltlich falsch, vergleiche https://de.creativecommons.net/was-ist-cc/
 Habe erst noch die zweite Frage korrigiert, aber die dritte noch gelassen, weil das angeblich unzulässig ist; aber CC-BY-ND ist ja schon die Kombination von CC-BY und CC-ND! 
 
-### Das CC-Lizenzen Quiz // DAS KANN NICHT SO BLEIBEN!
+### Das CC-Lizenzen Quiz 
 Nicht jede CC-Lizenz-Kategorie ist mit jeder anderen kombinierbar. Testen Sie sich selbst, erkennen Sie auch unzulässige Lizenz-Kombinationen? <br>
 <sub> (Übernommen aus den Train-the-Trainer-Folien der DINI/nestor-AG Forschungsdaten) </sub>
 

@@ -332,18 +332,37 @@ Bei allen Fragen können mehrere Antworten korrekt sein.
 [[x]] für weitere Forschung auf bisherigen Ergebissen anknüpfen
 
 ## 5. Versionsverwaltung
-Im Laufe der Erfassung, Bearbeitung, Anreicherung und Analyse von Daten entstehen verschiedene Zustände oder Versionen von Datensätzen. Für eine gute Dokumentation und damit Nachvollziehbarkeit des Forschungsprozesses ist es sinnvoll, diese einzelnen Versionen mit den Angaben **Wer** hat **was** **wann** verändert?
+Im Laufe der Erfassung, Bearbeitung, Anreicherung und Analyse von Daten entstehen verschiedene Zustände oder Versionen von Datensätzen. Für eine gute Dokumentation und damit Nachvollziehbarkeit des Forschungsprozesses ist es sinnvoll, diese einzelnen Versionen mit den Angaben "**Wer** hat **was** **wann** verändert?" anzureichern.
 
-Versionsverwaltungssysteme erlauben die Erfassung von Veränderungen mit einem Zeitstempel und der Angabe der Person, die die Änderungen vorgenommen hat.
+Versionsverwaltungssysteme (wie zum Beispiel [Git](https://git-scm.com/)) erlauben die Erfassung von Veränderungen mit einem Zeitstempel und der Angabe der Person, die die Änderungen vorgenommen hat, um genau diese Frage zu beantworten. Wenn die Daten in einem Textformat vorliegen, können Versionsverwaltungssysteme diese Veränderungen sehr übersichtlich (in einem sogenannten Diff wie Difference) anzeigen und somit Unterschiede zwischen Versionen verdeutlichen.
+
+Systeme wie Git können sowohl kollaborativ in Teams genutzt werden als auch lokal auf dem eigenen Computer durch einzelne Wissenschafter*innen. Für die Zusammenarbeit mit Git existieren verschiedene Konzepte zur Nutzung von Branches (Verzweigungen bei den Veränderungen von Datensätzen). Exemplarisch kann das [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/)-Modell genannt werden, das die Prozesse von Veränderungen, Korrekturen und Ergänzungen von Daten oder Software definiert und erläutert.
+
+<img src="../resources/git-model.png" width=50% height=auto> <br>
+<sub> Graphische Darstellung des GitFlow-Modells, Autor: Vincent Driessen, Original Blog Post: http://nvie.com/posts/a-succesful-git-branching-model </sub>
 
 
-<!---
-Nicht nur für das kollaborative Arbeiten, sondern ganz grundsätzlich für die Organisation bei der Arbeit mit Forschungsdaten, ist eine Versionsverwaltung der Daten von essentieller Wichtigkeit. 
-Einfach gesagt bedeutet das, die Schritte der Arbeit und Ergebnisse zu dokumentieren, um bspw. im Zweifelsfall an früheren Punkten erneut ansetzen zu können.
--->
-...
+### Versionen und Releases
 
-<!--- [MAH] So weit nur ein erster Vorschlag, hier könnte Daniel noch einiges ergänzen und zu seinen Folien überleiten. --->
+Während Versionen auf der Ebene einzelner inhaltlicher Änderungen in Dateien zu verstehen sind, sind Releases Veröffentlichungen ganzer Datensätze basierend auf einem bestimmten Zustand des Git-Repositories. Releases sind referenzierbar und können potentiell publiziert und archiviert werden. Sie werden mit einer Versionsnummer und Metadaten versehen.
+
+**Semantic versioning**
+
+Um Versionsbeschreibungen wie "_V2_DR" oder "-final-final5" zu vermeiden, gibt es Konzepte wie [Semantic versioning](https://semver.org/), die Versionsnummern für Releases semantisch beschreiben. Semantic versioning schlägt eine Versionsnummer im folgenden Format vor: MAJOR.MINOR.PATCH (zum Beispiel *3.4.21*)
+
+Semantic versioning stammt ursprünglich aus der Softwareentwicklung, wobei die einzelnen Teile der Versionsnummer für 
+
+* MAJOR wird erhöht, wenn API-inkompatible Änderungen veröffentlicht werden,
+* MINOR wird erhöht, wenn neue Funktionalitäten, die kompatibel zur bisherigen API sind, veröffentlicht werden, und
+* PATCH wird erhöht, wenn die Änderungen ausschließlich API-kompatible Bugfixes umfassen.
+
+stehen. Diese Logik wird für Daten häufig so übertragen, dass 
+
+* MAJOR wird erhöht, wenn größere Datenergänzungen oder Veränderungen in den Datenstrukturen vorgenommen werden,
+* MINOR wird erhöht, wenn Datensätze ergänzt werden und
+* PATCH wird erhöht, wenn die Änderungen lediglich Korrekturen in den Daten umfassen.
+
+stehen.
 
 ## 6. Metadaten
 

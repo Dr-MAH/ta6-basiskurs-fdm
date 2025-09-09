@@ -714,16 +714,16 @@ Beispiele für gängige PIDs im Wissenschaftskontext sind:
 - Digital Object Identifier (DOI) 
   
   * für digitale Objekte (Artikel, Datensätze, …)
-  * vergleichbar mit einer ISBN im Analogen
+  * Ist vergleichbar mit einer ISBN im Analogen.
   * Verweist permanent auf eine Ressource und verbessert dadurch Zitationen.
   
-    - Anbieter von DOIs versichern die Permanenz der digitalen Adresse
+    - Anbieter von DOIs versichern die Permanenz der digitalen Adresse.
   
 - Open Researcher and Contributor ID (ORCID) 
   
   * Personen ID
-  * Erleichtert die Identifikation von Personen
-  * präsentiert die wiss. Laufbahn, listet Publikationen und kann eigenhändig angelegt werden
+  * Erleichtert die Identifikation von Personen.
+  * Präsentiert die wiss. Laufbahn, listet Publikationen und kann eigenhändig angelegt werden.
 
 **Zitierangaben in strukturierter Metadaten-Datei**
 

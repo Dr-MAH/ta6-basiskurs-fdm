@@ -337,13 +337,7 @@ Im Laufe der Erfassung, Bearbeitung, Anreicherung und Analyse von Daten entstehe
 Versionsverwaltungssysteme erlauben die Erfassung von Veränderungen mit einem Zeitstempel und der Angabe der Person, die die Änderungen vorgenommen hat.
 
 
-<!---
-Nicht nur für das kollaborative Arbeiten, sondern ganz grundsätzlich für die Organisation bei der Arbeit mit Forschungsdaten, ist eine Versionsverwaltung der Daten von essentieller Wichtigkeit. 
-Einfach gesagt bedeutet das, die Schritte der Arbeit und Ergebnisse zu dokumentieren, um bspw. im Zweifelsfall an früheren Punkten erneut ansetzen zu können.
--->
-...
 
-<!--- [MAH] So weit nur ein erster Vorschlag, hier könnte Daniel noch einiges ergänzen und zu seinen Folien überleiten. --->
 
 ## 6. Metadaten
 

@@ -189,7 +189,7 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen kann die Verwendung
 - LilyPond
 - Humdrum
 - Parsons Code
-- Präsentationsformat: Portable Document Format A (PDF-A)
+- ...
 <br>
 
 **Bild (Rastergrafiken)**

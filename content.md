@@ -865,7 +865,7 @@ Zu den bekanntesten und meistgenutzten Zertifikaten für digitale Langzeitarchiv
 **Einige Merksätze:**
 
 - Nicht alle Forschungsdaten aus einem Projekt müssen archiviert werden.
-- Es sollten möglichst keine proprietäre Software und Datenformate genutzt werden (s. Kap. [Datenformate](#datenformate)).
+- Es sollten möglichst keine proprietäre Software und Datenformate genutzt werden (s. Kap. [3. Datenformate](#3. datenformate)).
 - Verwendete Software sollte mit archiviert oder zumindest sollte in den Metadaten verzeichnet werden, welche Software genutzt wurde.
 - Einmal archivierte Daten werden nicht mehr verändert!
 

@@ -848,7 +848,7 @@ Auch mit Datenpublikation sollte die Archivierung nicht verwechselt werden. Bei 
 
 ---
 
-Damit die Daten später noch verständlich sind und damit ihre Auffindbarkeit ehöht wird, ist auch bei archivierten Daten eine gute Beschreibung mit Metadaten unerlässlich. (s. Kap. [Metadaten](#metadaten))
+Damit die Daten später noch verständlich sind und damit ihre Auffindbarkeit ehöht wird, ist auch bei archivierten Daten eine gute Beschreibung mit Metadaten unerlässlich. (s. Kap. [6. Metadaten](#6. metadaten))
 
 Es werden nicht alle Daten aus einem Projekt archiviert. Es muss immer entschieden werden, welche Daten erhaltenswert sind. Bestenfalls sind die Richtlinien dafür in einem Projekt bereits im Datenamanagementplan festgehalten.
 

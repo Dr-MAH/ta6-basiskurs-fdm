@@ -543,17 +543,23 @@ Können Sie die folgenden Sets an Bedingungen den richtigen Buchstaben zuordnen?
 - (Meta-)Daten enthalten qualifizierte Verweise auf andere (Meta-)Daten
 [[Findable | Accessible | (Interoperable) | Reusable]]
 
+---
+
 - (Meta-)Daten wird ein global eindeutiger und persistenter Identifikator zugewiesen
-- Daten werden mit umfangreichen Metadaten (vgl. R1) beschrieben
+- Daten werden mit umfangreichen Metadaten beschrieben
 - Metadaten enthalten eindeutig und explizit den Identifikator der Daten, die sie beschreiben
 - (Meta-)Daten werden in einer durchsuchbaren Ressource registriert oder indiziert
 [[(Findable) | Accessible | Interoperable | Reusable]]
+
+---
 
 - (Meta-)Daten sind detailliert beschrieben und enthalten präzise, relevante Attribute
 - (Meta-)Daten enthalten eine eindeutige, zugreifbare Angabe einer Nutzungslizenz
 - (Meta-)Daten enthalten detaillierte Provenienz-Informationen
 - (Meta-)Daten entsprechen den fachgebietsrelevanten Community-Standards
 [[Findable | Accessible | Interoperable | (Reusable)]]
+
+---
 
 - (Meta-)Daten sind über ihren Identifikator mithilfe eines standardisierten Kommunikationsprotokolls abrufbar
 - Das Protokoll ist offen, kostenlos und universell implementierbar

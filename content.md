@@ -568,6 +568,7 @@ Lesen Sie in den nächsten Kapiteln nach, wofür die Akronyme FAIR und CARE im E
 
 ### Die FAIR-Prinzipien
 
+Die FAIR-Prinzipien wurden 2014 formuliert und 2016 publiziert. 
 FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusable; übersetzt also für: auffindbar, zugänglich, interoperabel und nachnutzbar.
 
 Zu jedem Hauptziele liefern die FAIR-Prinzipien je ein Set an Bedingungen. Wenn Sie mehr dazu wissen wollen, empfehlen wir die NFDI4Culture-Handreichung zu diesem Thema: [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/) bzw. diese [Kapitel](https://docs.nfdi4culture.de/ta2-fair-handreichung/vier-grundlegende-praemissen-zum-verstaendnis-der-fair-prinzipien) daraus.
@@ -600,15 +601,14 @@ Können Sie die folgenden Sets an Bedingungen den richtigen Buchstaben zuordnen?
 
 - (Meta-)Daten nutzen eine formale, zugängliche, gemeinsam genutzte und breit anwendbare Sprache für die Wissensrepräsentation
 - (Meta-)Daten enthalten Vokabulare, welche den FAIR-Prinzipien folgen
-- (Meta-)Daten enthalten qualifizierte Verweise auf andere (Meta-)Daten
+
 [[Findable | Accessible | (Interoperable) | Reusable]]
 
 ---
 
 - (Meta-)Daten wird ein global eindeutiger und persistenter Identifikator zugewiesen
 - Daten werden mit umfangreichen Metadaten beschrieben
-- Metadaten enthalten eindeutig und explizit den Identifikator der Daten, die sie beschreiben
-- (Meta-)Daten werden in einer durchsuchbaren Ressource registriert oder indiziert
+
 [[(Findable) | Accessible | Interoperable | Reusable]]
 
 ---
@@ -621,11 +621,24 @@ Können Sie die folgenden Sets an Bedingungen den richtigen Buchstaben zuordnen?
 
 ---
 
+- (Meta-)Daten enthalten qualifizierte Verweise auf andere (Meta-)Daten
+[[Findable | Accessible | (Interoperable) | Reusable]]
+
+---
+
 - (Meta-)Daten sind über ihren Identifikator mithilfe eines standardisierten Kommunikationsprotokolls abrufbar
 - Das Protokoll ist offen, kostenlos und universell implementierbar
 - Das Protokoll unterstützt bei Bedarf Verfahren zur Authentifizierung und Rechteverwaltung
 - Metadaten bleiben verfügbar, auch wenn die zugehörigen Daten nicht (mehr) verfügbar sind
 [[Findable | (Accessible) | Interoperable | Reusable]]
+
+---
+
+- Metadaten enthalten eindeutig und explizit den Identifikator der Daten, die sie beschreiben
+- (Meta-)Daten werden in einer durchsuchbaren Ressource registriert oder indiziert
+[[(Findable) | Accessible | Interoperable | Reusable]]
+
+---
 
 <!---
 Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen? Bitte erst dann auf "Prüfen" klicken, wenn alle Kästchen den Feldern auf der linken Seite zugeordnet wurden.

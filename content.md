@@ -350,10 +350,29 @@ Im Laufe der Erfassung, Bearbeitung, Anreicherung und Analyse von Daten entstehe
 
 Versionsverwaltungssysteme (wie zum Beispiel [Git](https://git-scm.com/)) erlauben die Erfassung von Veränderungen mit einem Zeitstempel und der Angabe der Person, die die Änderungen vorgenommen hat, um genau diese Frage zu beantworten. Wenn die Daten in einem Textformat vorliegen, können Versionsverwaltungssysteme diese Veränderungen sehr übersichtlich (in einem sogenannten Diff wie Difference) anzeigen und somit Unterschiede zwischen Versionen verdeutlichen.
 
-Systeme wie Git können sowohl kollaborativ in Teams genutzt werden als auch lokal auf dem eigenen Computer durch einzelne Wissenschafter*innen. Für die Zusammenarbeit mit Git existieren verschiedene Konzepte zur Nutzung von Branches (Verzweigungen bei den Veränderungen von Datensätzen). Exemplarisch kann das [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/)-Modell genannt werden, das die Prozesse von Veränderungen, Korrekturen und Ergänzungen von Daten oder Software definiert und erläutert.
+Systeme wie Git können sowohl kollaborativ in Teams genutzt werden als auch lokal auf dem eigenen Computer durch einzelne Wissenschafter:innen. Für die Zusammenarbeit mit Git existieren verschiedene Konzepte zur Nutzung von Branches (Verzweigungen bei den Veränderungen von Datensätzen). Exemplarisch kann das GitFlow-Modell genannt werden, das die Prozesse von Veränderungen, Korrekturen und Ergänzungen von Daten oder Software definiert und erläutert.
+Allerdings sind der darin dargestellte Workflow sehr komplex – in den meisten Fällen kollaborativen Arbeitens in Projekten dürften die Abläufe einfacher strukturiert sein und sich auf weniger Branches beschränken.
+Grundsätzlich näher erläutert wird das komplexe Modell [hier](https://nvie.com/posts/a-successful-git-branching-model/).
 
 <img src="../resources/git-model.png" width=50% height=auto> <br>
 <sub> Graphische Darstellung des GitFlow-Modells, Autor: Vincent Driessen, Original Blog Post: http://nvie.com/posts/a-succesful-git-branching-model </sub>
+
+
+<!---
+### Ein werden noch ein paar basale Hinweise zum Arbeiten mit Git ergänzt
+
+- Bild zur Funktionsweise des Repositories bzw. der Clone auf individuellen Rechnern
+- grundsätliche Begriffe erklären, und was dabei passiert ...
+ - pull ..
+ - push
+ - fetch
+ - commit
+ - ... 
+
+Evtl auch kurz erklären, wie Git mit Text-Dateien und binären Dateien umgeht ... Bei Textdateien bspw. im md-Format (auflösen) prüft Git die Differenzen, kann die als Differences anzeigen und speichert nach dem commit eine neue Version der Datei. 
+Bei binären, also z. B. docx-Dateien speichert Git nach dem Commit eine komplette neue Datei zusätzlich zur bestehenden. 
+
+--->
 
 
 ### Versionen und Releases

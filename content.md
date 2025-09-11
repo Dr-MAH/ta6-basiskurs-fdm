@@ -30,6 +30,8 @@ Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser
 ## Welche Inhalte bietet dieser Kurs?
 Alle generischen Inhalte dieses Kurses werden ergänzt um fachspezifische Module. Diese tragen farbliche abgegrenzte Überschriften, um sie gut von den übrigen Inhalten unterscheiden zu können. Sie können beim Bearbeiten des Kurses übersprungen werden, bzw. dann bearbeitet werden, wenn sie sich für das Fach und die Inhalte interessieren.
 
+Diese in einem gemeinsamen Kurs gebündelte Differenzierung soll einerseits medienspezifische Zugänge ermöglichen, andereseits aber auch Gemeinsamkeiten und Synergien innerhalb der Culture Communities aufzeigen.
+
 **Inhalt**
 
  1. Forschungsdatenmanagement [>](#1. forschungsdatenmanagement) 
@@ -224,6 +226,8 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen kann die Verwendung
 - Präsentationsformat: MP4 (MPEG-4, part 14)
 - Weitere Empfehlungen bietet die [nestor AG Media.](https://wiki.dnb.de/display/NESTOR/Digitalisierungsempfehlungen)
 
+
+### Konvertierungsmöglichkeiten 
 
 ### Exkurs: Video- und Bildannotation
 

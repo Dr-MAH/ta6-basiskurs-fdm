@@ -229,6 +229,14 @@ Für die Kulturwissenschaften und für Kulturerbe-Sammlungen kann die Verwendung
 
 ### Konvertierungsmöglichkeiten 
 
+Beim Thema sei kurz erwähnt, dass es zwei interessante Konvertierungstools gibt, um ggf. auf nachhaltigere Formate zu wechseln. Für Texte ist das die 
+
+- TEI-Garage (https://teigarage.tei-c.org/#), 
+
+für Notendateien 
+
+- die MEI-Garage (https://meigarage.edirom.de/).
+
 ### Exkurs: Video- und Bildannotation
 
 Video- und Bildannotationstools sind lokale oder webbasierte Anwendungen für die Annotationen, d. h. Markierung und Kommentierung (audio-)visueller Inhalte. <br>
@@ -280,6 +288,8 @@ Die grundlegenden Stationen sind:
   4. **Daten teilen und publizieren**
   5. **Daten archivieren**
   6. **Daten nachnutzen**
+
+Die Orientierung am DLZ ist eine der wichtigsten Grundlagen für nachhaltiges FDM, da so die Anschlussfähigkeit späterer Forschung möglich wird – nicht jedes Projekt muss das Rad neu erfinden, und Forschung wird somit erheblich effizienter. 
 
 Im Quiz auf der nächsten Seite erfahren Sie mehr dazu, was die einzelnen Stationen beinhalten!
 

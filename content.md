@@ -129,7 +129,7 @@ Je nach fachlicher Ausrichtung braucht es andere Dateiformate und Analysetools, 
 
 Die deutschsprachige Kunstgeschichte hat sich bisher nicht auf einen einheitlichen Umgang mit Forschungsdaten und feste Standards geeinigt. Doch steigt auch unter Kunsthistoriker:innen das Bewusstsein um die Relevanz guten Forschungsdatenmanagements. Mit dem [Münchner Memorandum „Forschungs­daten in der Kunst­geschichte: 10 Thesen“](https://doi.org/10.11588/artdok.00009194) liegt seit 2024 ein Paper vor, das auf Initiative des Deutschen Verbandes für Kunstgeschichte e. V., der Universitätsbibliothek Heidelberg / arthistoricum.net und des Zentralinstituts für Kunstgeschichte erarbeitet wurde, und aus Sicht des Faches in Deutschland aktuelle Anforderungen, Positionen und Impulse zur weiteren Entwicklung digitaler kunsthistorischer Forschungsdaten und ihrer Infrastruktur formuliert.
 
-#### <font color=#99e089> 🎵 Forschungsdaten in der Musikwissenschaften </font>
+#### <font color=#99e089> 🎵 Forschungsdaten in den Musikwissenschaften </font>
 
 Musikwissenschaftliche Forschungsdaten sind sehr divers, sie umfassen schließlich jegliche Daten, die im Verlauf von wissenschaftlichen Arbeitens entstehen – seien sie in unterschiedlichster Form digital (PDFs, Codierungen, Aufnahmen etc.) oder analog, wie auch deren digitale Reproduktionen.  
 

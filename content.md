@@ -16,8 +16,6 @@ Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research
 Mitarbeitende an diesem Projekt:<br>
 [Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Andreas Münzmay](https://orcid.org/0000-0002-8373-4055), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719), [Daniel Röwenstrunk](https://orcid.org/0000-0001-6271-2095), [Alexander Stark](https://orcid.org/0000-0003-4893-5924) 
 
-<!--- Hier sollte noch Daniel erwähnt werden. --->
-
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
 Gefördert durch die Deutsche Forschungsgemeinschaft (DFG).<br>
@@ -51,8 +49,6 @@ Diese in einem gemeinsamen Kurs gebündelte Differenzierung soll einerseits medi
 - Zusatzmaterial [>](#zusatzmaterial-interaktive-module)
 
 ### Abkürzungen in diesem Kurs
-
-<!--- KB: Brauchen wir das? --->
 
 - CRDA = Cultural Research Data Academy
 - DFG = Deutsche Forschungsgemeinschaft
@@ -357,7 +353,6 @@ Grundsätzlich näher erläutert wird das komplexe Modell [hier](https://nvie.co
 <img src="../resources/git-model.png" width=50% height=auto> <br>
 <sub> Graphische Darstellung des GitFlow-Modells, Autor: Vincent Driessen, Original Blog Post: http://nvie.com/posts/a-succesful-git-branching-model </sub>
 
-
 <!---
 ### Ein werden noch ein paar basale Hinweise zum Arbeiten mit Git ergänzt
 
@@ -373,7 +368,6 @@ Evtl auch kurz erklären, wie Git mit Text-Dateien und binären Dateien umgeht .
 Bei binären, also z. B. docx-Dateien speichert Git nach dem Commit eine komplette neue Datei zusätzlich zur bestehenden. 
 
 --->
-
 
 ### Versionen und Releases
 
@@ -571,11 +565,17 @@ Lesen Sie in den nächsten Kapiteln nach, wofür die Akronyme FAIR und CARE im E
 Die FAIR-Prinzipien wurden 2014 formuliert und 2016 publiziert. 
 FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusable; übersetzt also für: auffindbar, zugänglich, interoperabel und nachnutzbar.
 
-Zu jedem Hauptziele liefern die FAIR-Prinzipien je ein Set an Bedingungen. Wenn Sie mehr dazu wissen wollen, empfehlen wir die NFDI4Culture-Handreichung zu diesem Thema: [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/) bzw. diese [Kapitel](https://docs.nfdi4culture.de/ta2-fair-handreichung/vier-grundlegende-praemissen-zum-verstaendnis-der-fair-prinzipien) daraus.
+Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen und die Daten für die Nachnutzung zu optimieren. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows, die im Zusammenhang mit den Daten stehen.
 
-Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen und die Daten für die Nachnutzung zu optimieren. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows, die im Zusammenhang mit den Daten stehen.<br>
+Es können vier grundlegende Prämissen aufgestellt werden, um den Umgang mit den FAIR-Prinzipien besser zu verstehen:
+1. Die FAIR-Prinzipien sollen die optimale Nachnutzung gleichermaßen durch Mensch und Maschine ermöglichen
+2. Die FAIR-Prinzipien gelten sowohl für Daten als auch für Metadaten
+3. FAIRe Daten sind nicht gleich Open-Access-Daten
+4. Die FAIR-Prinzipien sind keine Regeln oder Normen, sondern ein Leitfaden
 
-Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdings auch mehr und mehr Tools, die Wissenschaftler:innen dabei unterstützen, den FAIR-Gehalt ihrer Daten zu ermitteln, u. a.:
+Zu jedem Hauptziel (Findable, Accessible, Interoperable, Reusable) liefern die FAIR-Prinzipien je ein Set an Bedingungen. Wenn Sie genaueres zu den einzelnen Bedingungen wissen wollen, empfehlen wir die NFDI4Culture-Handreichung zu diesem Thema: [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/), insbesondere diese [Kapitel](https://docs.nfdi4culture.de/ta2-fair-handreichung/vier-grundlegende-praemissen-zum-verstaendnis-der-fair-prinzipien).
+
+Es gibt zahlreiche weitere Leitfäden für FAIRes Forschungsdatenmanagement und neuerdings auch mehr und mehr Tools, die Wissenschaftler:innen dabei unterstützen, den FAIR-Gehalt ihrer Daten zu ermitteln, u. a.:
 
 - [NFDI4Culture FAIR-Check](https://nfdi4culture.de/id/E5080)
 - [FAIR Assessment Tool von TKDM](https://tkfdm.github.io/FAIR-Data-Assessment-Tool/)

@@ -1,9 +1,9 @@
 <!--
 link : ./resources/oer-design_GL.css
 icon : ./resources/icon_4Culture.png
-version: 0.9
-author: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Alexander Stark, Andrea Polywka
-attribute: Der Kurs steht unter der CC-BY-Lizenz
+version: 1.0
+author: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Andrea Polywka, Daniel Röwenstrunk, Alexander Stark
+attribute: Der Kurs steht unter der [CC-BY-Lizenz](https://creativecommons.org/licenses/by/4.0/legalcode.de)
 language: de
 narrator: Deutsch female
 comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer 441958017. <br> Dieser Kurs ist unter Zuhilfenahme des Markdown-Dialekts LiaScript entstanden.

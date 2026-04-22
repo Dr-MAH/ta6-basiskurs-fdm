@@ -10,8 +10,7 @@ Hier finden sie den Link zur OER: <!--- Hier Link einfügen---> , der ihre Inhal
 
 Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, welche die Nachnutzung ermöglicht: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-Die Bearbeitungszeit des Kurses liegt zwischen 30 und 45 Minuten.
-
 ---
 
-Mitarbeitende an diesem Projekt: [Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Alexander Stark](https://orcid.org/0000-0003-4893-5924), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719)
+Mitarbeitende an diesem Projekt:<br>
+[Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Andreas Münzmay](https://orcid.org/0000-0002-8373-4055), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719), [Daniel Röwenstrunk](https://orcid.org/0000-0001-6271-2095), [Alexander Stark](https://orcid.org/0000-0003-4893-5924) 

@@ -1,9 +1,9 @@
 <!--
 link : ./resources/oer-design_GL.css
 icon : ./resources/icon_4Culture.png
-version: 0.9
+version: 1.0.0
 author: Martin Albrecht-Hohmaier, Katharina Bergmann, Vincent Fröhlich, Alexander Stark, Andrea Polywka
-attribute: Der Kurs steht unter der CC-BY-Lizenz
+attribute: Der Kurs steht unter der CC BY-Lizenz
 language: de
 narrator: Deutsch female
 comment: Dieser Kurs ist eine Open Educational Resource der NFDI4Culture Arbeitsgruppe Cultural Research Data Academy (CRDA). Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer 441958017. <br> Dieser Kurs ist unter Zuhilfenahme des Markdown-Dialekts LiaScript entstanden.
@@ -15,8 +15,6 @@ Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research
 
 Mitarbeitende an diesem Projekt:<br>
 [Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Andreas Münzmay](https://orcid.org/0000-0002-8373-4055), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719), [Daniel Röwenstrunk](https://orcid.org/0000-0001-6271-2095), [Alexander Stark](https://orcid.org/0000-0003-4893-5924) 
-
-<!--- Hier sollte noch Daniel erwähnt werden. --->
 
 <img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
 
@@ -276,7 +274,7 @@ Annotationstools Bild (Auswahl):
 ## 4. Der Datenlebenszyklus 
 
 <img src="../resources/FD_LZ.png" width=50% height=auto> <br>
-<sub> Graphische Darstellung eines DLZ, Creator: CRDA, [CC0](https://creativecommons.org/publicdomain/zero/1.0/) </sub>
+<sub> Graphische Darstellung eines DLZ, Creator: Katharina Bergmann, Publisher: CRDA, License: [CC0](https://creativecommons.org/publicdomain/zero/1.0/) </sub>
 
 Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten. Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen.
 
@@ -355,7 +353,7 @@ Allerdings sind der darin dargestellte Workflow sehr komplex – in den meisten 
 Grundsätzlich näher erläutert wird das komplexe Modell [hier](https://nvie.com/posts/a-successful-git-branching-model/).
 
 <img src="../resources/git-model.png" width=50% height=auto> <br>
-<sub> Graphische Darstellung des GitFlow-Modells, Autor: Vincent Driessen, Original Blog Post: http://nvie.com/posts/a-succesful-git-branching-model </sub>
+<sub> Graphische Darstellung des GitFlow-Modells, Creator: Vincent Driessen, Publisher: nvie.com, License: [CC BY-SA](https://creativecommons.org/license/by-sa/4.0/) Original Blog Post: https://nvie.com/posts/a-succesful-git-branching-model </sub>
 
 
 <!---
@@ -421,7 +419,7 @@ Ergänzt werden kann diese Liste durch
 - **Archivmetadaten**:<br>Sie beinhalten spezieller zusammengestellte Informationen, die für die Archivierung relevant sind
 
 <img src= "../resources/Metadaten.png" width=50% height=70%> <br>
-<sub>Andrea Polywka, Alexander Stark: Metadaten Schaubild, [CC0](https://creativecommons.org/publicdomain/zero/1.0/)</sub>
+<sub> Metadaten Schaubild, Creator: Andrea Polywka, Alexander Stark, Publisher: CRDA, License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)</sub>
 
 ### Metadaten und Metadaten-Standards
 

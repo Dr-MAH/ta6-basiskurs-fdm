@@ -571,7 +571,7 @@ FAIR steht für **f**indable, **a**ccesssible, **i**nteroparable und **r**eusabl
 
 Zu jedem Hauptziele liefern die FAIR-Prinzipien je ein Set an Bedingungen. Wenn Sie mehr dazu wissen wollen, empfehlen wir die NFDI4Culture-Handreichung zu diesem Thema: [Kailus 2023](https://docs.nfdi4culture.de/ta2-fair-handreichung/) bzw. diese [Kapitel](https://docs.nfdi4culture.de/ta2-fair-handreichung/vier-grundlegende-praemissen-zum-verstaendnis-der-fair-prinzipien) daraus.
 
-Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen und die Daten für die Nachnutzung zu optimieren. Sie betreffen nicht nur die Daten an sich, sondern auch die benuzten Algorithmen, Tools und Workflows, die im Zusammenhang mit den Daten stehen.<br>
+Die Prinzipien wurden entwickelt, um Datenproduzent:innen und -herausgeber:innen im Umgang mit Forschungsdaten zu unterstützen und die Daten für die Nachnutzung zu optimieren. Sie betreffen nicht nur die Daten an sich, sondern auch die benutzten Algorithmen, Tools und Workflows, die im Zusammenhang mit den Daten stehen.<br>
 
 Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdings auch mehr und mehr Tools, die Wissenschaftler:innen dabei unterstützen, den FAIR-Gehalt ihrer Daten zu ermitteln, u. a.:
 

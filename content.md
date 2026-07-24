@@ -648,7 +648,7 @@ Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen? Bitte erst dan
 
 ### Die CARE-Prinzipien
 
-Die [CARE-Prinzipien](https://doi.org/10.5334/dsj-2020-042) wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht darum, koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse zu identifizieren und zu berücksichtigen.
+Die [CARE-Prinzipien](https://www.gida-global.org/careprinciples) wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht darum, koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse zu identifizieren und zu berücksichtigen.
 
 Die Prinzipien sind vorrangig für jene Forschende relevant und sollten von ihnen in jedem Fall beachtet werden, die ethnologisch forschen oder sich mit Daten aus kolonialen Kontexten beschäftigen.
 

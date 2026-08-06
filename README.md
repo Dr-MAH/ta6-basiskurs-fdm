@@ -14,4 +14,4 @@ Die Bearbeitungszeit des Kurses liegt zwischen 30 und 45 Minuten.
 
 ---
 
-Mitarbeitende an diesem Projekt: [Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Alexander Stark](https://orcid.org/0000-0003-4893-5924), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719)[Claudius Stemmler](https://orcid.org/0009-0005-0101-4070)
+Mitarbeitende an diesem Projekt: [Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Alexander Stark](https://orcid.org/0000-0003-4893-5924), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719), [Claudius Stemmler](https://orcid.org/0009-0005-0101-4070)

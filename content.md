@@ -666,16 +666,16 @@ CARE steht für Collective Benefit, Authority of Control, Responsibility und Eth
 Kooperationen mit Ursprungscommunities können den CARE-Prinzipien folgend u. a. wie folgt aussehen: 
 
 - gemeinsame Bearbeitung von Objekten
-- gleichberechtigten Zugang zu den Daten ermöglichen
-- indigene Ethik einbeziehen
-- das eigene Handeln und die Darstellung von Objekten/Forschungsgegenständen regelmäßig hinterfragen
-- öffentlichen Zugang zu Daten einschränken, wenn nötig
-- kulturelle Metadaten, z. B. Bezeichnungen aus Herkunftskontexten, Provenienzangaben in den Metadaten, Auswahl der Metadaten transparent machen
-- Nutzung von Disclaimern, die Herkunft und Bedeutung, sowie Zugriffseinschränkungen auf die Daten beschreiben
-- Nutzung von Hinweisen darauf, dass indigene Daten verwaltet werden
+- Ermöglichen gleichberechtigten Zugangs zu den Daten 
+- Einbeziehen indigener Ethik
+- regelmäßiges Hinterfragen des eigenen Handelns und der Darstellung von Objekten/Forschungsgegenständen
+- wenn nötig, Einschränken des öffentlichen Zugang zu Daten 
+- Transparenz von kulturellen Metadaten, z. B. Bezeichnungen aus Herkunftskontexten, Provenienzangaben in den Metadaten oder bei der Auswahl der Metadaten 
+- Nutzung von Disclaimern beim Beschreiben der Herkunft und Bedeutung, sowie bei Zugriffseinschränkungen auf die Daten 
+- Hinweise auf das Verwalten indigener Daten
 - Nutzung der [Traditional Knowledge Labels](https://localcontexts.org/labels/traditional-knowledge-labels/)
 
-  - mit ihnen können u. a. geschlechtsspezifische Restriktionen angezeigt werden, Daten als weibliches Wissen oder als aus sakralen Kontext stammend gekennzeichnet werden 
+  - Mit ihnen können u. a. geschlechtsspezifische Restriktionen angezeigt werden, Daten als weibliches Wissen oder als aus sakralen Kontext stammend gekennzeichnet werden. 
 
 ### Kultur- und Geisteswissenschaftliche Anwendungsfälle der CARE-Prinzipien
 In ethnologisch forschenden Bereichen, etwa der Musikethnologie, sind die CARE-Prinzipien eine wichtige Leitlinie beim Umgang mit Forschungsdaten.<br>

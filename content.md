@@ -708,7 +708,7 @@ Folgend einige konkrete Tipps für die Datensicherung und -speicherung:
 - gute Dokumentation
 - sinnvolles und konsistentes Dateiablagesystem
 
-  - In einer README-Datei kann das System auf oberster Ebene erläutert werden; das ist gerade bei der Arbeit in geteilten Dateiablagesystemen und/oder bei größeren Arbeitsgruppen empfehlenswert
+  - In einer README-Datei kann das System auf oberster Ebene erläutert werden; das ist gerade bei der Arbeit in geteilten Dateiablagesystemen und/oder bei größeren Arbeitsgruppen empfehlenswert.
 
 ### Daten publizieren
 
@@ -866,11 +866,11 @@ _ Albrecht-Hohmaier, M., Bergmann, K., Eggersglüß, C., Polywka, A., & Stark, A
 
 Speichern, Sichern, Publizieren und Archivieren, das kann im ersten Moment sehr ähnlich klingen, also wo liegen die Unterschiede?
 
-**Speichern** meint die Ablage der Daten im Forschungsprozess ggf. mit der Möglichkeit zur gemeinsamen Nutzung der Daten
+**Speichern** meint die Ablage der Daten im Forschungsprozess ggf. mit der Möglichkeit zur gemeinsamen Nutzung der Daten.
 
-**Sichern** meint die Sicherung aller Daten (im Sinne eines Backups) um Datenverlust vorzubeugen
+**Sichern** meint die Sicherung aller Daten (im Sinne eines Backups) um Datenverlust vorzubeugen.
 
-**Publizieren** meint die Veröffentlichung der Daten und den Eintrag in Verzeichnisse und Suchmaschinen
+**Publizieren** meint die Veröffentlichung der Daten und den Eintrag in Verzeichnisse und Suchmaschinen.
 
 **Archivieren** hingegen ist die Sicherung und **Langzeitarchivierung** ausgewählter, "endgültiger" Daten oder spezifischer Versionen der Daten. Archivieren geschieht also zumeist erst nach dem Abschluss eines Forschungsprojektes, oder dem Abschluss eines eigenständigen Moduls in einem Projekt.
 

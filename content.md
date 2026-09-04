@@ -111,7 +111,7 @@ Medienwissenschaftliche Forschungsdaten zeichnen sich in der Regel durch ein äu
 Einen guten Einblick in die Vielfalt des Forschungsdaten-Begriffs in der Film- und Medienwissenschaft, bietet der Open Media Studies Blog in den Beiträgen aus seiner [Sonderreihe Forschungsdaten](https://mediastudies.hypotheses.org/tag/sonderreihe-forschungsdaten).
 
 #### <font color=#d1bcf5> 🎨 Forschungsdaten in der Kunstgeschichte </font>
-Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie umfassen u. a.:
+Kunsthistorische Forschungsdaten sind, wie das Fach selbst, sehr divers. Sie entstehen u. a. im Kontext von:
 
 - Notizen
 - Exzerpte

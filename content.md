@@ -246,8 +246,8 @@ Daneben beruhen Techniken wie Computer Vision und maschinelles Lernen stark auf 
 Nutzungsszenarien von Videoannotationstools:
 
 - Identifikation von Objekten, Personen oder Ereignissen
-- Zeitbezogene Analyse von Bild und Ton
-- Qualitative oder quantitative Datenanalyse
+- zeitbezogene Analyse von Bild und Ton
+- qualitative oder quantitative Datenanalyse
 - Visualisierung von Annotationen
 - Annotation von Tanz und Performances (s. Projekt [#vortanz](https://vortanz.ai/))
 

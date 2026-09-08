@@ -19,7 +19,7 @@ Mitarbeitende an diesem Projekt:<br>
 ![alt](/resources/NFDI4C_Logo_DyptichText.png)
 
 Gefördert durch die Deutsche Forschungsgemeinschaft (DFG).<br>
-Projektnummer: 441958017
+Fördernummer: 441958017
 
 ---
 
@@ -38,12 +38,12 @@ Diese in einem gemeinsamen Kurs gebündelte Differenzierung soll einerseits medi
  4. Der Datenlebenszyklus [>](#4. der-datenlebenszyklus)
  5. Versionsverwaltung [>](#5. versionsverwaltung)
  6. Metadaten [>](#6. metadaten)
- 7. Normdaten [>](7. #normdaten)
+ 7. Normdaten [>](#7normdaten)
  8. FAIR und CARE [>](#8. fair-und-care)
  9. Sichern, Speichern, Publizieren und Archivieren [>](#9. sichern,-speichern,-publizieren-und-archivieren)
  10. Creative Commons Lizenzen[>](#10. creative-commons-lizenzen) 
  11. Der Datenmanagement-Plan [>](#11. der-datenmanagementplan)
- 12. Datendokumentation [>](#12. dokumentation)
+ 12. Dokumentation [>](#12. dokumentation)
 <br>
 - Weiterführende Literatur [>](#weiterführende-literatur)
 - Zusatzmaterial [>](#zusatzmaterial-interaktive-module)
@@ -1032,6 +1032,9 @@ Krause, Celia / Bergmann, Katharina / Hausen, Daniela Adele / Riedel, Roman / Wi
 
 **Lin et al. 2020**<br>
 Lin, Dawei / Crabtree, Jonathan / Dillo, Ingrid / Downs, Robert R. / Edmunds, Rorie / Giaretta, David / De Giusti, Marisa / L’Hours, Hervé / Hugo, Wim / Jenkyns, Reyna / Khodiyar, Varsha / Martone, Maryann E. / Mokrane, Mustapha / Navale, Vivek / Petters, Jonathan / Sierman, Barbara / Sokolova, Dina V. / Stockhause, Martina / Westbrook, John: „The TRUST Principles for digital repositories“, in: Scientific Data, 7(1), 2020, https://doi.org/10.1038/s41597-020-0486-7
+
+**Rosendahl / Bergmann / Lanza / Menzer / Straka 2026**
+Rosendahl, Lisa / Bergmann, Katharina / Lanza, Giacomo / Menzer, Carolin / Straka, Janine: Handreichung zum ressourcenschonenden Forschungsdatenmanagement, 2026, https://nfdi4culture.de/id/E6987
 
 **Rössel / Stenger / Kailus / Stein 2025**<br>
 Rössel, Julia / Stenger, Viola / Kailus, Angela / Stein, Regine: LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 3: Architektur und andere ortsfeste Werke, herausgegeben von Christian Bracht, Heidelberg: arthistoricum.net, 2025 (LIDO-Handbuch, Band 3), https://doi.org/10.11588/arthistoricum.1407

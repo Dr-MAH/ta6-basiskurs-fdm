@@ -16,7 +16,7 @@ Eine Open Educational Resource der NFDI4Culture Arbeitsgruppe [Cultural Research
 Mitarbeitende an diesem Projekt:<br>
 [Martin Albrecht-Hohmaier](https://orcid.org/0000-0002-5279-7408), [Katharina Bergmann](https://orcid.org/0000-0002-0758-9917), [Vincent Fröhlich](https://orcid.org/0000-0001-8477-2689), [Andreas Münzmay](https://orcid.org/0000-0002-8373-4055), [Andrea Polywka](https://orcid.org/0000-0003-0003-6719), [Daniel Röwenstrunk](https://orcid.org/0000-0001-6271-2095), [Alexander Stark](https://orcid.org/0000-0003-4893-5924) 
 
-<img src= "../resources/NFDI4C_Logo_DyptichText.png" width=50% height=70%>
+![alt](/resources/NFDI4C_Logo_DyptichText.png)
 
 Gefördert durch die Deutsche Forschungsgemeinschaft (DFG).<br>
 Projektnummer: 441958017
@@ -271,7 +271,7 @@ Annotationstools Bild (Auswahl):
 
 ## 4. Der Datenlebenszyklus 
 
-<img src="../resources/FD_LZ.png" width=50% height=auto> <br>
+![alt](/resources/FD_LZ.png)<br>
 <sub> Graphische Darstellung eines DLZ, Creator: Katharina Bergmann, Publisher: CRDA, License: [CC0](https://creativecommons.org/publicdomain/zero/1.0/) </sub>
 
 Der Datenlebenszyklus (DLZ) beschreibt den "Lebenskreislauf" von Forschungsdaten. Er kann dabei, ausgehend von seinem Detailgrad und der Art der Daten, leicht von dem hier angegebenen abweichen.
@@ -350,7 +350,7 @@ Systeme wie Git können sowohl kollaborativ in Teams genutzt werden als auch lok
 Allerdings sind der darin dargestellte Workflow sehr komplex – in den meisten Fällen kollaborativen Arbeitens in Projekten dürften die Abläufe einfacher strukturiert sein und sich auf weniger Branches beschränken.
 Grundsätzlich näher erläutert wird das komplexe Modell [hier](https://nvie.com/posts/a-successful-git-branching-model/).
 
-<img src="../resources/git-model.png" width=50% height=auto> <br>
+![alt](/resources/git-model.png)<br>
 <sub> Graphische Darstellung des GitFlow-Modells, Creator: Vincent Driessen, Publisher: nvie.com, License: [CC BY-SA](https://creativecommons.org/license/by-sa/4.0/) Original Blog Post: https://nvie.com/posts/a-succesful-git-branching-model </sub>
 
 ### Versionen und Releases
@@ -398,7 +398,7 @@ Ergänzt werden kann diese Liste durch
 
 - **Archivmetadaten**:<br>Sie beinhalten spezieller zusammengestellte Informationen, die für die Archivierung relevant sind
 
-<img src= "../resources/Metadaten.png" width=50% height=70%> <br>
+![alt](/resources/Metadaten.png)<br>
 <sub> Metadaten Schaubild, Creator: Andrea Polywka, Alexander Stark, Publisher: CRDA, License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)</sub>
 
 ### Metadaten und Metadaten-Standards

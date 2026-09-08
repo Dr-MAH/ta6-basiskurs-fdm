@@ -50,8 +50,6 @@ Diese in einem gemeinsamen Kurs gebündelte Differenzierung soll einerseits medi
 
 ### Abkürzungen in diesem Kurs
 
-<!--- KB: Brauchen wir das? --->
-
 - CRDA = Cultural Research Data Academy
 - DFG = Deutsche Forschungsgemeinschaft
 - DLZ = Datenlebenszyklus
@@ -355,24 +353,6 @@ Grundsätzlich näher erläutert wird das komplexe Modell [hier](https://nvie.co
 <img src="../resources/git-model.png" width=50% height=auto> <br>
 <sub> Graphische Darstellung des GitFlow-Modells, Creator: Vincent Driessen, Publisher: nvie.com, License: [CC BY-SA](https://creativecommons.org/license/by-sa/4.0/) Original Blog Post: https://nvie.com/posts/a-succesful-git-branching-model </sub>
 
-
-<!---
-### Ein werden noch ein paar basale Hinweise zum Arbeiten mit Git ergänzt
-
-- Bild zur Funktionsweise des Repositories bzw. der Clone auf individuellen Rechnern
-- grundsätliche Begriffe erklären, und was dabei passiert ...
- - pull ..
- - push
- - fetch
- - commit
- - ... 
-
-Evtl auch kurz erklären, wie Git mit Text-Dateien und binären Dateien umgeht ... Bei Textdateien bspw. im md-Format (auflösen) prüft Git die Differenzen, kann die als Differences anzeigen und speichert nach dem commit eine neue Version der Datei. 
-Bei binären, also z. B. docx-Dateien speichert Git nach dem Commit eine komplette neue Datei zusätzlich zur bestehenden. 
-
---->
-
-
 ### Versionen und Releases
 
 Während Versionen auf der Ebene einzelner inhaltlicher Änderungen in Dateien zu verstehen sind, sind Releases Veröffentlichungen ganzer Datensätze basierend auf einem bestimmten Zustand des Git-Repositories. Releases sind referenzierbar und können potentiell publiziert und archiviert werden. Sie werden mit einer Versionsnummer und Metadaten versehen.
@@ -583,12 +563,6 @@ Es gibt zahlreiche Leitfäden für FAIRes Forschungsdatenmanagement und neuerdin
 
 ### QUIZ zu den FAIR-Prinzipien
 
-<!---
-**Beginnen wir einfach: Wofür stehen die Buchstaben in FAIR?**
-
-F steht für [[findable]], A für [[accessible]], I für [[interoperable]] und R für [[reusable]].
---->
-
 ---
 
 **Die Bedingungen der FAIR-Prinzipien**
@@ -638,14 +612,6 @@ Können Sie die folgenden Sets an Bedingungen den richtigen Buchstaben zuordnen?
 
 ---
 
-<!---
-Können Sie diese Bedigungen ihren richtigen Buchstaben zuordnen? Bitte erst dann auf "Prüfen" klicken, wenn alle Kästchen den Feldern auf der linken Seite zugeordnet wurden.
-<br><br>
-<font color=red> Das muss noch besser erklärt und zudem geprüft werden; das ist ziemlich schwer ... ohne die einzelnen Prinzipien im Detail angeschaut zu haben, ist das nicht lösbar; der Platz im linken Feld muss ggf. größer sein, damit alle Antowrten reinpassen; oder weniger Antworten? Das Ergebnis/die Punktevergabe muss noch angepasst werden, keine Abzüge bei falschen Antworten!  </font><br><br>
-
-<iframe src="./resources/FAIR-Drag-and-Drop.html" width=100% height=100%></iframe>
---->
-
 ### Die CARE-Prinzipien
 
 Die [CARE-Prinzipien](https://www.gida-global.org/careprinciples) wurden 2019 von der Global Indigenous Data Alliance als Ergänzung zu den FAIR-Prinzipien erarbeitet, um die Beteiligung indigener Gruppen an Entscheidungsprozessen zu stärken. Es geht darum, koloniale Kontexte und daraus resultierende ungleiche Machtverhältnisse zu identifizieren und zu berücksichtigen.
@@ -683,7 +649,6 @@ Aber auch in Projekten, in denen mit personenbezogenen Daten gearbeitet wird, et
 
 Folgend seien einige Anwendungsfälle aufgezeigt, die den Nutzen der CARE Prinzipien illustrieren:
 
-<!--- Hier noch ergänzen: Bisher nur das Material von Andrea und Alex aus dem FFK-Kurs / Material von Barbara Alge?--->
 
 - Forschungsdaten zu Filmmaterial aus kolonialen Kontexten
 
@@ -896,8 +861,7 @@ Damit die Daten später noch verständlich sind und damit ihre Auffindbarkeit eh
 
 Es werden nicht alle Daten aus einem Projekt archiviert. Es muss immer entschieden werden, welche Daten erhaltenswert sind. Bestenfalls sind die Richtlinien dafür in einem Projekt bereits im Datenamanagementplan festgehalten.
 
-<!--- Es gibt verschiedene Ansätze, erhaltenswerte Eigenschaften zu bestimmen. Den provenienzbasierten Ansatz und den nutzergruppenbasierten Ansatz, welche sich auch kombinieren lassen, man spricht dann auch vom Preservation Intent.<br>
-Der provenienzbasierten Ansatz blickt auf die vermutete oder die überlieferte Absicht, die bei der Erstellung des Objektes verfolgt wurde. Der nutzergruppenbasierten Ansatz hingegen schaut, welche Anforderungen die Community zukünftig an das Objekt stellen könnte.<br> --->
+
 Wie bei der Publikation von Daten sind auch bei der Archivierung rechtliche und ethische Aspekte zu beachten. Eine ausführliche Besprechung dieser Themen würde jedoch den Rahmen dieses Kurses sprengen.
 
 Die TRUST-Prinzipien (Transparency, Responsibility, User Focus, Sustainabilty, Technology), die bei den [Repositorien](#repositorien--die-daten-speicher) schon erwähnt wurden, gelten auch für Langzeitarchive.<br>

@@ -6,7 +6,7 @@ Diese OER ist (derzeit) ein lebendes Dokument und wird auch nach ihrer Veröffen
 
 Die OER wird unter Zuhilfenahme von [LiaScript](https://liascript.github.io/) geschrieben.
 
-Hier finden sie den Link zur OER: <!--- Hier Link einfügen---> , der ihre Inhalte direkt im LiaScript-Format präsentiert.
+Hier finden sie den Link zur OER: (https://liascript.github.io/course/?https://github.com/Dr-MAH/ta6-basiskurs-fdm/blob/main/content.md) , der ihre Inhalte direkt im LiaScript-Format präsentiert.
 
 Wir freuen uns, wenn unsere Materialien nachgenutzt werden, deshalb steht dieser Kurs unter einer Lizenz, welche die Nachnutzung ermöglicht: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
